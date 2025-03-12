@@ -28,20 +28,20 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Map 1",
+              "title": "Dracula's Castle",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map1"
+                  "Dracula's Castle"
                 ]
               }
             },
             {
-              "title": "Map 2",
+              "title": "The Abyss",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map2"
+                  "The Abyss"
                 ]
               }
             }
@@ -79,20 +79,20 @@
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Map 1",
+              "title": "Dracula's Castle",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map1"
+                  "Dracula's Castle"
                 ]
               }
             },
             {
-              "title": "Map 2",
+              "title": "The Abyss",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map2"
+                  "The Abyss"
                 ]
               }
             }
