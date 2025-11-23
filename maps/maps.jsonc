@@ -2,14 +2,14 @@
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
   {
     "name": "Dracula's Castle",
-    "location_size": 48,
-    "location_border_thickness": 4,
+    "location_size": 13,
+    "location_border_thickness": 2,
     "img": "images/maps/Castle.png"
   },
   {
     "name": "The Abyss",
-    "location_size": 48,
-    "location_border_thickness": 4,
+    "location_size": 13,
+    "location_border_thickness": 2,
     "img": "images/maps/Abyss.png"
   }
 ]

@@ -1,5 +1,2157 @@
 [
   {
+    "name": "The Lost Village",
+    "children": [
+      {
+        "name": "Above Entrance",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 135,
+            "y": 489
+          }
+        ]
+      },
+      {
+        "name": "Upper Big Room Corner",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 198,
+            "y": 447
+          }
+        ]
+      },
+      {
+        "name": "Pre-Boss Room Upper",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 260,
+            "y": 509
+          }
+        ]
+      },
+      {
+        "name": "Pre-Boss Room Lower",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 260,
+            "y": 529
+          }
+        ]
+      },
+      {
+        "name": "Drawbridge Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 363,
+            "y": 509
+          }
+        ]
+      },
+      {
+        "name": "Above Drawbridge",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 384,
+            "y": 489
+          }
+        ]
+      },
+      {
+        "name": "In Moat",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 363,
+            "y": 529
+          }
+        ]
+      },
+      {
+        "name": "Flying Armor Soul",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 230,
+            "y": 529
+          }
+        ]
+      },
+      {
+        "name": "Above Demon Guest House Entrance",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 426,
+            "y": 489
+          }
+        ]
+      },
+      {
+        "name": "Flying Armor Indoor Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 198,
+            "y": 529
+          }
+        ]
+      },
+      {
+        "name": "West Plaza",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 158,
+            "y": 551
+          }
+        ]
+      },
+      {
+        "name": "West Building Upper",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 135,
+            "y": 551
+          }
+        ]
+      },
+      {
+        "name": "West Building Lower",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 135,
+            "y": 571
+          }
+        ]
+      },
+      {
+        "name": "Central Building",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 198,
+            "y": 561
+          }
+        ]
+      },
+      {
+        "name": "East Plaza",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 240,
+            "y": 572
+          }
+        ]
+      },
+      {
+        "name": "Hidden Floor Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Item 1"
+          },
+          {
+            "name": "Item 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 281,
+            "y": 613
+          }
+        ]
+      },
+      {
+        "name": "Mirror Room Left",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 304,
+            "y": 593
+          }
+        ]
+      },
+      {
+        "name": "Mirror Room Right",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 322,
+            "y": 593
+          }
+        ]
+      },
+      {
+        "name": "Moat Drain Switch",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 344,
+            "y": 551
+          }
+        ]
+      },
+      {
+        "name": "Axe Armor Hallway",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 177,
+            "y": 654
+          }
+        ]
+      },
+      {
+        "name": "Underground Shaft",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 219,
+            "y": 633
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wizardry Lab",
+    "children": [
+      {
+        "name": "Mirror Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Outside Mirror"
+          },
+          {
+            "name": "Mirror World"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 529,
+            "y": 571
+          }
+        ]
+      },
+      {
+        "name": "Main Entry Shaft",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 426,
+            "y": 593
+          }
+        ]
+      },
+      {
+        "name": "Upper Big Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 468,
+            "y": 593
+          }
+        ]
+      },
+      {
+        "name": "West Gate",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 322,
+            "y": 718
+          }
+        ]
+      },
+      {
+        "name": "Behind West Gate",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 303,
+            "y": 714
+          }
+        ]
+      },
+      {
+        "name": "Ceiling Secret Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 551,
+            "y": 614
+          }
+        ]
+      },
+      {
+        "name": "Balore Soul",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 408,
+            "y": 778
+          }
+        ]
+      },
+      {
+        "name": "East Gate",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 511,
+            "y": 695
+          }
+        ]
+      },
+      {
+        "name": "Money Gate",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 198,
+            "y": 860
+          }
+        ]
+      },
+      {
+        "name": "Underwater Left",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 344,
+            "y": 862
+          }
+        ]
+      },
+      {
+        "name": "Underwater Right",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 383,
+            "y": 862
+          }
+        ]
+      },
+      {
+        "name": "Above Water",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 447,
+            "y": 822
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Garden of Madness",
+    "children": [      
+      {
+        "name": "Lower Tree Hallway",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 634,
+            "y": 571
+          }
+        ]
+      },
+      {
+        "name": "West Big Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 634,
+            "y": 504
+          }
+        ]
+      },
+      {
+        "name": "West Big Room Alcove",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 593,
+            "y": 489
+          }
+        ]
+      },
+      {
+        "name": "West Upper Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 635,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "Hidden Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 654,
+            "y": 426
+          }
+        ]
+      },
+      {
+        "name": "Center Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 716,
+            "y": 467
+          }
+        ]
+      },
+      {
+        "name": "Money Gate",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 820,
+            "y": 550
+          }
+        ]
+      },
+      {
+        "name": "Underground Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 779,
+            "y": 592
+          }
+        ]
+      },
+      {
+        "name": "East Alcove",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 849,
+            "y": 489
+          }
+        ]
+      },
+      {
+        "name": "Central Chamber",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 716,
+            "y": 550
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Dark Chapel",
+    "children": [
+      {
+        "name": "Entrance Alcove",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 882,
+            "y": 489
+          }
+        ]
+      },
+      {
+        "name": "Catacombs Top Left",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 882,
+            "y": 551
+          }
+        ]
+      },
+      {
+        "name": "Catacombs Middle Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 882,
+            "y": 572
+          }
+        ]
+      },
+      {
+        "name": "Catacombs Soul Barrier",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 843,
+            "y": 634
+          }
+        ]
+      },
+      {
+        "name": "Catacombs Mirror Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Outside Mirror"
+          },
+          {
+            "name": "Mirror World"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 945,
+            "y": 633
+          }
+        ]
+      },
+      {
+        "name": "Big Square Room Alcove",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 882,
+            "y": 426
+          }
+        ]
+      },
+      {
+        "name": "Main Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1007,
+            "y": 468
+          }
+        ]
+      },
+      {
+        "name": "Bell Room In Bell",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 986,
+            "y": 405
+          }
+        ]
+      },
+      {
+        "name": "Bell Room Top Left",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 986,
+            "y": 386
+          }
+        ]
+      },
+      {
+        "name": "Bell Room Right",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1008,
+            "y": 397
+          }
+        ]
+      },
+      {
+        "name": "Post-Dimitrii Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1007,
+            "y": 426
+          }
+        ]
+      },
+      {
+        "name": "Malphas Soul",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 956,
+            "y": 426
+          }
+        ]
+      },
+      {
+        "name": "Big Room Top Right",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1087,
+            "y": 386
+          }
+        ]
+      },
+      {
+        "name": "Big Room Central",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1029,
+            "y": 426
+          }
+        ]
+      },
+      {
+        "name": "Big Room Lower",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1087,
+            "y": 446
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Demon Guest House",
+    "children": [
+      {
+        "name": "Secret Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 634,
+            "y": 364
+          }
+        ]
+      },
+      {
+        "name": "Antechamber",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 551,
+            "y": 386
+          }
+        ]
+      },
+      {
+        "name": "Central Main Chmaber Bottom Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 551,
+            "y": 364
+          }
+        ]
+      },
+      {
+        "name": "Lower Main Chamber Bottom Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 551,
+            "y": 468
+          }
+        ]
+      },
+      {
+        "name": "Puppet Hole",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 510,
+            "y": 488
+          }
+        ]
+      },
+      {
+        "name": "Number 1 Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 323,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "Number 5 Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 323,
+            "y": 406
+          }
+        ]
+      },
+      {
+        "name": "Number 8 Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 384,
+            "y": 405
+          }
+        ]
+      },
+      {
+        "name": "Number 9 Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 323,
+            "y": 426
+          }
+        ]
+      },
+      {
+        "name": "Number 12 Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 384,
+            "y": 426
+          }
+        ]
+      },
+      {
+        "name": "Mirror Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Outside Mirror"
+          },
+          {
+            "name": "Mirror World"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 406,
+            "y": 384
+          }
+        ]
+      },
+      {
+        "name": "Doll Alcove",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 384,
+            "y": 346
+          }
+        ]
+      },
+      {
+        "name": "West Wing Left",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 323,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "West Wing Right",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 384,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Puppet Master Soul",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 333,
+            "y": 220
+          }
+        ]
+      },
+      {
+        "name": "Ice Block Room Left",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 219,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Ice Block Room Right",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 239,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Central Main Chamber Bottom Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 551,
+            "y": 364
+          }
+        ]
+      },
+      {
+        "name": "Central Main Chamber Middle Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 551,
+            "y": 323
+          }
+        ]
+      },
+      {
+        "name": "Central Main Chamber Top Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 551,
+            "y": 282
+          }
+        ]
+      },
+      {
+        "name": "Paranoia Soul",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 342,
+            "y": 198
+          }
+        ]
+      },
+      {
+        "name": "Beyond Paranoia",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 323,
+            "y": 198
+          }
+        ]
+      },
+      {
+        "name": "Paranoia Mirror",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 363,
+            "y": 198
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Condemned Tower",
+    "children": [
+      {
+        "name": "1F West",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1152,
+            "y": 486
+          }
+        ]
+      },
+      {
+        "name": "1F East",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1194,
+            "y": 508
+          }
+        ]
+      },
+      {
+        "name": "2F East",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1194,
+            "y": 446
+          }
+        ]
+      },
+      {
+        "name": "5F West",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1152,
+            "y": 322
+          }
+        ]
+      },
+      {
+        "name": "7F West",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1152,
+            "y": 239
+          }
+        ]
+      },
+      {
+        "name": "Gergoth Soul",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1173,
+            "y": 509
+          }
+        ]
+      },
+      {
+        "name": "Top of the Tower",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1152,
+            "y": 219
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cursed Clock Tower",
+    "children": [
+      {
+        "name": "Money Gate",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1047,
+            "y": 297
+          }
+        ]
+      },
+      {
+        "name": "Lower Corner Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 779,
+            "y": 343
+          }
+        ]
+      },
+      {
+        "name": "Mirror Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Outside Mirror"
+          },
+          {
+            "name": "Mirror World"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1007,
+            "y": 239
+          }
+        ]
+      },
+      {
+        "name": "Bugbear Hallway",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1007,
+            "y": 219
+          }
+        ]
+      },
+      {
+        "name": "East Gear Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1029,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Spike Room Secret",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1007,
+            "y": 178
+          }
+        ]
+      },
+      {
+        "name": "Zephyr Soul",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 975,
+            "y": 115
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Subterranean Hell",
+    "children": [
+      {
+        "name": "Rahab Soul",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1058,
+            "y": 622
+          }
+        ]
+      },
+      {
+        "name": "Giant Underwater Room Center Left",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1052,
+            "y": 696
+          }
+        ]
+      },
+      {
+        "name": "Giant Underwater Room Center Right",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1110,
+            "y": 674
+          }
+        ]
+      },
+      {
+        "name": "Giant Underwater Room Top Left",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1067,
+            "y": 655
+          }
+        ]
+      },
+      {
+        "name": "Giant Underwater Room Bottom Right",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1110,
+            "y": 716
+          }
+        ]
+      },
+      {
+        "name": "Near Save Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 819,
+            "y": 676
+          }
+        ]
+      },
+      {
+        "name": "Central Lower Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 696,
+            "y": 759
+          }
+        ]
+      },
+      {
+        "name": "Central Upper Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 779,
+            "y": 737
+          }
+        ]
+      },
+      {
+        "name": "Behind Waterfall",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 592,
+            "y": 757
+          }
+        ]
+      },
+      {
+        "name": "Waterfall Room Lower",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 633,
+            "y": 820
+          }
+        ]
+      },
+      {
+        "name": "Waterfall Room Middle",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 632,
+            "y": 803
+          }
+        ]
+      },
+      {
+        "name": "Waterfall Room Upper",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 632,
+            "y": 758
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silenced Ruins",
+    "children": [
+      {
+        "name": "Ice Block Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 779,
+            "y": 883
+          }
+        ]
+      },
+      {
+        "name": "Bat Company Soul",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1047,
+            "y": 840
+          }
+        ]
+      },
+      {
+        "name": "Mirror Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": "Outside Mirror"
+          },
+          {
+            "name": "Mirror World"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 842,
+            "y": 758
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Pinnacle",
+    "children": [
+      {
+        "name": "Lower Hidden Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 674,
+            "y": 322
+          }
+        ]
+      },
+      {
+        "name": "Under Big Staircase",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 612,
+            "y": 137
+          }
+        ]
+      },
+      {
+        "name": "Central Indoor Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 705,
+            "y": 178
+          }
+        ]
+      },
+      {
+        "name": "Central Outdoor Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 798,
+            "y": 177
+          }
+        ]
+      },
+      {
+        "name": "Before Throne Room Secret Left",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 593,
+            "y": 94
+          }
+        ]
+      },
+      {
+        "name": "Before Throne Room Secret Right",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 612,
+            "y": 94
+          }
+        ]
+      },
+      {
+        "name": "Aguni Soul",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 581,
+            "y": 116
+          }
+        ]
+      },
+      {
+        "name": "Beyond Throne Room",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 551,
+            "y": 116
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mine of Judgement",
+    "children": [
+      {
+        "name": "Death Soul",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1142,
+            "y": 820
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Abyss",
+    "children": [
+      {
+        "name": "Sand Area",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Abyss",
+            "x": 550,
+            "y": 424
+          }
+        ]
+      },
+      {
+        "name": "Ice Area",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Abyss",
+            "x": 529,
+            "y": 529
+          }
+        ]
+      },
+      {
+        "name": "Abaddon Soul",
+        "access_rules": [
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Abyss",
+            "x": 694,
+            "y": 654
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Example Parent",
     "children": [
       {

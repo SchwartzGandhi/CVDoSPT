@@ -1,6 +1,114 @@
 [
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
   {
+    "name": "Tower Key",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "key"
+  },
+  {
+    "name": "Magic Seal 1",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "seal1"
+  },
+  {
+    "name": "Magic Seal 2",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "seal2"
+  },
+  {
+    "name": "Magic Seal 3",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "seal3"
+  },
+  {
+    "name": "Magic Seal 4",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "seal4"
+  },
+  {
+    "name": "Magic Seal 5",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "seal5"
+  },
+  {
+    "name": "Mina's Talisman",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "talisamn"
+  },
+  {
+    "name": "Flying Armor Soul",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "armor"
+  },
+  {
+    "name": "Bat Company Soul",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "bat"
+  },
+  {
+    "name": "Puppet Master Soul",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "puppet"
+  },
+  {
+    "name": "Zephyr Soul",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "dio"
+  },
+  {
+    "name": "Paranoia Soul",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "mirror"
+  },
+  {
+    "name": "Balore Soul",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "ice"
+  },
+  {
+    "name": "Malphas Soul",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "djump"
+  },
+  {
+    "name": "Rahab Soul",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "water"
+  },
+  {
+    "name": "Hippogryph Soul",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "zip"
+  },
+  {
+    "name": "Moat Drained",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "moat"
+  },
+  {
+    "name": "Power of Darkness",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "dark"
+  },
+  {
     "name": "Toggle",
     "type": "toggle",
     "img": "images/items/toggle.png",
