@@ -3,97 +3,97 @@
   {
     "name": "Tower Key",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/key.png",
     "codes": "key"
   },
   {
     "name": "Magic Seal 1",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/bigseal1.png",
     "codes": "seal1"
   },
   {
     "name": "Magic Seal 2",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/bigseal2.png",
     "codes": "seal2"
   },
   {
     "name": "Magic Seal 3",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/bigseal3.png",
     "codes": "seal3"
   },
   {
     "name": "Magic Seal 4",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/bigseal4.png",
     "codes": "seal4"
   },
   {
     "name": "Magic Seal 5",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/bigseal5.png",
     "codes": "seal5"
   },
   {
     "name": "Mina's Talisman",
     "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "talisamn"
+    "img": "images/items/talisman.png",
+    "codes": "talisman"
   },
   {
     "name": "Flying Armor Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/armor.png",
     "codes": "armor"
   },
   {
     "name": "Bat Company Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/bat.png",
     "codes": "bat"
   },
   {
     "name": "Puppet Master Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/puppet.png",
     "codes": "puppet"
   },
   {
     "name": "Zephyr Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/time.png",
     "codes": "dio"
   },
   {
     "name": "Paranoia Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/mirror.png",
     "codes": "mirror"
   },
   {
     "name": "Balore Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/ice.png",
     "codes": "ice"
   },
   {
     "name": "Malphas Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/djump.png",
     "codes": "djump"
   },
   {
     "name": "Rahab Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/water.png",
     "codes": "water"
   },
   {
     "name": "Hippogryph Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/zip.png",
     "codes": "zip"
   },
   {
@@ -105,7 +105,7 @@
   {
     "name": "Power of Darkness",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/dark.png",
     "codes": "dark"
   },
   {

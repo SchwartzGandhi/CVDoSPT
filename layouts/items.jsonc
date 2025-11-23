@@ -17,12 +17,24 @@
             "h_alignment": "left",
             "rows": [
               [
-                "toggle",
-                "progressive"
+                "armor",
+                "ice",
+                "djump",
+                "puppet",
+                "water",
+                "dio",
+                "bat",
+                "mirror",
+                "zip"
               ],
               [
-                "consumable",
-                "progressive_toggle"
+                "seal1",
+                "seal2",
+                "seal3",
+                "seal4",
+                "seal5",
+                "key",
+                "talisman"
               ]
             ]
           }
