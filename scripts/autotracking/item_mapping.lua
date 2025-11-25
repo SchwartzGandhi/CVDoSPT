@@ -3,11 +3,28 @@
 -- here are the SM items as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/item_mapping.lua
 BASE_ITEM_ID = 0
 ITEM_MAPPING = {
-	[BASE_ITEM_ID + 00000] = { { "toggle" } },
-	[BASE_ITEM_ID + 00001] = { { "progressive" } },
-	[BASE_ITEM_ID + 00002] = { { "consumable" } },
-	-- handle progressive_toggle as toggle, only changing it's active state
-	[BASE_ITEM_ID + 00003] = { { "progressive_toggle", "toggle" } },
-	-- multiple items on this id, add the consumable 3 times
-	[BASE_ITEM_ID + 00004] = { { "toggle" }, { "consumable", nil, 3 } }
+	-- [BASE_ITEM_ID + 00000] = { { "toggle" } },
+	-- [BASE_ITEM_ID + 00001] = { { "progressive" } },
+	-- [BASE_ITEM_ID + 00002] = { { "consumable" } },
+	-- -- handle progressive_toggle as toggle, only changing it's active state
+	-- [BASE_ITEM_ID + 00003] = { { "progressive_toggle", "toggle" } },
+	-- -- multiple items on this id, add the consumable 3 times
+	-- [BASE_ITEM_ID + 00004] = { { "toggle" }, { "consumable", nil, 3 } }
+	[1333] = {{"armor", "toggle"}},
+	[1396] = {{"ice", "toggle"}},
+	[1397] = {{"jump", "toggle"}},
+	[1280] = {{"puppet", "toggle"}},
+	[1399] = {{"water", "toggle"}},
+	[1281] = {{"dio", "toggle"}},
+	[1334] = {{"bat", "toggle"}},
+	[1282] = {{"mirror", "toggle"}},
+	[1400] = {{"zip", "toggle"}},
+	[0573] = {{"seal1", "toggle"}},
+	[0574] = {{"seal2", "toggle"}},
+	[0575] = {{"seal3", "toggle"}},
+	[0576] = {{"seal4", "toggle"}},
+	[0577] = {{"seal5", "toggle"}},
+	[0569] = {{"key", "toggle"}},
+	[1077] = {{"talisman", "toggle"}}
+	-- [None] = {{"dark", "toggle"}}
 }

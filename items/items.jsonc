@@ -81,8 +81,8 @@
   {
     "name": "Malphas Soul",
     "type": "toggle",
-    "img": "images/items/djump.png",
-    "codes": "djump"
+    "img": "images/items/kick.png",
+    "codes": "jump"
   },
   {
     "name": "Rahab Soul",

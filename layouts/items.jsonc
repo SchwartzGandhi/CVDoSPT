@@ -19,7 +19,7 @@
               [
                 "armor",
                 "ice",
-                "djump",
+                "jump",
                 "puppet",
                 "water",
                 "dio",
@@ -34,7 +34,8 @@
                 "seal4",
                 "seal5",
                 "key",
-                "talisman"
+                "talisman",
+                //"dark"
               ]
             ]
           }
