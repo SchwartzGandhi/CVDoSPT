@@ -311,23 +311,23 @@
           }
         ]
       },
-      {
-        "name": "Moat Drain Switch",
-        "access_rules": [
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dracula's Castle",
-            "x": 332,
-            "y": 532
-          }
-        ]
-      },
+      // {
+      //   "name": "Moat Drain Switch",
+      //   "access_rules": [
+      //   ],
+      //   "sections": [
+      //     {
+      //       "name": ""
+      //     }
+      //   ],
+      //   "map_locations": [
+      //     {
+      //       "map": "Dracula's Castle",
+      //       "x": 332,
+      //       "y": 532
+      //     }
+      //   ]
+      // },
       {
         "name": "Axe Armor Hallway",
         "access_rules": [
@@ -732,23 +732,23 @@
           }
         ]
       },
-      {
-        "name": "Central Chamber",
-        "access_rules": [
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dracula's Castle",
-            "x": 692,
-            "y": 492
-          }
-        ]
-      }
+      // {
+      //   "name": "Central Chamber",
+      //   "access_rules": [
+      //   ],
+      //   "sections": [
+      //     {
+      //       "name": ""
+      //     }
+      //   ],
+      //   "map_locations": [
+      //     {
+      //       "map": "Dracula's Castle",
+      //       "x": 692,
+      //       "y": 492
+      //     }
+      //   ]
+      // }
     ]
   },
   {
@@ -1048,23 +1048,6 @@
             "map": "Dracula's Castle",
             "x": 532,
             "y": 372
-          }
-        ]
-      },
-      {
-        "name": "Central Main Chamber Bottom Room",
-        "access_rules": [
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dracula's Castle",
-            "x": 532,
-            "y": 352
           }
         ]
       },
