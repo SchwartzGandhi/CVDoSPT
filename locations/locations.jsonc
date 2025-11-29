@@ -329,25 +329,25 @@
           }
         ]
       },
-      {
-        "name": "Moat Drain Switch",
-        "access_rules": [
-          "$LVLower, $mediumuppies",
-          "$LVLower, armor"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dracula's Castle",
-            "x": 332,
-            "y": 532
-          }
-        ]
-      },
+      // {
+      //   "name": "Moat Drain Switch",
+      //   "access_rules": [
+      //     "$LVLower, $mediumuppies",
+      //     "$LVLower, armor"
+      //   ],
+      //   "sections": [
+      //     {
+      //       "name": ""
+      //     }
+      //   ],
+      //   "map_locations": [
+      //     {
+      //       "map": "Dracula's Castle",
+      //       "x": 332,
+      //       "y": 532
+      //     }
+      //   ]
+      // },
       {
         "name": "Axe Armor Hallway",
         "access_rules": [
@@ -778,24 +778,24 @@
           }
         ]
       },
-      {
-        "name": "Central Chamber",
-        "access_rules": [
-          "$GoMLower, talisman, seal5"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dracula's Castle",
-            "x": 692,
-            "y": 492
-          }
-        ]
-      }
+      // {
+      //   "name": "Central Chamber",
+      //   "access_rules": [
+      //     "$GoMLower, talisman, seal5"
+      //   ],
+      //   "sections": [
+      //     {
+      //       "name": ""
+      //     }
+      //   ],
+      //   "map_locations": [
+      //     {
+      //       "map": "Dracula's Castle",
+      //       "x": 692,
+      //       "y": 492
+      //     }
+      //   ]
+      // }
     ]
   },
   {
@@ -1940,24 +1940,6 @@
         ]
       },
       {
-        "name": "Debug Location",
-        "access_rules": [
-          "$LVUndergroundBottom"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dracula's Castle",
-            "x": 532,
-            "y": 792
-          }
-        ]
-      },
-      {
         "name": "Waterfall Room Middle",
         "access_rules": [
           "$SHCentralLower"
@@ -2286,25 +2268,25 @@
           }
         ]
       },
-      {
-        "name": "Abyss Center",
-        "access_rules": [
-          "$TABeyondAbaddon, $biguppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "The Abyss",
-            "location_size": 24,
-            "x": 652,
-            "y": 472
-          }
-        ]
-      }
+      // {
+      //   "name": "Abyss Center",
+      //   "access_rules": [
+      //     "$TABeyondAbaddon, $biguppies"
+      //   ],
+      //   "sections": [
+      //     {
+      //       "name": ""
+      //     }
+      //   ],
+      //   "map_locations": [
+      //     {
+      //       "map": "The Abyss",
+      //       "location_size": 24,
+      //       "x": 652,
+      //       "y": 472
+      //     }
+      //   ]
+      // }
     ]
   },
   {

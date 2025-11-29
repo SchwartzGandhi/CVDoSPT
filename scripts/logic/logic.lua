@@ -87,7 +87,7 @@ end
 -- Wizardry Lab Regions
 function WLMain()
     return
-        LVUpper()
+        (LVUpper() and LVLower() and (mediumuppies() or has("armor")))
         or WLEastGate()
         or WLWestGate()
         or GoMLower()
