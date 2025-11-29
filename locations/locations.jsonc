@@ -5,6 +5,7 @@
       {
         "name": "Above Entrance",
         "access_rules": [
+          "$biguppies"
         ],
         "sections": [
           {
@@ -90,6 +91,7 @@
       {
         "name": "Above Drawbridge",
         "access_rules": [
+          "$smalluppies"
         ],
         "sections": [
           {
@@ -107,6 +109,7 @@
       {
         "name": "In Moat",
         "access_rules": [
+          "$biguppies"
         ],
         "sections": [
           {
@@ -124,6 +127,7 @@
       {
         "name": "Flying Armor Soul",
         "access_rules": [
+          "seal1"
         ],
         "sections": [
           {
@@ -141,6 +145,7 @@
       {
         "name": "Above Guest House Entrance",
         "access_rules": [
+          "$biguppies"
         ],
         "sections": [
           {
@@ -168,7 +173,7 @@
           {
             "map": "Dracula's Castle",
             "x": 192,
-            "y": 532
+            "y": 512
           }
         ]
       },
@@ -297,6 +302,7 @@
       {
         "name": "Mirror Room Right",
         "access_rules": [
+          "mirror"
         ],
         "sections": [
           {
@@ -311,23 +317,26 @@
           }
         ]
       },
-      // {
-      //   "name": "Moat Drain Switch",
-      //   "access_rules": [
-      //   ],
-      //   "sections": [
-      //     {
-      //       "name": ""
-      //     }
-      //   ],
-      //   "map_locations": [
-      //     {
-      //       "map": "Dracula's Castle",
-      //       "x": 332,
-      //       "y": 532
-      //     }
-      //   ]
-      // },
+      {
+        "name": "Moat Drain Switch",
+        "access_rules": [
+          "$smalluppies",
+          "armor",
+          "puppet"
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 332,
+            "y": 532
+          }
+        ]
+      },
       {
         "name": "Axe Armor Hallway",
         "access_rules": [
@@ -370,13 +379,17 @@
       {
         "name": "Mirror Room",
         "access_rules": [
+          "ice"
         ],
         "sections": [
           {
             "name": "Outside Mirror"
           },
           {
-            "name": "Mirror World"
+            "name": "Mirror World",
+            "access_rules": [
+              "mirror"
+            ]
           }
         ],
         "map_locations": [
@@ -458,6 +471,7 @@
       {
         "name": "Ceiling Secret Room",
         "access_rules": [
+          "ice"
         ],
         "sections": [
           {
@@ -475,6 +489,7 @@
       {
         "name": "Balore Soul",
         "access_rules": [
+          "seal1"
         ],
         "sections": [
           {
@@ -509,6 +524,7 @@
       {
         "name": "Money Gate",
         "access_rules": [
+          "water"
         ],
         "sections": [
           {
@@ -526,6 +542,7 @@
       {
         "name": "Underwater Left",
         "access_rules": [
+          "water"
         ],
         "sections": [
           {
@@ -543,6 +560,7 @@
       {
         "name": "Underwater Right",
         "access_rules": [
+          "water"
         ],
         "sections": [
           {
@@ -560,6 +578,7 @@
       {
         "name": "Above Water",
         "access_rules": [
+          "water"
         ],
         "sections": [
           {
@@ -650,6 +669,7 @@
       {
         "name": "Hidden Room",
         "access_rules": [
+          "$biguppies"
         ],
         "sections": [
           {
@@ -701,6 +721,8 @@
       {
         "name": "Underground Room",
         "access_rules": [
+          "$smalluppies",
+          "puppet"
         ],
         "sections": [
           {
@@ -732,23 +754,24 @@
           }
         ]
       },
-      // {
-      //   "name": "Central Chamber",
-      //   "access_rules": [
-      //   ],
-      //   "sections": [
-      //     {
-      //       "name": ""
-      //     }
-      //   ],
-      //   "map_locations": [
-      //     {
-      //       "map": "Dracula's Castle",
-      //       "x": 692,
-      //       "y": 492
-      //     }
-      //   ]
-      // }
+      {
+        "name": "Central Chamber",
+        "access_rules": [
+          "talisman, seal5"
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 692,
+            "y": 492
+          }
+        ]
+      }
     ]
   },
   {
@@ -757,6 +780,8 @@
       {
         "name": "Entrance Alcove",
         "access_rules": [
+          "$smalluppies",
+          "puppet"
         ],
         "sections": [
           {
@@ -831,7 +856,10 @@
             "name": "Outside Mirror"
           },
           {
-            "name": "Mirror World"
+            "name": "Mirror World",
+            "access_rules": [
+              "mirror"
+            ]
           }
         ],
         "map_locations": [
@@ -845,6 +873,8 @@
       {
         "name": "Big Square Room Alcove",
         "access_rules": [
+          "$smalluppies",
+          "puppet"
         ],
         "sections": [
           {
@@ -879,6 +909,7 @@
       {
         "name": "Bell Room In Bell",
         "access_rules": [
+          "zip"
         ],
         "sections": [
           {
@@ -913,6 +944,8 @@
       {
         "name": "Bell Room Right",
         "access_rules": [
+          "$smalluppies",
+          "puppet"
         ],
         "sections": [
           {
@@ -930,6 +963,7 @@
       {
         "name": "Post-Dimitrii Room",
         "access_rules": [
+          "seal2, $smalluppies"
         ],
         "sections": [
           {
@@ -947,6 +981,7 @@
       {
         "name": "Malphas Soul",
         "access_rules": [
+          "seal2"
         ],
         "sections": [
           {
@@ -964,6 +999,8 @@
       {
         "name": "Big Room Top Right",
         "access_rules": [
+          "$biguppies",
+          "puppet, jump"
         ],
         "sections": [
           {
@@ -998,6 +1035,7 @@
       {
         "name": "Big Room Lower",
         "access_rules": [
+          "$biguppies"
         ],
         "sections": [
           {
@@ -1020,6 +1058,7 @@
       {
         "name": "Secret Room",
         "access_rules": [
+          "$biguppies"
         ],
         "sections": [
           {
@@ -1122,6 +1161,8 @@
       {
         "name": "Number 8 Room",
         "access_rules": [
+          "$smalluppies",
+          "puppet"
         ],
         "sections": [
           {
@@ -1139,6 +1180,8 @@
       {
         "name": "Number 9 Room",
         "access_rules": [
+          "$smalluppies",
+          "puppet"
         ],
         "sections": [
           {
@@ -1156,6 +1199,8 @@
       {
         "name": "Number 12 Room",
         "access_rules": [
+          "$smalluppies",
+          "puppet"
         ],
         "sections": [
           {
@@ -1173,13 +1218,18 @@
       {
         "name": "Mirror Room",
         "access_rules": [
+          "$smalluppies",
+          "puppet"
         ],
         "sections": [
           {
             "name": "Outside Mirror"
           },
           {
-            "name": "Mirror World"
+            "name": "Mirror World",
+            "access_rules": [
+              "mirror"
+            ]
           }
         ],
         "map_locations": [
@@ -1210,6 +1260,8 @@
       {
         "name": "West Wing Left",
         "access_rules": [
+          "$smalluppies",
+          "puppet"
         ],
         "sections": [
           {
@@ -1227,6 +1279,8 @@
       {
         "name": "West Wing Right",
         "access_rules": [
+          "$smalluppies",
+          "puppet"
         ],
         "sections": [
           {
@@ -1244,6 +1298,8 @@
       {
         "name": "Puppet Master Soul",
         "access_rules": [
+          "$smalluppies, seal3",
+          "puppet, seal3"
         ],
         "sections": [
           {
@@ -1261,6 +1317,8 @@
       {
         "name": "Ice Block Room Left",
         "access_rules": [
+          "$smalluppies",
+          "ice"
         ],
         "sections": [
           {
@@ -1278,6 +1336,8 @@
       {
         "name": "Ice Block Room Right",
         "access_rules": [
+          "$smalluppies",
+          "ice"
         ],
         "sections": [
           {
@@ -1346,6 +1406,8 @@
       {
         "name": "Paranoia Soul",
         "access_rules": [
+          "seal4",
+          //TODO reach ukoback
         ],
         "sections": [
           {
@@ -1363,6 +1425,8 @@
       {
         "name": "Beyond Paranoia",
         "access_rules": [
+          "seal4",
+          //TODO reach ukoback
         ],
         "sections": [
           {
@@ -1380,6 +1444,8 @@
       {
         "name": "Paranoia Mirror",
         "access_rules": [
+          "seal4, mirror",
+          //TODO reach ukoback
         ],
         "sections": [
           {
@@ -1402,6 +1468,7 @@
       {
         "name": "1F West",
         "access_rules": [
+          "$biguppies"
         ],
         "sections": [
           {
@@ -1436,6 +1503,8 @@
       {
         "name": "2F East",
         "access_rules": [
+          "$smalluppies",
+          "puppet"
         ],
         "sections": [
           {
@@ -1487,6 +1556,7 @@
       {
         "name": "Gergoth Soul",
         "access_rules": [
+          "seal3"
         ],
         "sections": [
           {
@@ -1504,6 +1574,7 @@
       {
         "name": "Top of the Tower",
         "access_rules": [
+          "seal3"
         ],
         "sections": [
           {
@@ -1566,7 +1637,10 @@
             "name": "Outside Mirror"
           },
           {
-            "name": "Mirror World"
+            "name": "Mirror World",
+            "access_rules": [
+              "mirror"
+            ]
           }
         ],
         "map_locations": [
@@ -1614,6 +1688,7 @@
       {
         "name": "Spike Room Secret",
         "access_rules": [
+          "bat"
         ],
         "sections": [
           {
@@ -1631,6 +1706,7 @@
       {
         "name": "Zephyr Soul",
         "access_rules": [
+          "seal4"
         ],
         "sections": [
           {
@@ -1653,6 +1729,7 @@
       {
         "name": "Rahab Soul",
         "access_rules": [
+          "seal3"
         ],
         "sections": [
           {
@@ -1670,6 +1747,7 @@
       {
         "name": "Giant Underwater Room Center Left",
         "access_rules": [
+          "water"
         ],
         "sections": [
           {
@@ -1687,6 +1765,7 @@
       {
         "name": "Giant Underwater Room Center Right",
         "access_rules": [
+          "water"
         ],
         "sections": [
           {
@@ -1704,6 +1783,7 @@
       {
         "name": "Giant Underwater Room Top Left",
         "access_rules": [
+          "water"
         ],
         "sections": [
           {
@@ -1721,6 +1801,7 @@
       {
         "name": "Giant Underwater Room Bottom Right",
         "access_rules": [
+          "water"
         ],
         "sections": [
           {
@@ -1738,6 +1819,9 @@
       {
         "name": "Near Save Room",
         "access_rules": [
+          "$smalluppies",
+          "puppet",
+          "armor"
         ],
         "sections": [
           {
@@ -1862,6 +1946,7 @@
       {
         "name": "Ice Block Room",
         "access_rules": [
+          "ice"
         ],
         "sections": [
           {
@@ -1879,6 +1964,7 @@
       {
         "name": "Bat Company Soul",
         "access_rules": [
+          "seal4"
         ],
         "sections": [
           {
@@ -1938,6 +2024,7 @@
       {
         "name": "Under Big Staircase",
         "access_rules": [
+          "$biguppies"
         ],
         "sections": [
           {
@@ -2023,6 +2110,7 @@
       {
         "name": "Aguni Soul",
         "access_rules": [
+          "seal4, mirror"
         ],
         "sections": [
           {
@@ -2062,6 +2150,8 @@
       {
         "name": "Death Soul",
         "access_rules": [
+          "seal5, $smalluppies",
+          "seal5, puppet"
         ],
         "sections": [
           {
@@ -2129,6 +2219,25 @@
             "map": "The Abyss",
             "x": 672,
             "y": 632
+          }
+        ]
+      },
+      {
+        "name": "Abyss Center",
+        "access_rules": [
+          "$biguppies"
+        ],
+        "sections": [
+          {
+            "name": ""
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "The Abyss",
+            "location_size": 24,
+            "x": 652,
+            "y": 472
           }
         ]
       }

@@ -14,14 +14,19 @@
           {
             "type": "itemgrid",
             "item_margin": "10, 10",
-            "h_alignment": "left",
+            "h_alignment": "center",
             "rows": [
               [
+                "gembox",
                 "armor",
                 "ice",
+              ],
+              [
                 "jump",
                 "puppet",
                 "water",
+              ],
+              [
                 "dio",
                 "bat",
                 "mirror",
@@ -31,8 +36,12 @@
                 "seal1",
                 "seal2",
                 "seal3",
+              ],
+              [
                 "seal4",
                 "seal5",
+              ],
+              [
                 "key",
                 "talisman",
                 //"dark"

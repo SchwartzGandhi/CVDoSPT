@@ -49,6 +49,12 @@
     "codes": "armor"
   },
   {
+    "name": "Doppelganger Soul",
+    "type": "toggle",
+    "img": "images/items/gembox.png",
+    "codes": "gembox"
+  },
+  {
     "name": "Bat Company Soul",
     "type": "toggle",
     "img": "images/items/bat.png",
