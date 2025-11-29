@@ -13,6 +13,7 @@ function has_more_then_n_consumable(n)
     end
     return 0 -- 0 => no access
 end
+
 function has(item, amount)
     local count = Tracker:ProviderCountForCode(item)
     amount = tonumber(amount)
@@ -30,6 +31,7 @@ end
 
 function mediumuppies()
     return smalluppies() or has("puppet")
+end
 
 function biguppies()
     return has("zip") or has("bat")
@@ -39,78 +41,56 @@ function holes()
     return has("puppet") or has("bat")
 end
 
--- The Lost Village Regions
+function ukoback()
+    return SHShaftBottom() or SHCentralExit()
+end
 
+-- The Lost Village Regions
 function LVUpper()
-    -- Starting Region
-    -- LVUpperDoorway()
-    -- DGHLower()
-    -- LVLower()
-    return true
+    return
+        true -- Starting Region
+        or LVUpperDoorway()
+        or DGHLower()
+        or (LVLower() and has("seal1"))
 end
 
 function LVUpperDoorway()
-    return (
-        (
-            LVUpper() and ((has("puppet") and has("armor")) or smalluppies())
-        ) or (
-            DGHNumberPuzzleWest()
-        )
-    )
+    return
+        (LVUpper() and ((has("puppet") and has("armor")) or smalluppies()))
+        or DGHNumberPuzzleWest()
 end
 
 function LVLower()
-    return (
-        (
-            LVUpper() and has("seal1")
-        ) or (
-            LVUndergroundTop()
-        ) or (
-            WLMain() -- and Moat Drained
-        )
-    )
+    return
+        (LVUpper() and has("seal1"))
+        or LVUndergroundTop()
+        -- or WLMain() and Moat Drained
 end
 
 function LVUndergoundBottom()
-    return (
-        (
-            LVUndergroundMiddle()
-        ) or (
-            WLSunkenWestDoor()
-        )
-    )
+    return
+        WLSunkenWestDoor()
+        or LVUndergroundMiddle()
 end
 
 function LVUndergoundMiddle()
-    return (
-        (
-            LVUndergoundBottom() and mediumuppies()
-        ) or (
-            LVUndergoundTop()
-        ) or (
-            WLWestGate()
-        )
-    )
+    return
+        (LVUndergoundBottom() and mediumuppies())
+        or WLWestGate()
+        or LVUndergoundTop()
 end
 
-function LVUndergoundTop()
+function LVUndergroundTop()
     return LVUndergoundMiddle() and mediumuppies()
 end
 
--- Wizardry Lab
-
+-- Wizardry Lab Regions
 function WLMain()
-    return (
-        (
-            LVUpper()
-        ) or (
-            WLEastGate()
-        ) or (
-            WLWestGate()
-        ) or (
-            GoMLower()
-        )
-    )
+    return
+        LVUpper()
+        or WLEastGate()
+        or WLWestGate()
+        or GoMLower()
 end
 
 function WLWestGate()
@@ -122,329 +102,208 @@ function WLEastGate()
 end
 
 function WLSunken()
-    return (
-        (
-            WLSunkenWestDoor()
-        ) or (
-            WLSunkenEastDoor()
-        )
-    )
+    return
+        WLSunkenEastDoor()
+        or WLSunkenWestDoor()
 end
 
 function WLSunkenWestDoor()
-    return WLSunken()
+    return 
+        WLSunken()
+        or LVUndergoundBottom()
 end
 
 function WLSunkenEastDoor()
-    return (
-        (
-            WLSunken()
-        ) or (
-            SHSpikeRoomWest()
-        )    
-    )
+    return
+        SHSpikeRoomWest()
+        or WLSunken()
 end
 
--- Garden of Madness
-
+-- Garden of Madness Regions
 function GoMLower()
-    return (
-        (
-            WLMain() and (has("ice") or smalluppies())
-        ) or (
-            GoMWaterBlocked() and has("water")
-        ) or (
-            GoMUpper()
-        ) or (
-            DGHLower()
-        ) or (
-            DC()
-        ) or (
-            false -- ?
-        )
-    )
+    return
+        (WLMain() and (has("ice") or smalluppies()))
+        or GoMWaterBlocked() and has("water")
+        or GoMUpper()
+        or DGHLower()
+        or DC()
+        -- or false
 end
 
 function GoMUpper()
-    return (
-        (
-            GoMLower() and mediumuppies()
-        ) or (
-            GoMPostBoss() and has("seal2")
-        )
-    )
+    return
+        (GoMLower() and mediumuppies())
+        or GoMPostBoss() and has("seal2")
 end
 
 function GoMWaterBlocked()
-    return (
-        (
-            GoMLower() and has("water")
-        ) or (
-            SHCentralExit()
-        )
-    )
+    return
+        (GoMLower() and has("water"))
+        or SHCentralExit()
 end
 
 function GoMPostBoss()
-    return (
-        (
-            GoMUpper() and has("seal2")
-        ) or (
-            DGHMain()
-        )
-    )
+    return
+        (GoMUpper() and has("seal2"))
+        or DGHMain()
 end
 
 function GoMEastGate()
     return CCTEntrance()
 end
 
--- The Dark Chapel
-
+-- The Dark Chapel Regions
 function DC()
-    return (
-        (
-            GoMLower()
-        ) or (
-            DCBigRoom()
-        ) or (
-            CTBottom()
-        ) or (
-            SHTopEntrance() and holes()
-        )
-    )
+    return
+        GoMLower()
+        or DCBigRoom()
+        or CTBottom()
+        or (SHTopEntrance() and holes())
 end
 
 function DCBigRoom()
-    return (
-        (
-            DC() and holes()
-        ) or (
-            CTBottom() and smalluppies()
-        )
-    )
+    return
+        (DC() and holes())
+        or (CTBottom() and smalluppies())
 end
 
--- Demon Guest House
-
+-- Demon Guest House Regions
 function DGHMain()
-    return (
-        (
-            GoMPostBoss()
-        ) or (
-            DGHPuppetWallRight() and holes()
-        ) or (
-            DGHNumberPuzzle()
-        ) or (
-            DGHWestWing() and holes()
-        ) or (
-            DGHUpper()
-        )
-    )
+    return 
+        GoMPostBoss()
+        or (DGHPuppetWallRight() and holes())
+        or DGHNumberPuzzle()
+        or (DGHWestWing() and holes())
+        or DGHUpper()
 end
 
 function DGHPuppetWallRight()
-    return (
-        (
-            DGHMain() and holes()
-        ) or (
-            DGHLower() and mediumuppies()
-        )
-    )
+    return
+        (DGHMain() and holes())
+        or (DGHLower() and mediumuppies())
 end
 
 function DGHLower()
-    return (
-        (
-            LVUpper() and smalluppies()
-        ) or (
-            GoMLower()
-        ) or (
-            DGHPuppetWallRight()
-        )
-    )
+    return
+        (LVUpper() and smalluppies())
+        or GoMLower()
+        or DGHPuppetWallRight()
 end
 
 function DGHNumberPuzzle()
-    return (
-        (
-            DGHMain()
-        ) or (
-            DGHWestWing()
-        )
-    )
+    return
+        DGHMain()
+        or DGHWestWing()
 end
 
 function DGHNumberPuzzleWest()
-    return (
-        (
-            LVUpperDoorway()
-        ) or (
-            DGHNumberPuzzle()
-        )
-    )
+    return
+        LVUpperDoorway()
+        or DGHNumberPuzzle()
 end
 
 function DGHWestWing()
-    return (
-        (
-            DGHMain() and holes()
-        ) or (
-            DGHNumberPuzzle()
-        )
-    )
+    return
+        (DGHMain() and holes())
+        or DGHNumberPuzzle()
 end
 
 function DGHUpper()
     return TPLower()
 end
 
--- Condemned Tower
-
+-- Condemned Tower Regions
 function CTBottom()
-    return (
-        (
-            DCBigRoom()
-        ) or (
-            CTTop()
-        )
-    )
+    return
+        DCBigRoom()
+        or CTTop()
 end
 
 function CTTop()
-    return (
+    return
         (
             CTBottom() and (
                 biguppies() or (
-                    has("armor") and (has("jump") or has("puppet"))
+                    has("armor") and (
+                        has("jump") or has("puppet")
+                    )
                 )
             )
-        ) or (
-            CCTEntrance() and has("key")
         )
-    )
+        or (CCTEntrance() and has("tkey"))
 end
 
--- Cursed Clock Tower
-
+-- Cursed Clock Tower Regions
 function CCTEntrance()
-    return (
-        (
-            GoMEastGate()
-        ) or (
-            CTTop() and has("key")
-        ) or (
-            CCTCentral() --?
-        )
-    )
+    return
+        (CTTop() and has("tkey"))
+        or GoMEastGate()
+        or (CCTCentral() and mediumuppies())
+        or CCTBossArea()
 end
 
 function CCTCentral()
-    return (
-        (
-            CCTEntrance() and mediumuppies()
-        ) or (
-            CCTBossArea()
-        )
-    )
+    return
+        (CCTEntrance() and mediumuppies())
+        or CCTBossArea()
 end
 
 function CCTBossArea()
-    return (
-        (
-            CCTCentral() and mediumuppies()
-        ) or (
-            CCTExit() and (has("seal4") and has("bat"))
-        )
-    )
+    return
+        CCTCentral()
+        or (CCTExit() and (has("seal4") and has("bat")))
 end
 
 function CCTExit()
-    return (
-        (
-            CCTBossArea() and (has("seal4") and has("bat"))
-        ) or (
-            TPLower() and mediumuppies()
-        )
-    )
+    return
+        (CCTBossArea() and (has("seal4") and has("bat")))
+        or (TPLower() and mediumuppies())
 end
 
--- Subterranean Hell
-
+-- Subterranean Hell Regions
 function SHTopEntrance()
-    return (
-        (
-            DC() and holes()
-        ) or (
-            SHEast() and (has("water") and has("seal3") and mediumuppies())
-        )
-    )
+    return
+        (DC() and holes())
+        or (SHEast() and (has("water") and has("seal3") and mediumuppies()))
 end
 
 function SHEast()
-    return (
-        (
-            SHTopEntrance() and (has("water") and has("seal3"))
-        ) or (
-            SHCentralEastConnection()
-        )
-    )
+    return
+        (SHTopEntrance() and (has("water") and has("seal3")))
+        or SHCentralEastConnection()
 end
 
 function SHCentralEastConnection()
-    return (
-        (
-            SHEast() and mediumuppies()
-        ) or (
-            SHCentralUpper() and (has("water") or has("jump")) and mediumuppies()
-        )
-    )
+    return
+        (SHEast() and mediumuppies())
+        or (SHCentralUpper() and (has("water") or has("jump")) and mediumuppies())
 end
 
 function SHCentralUpper()
-    return (
-        (
-            SHCentralEastConnection() and (has("water") or has("jump"))
-        ) or (
-            SHCentralExit() and (has("water") or has("jump"))
-        ) or (
-            SHCentralLower() and mediumuppies()
-        )
-    )
+    return
+        (SHCentralEastConnection() and (has("water") or has("jump")))
+        or (SHCentralLower() and mediumuppies())
+        or (SHCentralExit() and (has("water") or has("jump")))
 end
 
 function SHCentralExit()
-    return (
-        (
-            GoMWaterBlocked()
-        ) or (
-            SHCentralUpper() and mediumuppies()
-        )
-    )
+    return
+        (SHCentralUpper() and mediumuppies())
+        or GoMWaterBlocked()
 end
 
 function SHCentralLower()
-    return (
-        (
-            SHCentralUpper()
-        ) or (
-            SHShaftMiddle() and mediumuppies()
-        ) or (
-            SHShaftBottom()
-        )
-    )
+    return
+        (SHCentralUpper() and mediumuppies())
+        or SHShaftMiddle()
+        or SHShaftBottom()
 end
 
 function SHShaftMiddle()
-    return (
-        (
-            SHCentralLower()
-        ) or (
-            SHShaftTop()
-        ) or (
-            SHShaftBottom() and mediumuppies()
-        )
-    )
+    return
+        SHCentralLower()
+        or SHShaftTop()
+        or (SHShaftBottom() and mediumuppies())
 end
 
 function SHShaftTop()
@@ -452,65 +311,44 @@ function SHShaftTop()
 end
 
 function SHShaftBottom()
-    return (
-        (
-            WLEastGate()
-        ) or (
-            SHShaftMiddle()
-        ) or (
-            SRAntechamber()
-        )
-    )
+    return
+        SHShaftMiddle()
+        or WLEastGate()
+        or SRAntechamber()
 end
 
 function SHSpikeRoomWest()
-    return (
-        (
-            WLSunkenEastDoor()
-        ) or (
-            SHSpikeRoomEast() -- bro doesn't know about bone ark
-        )
-    )
+    return
+        SHSpikeRoomEast()
+        -- bro doesn't know about bone ark
+        or WLSunkenEastDoor()
 end
 
 function SHSpikeRoomEast()
-    return (
-        (
-            SHShaftBottom() and mediumuppies()
-        ) or (
-            SHSpikeRoomWest() -- bro doesn't know about bone ark
-        )
-    )
+    return
+        (SHShaftBottom() and mediumuppies())
+        or SHSpikeRoomWest()
+        -- bro doesn't know about bone ark
 end
 
--- Silenced Ruins
-
+-- Silenced Ruins Regions
 function SRAntechamber()
-    return (
-        (
-            SHShaftBottom() and (mediumuppies() or has("armor"))
-        ) or (
-            SR() and has("dio")
-        )
-    )
+    return 
+        (SHShaftBottom() and (mediumuppies() or has("armor")))
+        or (SR() and has("dio"))
 end
 
 function SR()
-    return (
-        (
-            SRAntechamber() and has("dio")
-        ) or (
-            SRBackExit() -- TODO
-        )
-    )
+    return
+        (SRAntechamber() and has("dio"))
+        or SRBackExit() -- TODO
 end
 
 function SRBackExit()
     return SR() and smalluppies()
 end
 
--- The Pinnacle
-
+-- The Pinnacle Regions
 function TP()
     return TPLower() and smalluppies()
 end
@@ -520,31 +358,20 @@ function TPThroneRoom()
 end
 
 function TPLower()
-    return (
-        (
-            DGHUpper()
-        ) or (
-            CCTExit()
-        ) or (
-            TP()
-        )
-    )
+    return
+        CCTExit()
+        or TP()
+        or DGHUpper()
 end
 
--- Mine of Judgement
-
+-- Mine of Judgement Regions
 function MoJ()
-    return (
-        (
-            CTBottom() -- TODO mine conditions
-        ) or (
-            TA() and smalluppies()
-        )
-    )
+    return
+        CTBottom() -- TODO mine conditions
+        or (TA() and smalluppies())
 end
 
--- The Abyss
-
+-- The Abyss Regions
 function TA()
     return MoJ() and mediumuppies()
 end

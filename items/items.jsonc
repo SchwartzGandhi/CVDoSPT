@@ -4,7 +4,7 @@
     "name": "Tower Key",
     "type": "toggle",
     "img": "images/items/key.png",
-    "codes": "key"
+    "codes": "tkey"
   },
   {
     "name": "Magic Seal 1",

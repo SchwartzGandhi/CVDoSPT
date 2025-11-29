@@ -9,7 +9,7 @@
   "author": "Schwartz Gandhi",
   "min_poptracker_version": "0.25.9",
   // put the version you tested against here!
-  "target_poptracker_version": "0.28.0",
+  "target_poptracker_version": "0.31.0",
   "variants": {
     "standard": {
       "display_name": "Map Tracker",
