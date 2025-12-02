@@ -23,7 +23,8 @@
                 "name": "LVLower",
                 "access_rules": [
                     "@The Lost Village Regions/LVUpper, seal1",
-                    "@The Lost Village Regions/LVUndergroundTop"
+                    "@The Lost Village Regions/LVUndergroundTop",
+                    "@The Lost Village Regions/WarpRoom"
                     // "@Wizardry Lab Regions/WLMain" MOAT DRAINED
                 ]
             },
@@ -46,6 +47,22 @@
                 "name": "LVUndergroundTop",
                 "access_rules": [
                     "@The Lost Village Regions/LVUndergroundMiddle, $mediumuppies"
+                ]
+            },
+            {
+                "name": "WarpRoom",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLMain",
+                    "@Garden of Madness Regions/GoMLower",
+                    "@Demon Guest House Regions/DGHWestWing",
+                    "@The Dark Chapel Regions/DC",
+                    "@Condemned Tower Regions/CTTop, seal3",
+                    "@Cursed Clock Tower Regions/CCTBossArea, seal4",
+                    "@Subterranean Hell Regions/SHCentralLower",
+                    "@Silenced Ruins Regions/SR",
+                    "@The Pinnacle Regions/TPLower, $mediumuppies",
+                    "@Mine of Judgement Regions/MoJ",
+                    "@The Abyss Regions/TABeyondAbaddon"
                 ]
             }
         ]
