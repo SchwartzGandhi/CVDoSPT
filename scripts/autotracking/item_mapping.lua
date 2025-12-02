@@ -26,5 +26,8 @@ ITEM_MAPPING = {
 	[0577] = {{"seal5", "toggle"}},
 	[0569] = {{"tkey", "toggle"}},
 	[1077] = {{"talisman", "toggle"}}
+	[1398] = {{"gembox", "toggle"}}
+	[1401] = {{"fastwater", "toggle"}}
+	[1401] = {{"fastmud", "toggle"}}
 	-- [None] = {{"dark", "toggle"}}
 }

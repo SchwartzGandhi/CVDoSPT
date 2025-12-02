@@ -103,6 +103,18 @@
     "codes": "zip"
   },
   {
+    "name": "Procel Soul",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "fastwater"
+  },
+  {
+    "name": "Mud Demon Soul",
+    "type": "toggle",
+    "img": "images/items/toggle.png",
+    "codes": "fastmud"
+  },
+  {
     "name": "Moat Drained",
     "type": "toggle",
     "img": "images/items/toggle.png",
