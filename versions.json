@@ -1,0 +1,13 @@
+{
+    "versions": [
+        {
+            "package_version": "1.0.2.2",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/1.2/CVDoSPT.zip",
+            "sha256": "1402e44b34d5fd4a8853a338edd8e731ef3d83f96f91ba27586baa2c83780199",
+            "changelog": [
+                "The Abyss's locations can now be seen from the main map",
+                "Locations now have the specified region on them to prevent confusion"
+            ]
+        }
+    ]
+}
