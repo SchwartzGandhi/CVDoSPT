@@ -1,0 +1,456 @@
+[
+    {
+        "name": "The Lost Village Regions",
+        "children": [
+            {
+                "name": "LVUpper",
+                "access_rules": [
+                    "", // starting region
+                    "@The Lost Village Regions/LVUpperDoorway",
+                    "@Demon Guest House Regions/DGHLower",
+                    "@The Lost Village Regions/LVLower, seal1"
+                ]
+            },
+            {
+                "name": "LVUpperDoorway",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpper, puppet, armor",
+                    "@The Lost Village Regions/LVUpper, $smalluppies",
+                    "@Demon Guest House Regions/DGHNumberPuzzleWest"
+                ]
+            },
+            {
+                "name": "LVLower",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpper, seal1",
+                    "@The Lost Village Regions/LVUndergroundTop"
+                    // "@Wizardry Lab Regions/WLMain" MOAT DRAINED
+                ]
+            },
+            {
+                "name": "LVUndergroundBottom",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLSunkenWestDoor",
+                    "@The Lost Village Regions/LVUndergroundMiddle"
+                ]
+            },
+            {
+                "name": "LVUndergroundMiddle",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUndergroundBottom, $mediumuppies",
+                    "@Wizardry Lab Regions/WLWestGate",
+                    "@The Lost Village Regions/LVUndergroundTop"
+                ]
+            },
+            {
+                "name": "LVUndergroundTop",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUndergroundMiddle, $mediumuppies"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Wizardry Lab Regions",
+        "children": [
+            {
+                "name": "WLMain",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpper, @The Lost Village Regions/LVLower, $mediumuppies",
+                    "@The Lost Village Regions/LVUpper, @The Lost Village Regions/LVLower, armor"
+                ]
+            },
+            {
+                "name": "WLWestGate",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUndergroundMiddle"
+                ]
+            },
+            {
+                "name": "WLEastGate",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHShaftTop"
+                ]
+            },
+            {
+                "name": "WLSunken",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLSunkenWestDoor",
+                    "@Wizardry Lab Regions/WLSunkenEastDoor"
+                ]
+            },
+            {
+                "name": "WLSunkenWestDoor",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLSunken",
+                    "@The Lost Village Regions/LVUndergroundBottom"
+                ]
+            },
+            {
+                "name": "WLSunkenEastDoor",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLSunken",
+                    "@Subterranean Hell Regions/SHSpikeRoomWest"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Garden of Madness Regions",
+        "children": [
+            {
+                "name": "GoMLower",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLMain, ice",
+                    "@Wizardry Lab Regions/WLMain, $smalluppies",
+                    "@Garden of Madness Regions/GoMWaterBlocked, water",
+                    "@Garden of Madness Regions/GoMUpper",
+                    "@Demon Guest House Regions/DGHLower",
+                    "@The Dark Chapel Regions/DC"
+                ]
+            },
+            {
+                "name": "GoMUpper",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMLower, $mediumuppies",
+                    "@Garden of Madness Regions/GoMPostBoss, seal2"
+                ]
+            },
+            {
+                "name": "GoMWaterBlocked",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMLower, water",
+                    "@Subterranean Hell Regions/SHCentralExit"
+                ]
+            },
+            {
+                "name": "GoMPostBoss",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMUpper, seal2",
+                    "@Demon Guest House Regions/DGHMain"
+                ]
+            },
+            {
+                "name": "GoMEastGate",
+                "access_rules": [
+                    "@Cursed Clock Tower Regions/CCTEntrance"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Dark Chapel Regions",
+        "children": [
+            {
+                "name": "DC",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMLower",
+                    "@The Dark Chapel Regions/DCBigRoom",
+                    "@Condemned Tower Regions/CTBottom",
+                    "@Subterranean Hell Regions/SHTopEntrance, $holes"
+                ]
+            },
+            {
+                "name": "DCBigRoom",
+                "access_rules": [
+                    "@The Dark Chapel Regions/DC, $holes",
+                    "@Condemned Tower Regions/CTBottom, $smalluppies"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Demon Guest House Regions",
+        "children": [
+            {
+                "name": "DGHMain",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHPuppetWallRight, $holes",
+                    "@Garden of Madness Regions/GoMPostBoss",
+                    "@Demon Guest House Regions/DGHNumberPuzzle",
+                    "@Demon Guest House Regions/DGHWestWing, $holes",
+                    "@Demon Guest House Regions/DGHUpper"
+                ]
+            },
+            {
+                "name": "DGHPuppetWallRight",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHLower, $mediumuppies",
+                    "@Demon Guest House Regions/DGHMain, $holes"
+                ]
+            },
+            {
+                "name": "DGHLower",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpper, $smalluppies",
+                    "@Garden of Madness Regions/GoMLower",
+                    "@Demon Guest House Regions/DGHPuppetWallRight"
+                ]
+            },
+            {
+                "name": "DGHNumberPuzzle",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHMain",
+                    "@Demon Guest House Regions/DGHWestWing"
+                ]
+            },
+            {
+                "name": "DGHNumberPuzzleWest",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpperDoorway",
+                    "@Demon Guest House Regions/DGHNumberPuzzle"
+                ]
+            },
+            {
+                "name": "DGHWestWing",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHMain, $holes",
+                    "@Demon Guest House Regions/DGHNumberPuzzle"
+                ]
+            },
+            {
+                "name": "DGHUpper",
+                "access_rules": [
+                    "@The Pinnacle Regions/TPLower"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Condemned Tower Regions",
+        "children": [
+            {
+                "name": "CTBottom",
+                "access_rules": [
+                    "@The Dark Chapel Regions/DCBigRoom",
+                    "@Condemned Tower Regions/CTTop"
+                ]
+            },
+            {
+                "name": "CTTop",
+                "access_rules": [
+                    "@Condemned Tower Regions/CTBottom, $biguppies",
+                    "@Condemned Tower Regions/CTBottom, armor, jump",
+                    "@Condemned Tower Regions/CTBottom, armor, puppet",
+                    "@Cursed Clock Tower Regions/CCTEntrance, tkey"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cursed Clock Tower Regions",
+        "children": [
+            {
+                "name": "CCTEntrance",
+                "access_rules": [
+                    "@Condemned Tower Regions/CTTop, tkey",
+                    "@Garden of Madness Regions/GoMEastGate",
+                    "@Cursed Clock Tower Regions/CCTCentral, $mediumuppies",
+                    "@Cursed Clock Tower Regions/CCTBossArea"
+                ]
+            },
+            {
+                "name": "CCTCentral",
+                "access_rules": [
+                    "@Cursed Clock Tower Regions/CCTEntrance, $mediumuppies",
+                    "@Cursed Clock Tower Regions/CCTBossArea"
+                ]
+            },
+            {
+                "name": "CCTBossArea",
+                "access_rules": [
+                    "@Cursed Clock Tower Regions/CCTCentral",
+                    "@Cursed Clock Tower Regions/CCTExit, seal4, bat"
+                ]
+            },
+            {
+                "name": "CCTExit",
+                "access_rules": [
+                    "@Cursed Clock Tower Regions/CCTBossArea, seal4, bat",
+                    "@The Pinnacle Regions/TPLower, $mediumuppies"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Subterranean Hell Regions",
+        "children": [
+            {
+                "name": "SHTopEntrance",
+                "access_rules": [
+                    "@The Dark Chapel Regions/DC, $holes",
+                    "@Subterranean Hell Regions/SHEast, water, seal3, $mediumuppies"
+                ]
+            },
+            {
+                "name": "SHEast",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHTopEntrance, water, seal3",
+                    "@Subterranean Hell Regions/SHCentralEastConnection"
+                ]
+            },
+            {
+                "name": "SHCentralEastConnection",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHEast, $mediumuppies",
+                    "@Subterranean Hell Regions/SHCentralUpper, $mediumuppies, water",
+                    "@Subterranean Hell Regions/SHCentralUpper, $mediumuppies, jump"
+                ]
+            },
+            {
+                "name": "SHCentralUpper",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHCentralEastConnection, water",
+                    "@Subterranean Hell Regions/SHCentralEastConnection, jump",
+                    "@Subterranean Hell Regions/SHCentralLower, $mediumuppies",
+                    "@Subterranean Hell Regions/SHCentralExit, water",
+                    "@Subterranean Hell Regions/SHCentralExit, jump"
+                ]
+            },
+            {
+                "name": "SHCentralExit",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHCentralUpper, $mediumuppies",
+                    "@Garden of Madness Regions/GoMWaterBlocked"
+                ]
+            },
+            {
+                "name": "SHCentralLower",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHCentralUpper, $mediumuppies",
+                    "@Subterranean Hell Regions/SHShaftMiddle",
+                    "@Subterranean Hell Regions/SHShaftBottom"
+                ]
+            },
+            {
+                "name": "SHShaftTop",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHShaftMiddle, $biguppies"
+                ]
+            },
+            {
+                "name": "SHShaftMiddle",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHCentralLower",
+                    "@Subterranean Hell Regions/SHShaftTop",
+                    "@Subterranean Hell Regions/SHShaftBottom, $mediumuppies"
+                ]
+            },
+            {
+                "name": "SHShaftBottom",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHShaftMiddle",
+                    "@Wizardry Lab Regions/WLEastGate",
+                    "@Silenced Ruins Regions/SRAntechamber"
+                ]
+            },
+            {
+                "name": "SHSpikeRoomWest",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHSpikeRoomEast", // bro doesn't know about bone ark
+                    "@Wizardry Lab Regions/WLSunkenEastDoor"
+                ]
+            },
+            {
+                "name": "SHSpikeRoomEast",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHShaftBottom, $mediumuppies",
+                    "@Subterranean Hell Regions/SHSpikeRoomWest" // bro doesn't know about bone ark
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Silenced Ruins Regions",
+        "children": [
+            {
+                "name": "SRAntechamber",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHShaftBottom, $mediumuppies",
+                    "@Subterranean Hell Regions/SHShaftBottom, armor",
+                    "@Silenced Ruins Regions/SR, dio"
+                ]
+            },
+            {
+                "name": "SR",
+                "access_rules": [
+                    "@Silenced Ruins Regions/SRAntechamber, dio",
+                    "@Silenced Ruins Regions/SRBackExit"
+                ]
+            },
+            {
+                "name": "SRBackExit",
+                "access_rules": [
+                    "@Silenced Ruins Regions/SR, $smalluppies"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Pinnacle Regions",
+        "children": [
+            {
+                "name": "TP",
+                "access_rules": [
+                    "@The Pinnacle Regions/TPLower, $smalluppies"
+                ]
+            },
+            {
+                "name": "TPLower",
+                "access_rules": [
+                    "@Cursed Clock Tower Regions/CCTExit",
+                    "@The Pinnacle Regions/TP",
+                    "@Demon Guest House Regions/DGHUpper"
+                ]
+            },
+            {
+                "name": "TPThroneRoom",
+                "access_rules": [
+                    "@The Pinnacle Regions/TP, $biguppies"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mine of Judgement Regions",
+        "children": [
+            {
+                "name": "MoJ",
+                "access_rules": [
+                    "@Condemned Tower Regions/CTBottom",
+                    "@The Abyss Regions/TA, $smalluppies"
+                    // TODO mine conditions
+                ]
+            }
+        ]
+    },
+    {
+        "name": "The Abyss Regions",
+        "children": [
+            {
+                "name": "TA",
+                "access_rules": [
+                    "@Mine of Judgement Regions/MoJ, $mediumuppies"
+                ]
+            },
+            {
+                "name": "TABeyondAbaddon",
+                "access_rules": [
+                    "@The Abyss Regions/TA, $biguppies, seal5"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Soul Farming Regions",
+        "children": [
+            {
+                "name": "Ukoback",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHShaftBottom",
+                    "@Subterranean Hell Regions/SHCentralExit"
+                ]
+            }
+        ]
+    }
+]

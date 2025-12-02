@@ -140,7 +140,7 @@ LOCATION_MAPPING = {
 	[00120] = {{"@The Pinnacle/Beyond Throne Room/"}},
 	[00121] = {{"@The Pinnacle/Aguni Soul/"}},
 
-	[00122] = {{"@Mine of Judgment/Death Soul/"}},
+	[00122] = {{"@Mine of Judgement/Death Soul/"}},
 
 	[00123] = {{"@The Abyss/Sand Area/"}},
 	[00124] = {{"@The Abyss/Ice Area/"}},
