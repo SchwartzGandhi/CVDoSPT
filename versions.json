@@ -1,12 +1,11 @@
 {
     "versions": [
         {
-            "package_version": "1.0.2.3",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/1.3/CVDoSPT.zip",
-            "sha256": "41efe33b63049b325aa232caca54321530ec685ab9f8198beafacc39413c869f",
+            "package_version": "1.0.2.4",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/1.4/CVDoSPT.zip",
+            "sha256": "0654987379c716639d5b419a77f5b1087501918293e60ff4164483f2f0d1ecb4",
             "changelog": [
-                "Location autotracking works again",
-                "Doppelganger Soul is now auttracked correctly"
+                "Logic can now expect you to use a warp room to get to lower lost village"
             ]
         }
     ]
