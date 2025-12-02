@@ -1,0 +1,17 @@
+{
+    "settings_popup":{
+        "type": "tabbed",
+        "background": "#000000",
+        "tabs": [
+            {
+                "title": "Settings",
+                "icon": "",
+                "content":{
+                    "type": "layout",
+                    "background": "#000000",
+                    "key": "settings_grid"
+                }
+            }
+        ]
+    }
+}

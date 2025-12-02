@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Goal",
+        "type": "progressive",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "codes": "goal",
+        "stages": [
+            {
+                "img": "images/items/progressive.png",
+                "codes": "throneroom",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/progressive_2.png",
+                "codes": "abyss",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/progressive_2.png",
+                "codes": "abyssplus",
+                "inherit_codes": true
+            }
+        ]
+    }
+]
