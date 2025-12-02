@@ -3,13 +3,13 @@
     "name": "The Lost Village",
     "children": [
       {
-        "name": "Above Entrance",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVUpper"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Above Entrance"
           }
         ],
         "map_locations": [
@@ -21,13 +21,13 @@
         ]
       },
       {
-        "name": "Upper Big Room Corner",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVUpperDoorway"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Upper Big Room Corner"
           }
         ],
         "map_locations": [
@@ -39,13 +39,13 @@
         ]
       },
       {
-        "name": "Pre-Boss Room Upper",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVUpper"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Pre-Boss Room Upper"
           }
         ],
         "map_locations": [
@@ -57,13 +57,13 @@
         ]
       },
       {
-        "name": "Pre-Boss Room Lower",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVUpper"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Pre-Boss Room Lower"
           }
         ],
         "map_locations": [
@@ -75,13 +75,13 @@
         ]
       },
       {
-        "name": "Drawbridge Room",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVUpper"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Drawbridge Room"
           }
         ],
         "map_locations": [
@@ -93,13 +93,13 @@
         ]
       },
       {
-        "name": "Above Drawbridge",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVUpper, $smalluppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Above Drawbridge"
           }
         ],
         "map_locations": [
@@ -111,13 +111,13 @@
         ]
       },
       {
-        "name": "In Moat",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVUpper, $biguppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "In Moat"
           }
         ],
         "map_locations": [
@@ -129,13 +129,13 @@
         ]
       },
       {
-        "name": "Flying Armor Soul",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVUpper, seal1"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Flying Armor Soul"
           }
         ],
         "map_locations": [
@@ -147,13 +147,13 @@
         ]
       },
       {
-        "name": "Above Guest House Entrance",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVUpper, $biguppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Above Guest House Entrance"
           }
         ],
         "map_locations": [
@@ -165,13 +165,13 @@
         ]
       },
       {
-        "name": "Flying Armor Indoor Room",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Flying Armor Indoor Room"
           }
         ],
         "map_locations": [
@@ -183,13 +183,13 @@
         ]
       },
       {
-        "name": "West Plaza",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "West Plaza"
           }
         ],
         "map_locations": [
@@ -201,13 +201,13 @@
         ]
       },
       {
-        "name": "West Building Upper",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "West Building Upper"
           }
         ],
         "map_locations": [
@@ -219,13 +219,13 @@
         ]
       },
       {
-        "name": "West Building Lower",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "West Building Lower"
           }
         ],
         "map_locations": [
@@ -237,13 +237,13 @@
         ]
       },
       {
-        "name": "Central Building",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Central Building"
           }
         ],
         "map_locations": [
@@ -255,13 +255,13 @@
         ]
       },
       {
-        "name": "East Plaza",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "East Plaza"
           }
         ],
         "map_locations": [
@@ -273,16 +273,16 @@
         ]
       },
       {
-        "name": "Hidden Floor Room",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVLower"
         ],
         "sections": [
           {
-            "name": "Item 1"
+            "name": "Hidden Floor Room Item 1"
           },
           {
-            "name": "Item 2"
+            "name": "Hidden Floor Room Item 2"
           }
         ],
         "map_locations": [
@@ -294,13 +294,13 @@
         ]
       },
       {
-        "name": "Mirror Room Left",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Mirror Room Left"
           }
         ],
         "map_locations": [
@@ -312,13 +312,13 @@
         ]
       },
       {
-        "name": "Mirror Room Right",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVLower, mirror"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Mirror Room Right"
           }
         ],
         "map_locations": [
@@ -330,14 +330,14 @@
         ]
       },
       // {
-      //   "name": "Moat Drain Switch",
+      //   "name": "The Lost Village",
       //   "access_rules": [
       //     "@The Lost Village Regions/LVLower, $mediumuppies",
       //     "@The Lost Village Regions/LVLower, armor"
       //   ],
       //   "sections": [
       //     {
-      //       "name": ""
+      //       "name": "Moat Drain Switch"
       //     }
       //   ],
       //   "map_locations": [
@@ -349,13 +349,13 @@
       //   ]
       // },
       {
-        "name": "Axe Armor Hallway",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVUndergroundTop"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Axe Armor Hallway"
           }
         ],
         "map_locations": [
@@ -367,13 +367,13 @@
         ]
       },
       {
-        "name": "Underground Shaft",
+        "name": "The Lost Village",
         "access_rules": [
           "@The Lost Village Regions/LVUndergroundTop"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Underground Shaft"
           }
         ],
         "map_locations": [
@@ -390,13 +390,13 @@
     "name": "Wizardry Lab",
     "children": [
       {
-        "name": "Mirror Room",
+        "name": "Wizardry Lab",
         "access_rules": [
           "@Wizardry Lab Regions/WLMain, ice"
         ],
         "sections": [
           {
-            "name": "Outside Mirror"
+            "name": "Mirror Room"
           },
           {
             "name": "Mirror World",
@@ -414,13 +414,13 @@
         ]
       },
       {
-        "name": "Main Entry Shaft",
+        "name": "Wizardry Lab",
         "access_rules": [
           "@Wizardry Lab Regions/WLMain"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Main Entry Shaft"
           }
         ],
         "map_locations": [
@@ -432,13 +432,13 @@
         ]
       },
       {
-        "name": "Upper Big Room",
+        "name": "Wizardry Lab",
         "access_rules": [
           "@Wizardry Lab Regions/WLMain"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Upper Big Room"
           }
         ],
         "map_locations": [
@@ -450,13 +450,13 @@
         ]
       },
       {
-        "name": "West Gate",
+        "name": "Wizardry Lab",
         "access_rules": [
           "@Wizardry Lab Regions/WLMain"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "West Gate"
           }
         ],
         "map_locations": [
@@ -468,13 +468,13 @@
         ]
       },
       {
-        "name": "Behind West Gate",
+        "name": "Wizardry Lab",
         "access_rules": [
           "@Wizardry Lab Regions/WLWestGate"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Behind West Gate"
           }
         ],
         "map_locations": [
@@ -486,13 +486,13 @@
         ]
       },
       {
-        "name": "Ceiling Secret Room",
+        "name": "Wizardry Lab",
         "access_rules": [
           "@Wizardry Lab Regions/WLMain, ice"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Ceiling Secret Room"
           }
         ],
         "map_locations": [
@@ -504,13 +504,13 @@
         ]
       },
       {
-        "name": "Balore Soul",
+        "name": "Wizardry Lab",
         "access_rules": [
           "@Wizardry Lab Regions/WLMain, seal1"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Balore Soul"
           }
         ],
         "map_locations": [
@@ -522,13 +522,13 @@
         ]
       },
       {
-        "name": "East Gate",
+        "name": "Wizardry Lab",
         "access_rules": [
           "@Wizardry Lab Regions/WLEastGate"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "East Gate"
           }
         ],
         "map_locations": [
@@ -540,13 +540,13 @@
         ]
       },
       {
-        "name": "Money Gate",
+        "name": "Wizardry Lab",
         "access_rules": [
           "@Wizardry Lab Regions/WLSunken, water"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Money Gate"
           }
         ],
         "map_locations": [
@@ -558,13 +558,13 @@
         ]
       },
       {
-        "name": "Underwater Left",
+        "name": "Wizardry Lab",
         "access_rules": [
           "@Wizardry Lab Regions/WLSunken, water"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Underwater Left"
           }
         ],
         "map_locations": [
@@ -576,13 +576,13 @@
         ]
       },
       {
-        "name": "Underwater Right",
+        "name": "Wizardry Lab",
         "access_rules": [
           "@Wizardry Lab Regions/WLSunken, water"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Underwater Right"
           }
         ],
         "map_locations": [
@@ -594,13 +594,13 @@
         ]
       },
       {
-        "name": "Above Water",
+        "name": "Wizardry Lab",
         "access_rules": [
           "@Wizardry Lab Regions/WLSunken, water"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Above Water"
           }
         ],
         "map_locations": [
@@ -617,13 +617,13 @@
     "name": "Garden of Madness",
     "children": [
       {
-        "name": "Lower Tree Hallway",
+        "name": "Garden of Madness",
         "access_rules": [
           "@Garden of Madness Regions/GoMLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Lower Tree Hallway"
           }
         ],
         "map_locations": [
@@ -635,13 +635,13 @@
         ]
       },
       {
-        "name": "West Big Room",
+        "name": "Garden of Madness",
         "access_rules": [
           "@Garden of Madness Regions/GoMLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "West Big Room"
           }
         ],
         "map_locations": [
@@ -653,13 +653,13 @@
         ]
       },
       {
-        "name": "West Big Room Alcove",
+        "name": "Garden of Madness",
         "access_rules": [
           "@Garden of Madness Regions/GoMLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "West Big Room Alcove"
           }
         ],
         "map_locations": [
@@ -671,13 +671,13 @@
         ]
       },
       {
-        "name": "West Upper Room",
+        "name": "Garden of Madness",
         "access_rules": [
           "@Garden of Madness Regions/GoMUpper"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "West Upper Room"
           }
         ],
         "map_locations": [
@@ -689,13 +689,13 @@
         ]
       },
       {
-        "name": "Hidden Room",
+        "name": "Garden of Madness",
         "access_rules": [
           "@Garden of Madness Regions/GoMUpper, $biguppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Hidden Room"
           }
         ],
         "map_locations": [
@@ -707,13 +707,13 @@
         ]
       },
       {
-        "name": "Center Room",
+        "name": "Garden of Madness",
         "access_rules": [
           "@Garden of Madness Regions/GoMLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Center Room"
           }
         ],
         "map_locations": [
@@ -725,13 +725,13 @@
         ]
       },
       {
-        "name": "Money Gate",
+        "name": "Garden of Madness",
         "access_rules": [
           "@Garden of Madness Regions/GoMLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Money Gate"
           }
         ],
         "map_locations": [
@@ -743,13 +743,13 @@
         ]
       },
       {
-        "name": "Underground Room",
+        "name": "Garden of Madness",
         "access_rules": [
           "@Garden of Madness Regions/GoMWaterBlocked, $mediumuppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Underground Room"
           }
         ],
         "map_locations": [
@@ -761,13 +761,13 @@
         ]
       },
       {
-        "name": "East Alcove",
+        "name": "Garden of Madness",
         "access_rules": [
           "@Garden of Madness Regions/GoMEastGate"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "East Alcove"
           }
         ],
         "map_locations": [
@@ -777,15 +777,15 @@
             "y": 472
           }
         ]
-      },
+      // },
       // {
-      //   "name": "Central Chamber",
+      //   "name": "Garden of Madness",
       //   "access_rules": [
       //     "@Garden of Madness Regions/GoMLower, talisman, seal5"
       //   ],
       //   "sections": [
       //     {
-      //       "name": ""
+      //       "name": "Central Chamber"
       //     }
       //   ],
       //   "map_locations": [
@@ -795,20 +795,20 @@
       //       "y": 492
       //     }
       //   ]
-      // }
+      }
     ]
   },
   {
     "name": "The Dark Chapel",
     "children": [
       {
-        "name": "Entrance Alcove",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DC, $mediumuppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Entrance Alcove"
           }
         ],
         "map_locations": [
@@ -820,13 +820,13 @@
         ]
       },
       {
-        "name": "Catacombs Top Left",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DC"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Catacombs Top Left"
           }
         ],
         "map_locations": [
@@ -838,13 +838,13 @@
         ]
       },
       {
-        "name": "Catacombs Middle Room",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DC"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Catacombs Middle Room"
           }
         ],
         "map_locations": [
@@ -856,13 +856,13 @@
         ]
       },
       {
-        "name": "Catacombs Soul Barrier",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DC"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Catacombs Soul Barrier"
           }
         ],
         "map_locations": [
@@ -874,16 +874,16 @@
         ]
       },
       {
-        "name": "Catacombs Mirror Room",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DC"
         ],
         "sections": [
           {
-            "name": "Outside Mirror"
+            "name": "Catacombs Mirror Room"
           },
           {
-            "name": "Mirror World",
+            "name": "Catacombs Mirror World",
             "access_rules": [
               "mirror"
             ]
@@ -898,13 +898,13 @@
         ]
       },
       {
-        "name": "Big Square Room Alcove",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DC, $mediumuppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Big Square Room Alcove"
           }
         ],
         "map_locations": [
@@ -916,13 +916,13 @@
         ]
       },
       {
-        "name": "Main Room",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DC"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Main Room"
           }
         ],
         "map_locations": [
@@ -934,13 +934,13 @@
         ]
       },
       {
-        "name": "Bell Room In Bell",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DC, zip"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Bell Room In Bell"
           }
         ],
         "map_locations": [
@@ -952,13 +952,13 @@
         ]
       },
       {
-        "name": "Bell Room Top Left",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DC"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Bell Room Top Left"
           }
         ],
         "map_locations": [
@@ -970,13 +970,13 @@
         ]
       },
       {
-        "name": "Bell Room Right",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DC, $mediumuppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Bell Room Right"
           }
         ],
         "map_locations": [
@@ -988,13 +988,13 @@
         ]
       },
       {
-        "name": "Post-Dimitrii Room",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DC, seal2, $smalluppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Post-Dimitrii Room"
           }
         ],
         "map_locations": [
@@ -1006,13 +1006,13 @@
         ]
       },
       {
-        "name": "Malphas Soul",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DC, seal2"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Malphas Soul"
           }
         ],
         "map_locations": [
@@ -1024,14 +1024,14 @@
         ]
       },
       {
-        "name": "Big Room Top Right",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DCBigRoom, $biguppies",
           "@The Dark Chapel Regions/DCBigRoom, puppet, jump"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Big Room Top Right"
           }
         ],
         "map_locations": [
@@ -1043,13 +1043,13 @@
         ]
       },
       {
-        "name": "Big Room Central",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DCBigRoom"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Big Room Central"
           }
         ],
         "map_locations": [
@@ -1061,13 +1061,13 @@
         ]
       },
       {
-        "name": "Big Room Lower",
+        "name": "The Dark Chapel",
         "access_rules": [
           "@The Dark Chapel Regions/DCBigRoom, $biguppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Big Room Lower"
           }
         ],
         "map_locations": [
@@ -1084,13 +1084,13 @@
     "name": "Demon Guest House",
     "children": [
       {
-        "name": "Secret Room",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHMain, $biguppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Secret Room"
           }
         ],
         "map_locations": [
@@ -1102,13 +1102,13 @@
         ]
       },
       {
-        "name": "Antechamber",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHMain"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Antechamber"
           }
         ],
         "map_locations": [
@@ -1120,13 +1120,13 @@
         ]
       },
       {
-        "name": "Lower Main Chamber Bottom Room",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHMain"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Lower Main Chamber Bottom Room"
           }
         ],
         "map_locations": [
@@ -1138,13 +1138,13 @@
         ]
       },
       {
-        "name": "Puppet Hole",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHPuppetWallRight"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Puppet Hole"
           }
         ],
         "map_locations": [
@@ -1156,13 +1156,13 @@
         ]
       },
       {
-        "name": "Number 1 Room",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHNumberPuzzleWest"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Number 1 Room"
           }
         ],
         "map_locations": [
@@ -1174,13 +1174,13 @@
         ]
       },
       {
-        "name": "Number 5 Room",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHNumberPuzzle"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Number 5 Room"
           }
         ],
         "map_locations": [
@@ -1192,13 +1192,13 @@
         ]
       },
       {
-        "name": "Number 8 Room",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Number 8 Room"
           }
         ],
         "map_locations": [
@@ -1210,13 +1210,13 @@
         ]
       },
       {
-        "name": "Number 9 Room",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Number 9 Room"
           }
         ],
         "map_locations": [
@@ -1228,13 +1228,13 @@
         ]
       },
       {
-        "name": "Number 12 Room",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Number 12 Room"
           }
         ],
         "map_locations": [
@@ -1246,13 +1246,13 @@
         ]
       },
       {
-        "name": "Mirror Room",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
         ],
         "sections": [
           {
-            "name": "Outside Mirror"
+            "name": "Mirror Room"
           },
           {
             "name": "Mirror World",
@@ -1270,13 +1270,13 @@
         ]
       },
       {
-        "name": "Doll Alcove",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHWestWing"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Doll Alcove"
           }
         ],
         "map_locations": [
@@ -1288,13 +1288,13 @@
         ]
       },
       {
-        "name": "West Wing Left",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHWestWing, $mediumuppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "West Wing Left"
           }
         ],
         "map_locations": [
@@ -1306,13 +1306,13 @@
         ]
       },
       {
-        "name": "West Wing Right",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHWestWing, $mediumuppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "West Wing Right"
           }
         ],
         "map_locations": [
@@ -1324,13 +1324,13 @@
         ]
       },
       {
-        "name": "Puppet Master Soul",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHWestWing, $mediumuppies, seal3"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Puppet Master Soul"
           }
         ],
         "map_locations": [
@@ -1342,13 +1342,13 @@
         ]
       },
       {
-        "name": "Ice Block Room Left",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHWestWing, $smalluppies, ice"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Ice Block Room Left"
           }
         ],
         "map_locations": [
@@ -1360,13 +1360,13 @@
         ]
       },
       {
-        "name": "Ice Block Room Right",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHWestWing, $smalluppies, ice"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Ice Block Room Right"
           }
         ],
         "map_locations": [
@@ -1378,13 +1378,13 @@
         ]
       },
       {
-        "name": "Central Main Chamber Bottom Room",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHMain"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Central Main Chamber Bottom Room"
           }
         ],
         "map_locations": [
@@ -1396,13 +1396,13 @@
         ]
       },
       {
-        "name": "Central Main Chamber Middle Room",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHMain"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Central Main Chamber Middle Room"
           }
         ],
         "map_locations": [
@@ -1414,13 +1414,13 @@
         ]
       },
       {
-        "name": "Central Main Chamber Top Room",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHMain"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Central Main Chamber Top Room"
           }
         ],
         "map_locations": [
@@ -1432,13 +1432,13 @@
         ]
       },
       {
-        "name": "Paranoia Soul",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Paranoia Soul"
           }
         ],
         "map_locations": [
@@ -1450,13 +1450,13 @@
         ]
       },
       {
-        "name": "Beyond Paranoia",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Beyond Paranoia"
           }
         ],
         "map_locations": [
@@ -1468,13 +1468,13 @@
         ]
       },
       {
-        "name": "Paranoia Mirror",
+        "name": "Demon Guest House",
         "access_rules": [
           "@Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4, mirror"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Paranoia Mirror"
           }
         ],
         "map_locations": [
@@ -1491,13 +1491,13 @@
     "name": "Condemned Tower",
     "children": [
       {
-        "name": "1F West",
+        "name": "Condemned Tower",
         "access_rules": [
           "@Condemned Tower Regions/CTBottom, $biguppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "1F West"
           }
         ],
         "map_locations": [
@@ -1509,13 +1509,13 @@
         ]
       },
       {
-        "name": "1F East",
+        "name": "Condemned Tower",
         "access_rules": [
           "@Condemned Tower Regions/CTBottom"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "1F East"
           }
         ],
         "map_locations": [
@@ -1527,13 +1527,13 @@
         ]
       },
       {
-        "name": "2F East",
+        "name": "Condemned Tower",
         "access_rules": [
           "@Condemned Tower Regions/CTBottom, $mediumuppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "2F East"
           }
         ],
         "map_locations": [
@@ -1545,13 +1545,13 @@
         ]
       },
       {
-        "name": "5F West",
+        "name": "Condemned Tower",
         "access_rules": [
           "@Condemned Tower Regions/CTTop"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "5F West"
           }
         ],
         "map_locations": [
@@ -1563,13 +1563,13 @@
         ]
       },
       {
-        "name": "7F West",
+        "name": "Condemned Tower",
         "access_rules": [
           "@Condemned Tower Regions/CTTop"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "7F West"
           }
         ],
         "map_locations": [
@@ -1581,13 +1581,13 @@
         ]
       },
       {
-        "name": "Gergoth Soul",
+        "name": "Condemned Tower",
         "access_rules": [
           "@Condemned Tower Regions/CTTop, seal3"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Gergoth Soul"
           }
         ],
         "map_locations": [
@@ -1599,13 +1599,13 @@
         ]
       },
       {
-        "name": "Top of the Tower",
+        "name": "Condemned Tower",
         "access_rules": [
           "@Condemned Tower Regions/CTTop, seal3"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Top of the Tower"
           }
         ],
         "map_locations": [
@@ -1622,13 +1622,13 @@
     "name": "Cursed Clock Tower",
     "children": [
       {
-        "name": "Money Gate",
+        "name": "Cursed Clock Tower",
         "access_rules": [
           "@Cursed Clock Tower Regions/CCTEntrance"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Money Gate"
           }
         ],
         "map_locations": [
@@ -1640,13 +1640,13 @@
         ]
       },
       {
-        "name": "Lower Corner Room",
+        "name": "Cursed Clock Tower",
         "access_rules": [
           "@Cursed Clock Tower Regions/CCTEntrance"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Lower Corner Room"
           }
         ],
         "map_locations": [
@@ -1658,13 +1658,13 @@
         ]
       },
       {
-        "name": "Mirror Room",
+        "name": "Cursed Clock Tower",
         "access_rules": [
           "@Cursed Clock Tower Regions/CCTCentral"
         ],
         "sections": [
           {
-            "name": "Outside Mirror"
+            "name": "Mirror Room"
           },
           {
             "name": "Mirror World",
@@ -1682,13 +1682,13 @@
         ]
       },
       {
-        "name": "Bugbear Hallway",
+        "name": "Cursed Clock Tower",
         "access_rules": [
           "@Cursed Clock Tower Regions/CCTCentral"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Bugbear Hallway"
           }
         ],
         "map_locations": [
@@ -1700,13 +1700,13 @@
         ]
       },
       {
-        "name": "East Gear Room",
+        "name": "Cursed Clock Tower",
         "access_rules": [
           "@Cursed Clock Tower Regions/CCTCentral"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "East Gear Room"
           }
         ],
         "map_locations": [
@@ -1718,13 +1718,13 @@
         ]
       },
       {
-        "name": "Spike Room Secret",
+        "name": "Cursed Clock Tower",
         "access_rules": [
           "@Cursed Clock Tower Regions/CCTCentral, bat"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Spike Room Secret"
           }
         ],
         "map_locations": [
@@ -1736,13 +1736,13 @@
         ]
       },
       {
-        "name": "Zephyr Soul",
+        "name": "Cursed Clock Tower",
         "access_rules": [
           "@Cursed Clock Tower Regions/CCTBossArea, seal4"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Zephyr Soul"
           }
         ],
         "map_locations": [
@@ -1759,13 +1759,13 @@
     "name": "Subterranean Hell",
     "children": [
       {
-        "name": "Rahab Soul",
+        "name": "Subterranean Hell",
         "access_rules": [
           "@Subterranean Hell Regions/SHTopEntrance, seal3"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Rahab Soul"
           }
         ],
         "map_locations": [
@@ -1777,13 +1777,13 @@
         ]
       },
       {
-        "name": "Giant Underwater Room Center Left",
+        "name": "Subterranean Hell",
         "access_rules": [
           "@Subterranean Hell Regions/SHEast, water"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Giant Underwater Room Center Left"
           }
         ],
         "map_locations": [
@@ -1795,13 +1795,13 @@
         ]
       },
       {
-        "name": "Giant Underwater Room Center Right",
+        "name": "Subterranean Hell",
         "access_rules": [
           "@Subterranean Hell Regions/SHEast, water"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Giant Underwater Room Center Right"
           }
         ],
         "map_locations": [
@@ -1813,13 +1813,13 @@
         ]
       },
       {
-        "name": "Giant Underwater Room Top Left",
+        "name": "Subterranean Hell",
         "access_rules": [
           "@Subterranean Hell Regions/SHEast, water"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Giant Underwater Room Top Left"
           }
         ],
         "map_locations": [
@@ -1831,13 +1831,13 @@
         ]
       },
       {
-        "name": "Giant Underwater Room Bottom Right",
+        "name": "Subterranean Hell",
         "access_rules": [
           "@Subterranean Hell Regions/SHEast, water"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Giant Underwater Room Bottom Right"
           }
         ],
         "map_locations": [
@@ -1849,14 +1849,14 @@
         ]
       },
       {
-        "name": "Near Save Room",
+        "name": "Subterranean Hell",
         "access_rules": [
           "@Subterranean Hell Regions/SHCentralExit, $mediumuppies",
           "@Subterranean Hell Regions/SHCentralExit, armor"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Near Save Room"
           }
         ],
         "map_locations": [
@@ -1868,13 +1868,13 @@
         ]
       },
       {
-        "name": "Central Lower Room",
+        "name": "Subterranean Hell",
         "access_rules": [
           "@Subterranean Hell Regions/SHCentralLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Central Lower Room"
           }
         ],
         "map_locations": [
@@ -1886,13 +1886,13 @@
         ]
       },
       {
-        "name": "Central Upper Room",
+        "name": "Subterranean Hell",
         "access_rules": [
           "@Subterranean Hell Regions/SHCentralLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Central Upper Room"
           }
         ],
         "map_locations": [
@@ -1904,13 +1904,13 @@
         ]
       },
       {
-        "name": "Behind Waterfall",
+        "name": "Subterranean Hell",
         "access_rules": [
           "@Subterranean Hell Regions/SHCentralLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Behind Waterfall"
           }
         ],
         "map_locations": [
@@ -1922,13 +1922,13 @@
         ]
       },
       {
-        "name": "Waterfall Room Lower",
+        "name": "Subterranean Hell",
         "access_rules": [
           "@Subterranean Hell Regions/SHCentralLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Waterfall Room Lower"
           }
         ],
         "map_locations": [
@@ -1940,13 +1940,13 @@
         ]
       },
       {
-        "name": "Waterfall Room Middle",
+        "name": "Subterranean Hell",
         "access_rules": [
           "@Subterranean Hell Regions/SHCentralLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Waterfall Room Middle"
           }
         ],
         "map_locations": [
@@ -1958,13 +1958,13 @@
         ]
       },
       {
-        "name": "Waterfall Room Upper",
+        "name": "Subterranean Hell",
         "access_rules": [
           "@Subterranean Hell Regions/SHCentralLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Waterfall Room Upper"
           }
         ],
         "map_locations": [
@@ -1981,13 +1981,13 @@
     "name": "Silenced Ruins",
     "children": [
       {
-        "name": "Ice Block Room",
+        "name": "Silenced Ruins",
         "access_rules": [
           "@Silenced Ruins Regions/SR, ice"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Ice Block Room"
           }
         ],
         "map_locations": [
@@ -1999,13 +1999,13 @@
         ]
       },
       {
-        "name": "Bat Company Soul",
+        "name": "Silenced Ruins",
         "access_rules": [
           "@Silenced Ruins Regions/SR, seal4"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Bat Company Soul"
           }
         ],
         "map_locations": [
@@ -2017,13 +2017,13 @@
         ]
       },
       {
-        "name": "Mirror Room",
+        "name": "Silenced Ruins",
         "access_rules": [
           "@Silenced Ruins Regions/SRBackExit"
         ],
         "sections": [
           {
-            "name": "Outside Mirror"
+            "name": "Mirror Room"
           },
           {
             "name": "Mirror World"
@@ -2043,13 +2043,13 @@
     "name": "The Pinnacle",
     "children": [
       {
-        "name": "Lower Hidden Room",
+        "name": "The Pinnacle",
         "access_rules": [
           "@The Pinnacle Regions/TPLower"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Lower Hidden Room"
           }
         ],
         "map_locations": [
@@ -2061,13 +2061,13 @@
         ]
       },
       {
-        "name": "Under Big Staircase",
+        "name": "The Pinnacle",
         "access_rules": [
           "@The Pinnacle Regions/TP, $biguppies"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Under Big Staircase"
           }
         ],
         "map_locations": [
@@ -2079,13 +2079,13 @@
         ]
       },
       {
-        "name": "Central Indoor Room",
+        "name": "The Pinnacle",
         "access_rules": [
           "@The Pinnacle Regions/TP"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Central Indoor Room"
           }
         ],
         "map_locations": [
@@ -2097,13 +2097,13 @@
         ]
       },
       {
-        "name": "Central Outdoor Room",
+        "name": "The Pinnacle",
         "access_rules": [
           "@The Pinnacle Regions/TP"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Central Outdoor Room"
           }
         ],
         "map_locations": [
@@ -2115,13 +2115,13 @@
         ]
       },
       {
-        "name": "Before Throne Room Secret Left",
+        "name": "The Pinnacle",
         "access_rules": [
           "@The Pinnacle Regions/TPThroneRoom"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Before Throne Room Secret Left"
           }
         ],
         "map_locations": [
@@ -2133,13 +2133,13 @@
         ]
       },
       {
-        "name": "Before Throne Room Secret Right",
+        "name": "The Pinnacle",
         "access_rules": [
           "@The Pinnacle Regions/TPThroneRoom"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Before Throne Room Secret Right"
           }
         ],
         "map_locations": [
@@ -2151,13 +2151,13 @@
         ]
       },
       {
-        "name": "Aguni Soul",
+        "name": "The Pinnacle",
         "access_rules": [
           "@The Pinnacle Regions/TPThroneRoom, seal4, mirror"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Aguni Soul"
           }
         ],
         "map_locations": [
@@ -2169,13 +2169,13 @@
         ]
       },
       {
-        "name": "Beyond Throne Room",
+        "name": "The Pinnacle",
         "access_rules": [
           "@The Pinnacle Regions/TPThroneRoom"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Beyond Throne Room"
           }
         ],
         "map_locations": [
@@ -2192,13 +2192,13 @@
     "name": "Mine of Judgement",
     "children": [
       {
-        "name": "Death Soul",
+        "name": "Mine of Judgement",
         "access_rules": [
           "@Mine of Judgement Regions/MoJ, $mediumuppies, seal5"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Death Soul"
           }
         ],
         "map_locations": [
@@ -2215,13 +2215,13 @@
     "name": "The Abyss",
     "children": [
       {
-        "name": "Sand Area",
+        "name": "The Abyss",
         "access_rules": [
           "@The Abyss Regions/TA"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Sand Area"
           }
         ],
         "map_locations": [
@@ -2233,13 +2233,13 @@
         ]
       },
       {
-        "name": "Ice Area",
+        "name": "The Abyss",
         "access_rules": [
           "@The Abyss Regions/TA"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Ice Area"
           }
         ],
         "map_locations": [
@@ -2251,13 +2251,13 @@
         ]
       },
       {
-        "name": "Abaddon Soul",
+        "name": "The Abyss",
         "access_rules": [
           "@The Abyss Regions/TABeyondAbaddon"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "Abaddon Soul"
           }
         ],
         "map_locations": [
@@ -2268,14 +2268,38 @@
           }
         ]
       },
+      {
+        "name": "The Abyss",
+        "sections": [
+          {
+            "name": "Sand Area",
+            "ref": "The Abyss/The Abyss/Sand Area"
+          },
+          {
+            "name": "Ice Area",
+            "ref": "The Abyss/The Abyss/Ice Area"
+          },
+          {
+            "name": "Abaddon Soul",
+            "ref": "The Abyss/The Abyss/Abaddon Soul"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 1172,
+            "y": 892
+          }
+        ]
+      // },
       // {
-      //   "name": "Abyss Center",
+      //   "name": "The Abyss",
       //   "access_rules": [
       //     "@The Abyss Regions/TABeyondAbaddon, $biguppies"
       //   ],
       //   "sections": [
       //     {
-      //       "name": ""
+      //       "name": "Abyss Center"
       //     }
       //   ],
       //   "map_locations": [
@@ -2286,7 +2310,7 @@
       //       "y": 472
       //     }
       //   ]
-      // }
+      }
     ]
   },
   {
