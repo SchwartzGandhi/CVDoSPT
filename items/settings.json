@@ -2,24 +2,24 @@
     {
         "name": "Goal",
         "type": "progressive",
-        "allow_disabled": true,
+        "loop": true,
+        "allow_disabled": false,
         "initial_stage_idx": 0,
-        "codes": "goal",
         "stages": [
             {
                 "img": "images/items/progressive.png",
-                "codes": "throneroom",
-                "inherit_codes": true
+                "codes": "goal, throneroom",
+                "inherit_codes": false
             },
             {
-                "img": "images/items/progressive_2.png",
-                "codes": "abyss",
-                "inherit_codes": true
+                "img": "images/items/dark.png",
+                "codes": "goal, abyss",
+                "inherit_codes": false
             },
             {
-                "img": "images/items/progressive_2.png",
-                "codes": "abyssplus",
-                "inherit_codes": true
+                "img": "images/boss/abaddon.png",
+                "codes": "goal, abyssplus",
+                "inherit_codes": false
             }
         ]
     }
