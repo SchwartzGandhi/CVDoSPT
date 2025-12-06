@@ -1,11 +1,12 @@
 {
     "versions": [
         {
-            "package_version": "1.0.2.4",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/1.4/CVDoSPT.zip",
-            "sha256": "0654987379c716639d5b419a77f5b1087501918293e60ff4164483f2f0d1ecb4",
+            "package_version": "1.0.3.0",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/1.5/CVDoSPT.zip",
+            "sha256": "61571324071e6b0224d718e0d2c90fd1ce570f0692ea642155b2ca11b01e91ad",
             "changelog": [
-                "Logic can now expect you to use a warp room to get to lower lost village"
+                "Goal can now be configured in the pack settings popup (autotracking for this coming soon)",
+                "Entering the Abyss now logically requires seal 5"
             ]
         }
     ]
