@@ -1932,8 +1932,19 @@
         "sections": [
           {
             "name": "Beyond Throne Room",
-            "ref": "The Pinnacle/Beyond Throne Room/"
-          }
+            "ref": "The Pinnacle/Beyond Throne Room/",
+            "visibility_rules": [
+              "abyss",
+              "abyssplus"
+            ]
+          },
+          // {
+          //   "name": "Defeat Menace",
+          //   "ref": "The Abyss/Abyss Center/",
+          //   "visibility_rules": [
+          //     "throneroom"
+          //   ]
+          // }
         ],
         "map_locations": [
           {
@@ -2018,6 +2029,46 @@
         ]
       },
       {
+        "name": "Abyss Center",
+        "visibility_rules": [
+          "abyss",
+          "abyssplus"
+        ],
+        "sections": [
+          {
+            "name": "Defeat Menace",
+            "ref": "The Abyss/Abyss Center/"
+          }
+        ],
+        "location_size": 24,
+        "map_locations": [
+          {
+            "map": "The Abyss",
+            "x": 652,
+            "y": 472
+          }
+        ]
+      },
+      // {
+      //   "name": "Beyond Throne Room",
+      //   "visibility_rules": [
+      //     "throneroom"
+      //   ],
+      //   "sections": [
+      //     {
+      //       "name": "Defeat Menace",
+      //       "ref": "The Abyss/Abyss Center/"
+      //     }
+      //   ],
+      //   "map_locations": [
+      //     {
+      //       "map": "Dracula's Castle",
+      //       "x": 532,
+      //       "y": 112
+      //     }
+      //   ]
+      // },
+      {
         "name": "The Abyss",
         "sections": [
           {
@@ -2031,6 +2082,10 @@
           {
             "name": "Abaddon Soul",
             "ref": "The Abyss/Abaddon Soul/"
+          },
+          {
+            "name": "Defeat Menace",
+            "ref": "The Abyss/Abyss Center/"
           }
         ],
         "map_locations": [
@@ -2041,23 +2096,6 @@
           }
         ]
       }
-      // {
-      //   "name": "Abyss Center",
-      //   "sections": [
-      //     {
-      //       "name": "Abyss Center",
-            // "ref": "The Abyss/Abyss Center/"
-      //     }
-      //   ],
-      //   "map_locations": [
-      //     {
-      //       "map": "The Abyss",
-      //       "location_size": 24,
-      //       "x": 652,
-      //       "y": 472
-      //     }
-      //   ]
-      // }
     ]
   }
 ]

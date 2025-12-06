@@ -7,17 +7,17 @@
         "initial_stage_idx": 0,
         "stages": [
             {
-                "img": "images/items/progressive.png",
+                "img": "images/events/throneroom.png",
                 "codes": "goal, throneroom",
                 "inherit_codes": false
             },
             {
-                "img": "images/items/dark.png",
+                "img": "images/events/abyss.png",
                 "codes": "goal, abyss",
                 "inherit_codes": false
             },
             {
-                "img": "images/boss/abaddon.png",
+                "img": "images/events/abyssplus.png",
                 "codes": "goal, abyssplus",
                 "inherit_codes": false
             }

@@ -500,6 +500,10 @@
       },
       {
         "name": "Central Chamber",
+        "visibility_rules": [
+          "abyss",
+          "abyssplus"
+        ],
         "access_rules": [
           "@Garden of Madness Regions/GoMLower, talisman, seal5"
         ],
@@ -1361,6 +1365,10 @@
       },
       {
         "name": "Aguni Soul",
+        "visibility_rules": [
+          "abyss",
+          "abyssplus"
+        ],
         "access_rules": [
           "@The Pinnacle Regions/TPThroneRoom, seal4, mirror"
         ],
@@ -1372,6 +1380,10 @@
       },
       {
         "name": "Beyond Throne Room",
+        "visibility_rules": [
+          "abyss",
+          "abyssplus"
+        ],
         "access_rules": [
           "@The Pinnacle Regions/TPThroneRoom"
         ],
@@ -1388,6 +1400,10 @@
     "children": [
       {
         "name": "Death Soul",
+        "visibility_rules": [
+          "abyss",
+          "abyssplus"
+        ],
         "access_rules": [
           "@Mine of Judgement Regions/MoJ, $mediumuppies, seal5"
         ],
@@ -1404,6 +1420,10 @@
     "children": [
       {
         "name": "Sand Area",
+        "visibility_rules": [
+          "abyss",
+          "abyssplus"
+        ],
         "access_rules": [
           "@The Abyss Regions/TA"
         ],
@@ -1415,6 +1435,10 @@
       },
       {
         "name": "Ice Area",
+        "visibility_rules": [
+          "abyss",
+          "abyssplus"
+        ],
         "access_rules": [
           "@The Abyss Regions/TA"
         ],
@@ -1426,6 +1450,10 @@
       },
       {
         "name": "Abaddon Soul",
+        "visibility_rules": [
+          "abyss",
+          "abyssplus"
+        ],
         "access_rules": [
           "@The Abyss Regions/TABeyondAbaddon"
         ],
