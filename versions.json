@@ -1,12 +1,12 @@
 {
     "versions": [
         {
-            "package_version": "1.0.3.0",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/1.5/CVDoSPT.zip",
-            "sha256": "61571324071e6b0224d718e0d2c90fd1ce570f0692ea642155b2ca11b01e91ad",
+            "package_version": "1.0.3.1",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/1.6/CVDoSPT.zip",
+            "sha256": "3925b256f37206049d362b1bd71e4d38e1371eb46bfa77ed53decd51e6ed8a90",
             "changelog": [
-                "Goal can now be configured in the pack settings popup (autotracking for this coming soon)",
-                "Entering the Abyss now logically requires seal 5"
+                "Access to the Mine of Judgement/Menace now checks for what the current goal is set to",
+                "The mirror in the Silenced Ruins now needs paranoia to enter"
             ]
         }
     ]
