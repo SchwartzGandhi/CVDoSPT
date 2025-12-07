@@ -79,6 +79,8 @@ end
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
+	-- local goal = Tracker:FindObjectForCode('goal')
+	-- goal.CurrentStage = slot_data['goal']
 end
 
 -- called right after an AP slot is connected

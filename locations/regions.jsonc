@@ -24,8 +24,8 @@
                 "access_rules": [
                     "@The Lost Village Regions/LVUpper, seal1",
                     "@The Lost Village Regions/LVUndergroundTop",
-                    "@The Lost Village Regions/WarpRoom"
-                    // "@Wizardry Lab Regions/WLMain" MOAT DRAINED
+                    "@The Lost Village Regions/WarpRoom",
+                    "@Wizardry Lab Regions/WLMain, @The Lost Village/Moat Darin Switch/"
                 ]
             },
             {
@@ -434,9 +434,9 @@
             {
                 "name": "MoJ",
                 "access_rules": [
-                    "@Condemned Tower Regions/CTBottom",
+                    "abyss, @Condemned Tower Regions/CTBottom, @Garden of Madness/Central Chamber/",
+                    "abyssplus, @Condemned Tower Regions/CTBottom, @Garden of Madness/Central Chamber/, @The Pinnacle/Aguni Soul/",
                     "@The Abyss Regions/TA, $smalluppies"
-                    // TODO mine conditions
                 ]
             }
         ]

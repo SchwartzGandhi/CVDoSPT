@@ -1288,7 +1288,10 @@
             "name": "Outside Mirror"
           },
           {
-            "name": "Mirror World"
+            "name": "Mirror World",
+            "access_rules": [
+              "mirror"
+            ]
           }
         ]
       }
