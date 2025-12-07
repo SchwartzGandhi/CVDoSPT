@@ -1469,7 +1469,9 @@
       {
         "name": "Abyss Center",
         "access_rules": [
-          "@The Abyss Regions/TABeyondAbaddon, $biguppies"
+          "throneroom, @The Pinnacle Regions/TPThroneRoom",
+          "abyss, @The Abyss Regions/TABeyondAbaddon, $biguppies",
+          "abyssplus, @The Abyss Regions/TABeyondAbaddon, $biguppies"
         ],
         "sections": [
           {
