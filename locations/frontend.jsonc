@@ -2084,5 +2084,239 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Soulsanity Front End",
+    "children": [
+      {
+        "name": "The Lost Village",
+        "sections": [
+          {
+            "name": "Yeti Soul",
+            "ref": "Common Souls/Yeti Soul/"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Coloured Castle",
+            "x": 122,
+            "y": 492
+          }
+        ]
+      },
+      {
+        "name": "The Lost Village",
+        "sections": [
+          {
+            "name": "Skeleton Soul",
+            "ref": "Uncommon Souls/Skeleton Soul/"
+          },
+          {
+            "name": "Bat Soul",
+            "ref": "Uncommon Souls/Bat Soul/"
+          },
+          {
+            "name": "Armor Knight Soul",
+            "ref": "Uncommon Souls/Armor Knight Soul/"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Coloured Castle",
+            "x": 162,
+            "y": 482
+          }
+        ]
+      },
+      {
+        "name": "The Lost Village",
+        "sections": [
+          {
+            "name": "Skeleton Soul",
+            "ref": "Uncommon Souls/Skeleton Soul/"
+          },
+          {
+            "name": "Peeping Eye Soul",
+            "ref": "Rare Souls/Peeping Eye Soul/"
+          },
+          {
+            "name": "Skelerang Soul",
+            "ref": "Uncommon Souls/Skelerang Soul/"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Coloured Castle",
+            "x": 212,
+            "y": 462
+          }
+        ]
+      },
+      {
+        "name": "The Lost Village",
+        "sections": [
+          {
+            "name": "Warg Soul",
+            "ref": "Common Souls/Warg Soul/"
+          },
+          {
+            "name": "Zombie Soul",
+            "ref": "Uncommon Souls/Zombie Soul/"
+          },
+          {
+            "name": "Axe Armor Soul",
+            "ref": "Common Souls/Axe Armor Soul/"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Coloured Castle",
+            "x": 302,
+            "y": 482
+          }
+        ]
+      },
+      {
+        "name": "The Lost Village",
+        "sections": [
+          {
+            "name": "Student Witch Soul",
+            "ref": "Uncommon Souls/Student Witch Soul/"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Coloured Castle",
+            "x": 262,
+            "y": 542
+          }
+        ]
+      },
+      {
+        "name": "The Lost Village",
+        "sections": [
+          {
+            "name": "Spin Devil Soul",
+            "ref": "Common Souls/Spin Devil Soul/"
+          },
+          {
+            "name": "Skeleton Soul",
+            "ref": "Uncommon Souls/Skeleton Soul/"
+          },
+          {
+            "name": "Bat Soul",
+            "ref": "Uncommon Souls/Bat Soul/"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Coloured Castle",
+            "x": 222,
+            "y": 552
+          }
+        ]
+      },
+      {
+        "name": "The Lost Village",
+        "sections": [
+          {
+            "name": "Zombie Soul",
+            "ref": "Uncommon Souls/Zombie Soul/"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Coloured Castle",
+            "x": 262,
+            "y": 572
+          }
+        ]
+      },
+      {
+        "name": "The Lost Village",
+        "sections": [
+          {
+            "name": "Ouija Table Soul",
+            "ref": "Rare Souls/Ouija Table Soul/"
+          },
+          {
+            "name": "Zombie Soul",
+            "ref": "Uncommon Souls/Zombie Soul/"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Coloured Castle",
+            "x": 192,
+            "y": 542
+          },
+          {
+            "map": "Coloured Castle",
+            "x": 132,
+            "y": 542
+          }
+        ]
+      },
+      {
+        "name": "The Lost Village",
+        "sections": [
+          {
+            "name": "Bat Soul",
+            "ref": "Uncommon Souls/Bat Soul/"
+          },
+          {
+            "name": "Armor Knight Soul",
+            "ref": "Uncommon Souls/Armor Knight Soul/"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Coloured Castle",
+            "x": 162,
+            "y": 542
+          }
+        ]
+      },
+      {
+        "name": "The Lost Village",
+        "sections": [
+          {
+            "name": "Warg Soul",
+            "ref": "Uncommon Souls/Bat Soul/"
+          },
+          {
+            "name": "Skeleton Ape Soul",
+            "ref": "Common Souls/Skeleton Ape Soul/"
+          },
+          {
+            "name": "Hell Boar Soul",
+            "ref": "Uncommon Souls/Hell Boar Soul/"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Coloured Castle",
+            "x": 402,
+            "y": 482
+          }
+        ]
+      },
+      {
+        "name": "Demon Guest House",
+        "sections": [
+          {
+            "name": "Persephone Soul",
+            "ref": "Uncommon Souls/Persephone Soul/"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Coloured Castle",
+            "x": 282,
+            "y": 432
+          }
+        ]
+      }
+    ]
   }
 ]

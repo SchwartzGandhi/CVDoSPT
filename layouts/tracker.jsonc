@@ -34,15 +34,15 @@
                 ]
               }
             },
-            // {
-            //   "title": "Soulsanity",
-            //   "content": {
-            //     "type": "map",
-            //     "maps": [
-            //       "Coloured Castle"
-            //     ]
-            //   }
-            // }
+            {
+              "title": "Soulsanity",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Coloured Castle"
+                ]
+              }
+            }
           ]
         }
       ]
