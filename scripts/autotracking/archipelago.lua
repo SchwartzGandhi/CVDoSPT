@@ -79,8 +79,54 @@ end
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
-	-- local goal = Tracker:FindObjectForCode('goal')
-	-- goal.CurrentStage = slot_data['goal']
+	local goal = Tracker:FindObjectForCode('goal')
+	goal.CurrentStage = slot_data['goal']
+
+	local warp = Tracker:FindObjectForCode('warp')
+	local start = slot_data["starting_warp"]
+	if start == "Lost Village" then
+		warp.CurrentStage = 0
+	elseif start == "Wizardry Lab" then
+		warp.CurrentStage = 1
+	elseif start == "Garden of Madness" then
+		warp.CurrentStage = 2
+	elseif start == "Dark Chapel" then
+		warp.CurrentStage = 3
+	elseif start == "Demon Guest House" then
+		warp.CurrentStage = 4
+	elseif start == "Condemned Tower" then
+		warp.CurrentStage = 5
+	elseif start == "Cursed Clock Tower" then
+		warp.CurrentStage = 6
+	elseif start == "Subterranean Hell" then
+		warp.CurrentStage = 7
+	elseif start == "Silenced Ruins" then
+		warp.CurrentStage = 8
+	elseif start == "The Pinnacle" then
+		warp.CurrentStage = 9
+	elseif start == "Mine of Judgement" then
+		warp.CurrentStage = 10
+	elseif start == "The Abyss" then
+		warp.CurrentStage = 11
+	end
+
+	local soultoggle = Tracker:FindObjectForCode('soulsanity')
+	if slot_data["soul_randomizer"] == 2 then
+		soultoggle.Active = true
+	end
+
+	local soullevel = Tracker:FindObjectForCode('souls')
+	soullevel.CurrentStage = slot_data["soulsanity_level"]
+
+	local drawbridge = Tracker:FindObjectForCode('drawbridge')
+	if slot_data["open_drawbridge"] then
+		drawbridge.Active = true
+	end
+
+	local speed = Tracker:FindObjectForCode('speed')
+	if slot_data["speed_boost"] then
+		speed.Active = true
+	end
 end
 
 -- called right after an AP slot is connected

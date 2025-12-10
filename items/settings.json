@@ -22,5 +22,107 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "name": "Starting Warp",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "",
+                "codes": "warp, lvwarp",
+                "inherit_codes": false
+            },
+            {
+                "img": "",
+                "codes": "warp, wlwarp",
+                "inherit_codes": false
+            },
+            {
+                "img": "",
+                "codes": "warp, gomwarp",
+                "inherit_codes": false
+            },
+            {
+                "img": "",
+                "codes": "warp, dcwarp",
+                "inherit_codes": false
+            },
+            {
+                "img": "",
+                "codes": "warp, dmgwarp",
+                "inherit_codes": false
+            },
+            {
+                "img": "",
+                "codes": "warp, ctwarp",
+                "inherit_codes": false
+            },
+            {
+                "img": "",
+                "codes": "warp, cctwarp",
+                "inherit_codes": false
+            },
+            {
+                "img": "",
+                "codes": "warp, shwarp",
+                "inherit_codes": false
+            },
+            {
+                "img": "",
+                "codes": "warp, srwarp",
+                "inherit_codes": false
+            },
+            {
+                "img": "",
+                "codes": "warp, tpwarp",
+                "inherit_codes": false
+            },
+            {
+                "img": "",
+                "codes": "warp, mojwarp",
+                "inherit_codes": false
+            },
+            {
+                "img": "",
+                "codes": "warp, tawarp",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Soulsanity",
+        "type": "toggle",
+        "codes": "soulsanity"
+    },
+    {
+        "name": "Soulsanity Level",
+        "type": "progressive",
+        "loop": false,
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "codes": "souls, common"
+            },
+            {
+                "codes": "souls, uncommon"
+            },
+            {
+                "codes": "souls, rare"
+            }
+        ]
+    },
+    {
+        "name": "Open Drawbridge",
+        "type": "toggle",
+        "codes": "drawbridge"
+    },
+    {
+        "name": "Speed Boost",
+        "type": "toggle",
+        "codes": "speed"
     }
 ]
