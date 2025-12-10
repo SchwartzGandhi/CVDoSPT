@@ -26,7 +26,7 @@
                 "access_rules": [
                     "@The Lost Village Regions/LVUpper, seal1",
                     "@The Lost Village Regions/LVUndergroundTop",
-                    "@The Lost Village Regions/WarpRoom",
+                    "lvwarp, @The Lost Village Regions/WarpRoom",
                     "@Wizardry Lab Regions/WLMain, @The Lost Village/Moat Darin Switch/"
                 ]
             },
@@ -54,13 +54,14 @@
             {
                 "name": "LVCourtyard",
                 "access_rules": [
-                    "$gated, @The Lost Village Regions/LVUpper, $smalluppies",
-                    "drawbridge, @The Lost Village Regions/LVUpper"
+                    "dbclose, @The Lost Village Regions/LVUpper, $smalluppies",
+                    "dbopen, @The Lost Village Regions/LVUpper"
                 ]
             },
             {
                 "name": "WarpRoom",
                 "access_rules": [
+                    "@The Lost Village Regions/LVLower",
                     "@Wizardry Lab Regions/WLMain",
                     "@Garden of Madness Regions/GoMLower",
                     "@Demon Guest House Regions/DGHWestWing",
@@ -82,7 +83,11 @@
             {
                 "name": "WLMain",
                 "access_rules": [
-                    "@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/"
+                    "@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/",
+                    "wlwarp, @The Lost Village Regions/WarpRoom",
+                    "@Wizardry Lab Regions/WLEastGate",
+                    "@Wizardry Lab Regions/WLWestGate",
+                    "@Garden of Madness Regions/GoMLower"
                 ]
             },
             {
@@ -131,7 +136,8 @@
                     "@Garden of Madness Regions/GoMWaterBlocked, water",
                     "@Garden of Madness Regions/GoMUpper",
                     "@Demon Guest House Regions/DGHLower",
-                    "@The Dark Chapel Regions/DC"
+                    "@The Dark Chapel Regions/DC",
+                    "gomwarp, @The Lost Village Regions/WarpRoom"
                 ]
             },
             {
@@ -172,7 +178,8 @@
                     "@Garden of Madness Regions/GoMLower",
                     "@The Dark Chapel Regions/DCBigRoom",
                     "@Condemned Tower Regions/CTBottom",
-                    "@The Dark Chapel Regions/DC, $holes"
+                    "@The Dark Chapel Regions/DC, $holes",
+                    "dcwarp, @The Lost Village Regions/WarpRoom"
                 ]
             },
             {
@@ -237,7 +244,8 @@
                 "name": "DGHWestWing",
                 "access_rules": [
                     "@Demon Guest House Regions/DGHMain, $holes",
-                    "@Demon Guest House Regions/DGHNumberPuzzle"
+                    "@Demon Guest House Regions/DGHNumberPuzzle",
+                    "dghwarp, @The Lost Village Regions/WarpRoom"
                 ]
             },
             {
@@ -264,7 +272,8 @@
                     "@Condemned Tower Regions/CTBottom, $biguppies",
                     "@Condemned Tower Regions/CTBottom, armor, jump",
                     "@Condemned Tower Regions/CTBottom, armor, puppet",
-                    "@Cursed Clock Tower Regions/CCTEntrance, tkey"
+                    "@Cursed Clock Tower Regions/CCTEntrance, tkey",
+                    "ctwarp, @The Lost Village Regions/WarpRoom, seal3"
                 ]
             }
         ]
@@ -299,7 +308,8 @@
                 "name": "CCTPostBoss",
                 "access_rules": [
                     "@Cursed Clock Tower Regions/CCTBossArea, seal4",
-                    "@Cursed Clock Tower Regions/CCTExit, bat"
+                    "@Cursed Clock Tower Regions/CCTExit, bat",
+                    "cctwarp, @The Lost Village Regions/WarpRoom"
                 ]
             },
             {
@@ -358,7 +368,8 @@
                 "access_rules": [
                     "@Subterranean Hell Regions/SHCentralUpper, $mediumuppies",
                     "@Subterranean Hell Regions/SHShaftMiddle",
-                    "@Subterranean Hell Regions/SHShaftBottom"
+                    "@Subterranean Hell Regions/SHShaftBottom",
+                    "shwarp, @The Lost Village Regions/WarpRoom"
                 ]
             },
             {
@@ -418,7 +429,8 @@
                 "name": "SR",
                 "access_rules": [
                     "@Silenced Ruins Regions/SRAntechamber, dio",
-                    "@Silenced Ruins Regions/SRBackExit"
+                    "@Silenced Ruins Regions/SRBackExit",
+                    "srwarp, @The Lost Village Regions/WarpRoom"
                 ]
             },
             {
@@ -443,7 +455,8 @@
                 "access_rules": [
                     "@Cursed Clock Tower Regions/CCTExit",
                     "@The Pinnacle Regions/TP",
-                    "@Demon Guest House Regions/DGHUpper"
+                    "@Demon Guest House Regions/DGHUpper",
+                    "tpwarp, @The Lost Village Regions/WarpRoom, $mediumuppies"
                 ]
             },
             {
@@ -462,7 +475,8 @@
                 "access_rules": [
                     "abyss, @Condemned Tower Regions/CTBottom, @Garden of Madness/Central Chamber/",
                     "abyssplus, @Condemned Tower Regions/CTBottom, @Garden of Madness/Central Chamber/, @The Pinnacle/Aguni Soul/",
-                    "@The Abyss Regions/TA, $smalluppies"
+                    "@The Abyss Regions/TA, $smalluppies",
+                    "mojwarp, @The Lost Village Regions/WarpRoom"
                 ]
             }
         ]
@@ -479,7 +493,8 @@
             {
                 "name": "TABeyondAbaddon",
                 "access_rules": [
-                    "@The Abyss Regions/TA, $biguppies, seal5"
+                    "@The Abyss Regions/TA, $biguppies, seal5",
+                    "tawarp, @The Lost Village Regions/WarpRoom"
                 ]
             }
         ]
