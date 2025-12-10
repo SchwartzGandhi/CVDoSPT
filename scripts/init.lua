@@ -34,6 +34,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddLocations("locations/regions.jsonc")
     Tracker:AddLocations("locations/locations.jsonc")
     Tracker:AddLocations("locations/frontend.jsonc")
+    Tracker:AddLocations("locations/soulsanity.jsonc")
 end
 
 -- Layout

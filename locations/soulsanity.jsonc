@@ -1,0 +1,1287 @@
+[
+    {
+        "name": "Common Souls",
+        "access_rules": [
+            "common"
+        ],
+        "children": [
+            {
+                "name": "Axe Armor Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpper",
+                    "@The Lost Village Regions/LVUndergroundTop",
+                    "@Wizardry Lab Regions/WLMain",
+                    "@Demon Guest House Regions/DGHLower"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Warg Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpper",
+                    "@The Lost Village Regions/LVCourtyard"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Spin Devil Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/",
+                    "@The Lost Village Regions/LVLower"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Slime Soul",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLMain",
+                    "@Cursed Clock Tower Regions/CCTCentral"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Corpseweed Soul",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMLower",
+                    "@Garden of Madness Regions/GoMUpper",
+                    "@Garden of Madness Regions/GoMPostBoss"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Yeti Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpper, food"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Flying Humanoid Soul",
+                "access_rules": [
+                    "@Cursed Clock Tower Regions/CCTBossArea, yell"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Buer Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHWestWing",
+                    "@Condemned Tower Regions/CTTop"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Guillotiner Soul",
+                "access_rules": [
+                    "@The Dark Chapel Regions/DC",
+                    "@The Pinnacle Regions/TP",
+                    "@The Pinnacle Regions/TPLower"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Cave Troll Soul",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLEastGate",
+                    "@Subterranean Hell Regions/SHTopEntrance"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Merman Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUndergroundTop",
+                    "@Subterranean Hell Regions/SHEast",
+                    "@Subterranean Hell Regions/SHShaftBottom",
+                    "@Subterranean Hell Regions/SHCentralLower",
+                    "@Subterranean Hell Regions/SHCentralUpper",
+                    "@Subterranean Hell Regions/SHCentralExit"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Homunculus Soul",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLSunken"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Decarabia Soul",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHTopEntrance, seal3",
+                    "@Subterranean Hell Regions/SHEast, water"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Dead Mate Soul",
+                "access_rules": [
+                    "@Silenced Ruins Regions/SR"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Mothman Soul",
+                "access_rules": [
+                    "@The Pinnacle Regions/TP, shock"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Slogra Soul",
+                "access_rules": [
+                    "abyss, @Mine of Judgement Regions/MoJ",
+                    "abyssplus, @Mine of Judgement Regions/MoJ"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Black Panther Soul",
+                "access_rules": [
+                    "abyss, @The Abyss Regions/TABeyondAbaddon",
+                    "abyssplus, @The Abyss Regions/TABeyondAbaddon"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Uncommon Souls",
+        "access_rules": [
+            "uncommon"
+        ],
+        "children": [
+            {
+                "name": "Zombie Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpper",
+                    "@The Lost Village Regions/LVLower"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Bat Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpper",
+                    "@The Lost Village Regions/LVLower",
+                    "@Silenced Ruins Regions/SR"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Skeleton Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpper",
+                    "@The Lost Village Regions/LVLower",
+                    "@Wizardry Lab Regions/WLMain",
+                    "@Demon Guest House Regions/DGHLower",
+                    "@Silenced Ruins Regions/SR"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Skull Archer Soul",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLMain",
+                    "@Silenced Ruins Regions/SR"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Armor Knight Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpper, $biguppies",
+                    "@The Lost Village Regions/LVLower",
+                    "@Wizardry Lab Regions/WLMain"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Student Witch Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVLower, @The Lost Village/Moat Drain Switch/",
+                    "@Wizardry Lab Regions/WLMain",
+                    "@Demon Guest House Regions/DGHUpper"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Slaughterer Soul",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLMain"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Bomber Armor Soul",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLMain"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Golem Soul",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLMain"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Une Soul",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMLower",
+                    "@Garden of Madness Regions/GoMPostBoss",
+                    "@Subterranean Hell Regions/SHTopEntrance",
+                    "@Subterranean Hell Regions/SHCentralEastConnection"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Manticore Soul",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLMain"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Mollusca Soul",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMLower",
+                    "@Garden of Madness Regions/GoMUpper"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Rycuda Soul",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMLower",
+                    "@Garden of Madness Regions/GoMUpper"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Mandragora Soul",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMLower"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Yorick Soul",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMLower"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Catoblepas Soul",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMLower",
+                    "@The Dark Chapel Regions/DCCatacombsExit",
+                    "@Cursed Clock Tower Regions/CCTEntrance"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Ghost Dancer Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHMain",
+                    "@Demon Guest House Regions/DGHUpper",
+                    "@The Dark Chapel Regions/DC"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Mini Devil Soul",
+                "access_rules": [
+                    "@The Dark Chapel Regions/DC",
+                    "@The Dark Chapel Regions/DCBigRoom"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Quetzalcoatl Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHWestWing",
+                    "@The Dark Chapel Regions/DC, seal2",
+                    "@The Dark Chapel Regions/DCBigRoom"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Amalaric Sniper Soul",
+                "access_rules": [
+                    ""
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Great Armor Soul",
+                "access_rules": [
+                    "@The Dark Chapel Regions/DC"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Waiter Skeleton Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHMain",
+                    "@Silenced Ruins Regions/SRBackExit"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Persephone Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHMain",
+                    "@Demon Guest House Regions/DGHNumberPuzzleWest",
+                    "@Demon Guest House Regions/DGHUpper"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Witch Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHUpper",
+                    "@The Dark Chapel Regions/DC"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Lilith Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHMain",
+                    "@Demon Guest House Regions/DGHWestWing",
+                    "@Demon Guest House Regions/DGHUpper"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Killer Clown Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHMain",
+                    "@Demon Guest House Regions/DGHWestWing"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Skelerang Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpperDoorway",
+                    "@Garden of Madness Regions/GoMLower",
+                    "@Garden of Madness Regions/GoMPostBoss",
+                    "@Demon Guest House Regions/DGHPuppetWallRight",
+                    "@Demon Guest House Regions/DGHMain",
+                    "@Demon Guest House Regions/DGHUpper",
+                    "@Silenced Ruins Regions/SR"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Fleaman Soul",
+                "access_rules": [
+                    "@Condemned Tower Regions/CTTop"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Devil Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHMain",
+                    "@Cursed Clock Tower Regions/CCTExit",
+                    "@Subterranean Hell Regions/SHShaftMiddle",
+                    "@Silenced Ruins Regions/SR, ice"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Needles Soul",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHEast, water",
+                    "@Subterranean Hell Regions/SHCentralUpper"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Hell Boar Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVCourtyard, $biguppies",
+                    "@The Dark Chapel Regions/DC"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "White Dragon Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUndergroundBottom",
+                    "@The Dark Chapel Regions/DC",
+                    "abyss, @The Abyss Regions/TA",
+                    "abyssplus, @The Abyss Regions/TA"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Wakwak Tree Soul",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMEastGate"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Imp Soul",
+                "access_rules": [
+                    "@Cursed Clock Tower Regions/CCTEntrance",
+                    "@Cursed Clock Tower Regions/CCTCentral"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Harpy Soul",
+                "access_rules": [
+                    "@Cursed Clock Tower Regions/CCTEntrance",
+                    "@Cursed Clock Tower Regions/CCTCentral"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Malachi Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHUpper",
+                    "@Cursed Clock Tower Regions/CCTEntrance",
+                    "@The Pinnacle Regions/TPLower",
+                    "abyss, @The Abyss Regions/TA",
+                    "abyssplus, @The Abyss Regions/TA"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Larva Soul",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLSunken",
+                    "@Silenced Ruins Regions/SR"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Fish Head Soul",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHEast, water"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Ukoback Soul",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHShaftBottom",
+                    "@Subterranean Hell Regions/SHShaftTop",
+                    "@Subterranean Hell Regions/SHCentralUpper",
+                    "@Subterranean Hell Regions/SHCentralExit"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Killer Fish Soul",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHEast",
+                    "@Subterranean Hell Regions/SHShaftTop",
+                    "@Subterranean Hell Regions/SHCentralUpper"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Dead Pirate Soul",
+                "access_rules": [
+                    "@Cursed Clock Tower Regions/CCTEntrance",
+                    "@Subterranean Hell Regions/SHTopEntrance",
+                    "@Subterranean Hell Regions/SHShaftBottom",
+                    "@Subterranean Hell Regions/SHCentralLower",
+                    "@Subterranean Hell Regions/SHCentralUpper"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Frozen Shade Soul",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHEast",
+                    "@Subterranean Hell Regions/SHShaftMiddle",
+                    "@Subterranean Hell Regions/SHCentralLower",
+                    "@Subterranean Hell Regions/SHCentralUpper",
+                    "@Subterranean Hell Regions/SHCentralExit",
+                    "abyss, @The Abyss Regions/TA",
+                    "abyssplus, @The Abyss Regions/TA"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Disc Armor Soul",
+                "access_rules": [
+                    "@Condemned Tower Regions/CTTop"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Alura Une Soul",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHCentralEastConnection"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Mushussu Soul",
+                "access_rules": [
+                    "@The Pinnacle Regions/TPLower",
+                    "@The Pinnacle Regions/TP"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Succubus Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHUpper",
+                    "@The Pinnacle Regions/TPLower",
+                    "abyss, @The Abyss Regions/TABeyondAbaddon",
+                    "abyssplus, @The Abyss Regions/TABeyondAbaddon"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Werewolf Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHUpper",
+                    "@Condemned Tower Regions/CTTop",
+                    "@The Pinnacle Regions/TPLower",
+                    "@The Pinnacle Regions/TP"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Flame Demon Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHUpper",
+                    "@The Pinnacle Regions/TPLower"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Alastor Soul",
+                "access_rules": [
+                    "@The Pinnacle Regions/TP",
+                    "abyss, @The Abyss Regions/TA",
+                    "abyssplus, @The Abyss Regions/TA"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Ripper Soul",
+                "access_rules": [
+                    "abyss, @Mine of Judgement Regions/MoJ",
+                    "abyssplus, @Mine of Judgement Regions/MoJ"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Mud Demon Soul",
+                "access_rules": [
+                    "abyss, @The Abyss Regions/TA",
+                    "abyssplus, @The Abyss Regions/TA"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Gaibon Soul",
+                "access_rules": [
+                    "abyss, @Mine of Judgement Regions/MoJ",
+                    "abyssplus, @Mine of Judgement Regions/MoJ"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Malacoda Soul",
+                "access_rules": [
+                    "abyss, @The Abyss Regions/TA",
+                    "abyssplus, @The Abyss Regions/TA"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rare Souls",
+        "access_rules": [
+            "rare, soulring"
+        ],
+        "children": [
+            {
+                "name": "Ghost Soul",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLMain",
+                    "@The Dark Chapel Regions/DC"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Ouija Table Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVLower"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Peeping Eye Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUpper",
+                    "@The Lost Village Regions/LVUpperDoorway",
+                    "@Demon Guest House Regions/DGHLower",
+                    "@Silenced Ruins Regions/SR"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Skeleton Ape Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVCourtyard",
+                    "@Garden of Madness Regions/GoMLower",
+                    "@Garden of Madness Regions/GoMUpper",
+                    "@Garden of Madness Regions/GoMPostBoss",
+                    "@Condemned Tower Regions/CTTop"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Skeleton Farmer Soul",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMLower"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "The Creature Soul",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLMain",
+                    "@The Dark Chapel Regions/DC"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Ghoul Soul",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMPostBoss",
+                    "@The Dark Chapel Regions/DC",
+                    "@Silenced Ruins Regions/SR"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Tombstone Soul",
+                "access_rules": [
+                    "@The Dark Chapel Regions/DC"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Treant Soul",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMLower",
+                    "@Garden of Madness Regions/GoMUpper"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Valkyrie Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHMain",
+                    "@The Dark Chapel Regions/DC",
+                    "@The Dark Chapel Regions/DCBigRoom"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Killer Doll Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHMain",
+                    "@Demon Guest House Regions/DGHWestWing"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Draghignazzo Soul",
+                "access_rules": [
+                    "@Condemned Tower Regions/CTBottom"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Bone Pillar Soul",
+                "access_rules": [
+                    "@Demon Guest House Regions/DGHMain",
+                    "@Demon Guest House Regions/DGHWestWing",
+                    "@The Dark Chapel Regions/DC"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Barbariccia Soul",
+                "access_rules": [
+                    "@Garden of Madness Regions/GoMUpper",
+                    "@The Dark Chapel Regions/DC"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Heart Eater Soul",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLWestGate",
+                    "abyss, @The Abyss Regions/TA",
+                    "abyssplus, @The Abyss Regions/TA"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Medusa Head Soul",
+                "access_rules": [
+                    "@Cursed Clock Tower Regions/CCTEntrance",
+                    "@Cursed Clock Tower Regions/CCTCentral",
+                    "@Subterranean Hell Regions/SHShaftBottom"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Mimic Soul",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLEastGate",
+                    "@Wizardry Lab Regions/WLSunken",
+                    "@Garden of Madness Regions/GoMLower, $smalluppies",
+                    "@Demon Guest House Regions/DGHUpper",
+                    "@Subterranean Hell Regions/SHEast, water",
+                    "@Subterranean Hell Regions/SHCentralExit"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Bugbear Soul",
+                "access_rules": [
+                    "@Cursed Clock Tower Regions/CCTCentral",
+                    "@The Pinnacle Regions/TPLower",
+                    "abyss, @Mine of Judgement Regions/MoJ",
+                    "abyssplus, @Mine of Judgement Regions/MoJ"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Procel Soul",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHEast",
+                    "@Subterranean Hell Regions/SHCentralLower"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Bone Ark Soul",
+                "access_rules": [
+                    "@Subterranean Hell Regions/SHCentralUpper",
+                    "@Silenced Ruins Regions/SR"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Gorgon Soul",
+                "access_rules": [
+                    "@Silenced Ruins Regions/SRBackExit"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Great Axe Armor Soul",
+                "access_rules": [
+                    "@The Lost Village Regions/LVUndergroundTop",
+                    "@Wizardry Lab Regions/WLWestGate",
+                    "@Condemned Tower Regions/CTTop"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Dead Crusader Soul",
+                "access_rules": [
+                    "@Silenced Ruins Regions/SR",
+                    "@The Pinnacle Regions/TP"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Dead Warrior Soul",
+                "access_rules": [
+                    "@The Pinnacle Regions/TPLower"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Erinys Soul",
+                "access_rules": [
+                    "@The Pinnacle Regions/TP",
+                    "@The Pinnacle Regions/TPLower",
+                    "abyss, @The Abyss Regions/TA",
+                    "abyssplus, @The Abyss Regions/TA"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Tanjelly Soul",
+                "access_rules": [
+                    "@Cursed Clock Tower Regions/CCTEntrance",
+                    "@Cursed Clock Tower Regions/CCTCentral",
+                    "abyss, @Mine of Judgement Regions/MoJ",
+                    "abyssplus, @Mine of Judgement Regions/MoJ"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Final Guard Soul",
+                "access_rules": [
+                    "@The Pinnacle Regions/TP",
+                    "abyss, @The Abyss Regions/TA",
+                    "abyssplus, @The Abyss Regions/TA"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Iron Golem Soul",
+                "access_rules": [
+                    "@Wizardry Lab Regions/WLSunkenWestDoor",
+                    "@Demon Guest House Regions/DGHUpper",
+                    "abyss, @The Abyss Regions/TABeyondAbaddon",
+                    "abyssplus, @The Abyss Regions/TABeyondAbaddon"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Giant Slug Soul",
+                "access_rules": [
+                    "abyss, @Mine of Judgement Regions/MoJ",
+                    "abyssplus, @Mine of Judgement Regions/MoJ"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Stolas Soul",
+                "access_rules": [
+                    "abyss, @The Abyss Regions/TA",
+                    "abyssplus, @The Abyss Regions/TA"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            },
+            {
+                "name": "Arc Demon Soul",
+                "access_rules": [
+                    "abyss, @The Abyss Regions/TA",
+                    "abyssplus, @The Abyss Regions/TA"
+                ],
+                "sections": [
+                    {
+                        "name": ""
+                    } 
+                ]
+            }
+        ]
+    }
+]
