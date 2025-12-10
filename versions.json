@@ -1,13 +1,16 @@
 {
     "versions": [
         {
-            "package_version": "1.0.3.1",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/1.6/CVDoSPT.zip",
-            "sha256": "3925b256f37206049d362b1bd71e4d38e1371eb46bfa77ed53decd51e6ed8a90",
+            "package_version": "1.0.4.0",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/1.7/CVDoSPT.zip",
+            "sha256": "21b1f95eb8750a1ca27b08f0e929a9bfa42488d90f336467701d31be78b5e6d2",
             "changelog": [
-                "Access to the Mine of Judgement/Menace now checks for what the current goal is set to",
-                "Access from the Wizardry Lab to the Lost Village now checks if you can reach the moat drain switch",
-                "The mirror in the Silenced Ruins now needs paranoia to enter"
+                "added backend framework for soulsanity",
+                "Slot data is now auto tracked",
+                "Added the logic changes from the new apworld update",
+                "Added more items",
+                "Locations now have images",
+                "some UI changes"
             ]
         }
     ]
