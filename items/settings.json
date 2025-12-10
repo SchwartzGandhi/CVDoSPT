@@ -7,17 +7,17 @@
         "initial_stage_idx": 0,
         "stages": [
             {
-                "img": "images/events/throneroom.png",
+                "img": "images/settings/throneroom.png",
                 "codes": "goal, throneroom",
                 "inherit_codes": false
             },
             {
-                "img": "images/events/abyss.png",
+                "img": "images/settings/abyss.png",
                 "codes": "goal, abyss",
                 "inherit_codes": false
             },
             {
-                "img": "images/events/abyssplus.png",
+                "img": "images/settings/abyssplus.png",
                 "codes": "goal, abyssplus",
                 "inherit_codes": false
             }
@@ -31,62 +31,62 @@
         "initial_stage_idx": 0,
         "stages": [
             {
-                "img": "",
+                "img": "images/settings/warplv.png",
                 "codes": "warp, lvwarp",
                 "inherit_codes": false
             },
             {
-                "img": "",
+                "img": "images/settings/warpwl.png",
                 "codes": "warp, wlwarp",
                 "inherit_codes": false
             },
             {
-                "img": "",
+                "img": "images/settings/warpgom.png",
                 "codes": "warp, gomwarp",
                 "inherit_codes": false
             },
             {
-                "img": "",
+                "img": "images/settings/warpdc.png",
                 "codes": "warp, dcwarp",
                 "inherit_codes": false
             },
             {
-                "img": "",
-                "codes": "warp, dmgwarp",
+                "img": "images/settings/warpdgh.png",
+                "codes": "warp, dghwarp",
                 "inherit_codes": false
             },
             {
-                "img": "",
+                "img": "images/settings/warpct.png",
                 "codes": "warp, ctwarp",
                 "inherit_codes": false
             },
             {
-                "img": "",
-                "codes": "warp, cctwarp",
-                "inherit_codes": false
-            },
-            {
-                "img": "",
+                "img": "images/settings/warpsh.png",
                 "codes": "warp, shwarp",
                 "inherit_codes": false
             },
             {
-                "img": "",
+                "img": "images/settings/warpcct.png",
+                "codes": "warp, cctwarp",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/warpsr.png",
                 "codes": "warp, srwarp",
                 "inherit_codes": false
             },
             {
-                "img": "",
+                "img": "images/settings/warptp.png",
                 "codes": "warp, tpwarp",
                 "inherit_codes": false
             },
             {
-                "img": "",
+                "img": "images/settings/warpmoj.png",
                 "codes": "warp, mojwarp",
                 "inherit_codes": false
             },
             {
-                "img": "",
+                "img": "images/settings/warpta.png",
                 "codes": "warp, tawarp",
                 "inherit_codes": false
             }
@@ -94,7 +94,7 @@
     },
     {
         "name": "Soulsanity",
-        "img": "images/items/toggle.png",
+        "img": "images/settings/soulsanity.png",
         "type": "toggle",
         "codes": "soulsanity"
     },
@@ -106,14 +106,17 @@
         "initial_stage_idx": 0,
         "stages": [
             {
+                "img": "images/settings/common.png",
                 "codes": "souls, common",
                 "inherit_codes": true
             },
             {
+                "img": "images/settings/uncommon.png",
                 "codes": "souls, uncommon",
                 "inherit_codes": true
             },
             {
+                "img": "images/settings/rare.png",
                 "codes": "souls, rare",
                 "inherit_codes": true
             }
@@ -121,13 +124,26 @@
     },
     {
         "name": "Open Drawbridge",
-        "img": "images/items/toggle.png",
-        "type": "toggle",
-        "codes": "drawbridge"
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/settings/drawbridge_close.png",
+                "codes": "drawbridge, dbclose",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/drawbridge_open.png",
+                "codes": "drawbridge, dbopen",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Speed Boost",
-        "img": "images/items/toggle.png",
+        "img": "images/settings/speed.png",
         "type": "toggle",
         "codes": "speed"
     }

@@ -4,13 +4,21 @@
         "background": "#000000",
         "tabs": [
             {
-                "title": "Settings",
-                "icon": "",
-                "content":{
-                    "type": "layout",
-                    "background": "#000000",
-                    "key": "settings_grid"
-                }
+                "type": "array",
+                "orientation": "horizontal",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "background": "#000000",
+                        "item_margin": "5, 2",
+                        "h_alignment": "left",
+                        "item_size": 128,
+                        "rows": [
+                            ["goal", "warp", "soulsanity", "souls", "drawbridge", "speed"]
+                        ]
+                    }
+                ]
             }
         ]
     }

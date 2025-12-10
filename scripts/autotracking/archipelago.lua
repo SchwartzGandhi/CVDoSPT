@@ -96,9 +96,9 @@ function apply_slot_data(slot_data)
 		warp.CurrentStage = 4
 	elseif start == "Condemned Tower" then
 		warp.CurrentStage = 5
-	elseif start == "Cursed Clock Tower" then
-		warp.CurrentStage = 6
 	elseif start == "Subterranean Hell" then
+		warp.CurrentStage = 6
+	elseif start == "Cursed Clock Tower" then
 		warp.CurrentStage = 7
 	elseif start == "Silenced Ruins" then
 		warp.CurrentStage = 8
@@ -116,11 +116,17 @@ function apply_slot_data(slot_data)
 	end
 
 	local soullevel = Tracker:FindObjectForCode('souls')
-	soullevel.CurrentStage = slot_data["soulsanity_level"]
+	if slot_data["soul_randomizer"] then
+		soullevel.CurrentStage = slot_data["soulsanity_level"] + 1
+	else
+		soullevel.CurrentStage = 0
+	end
 
 	local drawbridge = Tracker:FindObjectForCode('drawbridge')
 	if slot_data["open_drawbridge"] then
-		drawbridge.Active = true
+		drawbridge.CurrentStage = 1
+	else 
+		drawbridge.CurrentStage = 0
 	end
 
 	local speed = Tracker:FindObjectForCode('speed')
