@@ -53,7 +53,7 @@ function vanillasouls()
     end
 end
 
-function gate()
+function gated()
     if not has("drawbridge") then
         return true
     end

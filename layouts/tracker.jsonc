@@ -44,6 +44,15 @@
                   "The Abyss"
                 ]
               }
+            },
+            {
+              "title": "Soulsanity",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Coloured Castle"
+                ]
+              }
             }
           ]
         }

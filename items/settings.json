@@ -94,6 +94,7 @@
     },
     {
         "name": "Soulsanity",
+        "img": "images/items/toggle.png",
         "type": "toggle",
         "codes": "soulsanity"
     },
@@ -105,23 +106,28 @@
         "initial_stage_idx": 0,
         "stages": [
             {
-                "codes": "souls, common"
+                "codes": "souls, common",
+                "inherit_codes": true
             },
             {
-                "codes": "souls, uncommon"
+                "codes": "souls, uncommon",
+                "inherit_codes": true
             },
             {
-                "codes": "souls, rare"
+                "codes": "souls, rare",
+                "inherit_codes": true
             }
         ]
     },
     {
         "name": "Open Drawbridge",
+        "img": "images/items/toggle.png",
         "type": "toggle",
         "codes": "drawbridge"
     },
     {
         "name": "Speed Boost",
+        "img": "images/items/toggle.png",
         "type": "toggle",
         "codes": "speed"
     }

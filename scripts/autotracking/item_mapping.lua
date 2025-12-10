@@ -33,7 +33,7 @@ ITEM_MAPPING = {
 	[1400] = {{"zip", "toggle"}},
 
 	[1401] = {{"fastwater", "toggle"}},
-	[1401] = {{"fastmud", "toggle"}}
+	[1401] = {{"fastmud", "toggle"}},
 
 	[1284] = {{"skeleton", "toggle"}},
 	[1301] = {{"clown", "toggle"}},
@@ -47,7 +47,7 @@ ITEM_MAPPING = {
 	[1382] = {{"drydk", "toggle"}},
 	[1355] = {{"bark", "toggle"}},
 	[1335] = {{"panther", "toggle"}},
-	[1283] = {{"imp", "toggle"}},
+	[1283] = {{"imp", "toggle"}}
 
 	-- [None] = {{"moat", "toggle"}}
 	-- [None] = {{"aguni", "toggle"}}
