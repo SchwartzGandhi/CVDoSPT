@@ -121,13 +121,13 @@
   {
     "name": "Procel Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/tread.png",
     "codes": "fastwater"
   },
   {
     "name": "Mud Demon Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/slosh.png",
     "codes": "fastmud"
   },
   // Barrier Souls
@@ -159,44 +159,44 @@
   {
     "name": "Skeleton Ape Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/skape.png",
     "codes": "drydk"
   },
   {
     "name": "Bone Ark Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/bark.png",
     "codes": "bark"
   },
   {
     "name": "Black Panther Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/fast.png",
     "codes": "panther"
   },
   {
     "name": "Imp Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/imp.png",
     "codes": "imp"
   },
   //UMA News Souls
   {
     "name": "Waiter Skeleton Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/curry.png",
     "codes": "food"
   },
   {
     "name": "Mandragora Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/scream.png",
     "codes": "yell"
   },
   {
     "name": "Rycuda Soul",
     "type": "toggle",
-    "img": "images/items/toggle.png",
+    "img": "images/items/thunder.png",
     "codes": "shock"
   },
   // Events
