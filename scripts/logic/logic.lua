@@ -40,3 +40,21 @@ end
 function holes()
     return has("puppet") or has("bat")
 end
+
+function slow()
+    if not has("speed") then
+        return true
+    end
+end
+
+function vanillasouls()
+    if not has("soulsanity") then
+        return true
+    end
+end
+
+function gate()
+    if not has("drawbridge") then
+        return true
+    end
+end

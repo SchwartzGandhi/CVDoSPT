@@ -7,8 +7,9 @@
                 "access_rules": [
                     "", // starting region
                     "@The Lost Village Regions/LVUpperDoorway",
-                    "@Demon Guest House Regions/DGHLower",
-                    "@The Lost Village Regions/LVLower, seal1"
+                    "@The Lost Village Regions/LVCourtyard",
+                    "@The Lost Village Regions/LVLower, seal1",
+                    "@Demon Guest House Regions/DGHLower"
                 ]
             },
             {
@@ -16,6 +17,7 @@
                 "access_rules": [
                     "@The Lost Village Regions/LVUpper, puppet, armor",
                     "@The Lost Village Regions/LVUpper, $smalluppies",
+                    "@The Lost Village Regions/LVUpper, puppet, drydk",
                     "@Demon Guest House Regions/DGHNumberPuzzleWest"
                 ]
             },
@@ -50,6 +52,13 @@
                 ]
             },
             {
+                "name": "LVCourtyard",
+                "access_rules": [
+                    "$gated, @The Lost Village Regions/LVUpper, $smalluppies",
+                    "drawbridge, @The Lost Village Regions/LVUpper"
+                ]
+            },
+            {
                 "name": "WarpRoom",
                 "access_rules": [
                     "@Wizardry Lab Regions/WLMain",
@@ -73,8 +82,7 @@
             {
                 "name": "WLMain",
                 "access_rules": [
-                    "@The Lost Village Regions/LVUpper, @The Lost Village Regions/LVLower, $mediumuppies",
-                    "@The Lost Village Regions/LVUpper, @The Lost Village Regions/LVLower, armor"
+                    "@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/"
                 ]
             },
             {
@@ -164,7 +172,7 @@
                     "@Garden of Madness Regions/GoMLower",
                     "@The Dark Chapel Regions/DCBigRoom",
                     "@Condemned Tower Regions/CTBottom",
-                    "@Subterranean Hell Regions/SHTopEntrance, $holes"
+                    "@The Dark Chapel Regions/DC, $holes"
                 ]
             },
             {
@@ -172,6 +180,13 @@
                 "access_rules": [
                     "@The Dark Chapel Regions/DC, $holes",
                     "@Condemned Tower Regions/CTBottom, $smalluppies"
+                ]
+            },
+            {
+                "name": "DCCatacombsExit",
+                "access_rules": [
+                    "@The Dark Chapel Regions/DC, $holes",
+                    "@Subterranean Hell Regions/SHTopEntrance"
                 ]
             }
         ]
@@ -199,7 +214,7 @@
             {
                 "name": "DGHLower",
                 "access_rules": [
-                    "@The Lost Village Regions/LVUpper, $smalluppies",
+                    "@The Lost Village Regions/LVCourtyard",
                     "@Garden of Madness Regions/GoMLower",
                     "@Demon Guest House Regions/DGHPuppetWallRight"
                 ]
@@ -277,13 +292,20 @@
                 "name": "CCTBossArea",
                 "access_rules": [
                     "@Cursed Clock Tower Regions/CCTCentral",
-                    "@Cursed Clock Tower Regions/CCTExit, seal4, bat"
+                    "@Cursed Clock Tower Regions/CCTPostBoss, seal4"
+                ]
+            },
+            {
+                "name": "CCTPostBoss",
+                "access_rules": [
+                    "@Cursed Clock Tower Regions/CCTBossArea, seal4",
+                    "@Cursed Clock Tower Regions/CCTExit, bat"
                 ]
             },
             {
                 "name": "CCTExit",
                 "access_rules": [
-                    "@Cursed Clock Tower Regions/CCTBossArea, seal4, bat",
+                    "@Cursed Clock Tower Regions/CCTPostBoss, bat",
                     "@The Pinnacle Regions/TPLower, $mediumuppies"
                 ]
             }
@@ -295,7 +317,7 @@
             {
                 "name": "SHTopEntrance",
                 "access_rules": [
-                    "@The Dark Chapel Regions/DC, $holes",
+                    "@The Dark Chapel Regions/DCCatacombsExit",
                     "@Subterranean Hell Regions/SHEast, water, seal3, $mediumuppies"
                 ]
             },
@@ -364,7 +386,9 @@
             {
                 "name": "SHSpikeRoomWest",
                 "access_rules": [
-                    "@Subterranean Hell Regions/SHSpikeRoomEast", // bro doesn't know about bone ark
+                    "$vanillasouls, @Subterranean Hell Regions/SHSpikeRoomEast",
+                    "soulsanity, @Subterranean Hell Regions/SHSpikeRoomEast, water, bark",
+                    "soulsanity, @Subterranean Hell Regions/SHSpikeRoomEast, water, puppet, drydk",
                     "@Wizardry Lab Regions/WLSunkenEastDoor"
                 ]
             },
@@ -372,7 +396,9 @@
                 "name": "SHSpikeRoomEast",
                 "access_rules": [
                     "@Subterranean Hell Regions/SHShaftBottom, $mediumuppies",
-                    "@Subterranean Hell Regions/SHSpikeRoomWest" // bro doesn't know about bone ark
+                    "$vanillasouls, @Subterranean Hell Regions/SHSpikeRoomWest",
+                    "soulsanity, @Subterranean Hell Regions/SHSpikeRoomWest, water, bark",
+                    "soulsanity, @Subterranean Hell Regions/SHSpikeRoomWest, water, puppet, drydk"
                 ]
             }
         ]

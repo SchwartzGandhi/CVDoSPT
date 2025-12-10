@@ -5,7 +5,8 @@
       {
         "name": "Above Entrance",
         "access_rules": [
-          "@The Lost Village Regions/LVUpper, $biguppies"
+          "@The Lost Village Regions/LVUpper, $biguppies",
+          "@The Lost Village Regions/LVUpper, jump, puppet"
         ],
         "sections": [
           {
@@ -71,7 +72,7 @@
       {
         "name": "In Moat",
         "access_rules": [
-          "@The Lost Village Regions/LVUpper, $biguppies"
+          "@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/, $biguppies"
         ],
         "sections": [
           {
@@ -206,8 +207,10 @@
       {
         "name": "Moat Drain Switch",
         "access_rules": [
+          "speed, @The Lost Village Regions/LVLower",
           "@The Lost Village Regions/LVLower, $mediumuppies",
-          "@The Lost Village Regions/LVLower, armor"
+          "@The Lost Village Regions/LVLower, armor",
+          "@The Lost Village Regions/LVLower, panther"
         ],
         "sections": [
           {
@@ -320,7 +323,10 @@
       {
         "name": "Ceiling Secret Room",
         "access_rules": [
-          "@Wizardry Lab Regions/WLMain, ice"
+          "@Wizardry Lab Regions/WLMain, ice",
+          "@Wizardry Lab Regions/WLMain, bat",
+          "@Wizardry Lab Regions/WLMain, puppet, jump",
+          "@Wizardry Lab Regions/WLMain, puppet, zip"
         ],
         "sections": [
           {
@@ -479,7 +485,8 @@
       {
         "name": "Underground Room",
         "access_rules": [
-          "@Garden of Madness Regions/GoMWaterBlocked, $mediumuppies"
+          "@Garden of Madness Regions/GoMWaterBlocked, $mediumuppies",
+          "@Garden of Madness Regions/GoMWaterBlocked, panther"
         ],
         "sections": [
           {
@@ -505,7 +512,8 @@
           "abyssplus"
         ],
         "access_rules": [
-          "@Garden of Madness Regions/GoMLower, talisman, seal5"
+          "abyss, @Garden of Madness Regions/GoMLower, talisman, seal5",
+          "abyssplus, @Garden of Madness Regions/GoMLower, talisman, seal5, @The Pinnacle/Aguni Soul/"
         ],
         "sections": [
           {
@@ -554,7 +562,8 @@
       {
         "name": "Catacombs Soul Barrier",
         "access_rules": [
-          "@The Dark Chapel Regions/DC"
+          "$vanillasouls, @The Dark Chapel Regions/DC",
+          "soulsanity, @The Dark Chapel Regions/DC, skeleton"
         ],
         "sections": [
           {
@@ -825,7 +834,9 @@
       {
         "name": "West Wing Left",
         "access_rules": [
-          "@Demon Guest House Regions/DGHWestWing, $mediumuppies"
+          "@Demon Guest House Regions/DGHWestWing, speed",
+          "@Demon Guest House Regions/DGHWestWing, $mediumuppies",
+          "@Demon Guest House Regions/DGHWestWing, panther"
         ],
         "sections": [
           {
@@ -836,7 +847,9 @@
       {
         "name": "West Wing Right",
         "access_rules": [
-          "@Demon Guest House Regions/DGHWestWing, $mediumuppies"
+          "@Demon Guest House Regions/DGHWestWing, speed",
+          "@Demon Guest House Regions/DGHWestWing, $mediumuppies",
+          "@Demon Guest House Regions/DGHWestWing, panther"
         ],
         "sections": [
           {
@@ -847,7 +860,7 @@
       {
         "name": "Puppet Master Soul",
         "access_rules": [
-          "@Demon Guest House Regions/DGHWestWing, $mediumuppies, seal3"
+          "@Demon Guest House Regions/DGHWestWing, $smalluppies, seal3"
         ],
         "sections": [
           {
@@ -913,7 +926,9 @@
       {
         "name": "Paranoia Soul",
         "access_rules": [
-          "@Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4"
+          "$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4",
+          "$vanillasouls, @Demon Guest House Regions/DGHUpper, ukoback, seal4",
+          "soulsanity, @Demon Guest House Regions/DGHUpper, ukoback, axe, clown, seal4"
         ],
         "sections": [
           {
@@ -924,7 +939,9 @@
       {
         "name": "Beyond Paranoia",
         "access_rules": [
-          "@Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4"
+          "$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4",
+          "$vanillasouls, @Demon Guest House Regions/DGHUpper, ukoback, seal4",
+          "soulsanity, @Demon Guest House Regions/DGHUpper, ukoback, axe, clown, seal4"
         ],
         "sections": [
           {
@@ -935,7 +952,9 @@
       {
         "name": "Paranoia Mirror",
         "access_rules": [
-          "@Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4, mirror"
+          "$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4, mirror",
+          "$vanillasouls, @Demon Guest House Regions/DGHUpper, ukoback, seal4, mirror",
+          "soulsanity, @Demon Guest House Regions/DGHUpper, ukoback, axe, clown, seal4, mirror"
         ],
         "sections": [
           {
@@ -1177,7 +1196,8 @@
         "name": "Near Save Room",
         "access_rules": [
           "@Subterranean Hell Regions/SHCentralExit, $mediumuppies",
-          "@Subterranean Hell Regions/SHCentralExit, armor"
+          "@Subterranean Hell Regions/SHCentralExit, armor",
+          "@Subterranean Hell Regions/SHCentralExit, panther"
         ],
         "sections": [
           {
@@ -1210,7 +1230,9 @@
       {
         "name": "Behind Waterfall",
         "access_rules": [
-          "@Subterranean Hell Regions/SHCentralLower"
+          "@Subterranean Hell Regions/SHCentralLower, $smalluppies",
+          "@Subterranean Hell Regions/SHCentralLower, armor",
+          "@Subterranean Hell Regions/SHCentralLower, panther"
         ],
         "sections": [
           {
@@ -1388,7 +1410,7 @@
           "abyssplus"
         ],
         "access_rules": [
-          "@The Pinnacle Regions/TPThroneRoom"
+          "@The Pinnacle Regions/TPThroneRoom, seal4, mirror"
         ],
         "sections": [
           {
