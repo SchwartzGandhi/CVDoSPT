@@ -294,22 +294,22 @@
           }
         ]
       },
-      // {
-      //   "name": "The Lost Village",
-      //   "sections": [
-      //     {
-      //       "name": "Moat Drain Switch",
-            // "ref":"The Lost Village/Moat Drain Switch/"
-      //     }
-      //   ],
-      //   "map_locations": [
-      //     {
-      //       "map": "Dracula's Castle",
-      //       "x": 332,
-      //       "y": 532
-      //     }
-      //   ]
-      // },
+      {
+        "name": "The Lost Village",
+        "sections": [
+          {
+            "name": "Moat Drain Switch",
+            "ref": "The Lost Village/Moat Drain Switch/"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 332,
+            "y": 532
+          }
+        ]
+      },
       {
         "name": "The Lost Village",
         "sections": [
@@ -691,22 +691,22 @@
             "y": 472
           }
         ]
-      // },
-      // {
-      //   "name": "Garden of Madness",
-      //   "sections": [
-      //     {
-      //       "name": "Central Chamber",
-            // "ref": "Garden of Madness/Central Chamber/"
-      //     }
-      //   ],
-      //   "map_locations": [
-      //     {
-      //       "map": "Dracula's Castle",
-      //       "x": 692,
-      //       "y": 492
-      //     }
-      //   ]
+      },
+      {
+        "name": "Garden of Madness",
+        "sections": [
+          {
+            "name": "Central Chamber",
+            "ref": "Garden of Madness/Central Chamber/"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Dracula's Castle",
+            "x": 692,
+            "y": 492
+          }
+        ]
       }
     ]
   },
@@ -1932,19 +1932,8 @@
         "sections": [
           {
             "name": "Beyond Throne Room",
-            "ref": "The Pinnacle/Beyond Throne Room/",
-            "visibility_rules": [
-              "abyss",
-              "abyssplus"
-            ]
-          },
-          // {
-          //   "name": "Defeat Menace",
-          //   "ref": "The Abyss/Abyss Center/",
-          //   "visibility_rules": [
-          //     "throneroom"
-          //   ]
-          // }
+            "ref": "The Pinnacle/Beyond Throne Room/"
+          }
         ],
         "map_locations": [
           {
@@ -1953,7 +1942,24 @@
             "y": 112
           }
         ]
-      }
+      },
+      // {
+      //   "name": "The Abyss",
+      //   "sections": [
+      //     {
+      //       "name": "Defeat Menace",
+      //       "ref": "The Abyss/Abyss Center/"
+      //     }
+      //   ],
+      //   "map_locations": [
+      //     {
+      //       "map": "Dracula's Castle",
+      //       "x": 532,
+      //       "y": 112,
+      //       "size": 32
+      //     }
+      //   ]
+      // }
     ]
   },
   {
@@ -2040,34 +2046,15 @@
             "ref": "The Abyss/Abyss Center/"
           }
         ],
-        "location_size": 24,
         "map_locations": [
           {
             "map": "The Abyss",
             "x": 652,
-            "y": 472
+            "y": 472,
+            "size": 48
           }
         ]
       },
-      // {
-      //   "name": "Beyond Throne Room",
-      //   "visibility_rules": [
-      //     "throneroom"
-      //   ],
-      //   "sections": [
-      //     {
-      //       "name": "Defeat Menace",
-      //       "ref": "The Abyss/Abyss Center/"
-      //     }
-      //   ],
-      //   "map_locations": [
-      //     {
-      //       "map": "Dracula's Castle",
-      //       "x": 532,
-      //       "y": 112
-      //     }
-      //   ]
-      // },
       {
         "name": "The Abyss",
         "sections": [

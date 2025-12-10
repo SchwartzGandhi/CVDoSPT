@@ -1,6 +1,8 @@
 [
   {
     "name": "The Lost Village",
+    "chest_unopened_img": "images/items/chest.png",
+    "chest_opened_img": "images/items/chest_bw.png",
     "children": [
       {
         "name": "Above Entrance",
@@ -87,7 +89,9 @@
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/boss/flyingarmor.png",
+            "chest_opened_img": "images/boss/flyingarmor_bw.png"
           }
         ]
       },
@@ -208,13 +212,15 @@
         "name": "Moat Drain Switch",
         "access_rules": [
           "speed, @The Lost Village Regions/LVLower",
-          "@The Lost Village Regions/LVLower, $mediumuppies",
-          "@The Lost Village Regions/LVLower, armor",
-          "@The Lost Village Regions/LVLower, panther"
+          "$low, @The Lost Village Regions/LVLower, $mediumuppies",
+          "$low, @The Lost Village Regions/LVLower, armor",
+          "$low, @The Lost Village Regions/LVLower, panther"
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/events/moat.png",
+            "chest_opened_img": "images/events/moat_drained.png"
           }
         ]
       },
@@ -258,6 +264,8 @@
   },
   {
     "name": "Wizardry Lab",
+    "chest_unopened_img": "images/items/chest.png",
+    "chest_opened_img": "images/items/chest_bw.png",
     "children": [
       {
         "name": "Mirror Room",
@@ -341,7 +349,9 @@
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/boss/balore.png",
+            "chest_opened_img": "images/boss/balore_bw.png"
           }
         ]
       },
@@ -404,6 +414,8 @@
   },
   {
     "name": "Garden of Madness",
+    "chest_unopened_img": "images/items/chest.png",
+    "chest_opened_img": "images/items/chest_bw.png",
     "children": [
       {
         "name": "Lower Tree Hallway",
@@ -517,7 +529,9 @@
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/events/mina.png",
+            "chest_opened_img": "images/events/dark.png"
           }
         ]
       }
@@ -525,6 +539,8 @@
   },
   {
     "name": "The Dark Chapel",
+    "chest_unopened_img": "images/items/chest.png",
+    "chest_opened_img": "images/items/chest_bw.png",
     "children": [
       {
         "name": "Entrance Alcove",
@@ -661,7 +677,9 @@
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/boss/malphas.png",
+            "chest_opened_img": "images/boss/malphas_bw.png"
           }
         ]
       },
@@ -703,6 +721,8 @@
   },
   {
     "name": "Demon Guest House",
+    "chest_unopened_img": "images/items/chest.png",
+    "chest_opened_img": "images/items/chest_bw.png",
     "children": [
       {
         "name": "Secret Room",
@@ -864,7 +884,9 @@
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/boss/puppetmaster.png",
+            "chest_opened_img": "images/boss/puppetmaster_bw.png"
           }
         ]
       },
@@ -932,7 +954,9 @@
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/boss/paranoia.png",
+            "chest_opened_img": "images/boss/paranoia_bw.png"
           }
         ]
       },
@@ -966,6 +990,8 @@
   },
   {
     "name": "Condemned Tower",
+    "chest_unopened_img": "images/items/chest.png",
+    "chest_opened_img": "images/items/chest_bw.png",
     "children": [
       {
         "name": "1F West",
@@ -1029,7 +1055,9 @@
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/boss/gergoth.png",
+            "chest_opened_img": "images/boss/gergoth_bw.png"
           }
         ]
       },
@@ -1048,6 +1076,8 @@
   },
   {
     "name": "Cursed Clock Tower",
+    "chest_unopened_img": "images/items/chest.png",
+    "chest_opened_img": "images/items/chest_bw.png",
     "children": [
       {
         "name": "Money Gate",
@@ -1128,7 +1158,9 @@
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/boss/zephyr.png",
+            "chest_opened_img": "images/boss/zephyr_bw.png"
           }
         ]
       }
@@ -1136,6 +1168,8 @@
   },
   {
     "name": "Subterranean Hell",
+    "chest_unopened_img": "images/items/chest.png",
+    "chest_opened_img": "images/items/chest_bw.png",
     "children": [
       {
         "name": "Rahab Soul",
@@ -1144,7 +1178,9 @@
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/boss/rahab.png",
+            "chest_opened_img": "images/boss/rahab_bw.png"
           }
         ]
       },
@@ -1277,6 +1313,8 @@
   },
   {
     "name": "Silenced Ruins",
+    "chest_unopened_img": "images/items/chest.png",
+    "chest_opened_img": "images/items/chest_bw.png",
     "children": [
       {
         "name": "Ice Block Room",
@@ -1296,7 +1334,9 @@
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/boss/batcompany.png",
+            "chest_opened_img": "images/boss/batcompany_bw.png"
           }
         ]
       },
@@ -1321,6 +1361,8 @@
   },
   {
     "name": "The Pinnacle",
+    "chest_unopened_img": "images/items/chest.png",
+    "chest_opened_img": "images/items/chest_bw.png",
     "children": [
       {
         "name": "Lower Hidden Room",
@@ -1399,7 +1441,9 @@
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/boss/aguni.png",
+            "chest_opened_img": "images/boss/aguni_bw.png"
           }
         ]
       },
@@ -1434,7 +1478,9 @@
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/boss/death.png",
+            "chest_opened_img": "images/boss/death_bw.png"
           }
         ]
       }
@@ -1442,6 +1488,8 @@
   },
   {
     "name": "The Abyss",
+    "chest_unopened_img": "images/items/chest.png",
+    "chest_opened_img": "images/items/chest_bw.png",
     "children": [
       {
         "name": "Sand Area",
@@ -1484,7 +1532,9 @@
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/boss/abaddon.png",
+            "chest_opened_img": "images/boss/abaddon_bw.png"
           }
         ]
       },
@@ -1497,7 +1547,9 @@
         ],
         "sections": [
           {
-            "name": ""
+            "name": "",
+            "chest_unopened_img": "images/boss/menace.png",
+            "chest_opened_img": "images/boss/menace_bw.png"
           }
         ]
       }
