@@ -2,7 +2,7 @@
     {
         "name": "Common Souls",
         "access_rules": [
-            "common"
+            "soulsanity, common"
         ],
         "children": [
             {
@@ -217,7 +217,7 @@
     {
         "name": "Uncommon Souls",
         "access_rules": [
-            "uncommon"
+            "soulsanity, uncommon"
         ],
         "children": [
             {
@@ -889,7 +889,7 @@
     {
         "name": "Rare Souls",
         "access_rules": [
-            "rare, soulring"
+            "soulsanity, rare, soulring"
         ],
         "children": [
             {
