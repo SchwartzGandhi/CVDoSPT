@@ -150,9 +150,6 @@
 				"header": "Soulsanity Toggle",
 				"dock": "top",
 				"h_alignment": "center",
-				"visibility_rules": [
-					"soulsanity"
-				],
 				"content": [
 					{
 						"type": "array",
