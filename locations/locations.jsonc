@@ -1,1558 +1,1558 @@
 [
-  {
-    "name": "The Lost Village",
-    "chest_unopened_img": "images/items/chest.png",
-    "chest_opened_img": "images/items/chest_bw.png",
-    "children": [
-      {
-        "name": "Above Entrance",
-        "access_rules": [
-          "@The Lost Village Regions/LVUpper, $biguppies",
-          "@The Lost Village Regions/LVUpper, jump, puppet"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Upper Big Room Corner",
-        "access_rules": [
-          "@The Lost Village Regions/LVUpperDoorway"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Pre-Boss Room Upper",
-        "access_rules": [
-          "@The Lost Village Regions/LVUpper"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Pre-Boss Room Lower",
-        "access_rules": [
-          "@The Lost Village Regions/LVUpper"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Drawbridge Room",
-        "access_rules": [
-          "@The Lost Village Regions/LVUpper"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Above Drawbridge",
-        "access_rules": [
-          "@The Lost Village Regions/LVUpper, $smalluppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "In Moat",
-        "access_rules": [
-          "@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/, $biguppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Flying Armor Soul",
-        "access_rules": [
-          "@The Lost Village Regions/LVUpper, seal1"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/boss/flyingarmor.png",
-            "chest_opened_img": "images/boss/flyingarmor_bw.png"
-          }
-        ]
-      },
-      {
-        "name": "Above Guest House Entrance",
-        "access_rules": [
-          "@The Lost Village Regions/LVUpper, $biguppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Flying Armor Indoor Room",
-        "access_rules": [
-          "@The Lost Village Regions/LVLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "West Plaza",
-        "access_rules": [
-          "@The Lost Village Regions/LVLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "West Building Upper",
-        "access_rules": [
-          "@The Lost Village Regions/LVLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "West Building Lower",
-        "access_rules": [
-          "@The Lost Village Regions/LVLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Central Building",
-        "access_rules": [
-          "@The Lost Village Regions/LVLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "East Plaza",
-        "access_rules": [
-          "@The Lost Village Regions/LVLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Hidden Floor Room",
-        "access_rules": [
-          "@The Lost Village Regions/LVLower"
-        ],
-        "sections": [
-          {
-            "name": "Item 1"
-          },
-          {
-            "name": "Item 2"
-          }
-        ]
-      },
-      {
-        "name": "Mirror Room Left",
-        "access_rules": [
-          "@The Lost Village Regions/LVLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Mirror Room Right",
-        "access_rules": [
-          "@The Lost Village Regions/LVLower, mirror"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Moat Drain Switch",
-        "access_rules": [
-          "speed, @The Lost Village Regions/LVLower",
-          "$low, @The Lost Village Regions/LVLower, $mediumuppies",
-          "$low, @The Lost Village Regions/LVLower, armor",
-          "$low, @The Lost Village Regions/LVLower, panther"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/events/moat.png",
-            "chest_opened_img": "images/events/moat_drained.png"
-          }
-        ]
-      },
-      {
-        "name": "Axe Armor Hallway",
-        "access_rules": [
-          "@The Lost Village Regions/LVUndergroundTop"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dracula's Castle",
-            "x": 171,
-            "y": 632
-          }
-        ]
-      },
-      {
-        "name": "Underground Shaft",
-        "access_rules": [
-          "@The Lost Village Regions/LVUndergroundTop"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Dracula's Castle",
-            "x": 212,
-            "y": 612
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Wizardry Lab",
-    "chest_unopened_img": "images/items/chest.png",
-    "chest_opened_img": "images/items/chest_bw.png",
-    "children": [
-      {
-        "name": "Mirror Room",
-        "access_rules": [
-          "@Wizardry Lab Regions/WLMain, ice"
-        ],
-        "sections": [
-          {
-            "name": "Outside Mirror"
-          },
-          {
-            "name": "Mirror World",
-            "access_rules": [
-              "mirror"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Main Entry Shaft",
-        "access_rules": [
-          "@Wizardry Lab Regions/WLMain"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Upper Big Room",
-        "access_rules": [
-          "@Wizardry Lab Regions/WLMain"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "West Gate",
-        "access_rules": [
-          "@Wizardry Lab Regions/WLMain"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Behind West Gate",
-        "access_rules": [
-          "@Wizardry Lab Regions/WLWestGate"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Ceiling Secret Room",
-        "access_rules": [
-          "@Wizardry Lab Regions/WLMain, ice",
-          "@Wizardry Lab Regions/WLMain, bat",
-          "@Wizardry Lab Regions/WLMain, puppet, jump",
-          "@Wizardry Lab Regions/WLMain, puppet, zip"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Balore Soul",
-        "access_rules": [
-          "@Wizardry Lab Regions/WLMain, seal1"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/boss/balore.png",
-            "chest_opened_img": "images/boss/balore_bw.png"
-          }
-        ]
-      },
-      {
-        "name": "East Gate",
-        "access_rules": [
-          "@Wizardry Lab Regions/WLEastGate"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Money Gate",
-        "access_rules": [
-          "@Wizardry Lab Regions/WLSunken, water"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Underwater Left",
-        "access_rules": [
-          "@Wizardry Lab Regions/WLSunken, water"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Underwater Right",
-        "access_rules": [
-          "@Wizardry Lab Regions/WLSunken, water"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Above Water",
-        "access_rules": [
-          "@Wizardry Lab Regions/WLSunken, water"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Garden of Madness",
-    "chest_unopened_img": "images/items/chest.png",
-    "chest_opened_img": "images/items/chest_bw.png",
-    "children": [
-      {
-        "name": "Lower Tree Hallway",
-        "access_rules": [
-          "@Garden of Madness Regions/GoMLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "West Big Room",
-        "access_rules": [
-          "@Garden of Madness Regions/GoMLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "West Big Room Alcove",
-        "access_rules": [
-          "@Garden of Madness Regions/GoMLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "West Upper Room",
-        "access_rules": [
-          "@Garden of Madness Regions/GoMUpper"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Hidden Room",
-        "access_rules": [
-          "@Garden of Madness Regions/GoMUpper, $biguppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Center Room",
-        "access_rules": [
-          "@Garden of Madness Regions/GoMLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Money Gate",
-        "access_rules": [
-          "@Garden of Madness Regions/GoMLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Underground Room",
-        "access_rules": [
-          "@Garden of Madness Regions/GoMWaterBlocked, $mediumuppies",
-          "@Garden of Madness Regions/GoMWaterBlocked, panther"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "East Alcove",
-        "access_rules": [
-          "@Garden of Madness Regions/GoMEastGate"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Central Chamber",
-        "visibility_rules": [
-          "abyss",
-          "abyssplus"
-        ],
-        "access_rules": [
-          "abyss, @Garden of Madness Regions/GoMLower, talisman, seal5",
-          "abyssplus, @Garden of Madness Regions/GoMLower, talisman, seal5, @The Pinnacle/Aguni Soul/"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/events/mina.png",
-            "chest_opened_img": "images/events/dark.png"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "The Dark Chapel",
-    "chest_unopened_img": "images/items/chest.png",
-    "chest_opened_img": "images/items/chest_bw.png",
-    "children": [
-      {
-        "name": "Entrance Alcove",
-        "access_rules": [
-          "@The Dark Chapel Regions/DC, $mediumuppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Catacombs Top Left",
-        "access_rules": [
-          "@The Dark Chapel Regions/DC"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Catacombs Middle Room",
-        "access_rules": [
-          "@The Dark Chapel Regions/DC"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Catacombs Soul Barrier",
-        "access_rules": [
-          "$vanillasouls, @The Dark Chapel Regions/DC",
-          "soulsanity, @The Dark Chapel Regions/DC, skeleton"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Catacombs Mirror Room",
-        "access_rules": [
-          "@The Dark Chapel Regions/DC"
-        ],
-        "sections": [
-          {
-            "name": "Outside Mirror"
-          },
-          {
-            "name": "Mirror World",
-            "access_rules": [
-              "mirror"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Big Square Room Alcove",
-        "access_rules": [
-          "@The Dark Chapel Regions/DC, $mediumuppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Main Room",
-        "access_rules": [
-          "@The Dark Chapel Regions/DC"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Bell Room In Bell",
-        "access_rules": [
-          "@The Dark Chapel Regions/DC, zip"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Bell Room Top Left",
-        "access_rules": [
-          "@The Dark Chapel Regions/DC"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Bell Room Right",
-        "access_rules": [
-          "@The Dark Chapel Regions/DC, $mediumuppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Post-Dimitrii Room",
-        "access_rules": [
-          "@The Dark Chapel Regions/DC, seal2, $smalluppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Malphas Soul",
-        "access_rules": [
-          "@The Dark Chapel Regions/DC, seal2"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/boss/malphas.png",
-            "chest_opened_img": "images/boss/malphas_bw.png"
-          }
-        ]
-      },
-      {
-        "name": "Big Room Top Right",
-        "access_rules": [
-          "@The Dark Chapel Regions/DCBigRoom, $biguppies",
-          "@The Dark Chapel Regions/DCBigRoom, puppet, jump"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Big Room Central",
-        "access_rules": [
-          "@The Dark Chapel Regions/DCBigRoom"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Big Room Lower",
-        "access_rules": [
-          "@The Dark Chapel Regions/DCBigRoom, $biguppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Demon Guest House",
-    "chest_unopened_img": "images/items/chest.png",
-    "chest_opened_img": "images/items/chest_bw.png",
-    "children": [
-      {
-        "name": "Secret Room",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHMain, $biguppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Antechamber",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHMain"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Lower Main Chamber Bottom Room",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHMain"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Puppet Hole",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHPuppetWallRight"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Number 1 Room",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHNumberPuzzleWest"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Number 5 Room",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHNumberPuzzle"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Number 8 Room",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Number 9 Room",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Number 12 Room",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Mirror Room",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
-        ],
-        "sections": [
-          {
-            "name": "Outside Mirror"
-          },
-          {
-            "name": "Mirror World",
-            "access_rules": [
-              "mirror"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Doll Alcove",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHWestWing"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "West Wing Left",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHWestWing, speed",
-          "@Demon Guest House Regions/DGHWestWing, $mediumuppies",
-          "@Demon Guest House Regions/DGHWestWing, panther"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "West Wing Right",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHWestWing, speed",
-          "@Demon Guest House Regions/DGHWestWing, $mediumuppies",
-          "@Demon Guest House Regions/DGHWestWing, panther"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Puppet Master Soul",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHWestWing, $smalluppies, seal3"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/boss/puppetmaster.png",
-            "chest_opened_img": "images/boss/puppetmaster_bw.png"
-          }
-        ]
-      },
-      {
-        "name": "Ice Block Room Left",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHWestWing, $smalluppies, ice"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Ice Block Room Right",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHWestWing, $smalluppies, ice"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Central Main Chamber Bottom Room",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHMain"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Central Main Chamber Middle Room",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHMain"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Central Main Chamber Top Room",
-        "access_rules": [
-          "@Demon Guest House Regions/DGHMain"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Paranoia Soul",
-        "access_rules": [
-          "$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4",
-          "$vanillasouls, @Demon Guest House Regions/DGHUpper, ukoback, seal4",
-          "soulsanity, @Demon Guest House Regions/DGHUpper, ukoback, axe, clown, seal4"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/boss/paranoia.png",
-            "chest_opened_img": "images/boss/paranoia_bw.png"
-          }
-        ]
-      },
-      {
-        "name": "Beyond Paranoia",
-        "access_rules": [
-          "$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4",
-          "$vanillasouls, @Demon Guest House Regions/DGHUpper, ukoback, seal4",
-          "soulsanity, @Demon Guest House Regions/DGHUpper, ukoback, axe, clown, seal4"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Paranoia Mirror",
-        "access_rules": [
-          "$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4, mirror",
-          "$vanillasouls, @Demon Guest House Regions/DGHUpper, ukoback, seal4, mirror",
-          "soulsanity, @Demon Guest House Regions/DGHUpper, ukoback, axe, clown, seal4, mirror"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Condemned Tower",
-    "chest_unopened_img": "images/items/chest.png",
-    "chest_opened_img": "images/items/chest_bw.png",
-    "children": [
-      {
-        "name": "1F West",
-        "access_rules": [
-          "@Condemned Tower Regions/CTBottom, $biguppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "1F East",
-        "access_rules": [
-          "@Condemned Tower Regions/CTBottom"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "2F East",
-        "access_rules": [
-          "@Condemned Tower Regions/CTBottom, $mediumuppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "5F West",
-        "access_rules": [
-          "@Condemned Tower Regions/CTTop"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "7F West",
-        "access_rules": [
-          "@Condemned Tower Regions/CTTop"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Gergoth Soul",
-        "access_rules": [
-          "@Condemned Tower Regions/CTTop, seal3"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/boss/gergoth.png",
-            "chest_opened_img": "images/boss/gergoth_bw.png"
-          }
-        ]
-      },
-      {
-        "name": "Top of the Tower",
-        "access_rules": [
-          "@Condemned Tower Regions/CTTop, seal3"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Cursed Clock Tower",
-    "chest_unopened_img": "images/items/chest.png",
-    "chest_opened_img": "images/items/chest_bw.png",
-    "children": [
-      {
-        "name": "Money Gate",
-        "access_rules": [
-          "@Cursed Clock Tower Regions/CCTEntrance"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Lower Corner Room",
-        "access_rules": [
-          "@Cursed Clock Tower Regions/CCTEntrance"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Mirror Room",
-        "access_rules": [
-          "@Cursed Clock Tower Regions/CCTCentral"
-        ],
-        "sections": [
-          {
-            "name": "Outside Mirror"
-          },
-          {
-            "name": "Mirror World",
-            "access_rules": [
-              "mirror"
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Bugbear Hallway",
-        "access_rules": [
-          "@Cursed Clock Tower Regions/CCTCentral"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "East Gear Room",
-        "access_rules": [
-          "@Cursed Clock Tower Regions/CCTCentral"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Spike Room Secret",
-        "access_rules": [
-          "@Cursed Clock Tower Regions/CCTCentral, bat"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Zephyr Soul",
-        "access_rules": [
-          "@Cursed Clock Tower Regions/CCTBossArea, seal4"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/boss/zephyr.png",
-            "chest_opened_img": "images/boss/zephyr_bw.png"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Subterranean Hell",
-    "chest_unopened_img": "images/items/chest.png",
-    "chest_opened_img": "images/items/chest_bw.png",
-    "children": [
-      {
-        "name": "Rahab Soul",
-        "access_rules": [
-          "@Subterranean Hell Regions/SHTopEntrance, seal3"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/boss/rahab.png",
-            "chest_opened_img": "images/boss/rahab_bw.png"
-          }
-        ]
-      },
-      {
-        "name": "Giant Underwater Room Center Left",
-        "access_rules": [
-          "@Subterranean Hell Regions/SHEast, water"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Giant Underwater Room Center Right",
-        "access_rules": [
-          "@Subterranean Hell Regions/SHEast, water"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Giant Underwater Room Top Left",
-        "access_rules": [
-          "@Subterranean Hell Regions/SHEast, water"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Giant Underwater Room Bottom Right",
-        "access_rules": [
-          "@Subterranean Hell Regions/SHEast, water"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Near Save Room",
-        "access_rules": [
-          "@Subterranean Hell Regions/SHCentralExit, $mediumuppies",
-          "@Subterranean Hell Regions/SHCentralExit, armor",
-          "@Subterranean Hell Regions/SHCentralExit, panther"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Central Lower Room",
-        "access_rules": [
-          "@Subterranean Hell Regions/SHCentralLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Central Upper Room",
-        "access_rules": [
-          "@Subterranean Hell Regions/SHCentralLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Behind Waterfall",
-        "access_rules": [
-          "@Subterranean Hell Regions/SHCentralLower, $smalluppies",
-          "@Subterranean Hell Regions/SHCentralLower, armor",
-          "@Subterranean Hell Regions/SHCentralLower, panther"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Waterfall Room Lower",
-        "access_rules": [
-          "@Subterranean Hell Regions/SHCentralLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Waterfall Room Middle",
-        "access_rules": [
-          "@Subterranean Hell Regions/SHCentralLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Waterfall Room Upper",
-        "access_rules": [
-          "@Subterranean Hell Regions/SHCentralLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Silenced Ruins",
-    "chest_unopened_img": "images/items/chest.png",
-    "chest_opened_img": "images/items/chest_bw.png",
-    "children": [
-      {
-        "name": "Ice Block Room",
-        "access_rules": [
-          "@Silenced Ruins Regions/SR, ice"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Bat Company Soul",
-        "access_rules": [
-          "@Silenced Ruins Regions/SR, seal4"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/boss/batcompany.png",
-            "chest_opened_img": "images/boss/batcompany_bw.png"
-          }
-        ]
-      },
-      {
-        "name": "Mirror Room",
-        "access_rules": [
-          "@Silenced Ruins Regions/SRBackExit"
-        ],
-        "sections": [
-          {
-            "name": "Outside Mirror"
-          },
-          {
-            "name": "Mirror World",
-            "access_rules": [
-              "mirror"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "The Pinnacle",
-    "chest_unopened_img": "images/items/chest.png",
-    "chest_opened_img": "images/items/chest_bw.png",
-    "children": [
-      {
-        "name": "Lower Hidden Room",
-        "access_rules": [
-          "@The Pinnacle Regions/TPLower"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Under Big Staircase",
-        "access_rules": [
-          "@The Pinnacle Regions/TP, $biguppies"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Central Indoor Room",
-        "access_rules": [
-          "@The Pinnacle Regions/TP"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Central Outdoor Room",
-        "access_rules": [
-          "@The Pinnacle Regions/TP"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Before Throne Room Secret Left",
-        "access_rules": [
-          "@The Pinnacle Regions/TPThroneRoom"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Before Throne Room Secret Right",
-        "access_rules": [
-          "@The Pinnacle Regions/TPThroneRoom"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Aguni Soul",
-        "visibility_rules": [
-          "abyss",
-          "abyssplus"
-        ],
-        "access_rules": [
-          "@The Pinnacle Regions/TPThroneRoom, seal4, mirror"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/boss/aguni.png",
-            "chest_opened_img": "images/boss/aguni_bw.png"
-          }
-        ]
-      },
-      {
-        "name": "Beyond Throne Room",
-        "visibility_rules": [
-          "abyss",
-          "abyssplus"
-        ],
-        "access_rules": [
-          "@The Pinnacle Regions/TPThroneRoom, seal4, mirror"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Mine of Judgement",
-    "children": [
-      {
-        "name": "Death Soul",
-        "visibility_rules": [
-          "abyss",
-          "abyssplus"
-        ],
-        "access_rules": [
-          "@Mine of Judgement Regions/MoJ, $mediumuppies, seal5"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/boss/death.png",
-            "chest_opened_img": "images/boss/death_bw.png"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "The Abyss",
-    "chest_unopened_img": "images/items/chest.png",
-    "chest_opened_img": "images/items/chest_bw.png",
-    "children": [
-      {
-        "name": "Sand Area",
-        "visibility_rules": [
-          "abyss",
-          "abyssplus"
-        ],
-        "access_rules": [
-          "@The Abyss Regions/TA"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Ice Area",
-        "visibility_rules": [
-          "abyss",
-          "abyssplus"
-        ],
-        "access_rules": [
-          "@The Abyss Regions/TA"
-        ],
-        "sections": [
-          {
-            "name": ""
-          }
-        ]
-      },
-      {
-        "name": "Abaddon Soul",
-        "visibility_rules": [
-          "abyss",
-          "abyssplus"
-        ],
-        "access_rules": [
-          "@The Abyss Regions/TABeyondAbaddon"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/boss/abaddon.png",
-            "chest_opened_img": "images/boss/abaddon_bw.png"
-          }
-        ]
-      },
-      {
-        "name": "Abyss Center",
-        "access_rules": [
-          "throneroom, @The Pinnacle Regions/TPThroneRoom",
-          "abyss, @The Abyss Regions/TABeyondAbaddon, $biguppies",
-          "abyssplus, @The Abyss Regions/TABeyondAbaddon, $biguppies"
-        ],
-        "sections": [
-          {
-            "name": "",
-            "chest_unopened_img": "images/boss/menace.png",
-            "chest_opened_img": "images/boss/menace_bw.png"
-          }
-        ]
-      }
-    ]
-  }
+	{
+		"name": "The Lost Village",
+		"chest_unopened_img": "images/items/chest.png",
+		"chest_opened_img": "images/items/chest_bw.png",
+		"children": [
+			{
+				"name": "Above Entrance",
+				"access_rules": [
+					"@The Lost Village Regions/LVUpper, $biguppies",
+					"@The Lost Village Regions/LVUpper, jump, puppet"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Upper Big Room Corner",
+				"access_rules": [
+					"@The Lost Village Regions/LVUpperDoorway"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Pre-Boss Room Upper",
+				"access_rules": [
+					"@The Lost Village Regions/LVUpper"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Pre-Boss Room Lower",
+				"access_rules": [
+					"@The Lost Village Regions/LVUpper"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Drawbridge Room",
+				"access_rules": [
+					"@The Lost Village Regions/LVUpper"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Above Drawbridge",
+				"access_rules": [
+					"@The Lost Village Regions/LVUpper, $smalluppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "In Moat",
+				"access_rules": [
+					"@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/, $biguppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Flying Armor Soul",
+				"access_rules": [
+					"@The Lost Village Regions/LVUpper, seal1"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/boss/flyingarmor.png",
+						"chest_opened_img": "images/boss/flyingarmor_bw.png"
+					}
+				]
+			},
+			{
+				"name": "Above Guest House Entrance",
+				"access_rules": [
+					"@The Lost Village Regions/LVUpper, $biguppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Flying Armor Indoor Room",
+				"access_rules": [
+					"@The Lost Village Regions/LVLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "West Plaza",
+				"access_rules": [
+					"@The Lost Village Regions/LVLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "West Building Upper",
+				"access_rules": [
+					"@The Lost Village Regions/LVLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "West Building Lower",
+				"access_rules": [
+					"@The Lost Village Regions/LVLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Central Building",
+				"access_rules": [
+					"@The Lost Village Regions/LVLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "East Plaza",
+				"access_rules": [
+					"@The Lost Village Regions/LVLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Hidden Floor Room",
+				"access_rules": [
+					"@The Lost Village Regions/LVLower"
+				],
+				"sections": [
+					{
+						"name": "Item 1"
+					},
+					{
+						"name": "Item 2"
+					}
+				]
+			},
+			{
+				"name": "Mirror Room Left",
+				"access_rules": [
+					"@The Lost Village Regions/LVLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Mirror Room Right",
+				"access_rules": [
+					"@The Lost Village Regions/LVLower, mirror"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Moat Drain Switch",
+				"access_rules": [
+					"speed, @The Lost Village Regions/LVLower",
+					"$low, @The Lost Village Regions/LVLower, $mediumuppies",
+					"$low, @The Lost Village Regions/LVLower, armor",
+					"$low, @The Lost Village Regions/LVLower, panther"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/events/moat.png",
+						"chest_opened_img": "images/events/moat_drained.png"
+					}
+				]
+			},
+			{
+				"name": "Axe Armor Hallway",
+				"access_rules": [
+					"@The Lost Village Regions/LVUndergroundTop"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 171,
+						"y": 632
+					}
+				]
+			},
+			{
+				"name": "Underground Shaft",
+				"access_rules": [
+					"@The Lost Village Regions/LVUndergroundTop"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 212,
+						"y": 612
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Wizardry Lab",
+		"chest_unopened_img": "images/items/chest.png",
+		"chest_opened_img": "images/items/chest_bw.png",
+		"children": [
+			{
+				"name": "Mirror Room",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLMain, ice"
+				],
+				"sections": [
+					{
+						"name": "Outside Mirror"
+					},
+					{
+						"name": "Mirror World",
+						"access_rules": [
+							"mirror"
+						]
+					}
+				]
+			},
+			{
+				"name": "Main Entry Shaft",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLMain"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Upper Big Room",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLMain"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "West Gate",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLMain"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Behind West Gate",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLWestGate"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Ceiling Secret Room",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLMain, ice",
+					"@Wizardry Lab Regions/WLMain, bat",
+					"@Wizardry Lab Regions/WLMain, puppet, jump",
+					"@Wizardry Lab Regions/WLMain, puppet, zip"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Balore Soul",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLMain, seal1"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/boss/balore.png",
+						"chest_opened_img": "images/boss/balore_bw.png"
+					}
+				]
+			},
+			{
+				"name": "East Gate",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLEastGate"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Money Gate",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLSunken, water"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Underwater Left",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLSunken, water"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Underwater Right",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLSunken, water"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Above Water",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLSunken, water"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Garden of Madness",
+		"chest_unopened_img": "images/items/chest.png",
+		"chest_opened_img": "images/items/chest_bw.png",
+		"children": [
+			{
+				"name": "Lower Tree Hallway",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "West Big Room",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "West Big Room Alcove",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "West Upper Room",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMUpper"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Hidden Room",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMUpper, $biguppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Center Room",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Money Gate",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Underground Room",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMWaterBlocked, $mediumuppies",
+					"@Garden of Madness Regions/GoMWaterBlocked, panther"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "East Alcove",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMEastGate"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Central Chamber",
+				"visibility_rules": [
+					"abyss",
+					"abyssplus"
+				],
+				"access_rules": [
+					"abyss, @Garden of Madness Regions/GoMLower, talisman, seal5",
+					"abyssplus, @Garden of Madness Regions/GoMLower, talisman, seal5, @The Pinnacle/Aguni Soul/"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/events/mina.png",
+						"chest_opened_img": "images/events/dark.png"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Dark Chapel",
+		"chest_unopened_img": "images/items/chest.png",
+		"chest_opened_img": "images/items/chest_bw.png",
+		"children": [
+			{
+				"name": "Entrance Alcove",
+				"access_rules": [
+					"@The Dark Chapel Regions/DC, $mediumuppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Catacombs Top Left",
+				"access_rules": [
+					"@The Dark Chapel Regions/DC"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Catacombs Middle Room",
+				"access_rules": [
+					"@The Dark Chapel Regions/DC"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Catacombs Soul Barrier",
+				"access_rules": [
+					"$vanillasouls, @The Dark Chapel Regions/DC",
+					"soulsanity, @The Dark Chapel Regions/DC, skeleton"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Catacombs Mirror Room",
+				"access_rules": [
+					"@The Dark Chapel Regions/DC"
+				],
+				"sections": [
+					{
+						"name": "Outside Mirror"
+					},
+					{
+						"name": "Mirror World",
+						"access_rules": [
+							"mirror"
+						]
+					}
+				]
+			},
+			{
+				"name": "Big Square Room Alcove",
+				"access_rules": [
+					"@The Dark Chapel Regions/DC, $mediumuppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Main Room",
+				"access_rules": [
+					"@The Dark Chapel Regions/DC"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Bell Room In Bell",
+				"access_rules": [
+					"@The Dark Chapel Regions/DC, zip"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Bell Room Top Left",
+				"access_rules": [
+					"@The Dark Chapel Regions/DC"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Bell Room Right",
+				"access_rules": [
+					"@The Dark Chapel Regions/DC, $mediumuppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Post-Dimitrii Room",
+				"access_rules": [
+					"@The Dark Chapel Regions/DC, seal2, $smalluppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Malphas Soul",
+				"access_rules": [
+					"@The Dark Chapel Regions/DC, seal2"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/boss/malphas.png",
+						"chest_opened_img": "images/boss/malphas_bw.png"
+					}
+				]
+			},
+			{
+				"name": "Big Room Top Right",
+				"access_rules": [
+					"@The Dark Chapel Regions/DCBigRoom, $biguppies",
+					"@The Dark Chapel Regions/DCBigRoom, puppet, jump"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Big Room Central",
+				"access_rules": [
+					"@The Dark Chapel Regions/DCBigRoom"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Big Room Lower",
+				"access_rules": [
+					"@The Dark Chapel Regions/DCBigRoom, $biguppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Demon Guest House",
+		"chest_unopened_img": "images/items/chest.png",
+		"chest_opened_img": "images/items/chest_bw.png",
+		"children": [
+			{
+				"name": "Secret Room",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHMain, $biguppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Antechamber",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHMain"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Lower Main Chamber Bottom Room",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHMain"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Puppet Hole",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHPuppetWallRight"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Number 1 Room",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHNumberPuzzleWest"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Number 5 Room",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHNumberPuzzle"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Number 8 Room",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Number 9 Room",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Number 12 Room",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Mirror Room",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
+				],
+				"sections": [
+					{
+						"name": "Outside Mirror"
+					},
+					{
+						"name": "Mirror World",
+						"access_rules": [
+							"mirror"
+						]
+					}
+				]
+			},
+			{
+				"name": "Doll Alcove",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHWestWing"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "West Wing Left",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHWestWing, speed",
+					"@Demon Guest House Regions/DGHWestWing, $mediumuppies",
+					"@Demon Guest House Regions/DGHWestWing, panther"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "West Wing Right",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHWestWing, speed",
+					"@Demon Guest House Regions/DGHWestWing, $mediumuppies",
+					"@Demon Guest House Regions/DGHWestWing, panther"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Puppet Master Soul",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHWestWing, $smalluppies, seal3"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/boss/puppetmaster.png",
+						"chest_opened_img": "images/boss/puppetmaster_bw.png"
+					}
+				]
+			},
+			{
+				"name": "Ice Block Room Left",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHWestWing, $smalluppies, ice"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Ice Block Room Right",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHWestWing, $smalluppies, ice"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Central Main Chamber Bottom Room",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHMain"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Central Main Chamber Middle Room",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHMain"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Central Main Chamber Top Room",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHMain"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Paranoia Soul",
+				"access_rules": [
+					"$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4",
+					"$vanillasouls, @Demon Guest House Regions/DGHUpper, ukoback, seal4",
+					"soulsanity, @Demon Guest House Regions/DGHUpper, ukoback, axe, clown, seal4"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/boss/paranoia.png",
+						"chest_opened_img": "images/boss/paranoia_bw.png"
+					}
+				]
+			},
+			{
+				"name": "Beyond Paranoia",
+				"access_rules": [
+					"$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4",
+					"$vanillasouls, @Demon Guest House Regions/DGHUpper, ukoback, seal4",
+					"soulsanity, @Demon Guest House Regions/DGHUpper, ukoback, axe, clown, seal4"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Paranoia Mirror",
+				"access_rules": [
+					"$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4, mirror",
+					"$vanillasouls, @Demon Guest House Regions/DGHUpper, ukoback, seal4, mirror",
+					"soulsanity, @Demon Guest House Regions/DGHUpper, ukoback, axe, clown, seal4, mirror"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Condemned Tower",
+		"chest_unopened_img": "images/items/chest.png",
+		"chest_opened_img": "images/items/chest_bw.png",
+		"children": [
+			{
+				"name": "1F West",
+				"access_rules": [
+					"@Condemned Tower Regions/CTBottom, $biguppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "1F East",
+				"access_rules": [
+					"@Condemned Tower Regions/CTBottom"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "2F East",
+				"access_rules": [
+					"@Condemned Tower Regions/CTBottom, $mediumuppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "5F West",
+				"access_rules": [
+					"@Condemned Tower Regions/CTTop"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "7F West",
+				"access_rules": [
+					"@Condemned Tower Regions/CTTop"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Gergoth Soul",
+				"access_rules": [
+					"@Condemned Tower Regions/CTTop, seal3"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/boss/gergoth.png",
+						"chest_opened_img": "images/boss/gergoth_bw.png"
+					}
+				]
+			},
+			{
+				"name": "Top of the Tower",
+				"access_rules": [
+					"@Condemned Tower Regions/CTTop, seal3"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Cursed Clock Tower",
+		"chest_unopened_img": "images/items/chest.png",
+		"chest_opened_img": "images/items/chest_bw.png",
+		"children": [
+			{
+				"name": "Money Gate",
+				"access_rules": [
+					"@Cursed Clock Tower Regions/CCTEntrance"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Lower Corner Room",
+				"access_rules": [
+					"@Cursed Clock Tower Regions/CCTEntrance"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Mirror Room",
+				"access_rules": [
+					"@Cursed Clock Tower Regions/CCTCentral"
+				],
+				"sections": [
+					{
+						"name": "Outside Mirror"
+					},
+					{
+						"name": "Mirror World",
+						"access_rules": [
+							"mirror"
+						]
+					}
+				]
+			},
+			{
+				"name": "Bugbear Hallway",
+				"access_rules": [
+					"@Cursed Clock Tower Regions/CCTCentral"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "East Gear Room",
+				"access_rules": [
+					"@Cursed Clock Tower Regions/CCTCentral"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Spike Room Secret",
+				"access_rules": [
+					"@Cursed Clock Tower Regions/CCTCentral, bat"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Zephyr Soul",
+				"access_rules": [
+					"@Cursed Clock Tower Regions/CCTBossArea, seal4"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/boss/zephyr.png",
+						"chest_opened_img": "images/boss/zephyr_bw.png"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Subterranean Hell",
+		"chest_unopened_img": "images/items/chest.png",
+		"chest_opened_img": "images/items/chest_bw.png",
+		"children": [
+			{
+				"name": "Rahab Soul",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHTopEntrance, seal3"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/boss/rahab.png",
+						"chest_opened_img": "images/boss/rahab_bw.png"
+					}
+				]
+			},
+			{
+				"name": "Giant Underwater Room Center Left",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHEast, water"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Giant Underwater Room Center Right",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHEast, water"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Giant Underwater Room Top Left",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHEast, water"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Giant Underwater Room Bottom Right",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHEast, water"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Near Save Room",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHCentralExit, $mediumuppies",
+					"@Subterranean Hell Regions/SHCentralExit, armor",
+					"@Subterranean Hell Regions/SHCentralExit, panther"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Central Lower Room",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHCentralLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Central Upper Room",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHCentralLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Behind Waterfall",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHCentralLower, $smalluppies",
+					"@Subterranean Hell Regions/SHCentralLower, armor",
+					"@Subterranean Hell Regions/SHCentralLower, panther"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Waterfall Room Lower",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHCentralLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Waterfall Room Middle",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHCentralLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Waterfall Room Upper",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHCentralLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Silenced Ruins",
+		"chest_unopened_img": "images/items/chest.png",
+		"chest_opened_img": "images/items/chest_bw.png",
+		"children": [
+			{
+				"name": "Ice Block Room",
+				"access_rules": [
+					"@Silenced Ruins Regions/SR, ice"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Bat Company Soul",
+				"access_rules": [
+					"@Silenced Ruins Regions/SR, seal4"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/boss/batcompany.png",
+						"chest_opened_img": "images/boss/batcompany_bw.png"
+					}
+				]
+			},
+			{
+				"name": "Mirror Room",
+				"access_rules": [
+					"@Silenced Ruins Regions/SRBackExit"
+				],
+				"sections": [
+					{
+						"name": "Outside Mirror"
+					},
+					{
+						"name": "Mirror World",
+						"access_rules": [
+							"mirror"
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Pinnacle",
+		"chest_unopened_img": "images/items/chest.png",
+		"chest_opened_img": "images/items/chest_bw.png",
+		"children": [
+			{
+				"name": "Lower Hidden Room",
+				"access_rules": [
+					"@The Pinnacle Regions/TPLower"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Under Big Staircase",
+				"access_rules": [
+					"@The Pinnacle Regions/TP, $biguppies"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Central Indoor Room",
+				"access_rules": [
+					"@The Pinnacle Regions/TP"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Central Outdoor Room",
+				"access_rules": [
+					"@The Pinnacle Regions/TP"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Before Throne Room Secret Left",
+				"access_rules": [
+					"@The Pinnacle Regions/TPThroneRoom"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Before Throne Room Secret Right",
+				"access_rules": [
+					"@The Pinnacle Regions/TPThroneRoom"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Aguni Soul",
+				"visibility_rules": [
+					"abyss",
+					"abyssplus"
+				],
+				"access_rules": [
+					"@The Pinnacle Regions/TPThroneRoom, seal4, mirror"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/boss/aguni.png",
+						"chest_opened_img": "images/boss/aguni_bw.png"
+					}
+				]
+			},
+			{
+				"name": "Beyond Throne Room",
+				"visibility_rules": [
+					"abyss",
+					"abyssplus"
+				],
+				"access_rules": [
+					"@The Pinnacle Regions/TPThroneRoom, seal4, mirror"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Mine of Judgement",
+		"children": [
+			{
+				"name": "Death Soul",
+				"visibility_rules": [
+					"abyss",
+					"abyssplus"
+				],
+				"access_rules": [
+					"@Mine of Judgement Regions/MoJ, $mediumuppies, seal5"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/boss/death.png",
+						"chest_opened_img": "images/boss/death_bw.png"
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "The Abyss",
+		"chest_unopened_img": "images/items/chest.png",
+		"chest_opened_img": "images/items/chest_bw.png",
+		"children": [
+			{
+				"name": "Sand Area",
+				"visibility_rules": [
+					"abyss",
+					"abyssplus"
+				],
+				"access_rules": [
+					"@The Abyss Regions/TA"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Ice Area",
+				"visibility_rules": [
+					"abyss",
+					"abyssplus"
+				],
+				"access_rules": [
+					"@The Abyss Regions/TA"
+				],
+				"sections": [
+					{
+						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Abaddon Soul",
+				"visibility_rules": [
+					"abyss",
+					"abyssplus"
+				],
+				"access_rules": [
+					"@The Abyss Regions/TABeyondAbaddon"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/boss/abaddon.png",
+						"chest_opened_img": "images/boss/abaddon_bw.png"
+					}
+				]
+			},
+			{
+				"name": "Abyss Center",
+				"access_rules": [
+					"throneroom, @The Pinnacle Regions/TPThroneRoom",
+					"abyss, @The Abyss Regions/TABeyondAbaddon, $biguppies",
+					"abyssplus, @The Abyss Regions/TABeyondAbaddon, $biguppies"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/boss/menace.png",
+						"chest_opened_img": "images/boss/menace_bw.png"
+					}
+				]
+			}
+		]
+	}
 ]

@@ -1,262 +1,262 @@
 [
-  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
-  // Seals
-  {
-    "name": "Magic Seal 1",
-    "type": "toggle",
-    "img": "images/items/bigseal1.png",
-    "codes": "seal1"
-  },
-  {
-    "name": "Magic Seal 2",
-    "type": "toggle",
-    "img": "images/items/bigseal2.png",
-    "codes": "seal2"
-  },
-  {
-    "name": "Magic Seal 3",
-    "type": "toggle",
-    "img": "images/items/bigseal3.png",
-    "codes": "seal3"
-  },
-  {
-    "name": "Magic Seal 4",
-    "type": "toggle",
-    "img": "images/items/bigseal4.png",
-    "codes": "seal4"
-  },
-  {
-    "name": "Magic Seal 5",
-    "type": "toggle",
-    "img": "images/items/bigseal5.png",
-    "codes": "seal5"
-  },
-  // Equipment
-  {
-    "name": "Tower Key",
-    "type": "toggle",
-    "img": "images/items/key.png",
-    "codes": "tkey"
-  },
-  {
-    "name": "Mina's Talisman",
-    "type": "toggle",
-    "img": "images/items/talisman.png",
-    "codes": "talisman"
-  },
-  {
-    "name": "Cutall",
-    "type": "toggle",
-    "img": "images/items/cutall.png",
-    "codes": "cutall"
-  },
-  {
-    "name": "Soul Eater Ring",
-    "type": "toggle",
-    "img": "images/items/souleater.png",
-    "codes": "soulring"
-  },
-  // Boss Souls
-  {
-    "name": "Flying Armor Soul",
-    "type": "toggle",
-    "img": "images/items/armor.png",
-    "codes": "armor"
-  },
-  {
-    "name": "Balore Soul",
-    "type": "toggle",
-    "img": "images/items/ice.png",
-    "codes": "ice"
-  },
-  {
-    "name": "Doppelganger Soul",
-    "type": "toggle",
-    "img": "images/items/gembox.png",
-    "codes": "gembox"
-  },
-  {
-    "name": "Malphas Soul",
-    "type": "toggle",
-    "img": "images/items/kick.png",
-    "codes": "jump"
-  },
-  {
-    "name": "Puppet Master Soul",
-    "type": "toggle",
-    "img": "images/items/puppet.png",
-    "codes": "puppet"
-  },
-  {
-    "name": "Rahab Soul",
-    "type": "toggle",
-    "img": "images/items/water.png",
-    "codes": "water"
-  },
-  {
-    "name": "Zephyr Soul",
-    "type": "toggle",
-    "img": "images/items/time.png",
-    "codes": "dio"
-  },
-  {
-    "name": "Bat Company Soul",
-    "type": "toggle",
-    "img": "images/items/bat.png",
-    "codes": "bat"
-  },
-  {
-    "name": "Paranoia Soul",
-    "type": "toggle",
-    "img": "images/items/mirror.png",
-    "codes": "mirror"
-  },
-  {
-    "name": "Hippogryph Soul",
-    "type": "toggle",
-    "img": "images/items/zip.png",
-    "codes": "zip"
-  },
-  // lol
-  {
-    "name": "Procel Soul",
-    "type": "toggle",
-    "img": "images/items/tread.png",
-    "codes": "fastwater"
-  },
-  {
-    "name": "Mud Demon Soul",
-    "type": "toggle",
-    "img": "images/items/slosh.png",
-    "codes": "fastmud"
-  },
-  // Barrier Souls
-  {
-    "name": "Ukoback Soul",
-    "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "ukoback"
-  },
-  {
-    "name": "Killer Clown Soul",
-    "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "clown"
-  },
-  {
-    "name": "Axe Armor Soul",
-    "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "axe"
-  },
-  {
-    "name": "Skeleton Soul",
-    "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "skeleton"
-  },
-  // Traversal Souls
-  {
-    "name": "Skeleton Ape Soul",
-    "type": "toggle",
-    "img": "images/items/skape.png",
-    "codes": "drydk"
-  },
-  {
-    "name": "Bone Ark Soul",
-    "type": "toggle",
-    "img": "images/items/bark.png",
-    "codes": "bark"
-  },
-  {
-    "name": "Black Panther Soul",
-    "type": "toggle",
-    "img": "images/items/fast.png",
-    "codes": "panther"
-  },
-  {
-    "name": "Imp Soul",
-    "type": "toggle",
-    "img": "images/items/imp.png",
-    "codes": "imp"
-  },
-  //UMA News Souls
-  {
-    "name": "Waiter Skeleton Soul",
-    "type": "toggle",
-    "img": "images/items/curry.png",
-    "codes": "food"
-  },
-  {
-    "name": "Mandragora Soul",
-    "type": "toggle",
-    "img": "images/items/scream.png",
-    "codes": "yell"
-  },
-  {
-    "name": "Rycuda Soul",
-    "type": "toggle",
-    "img": "images/items/thunder.png",
-    "codes": "shock"
-  },
-  // Events
-  {
-    "name": "Moat Drained",
-    "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "moat"
-  },
-  {
-    "name": "Power of Darkness",
-    "type": "toggle",
-    "img": "images/items/dark.png",
-    "codes": "dark"
-  },
-  {
-    "name": "Progressive",
-    "type": "progressive",
-    "allow_disabled": true,
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/items/progressive.png",
-        "codes": "progressive",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_2",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Consumable",
-    "type": "consumable",
-    "img": "images/items/consumable.png",
-    "max_quantity": 8,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 1,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "consumable"
-  },
-  {
-    "name": "Progressive Toggle",
-    "type": "progressive_toggle",
-    "initial_stage_idx": 0,
-    "stages": [
-      {
-        "img": "images/items/progressive.png",
-        "codes": "progressive_toggle",
-        "inherit_codes": false
-      },
-      {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_toggle_2",
-        "inherit_codes": false
-      }
-    ]
-  }
+	//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+	// Seals
+	{
+		"name": "Magic Seal 1",
+		"type": "toggle",
+		"img": "images/items/bigseal1.png",
+		"codes": "seal1"
+	},
+	{
+		"name": "Magic Seal 2",
+		"type": "toggle",
+		"img": "images/items/bigseal2.png",
+		"codes": "seal2"
+	},
+	{
+		"name": "Magic Seal 3",
+		"type": "toggle",
+		"img": "images/items/bigseal3.png",
+		"codes": "seal3"
+	},
+	{
+		"name": "Magic Seal 4",
+		"type": "toggle",
+		"img": "images/items/bigseal4.png",
+		"codes": "seal4"
+	},
+	{
+		"name": "Magic Seal 5",
+		"type": "toggle",
+		"img": "images/items/bigseal5.png",
+		"codes": "seal5"
+	},
+	// Equipment
+	{
+		"name": "Tower Key",
+		"type": "toggle",
+		"img": "images/items/key.png",
+		"codes": "tkey"
+	},
+	{
+		"name": "Mina's Talisman",
+		"type": "toggle",
+		"img": "images/items/talisman.png",
+		"codes": "talisman"
+	},
+	{
+		"name": "Cutall",
+		"type": "toggle",
+		"img": "images/items/cutall.png",
+		"codes": "cutall"
+	},
+	{
+		"name": "Soul Eater Ring",
+		"type": "toggle",
+		"img": "images/items/souleater.png",
+		"codes": "soulring"
+	},
+	// Boss Souls
+	{
+		"name": "Flying Armor Soul",
+		"type": "toggle",
+		"img": "images/items/armor.png",
+		"codes": "armor"
+	},
+	{
+		"name": "Balore Soul",
+		"type": "toggle",
+		"img": "images/items/ice.png",
+		"codes": "ice"
+	},
+	{
+		"name": "Doppelganger Soul",
+		"type": "toggle",
+		"img": "images/items/gembox.png",
+		"codes": "gembox"
+	},
+	{
+		"name": "Malphas Soul",
+		"type": "toggle",
+		"img": "images/items/kick.png",
+		"codes": "jump"
+	},
+	{
+		"name": "Puppet Master Soul",
+		"type": "toggle",
+		"img": "images/items/puppet.png",
+		"codes": "puppet"
+	},
+	{
+		"name": "Rahab Soul",
+		"type": "toggle",
+		"img": "images/items/water.png",
+		"codes": "water"
+	},
+	{
+		"name": "Zephyr Soul",
+		"type": "toggle",
+		"img": "images/items/time.png",
+		"codes": "dio"
+	},
+	{
+		"name": "Bat Company Soul",
+		"type": "toggle",
+		"img": "images/items/bat.png",
+		"codes": "bat"
+	},
+	{
+		"name": "Paranoia Soul",
+		"type": "toggle",
+		"img": "images/items/mirror.png",
+		"codes": "mirror"
+	},
+	{
+		"name": "Hippogryph Soul",
+		"type": "toggle",
+		"img": "images/items/zip.png",
+		"codes": "zip"
+	},
+	// lol
+	{
+		"name": "Procel Soul",
+		"type": "toggle",
+		"img": "images/items/tread.png",
+		"codes": "fastwater"
+	},
+	{
+		"name": "Mud Demon Soul",
+		"type": "toggle",
+		"img": "images/items/slosh.png",
+		"codes": "fastmud"
+	},
+	// Barrier Souls
+	{
+		"name": "Ukoback Soul",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "ukoback"
+	},
+	{
+		"name": "Killer Clown Soul",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "clown"
+	},
+	{
+		"name": "Axe Armor Soul",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "axe"
+	},
+	{
+		"name": "Skeleton Soul",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "skeleton"
+	},
+	// Traversal Souls
+	{
+		"name": "Skeleton Ape Soul",
+		"type": "toggle",
+		"img": "images/items/skape.png",
+		"codes": "drydk"
+	},
+	{
+		"name": "Bone Ark Soul",
+		"type": "toggle",
+		"img": "images/items/bark.png",
+		"codes": "bark"
+	},
+	{
+		"name": "Black Panther Soul",
+		"type": "toggle",
+		"img": "images/items/fast.png",
+		"codes": "panther"
+	},
+	{
+		"name": "Imp Soul",
+		"type": "toggle",
+		"img": "images/items/imp.png",
+		"codes": "imp"
+	},
+	//UMA News Souls
+	{
+		"name": "Waiter Skeleton Soul",
+		"type": "toggle",
+		"img": "images/items/curry.png",
+		"codes": "food"
+	},
+	{
+		"name": "Mandragora Soul",
+		"type": "toggle",
+		"img": "images/items/scream.png",
+		"codes": "yell"
+	},
+	{
+		"name": "Rycuda Soul",
+		"type": "toggle",
+		"img": "images/items/thunder.png",
+		"codes": "shock"
+	},
+	// Events
+	{
+		"name": "Moat Drained",
+		"type": "toggle",
+		"img": "images/items/toggle.png",
+		"codes": "moat"
+	},
+	{
+		"name": "Power of Darkness",
+		"type": "toggle",
+		"img": "images/items/dark.png",
+		"codes": "dark"
+	},
+	{
+		"name": "Progressive",
+		"type": "progressive",
+		"allow_disabled": true,
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/items/progressive.png",
+				"codes": "progressive",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/progressive_2.png",
+				"codes": "progressive_2",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
+		"name": "Consumable",
+		"type": "consumable",
+		"img": "images/items/consumable.png",
+		"max_quantity": 8,
+		"increment": 1,
+		"decrement": 1,
+		"initial_quantity": 1,
+		"overlay_background": "#000000",
+		"overlay_font_size": 8,
+		"codes": "consumable"
+	},
+	{
+		"name": "Progressive Toggle",
+		"type": "progressive_toggle",
+		"initial_stage_idx": 0,
+		"stages": [
+			{
+				"img": "images/items/progressive.png",
+				"codes": "progressive_toggle",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/items/progressive_2.png",
+				"codes": "progressive_toggle_2",
+				"inherit_codes": false
+			}
+		]
+	}
 ]

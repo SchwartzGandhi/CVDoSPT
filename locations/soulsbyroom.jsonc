@@ -1,0 +1,1188 @@
+[
+	{
+		"name": "Soulsanity Front End",
+		"children": [
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Yeti Soul",
+						"ref": "Common Souls/Yeti Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 122,
+						"y": 492
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Skeleton Soul",
+						"ref": "Uncommon Souls/Skeleton Soul/"
+					},
+					{
+						"name": "Bat Soul",
+						"ref": "Uncommon Souls/Bat Soul/"
+					},
+					{
+						"name": "Armor Knight Soul",
+						"ref": "Uncommon Souls/Armor Knight Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 162,
+						"y": 482
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Skeleton Soul",
+						"ref": "Uncommon Souls/Skeleton Soul/"
+					},
+					{
+						"name": "Peeping Eye Soul",
+						"ref": "Rare Souls/Peeping Eye Soul/"
+					},
+					{
+						"name": "Skelerang Soul",
+						"ref": "Uncommon Souls/Skelerang Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 212,
+						"y": 462
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Warg Soul",
+						"ref": "Common Souls/Warg Soul/"
+					},
+					{
+						"name": "Zombie Soul",
+						"ref": "Uncommon Souls/Zombie Soul/"
+					},
+					{
+						"name": "Axe Armor Soul",
+						"ref": "Common Souls/Axe Armor Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 302,
+						"y": 482
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Student Witch Soul",
+						"ref": "Uncommon Souls/Student Witch Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 262,
+						"y": 542
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Spin Devil Soul",
+						"ref": "Common Souls/Spin Devil Soul/"
+					},
+					{
+						"name": "Skeleton Soul",
+						"ref": "Uncommon Souls/Skeleton Soul/"
+					},
+					{
+						"name": "Bat Soul",
+						"ref": "Uncommon Souls/Bat Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 222,
+						"y": 552
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Zombie Soul",
+						"ref": "Uncommon Souls/Zombie Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 262,
+						"y": 572
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Ouija Table Soul",
+						"ref": "Rare Souls/Ouija Table Soul/"
+					},
+					{
+						"name": "Zombie Soul",
+						"ref": "Uncommon Souls/Zombie Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 192,
+						"y": 542
+					},
+					{
+						"map": "Coloured Castle",
+						"x": 132,
+						"y": 542
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Bat Soul",
+						"ref": "Uncommon Souls/Bat Soul/"
+					},
+					{
+						"name": "Armor Knight Soul",
+						"ref": "Uncommon Souls/Armor Knight Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 162,
+						"y": 542
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Warg Soul",
+						"ref": "Uncommon Souls/Bat Soul/"
+					},
+					{
+						"name": "Skeleton Ape Soul",
+						"ref": "Common Souls/Skeleton Ape Soul/"
+					},
+					{
+						"name": "Hell Boar Soul",
+						"ref": "Uncommon Souls/Hell Boar Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 402,
+						"y": 482
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Ghost Soul",
+						"ref": "Rare Souls/Ghost Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 412,
+						"y": 572
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Bomber Armor Soul",
+						"ref": "Uncommon Souls/Bomber Armor Soul/"
+					},
+					{
+						"name": "Slime Soul",
+						"ref": "Common Souls/Slime Soul/"
+					},
+					{
+						"name": "Axe Armor Soul",
+						"ref": "Common Souls/Axe Armor Soul/"
+					},
+					{
+						"name": "Student Witch Soul",
+						"ref": "Uncommon Souls/Student Witch Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 442,
+						"y": 582
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Manticore Soul",
+						"ref": "Uncommon Souls/Manticore Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 372,
+						"y": 652
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Skeleton Soul",
+						"ref": "Uncommon Souls/Skeleton Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 412,
+						"y": 652
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Slaughterer Soul",
+						"ref": "Uncommon Souls/Slaughterer Soul/"
+					},
+					{
+						"name": "Slime Soul",
+						"ref": "Common Souls/Slime Soul/"
+					},
+					{
+						"name": "Manticore Soul",
+						"ref": "Uncommon Souls/Manticore Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 412,
+						"y": 652
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Skeleton Soul",
+						"ref": "Uncommon Souls/Skeleton Soul/"
+					},
+					{
+						"name": "Skull Archer Soul",
+						"ref": "Uncommon Souls/Skull Archer Soul/"
+					},
+					{
+						"name": "Slime Soul",
+						"ref": "Common Souls/Slime Soul/"
+					},
+					{
+						"name": "Axe Armor Soul",
+						"ref": "Common Souls/Axe Armor Soul/"
+					},
+					{
+						"name": "Student Witch Soul",
+						"ref": "Uncommon Souls/Student Witch Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 372,
+						"y": 622
+					}
+				]
+			},
+			{
+				"name": "The Lost Village",
+				"sections": [
+					{
+						"name": "Ghost Soul",
+						"ref": "Rare Souls/Ghost Soul/"
+					},
+					{
+						"name": "Axe Armor Soul",
+						"ref": "Common Souls/Axe Armor Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 332,
+						"y": 652
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Persephone Soul",
+						"ref": "Uncommon Souls/Persephone Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 282,
+						"y": 432
+					},
+					{
+						"map": "Coloured Castle",
+						"x": 532,
+						"y": 452
+					},
+					{
+						"map": "Coloured Castle",
+						"x": 582,
+						"y": 372
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Lilith Soul",
+						"ref": "Uncommon Souls/Lilith Soul/"
+					},
+					{
+						"name": "Bone Pillar Soul",
+						"ref": "Rare Souls/Bone Pillar Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 442,
+						"y": 432
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Killer Clown Soul",
+						"ref": "Uncommon Souls/Killer Clown Soul/"
+					},
+					{
+						"name": "Devil Soul",
+						"ref": "Uncommon Souls/Devil Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 432,
+						"y": 292
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Skelerang Soul",
+						"ref": "Uncommon Souls/Skelerang Soul/"
+					},
+					{
+						"name": "Lilith Soul",
+						"ref": "Uncommon Souls/Lilith Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 372,
+						"y": 302
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Skelerang Soul",
+						"ref": "Uncommon Souls/Skelerang Soul/"
+					},
+					{
+						"name": "Lilith Soul",
+						"ref": "Uncommon Souls/Lilith Soul/"
+					},
+					{
+						"name": "Buer Soul",
+						"ref": "Common Souls/Buer Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 342,
+						"y": 322
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Persephone Soul",
+						"ref": "Uncommon Souls/Persephone Soul/"
+					},
+					{
+						"name": "Skelerang Soul",
+						"ref": "Uncommon Souls/Skelerang Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 502,
+						"y": 472
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Killer Clown Soul",
+						"ref": "Uncommon Souls/Killer Clown Soul/"
+					},
+					{
+						"name": "Skelerang Soul",
+						"ref": "Uncommon Souls/Skelerang Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 312,
+						"y": 322
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Bone Pillar Soul",
+						"ref": "Rare Souls/Bone Pillar Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 222,
+						"y": 302
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Skeleton Soul",
+						"ref": "Uncommon Souls/Skeleton Soul/"
+					},
+					{
+						"name": "Peeping Eye Soul",
+						"ref": "Rare Souls/Peeping Eye Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 512,
+						"y": 492
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Axe Armor Soul",
+						"ref": "Common Souls/Axe Armor Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 462,
+						"y": 492
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Devil Soul",
+						"ref": "Uncommon Souls/Devil Soul/"
+					},
+					{
+						"name": "Ghost Dancer Soul",
+						"ref": "Uncommon Souls/Ghost Dancer Soul/"
+					},
+					{
+						"name": "Skelerang Soul",
+						"ref": "Uncommon Souls/Skelerang Soul/"
+					},
+					{
+						"name": "Lilith Soul",
+						"ref": "Uncommon Souls/Lilith Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 502,
+						"y": 412
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Killer Clown Soul",
+						"ref": "Uncommon Souls/Killer Clown Soul/"
+					},
+					{
+						"name": "Lilith Soul",
+						"ref": "Uncommon Souls/Lilith Soul/"
+					},
+					{
+						"name": "Buer Soul",
+						"ref": "Common Souls/Buer Soul/"
+					},
+					{
+						"name": "Quetzalcoatl Soul",
+						"ref": "Uncommon Souls/Quetzalcoatl Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 342,
+						"y": 242
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Skelerang Soul",
+						"ref": "Uncommon Souls/Skelerang Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 312,
+						"y": 262
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Waiter Skeleton Soul",
+						"ref": "Uncommon Souls/Waiter Skeleton Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 532,
+						"y": 352
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Persephone Soul",
+						"ref": "Uncommon Souls/Persephone Soul/"
+					},
+					{
+						"name": "Devil Soul",
+						"ref": "Uncommon Souls/Devil Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 532,
+						"y": 312
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Killer Clown Soul",
+						"ref": "Uncommon Souls/Killer Clown Soul/"
+					},
+					{
+						"name": "Devil Soul",
+						"ref": "Uncommon Souls/Devil Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 342,
+						"y": 282
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Killer Doll Soul",
+						"ref": "Rare Souls/Killer Doll Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 532,
+						"y": 272
+					},
+					{
+						"map": "Coloured Castle",
+						"x": 372,
+						"y": 332
+					},
+					{
+						"map": "Coloured Castle",
+						"x": 312,
+						"y": 232
+					},
+					{
+						"map": "Coloured Castle",
+						"x": 372,
+						"y": 232
+					},
+					{
+						"map": "Coloured Castle",
+						"x": 292,
+						"y": 352
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Killer Doll Soul",
+						"ref": "Rare Souls/Killer Doll Soul/"
+					},
+					{
+						"name": "Skelerang Soul",
+						"ref": "Uncommon Souls/Skelerang Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 372,
+						"y": 262
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Ghost Dancer Soul",
+						"ref": "Uncommon Souls/Ghost Dancer Soul/"
+					},
+					{
+						"name": "Lilith Soul",
+						"ref": "Uncommon Souls/Lilith Soul/"
+					},
+					{
+						"name": "Valkyrie Soul",
+						"ref": "Rare Souls/Valkyrie Soul/"
+					},
+					{
+						"name": "Succubus Soul",
+						"ref": "Uncommon Souls/Succubus Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 502,
+						"y": 312
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Ghost Dancer Soul",
+						"ref": "Uncommon Souls/Ghost Dancer Soul/"
+					},
+					{
+						"name": "Malachi Soul",
+						"ref": "Uncommon Souls/Malachi Soul/"
+					},
+					{
+						"name": "Skelerang Soul",
+						"ref": "Uncommon Souls/Skelerang Soul/"
+					},
+					{
+						"name": "Flame Demon Soul",
+						"ref": "Uncommon Souls/Flame Demon Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 502,
+						"y": 212
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Mimic Soul",
+						"ref": "Rare Souls/Mimic Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 532,
+						"y": 212
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Student Witch Soul",
+						"ref": "Uncommon Souls/Student Witch Soul/"
+					},
+					{
+						"name": "Lilith Soul",
+						"ref": "Uncommon Souls/Lilith Soul/"
+					},
+					{
+						"name": "Witch Soul",
+						"ref": "Uncommon Souls/Witch Soul/"
+					},
+					{
+						"name": "Persephone Soul",
+						"ref": "Uncommon Souls/Persephone Soul/"
+					},
+					{
+						"name": "Succubus Soul",
+						"ref": "Uncommon Souls/Succubus Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 532,
+						"y": 172
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Iron Golem Soul",
+						"ref": "Rare Souls/Iron Golem Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 472,
+						"y": 172
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House",
+				"sections": [
+					{
+						"name": "Persephone Soul",
+						"ref": "Uncommon Souls/Persephone Soul/"
+					},
+					{
+						"name": "Succubus Soul",
+						"ref": "Uncommon Souls/Succubus Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 552,
+						"y": 252
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle",
+				"sections": [
+					{
+						"name": "Bugbear Soul",
+						"ref": "Rare Souls/Bugbear Soul/"
+					},
+					{
+						"name": "Malachi Soul",
+						"ref": "Uncommon Souls/Malachi Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 742,
+						"y": 232
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle",
+				"sections": [
+					{
+						"name": "Flame Demon Soul",
+						"ref": "Uncommon Souls/Flame Demon Soul/"
+					},
+					{
+						"name": "Werewolf Soul",
+						"ref": "Uncommon Souls/Werewolf Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 722,
+						"y": 282
+					},
+					{
+						"map": "Coloured Castle",
+						"x": 802,
+						"y": 142
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle",
+				"sections": [
+					{
+						"name": "Succubus Soul",
+						"ref": "Uncommon Souls/Succubus Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 692,
+						"y": 272
+					},
+					{
+						"map": "Coloured Castle",
+						"x": 802,
+						"y": 232
+					},
+					{
+						"map": "Coloured Castle",
+						"x": 642,
+						"y": 252
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle",
+				"sections": [
+					{
+						"name": "Succubus Soul",
+						"ref": "Uncommon Souls/Succubus Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 692,
+						"y": 272
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle",
+				"sections": [
+					{
+						"name": "Dead Warrior Soul",
+						"ref": "Rare Souls/Dead Warrior Soul/"
+					},
+					{
+						"name": "Mushussu Soul",
+						"ref": "Uncommon Souls/Mushussu Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 662,
+						"y": 232
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle",
+				"sections": [
+					{
+						"name": "Guillotiner Soul",
+						"ref": "Common Souls/Guillotiner Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 612,
+						"y": 212
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle",
+				"sections": [
+					{
+						"name": "Dead Crusader Soul",
+						"ref": "Rare Souls/Dead Crusader Soul/"
+					},
+					{
+						"name": "Erinys Soul",
+						"ref": "Rare Souls/Erinys Soul/"
+					},
+					{
+						"name": "Werewolf Soul",
+						"ref": "Uncommon Souls/Werewolf Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 632,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle",
+				"sections": [
+					{
+						"name": "Final Guard Soul",
+						"ref": "Rare Souls/Final Guard Soul/"
+					},
+					{
+						"name": "Mothman Soul",
+						"ref": "Common Souls/Mothman Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 742,
+						"y": 212
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle",
+				"sections": [
+					{
+						"name": "Guillotiner Soul",
+						"ref": "Common Souls/Guillotiner Soul/"
+					},
+					{
+						"name": "Mushussu Soul",
+						"ref": "Uncommon Souls/Mushussu Soul/"
+					},
+					{
+						"name": "Alastor Soul",
+						"ref": "Uncommon Souls/Alastor Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 682,
+						"y": 182
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle",
+				"sections": [
+					{
+						"name": "Erinys Soul",
+						"ref": "Rare Souls/Erinys Soul/"
+					},
+					{
+						"name": "Dead Crusader Soul",
+						"ref": "Rare Souls/Dead Crusader Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 742,
+						"y": 182
+					},
+					{
+						"map": "Coloured Castle",
+						"x": 662,
+						"y": 282
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle",
+				"sections": [
+					{
+						"name": "Dead Warrior Soul",
+						"ref": "Rare Souls/Dead Warrior Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 742,
+						"y": 142
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle",
+				"sections": [
+					{
+						"name": "Werewolf Soul",
+						"ref": "Uncommon Souls/Werewolf Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 792,
+						"y": 202
+					},
+					{
+						"map": "Coloured Castle",
+						"x": 742,
+						"y": 252
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle",
+				"sections": [
+					{
+						"name": "Bugbear Soul",
+						"ref": "Rare Souls/Bugbear Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 682,
+						"y": 132
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle",
+				"sections": [
+					{
+						"name": "Final Guard Soul",
+						"ref": "Rare Souls/Final Guard Soul/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Coloured Castle",
+						"x": 682,
+						"y": 112
+					},
+					{
+						"map": "Coloured Castle",
+						"x": 802,
+						"y": 112
+					}
+				]
+			}
+		]
+	}
+]

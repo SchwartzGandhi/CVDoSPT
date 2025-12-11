@@ -1,30 +1,30 @@
 {
-  // this the manifest for you pack
-  // it contains basic information about your pack
-  // for more info on the manifest check: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#manifest
-  "name": "Castlevania: Dawn of Sorrow Pack for PopTracker",
-  "game_name": "Castlevania: Dawn of Sorrow",
-  "package_version": "1.0.4.0",
-  "package_uid": "cvdos_pack",
-  "author": "Schwartz Gandhi",
-  "min_poptracker_version": "0.25.9",
-  // put the version you tested against here!
-  "target_poptracker_version": "0.31.0",
-  "variants": {
-    "standard": {
-      "display_name": "Map Tracker",
-      "flags": [
-        // enables AP autotracking interface - remove if not needed
-        "ap"
-      ]
-    },
-    "var_itemsonly": {
-      "display_name": "Items Only",
-      "flags": [
-        // enables AP autotracking interface - remove if not needed
-        "ap"
-      ]
-    }
-  },
-  "versions_url": "https://raw.githubusercontent.com/SchwartzGandhi/CVDoSPT/refs/heads/main/versions.json"
+	// this the manifest for you pack
+	// it contains basic information about your pack
+	// for more info on the manifest check: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#manifest
+	"name": "Castlevania: Dawn of Sorrow Pack for PopTracker",
+	"game_name": "Castlevania: Dawn of Sorrow",
+	"package_version": "1.0.4.0",
+	"package_uid": "cvdos_pack",
+	"author": "Schwartz Gandhi",
+	"min_poptracker_version": "0.25.9",
+	// put the version you tested against here!
+	"target_poptracker_version": "0.31.0",
+	"variants": {
+		"standard": {
+			"display_name": "Map Tracker",
+			"flags": [
+				// enables AP autotracking interface - remove if not needed
+				"ap"
+			]
+		},
+		"var_itemsonly": {
+			"display_name": "Items Only",
+			"flags": [
+				// enables AP autotracking interface - remove if not needed
+				"ap"
+			]
+		}
+	},
+	"versions_url": "https://raw.githubusercontent.com/SchwartzGandhi/CVDoSPT/refs/heads/main/versions.json"
 }

@@ -1,21 +1,21 @@
 [
-  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
-  {
-    "name": "Dracula's Castle",
-    "location_size": 12,
-    "location_border_thickness": 2,
-    "img": "images/maps/Castle.png"
-  },
-  {
-    "name": "The Abyss",
-    "location_size": 12,
-    "location_border_thickness": 2,
-    "img": "images/maps/Abyss.png"
-  },
-  {
-    "name": "Coloured Castle",
-    "location_size": 12,
-    "location_border_thickness": 2,
-    "img": "images/maps/Castle_Regioned.png"
-  }
+	//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
+	{
+		"name": "Dracula's Castle",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/Castle.png"
+	},
+	{
+		"name": "The Abyss",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/Abyss.png"
+	},
+	{
+		"name": "Coloured Castle",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/Castle_Regioned.png"
+	}
 ]

@@ -1,80 +1,80 @@
 {
-  //sets the trackers layout
-  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
-  "tracker_default": {
-    "type": "container",
-    "background": "#000000",
-    "content": {
-      "type": "dock",
-      "dropshadow": true,
-      "content": [
-        {
-          "type": "layout",
-          "dock": "left",
-          "key": "shared_item_grid"
-        },
-        {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Standard View",
-              "content": [
-                {
-                  "type": "tabbed",
-                  "tabs": [
-                    {
-                      "title": "Dracula's Castle",
-                      "content": {
-                        "type": "map",
-                        "maps": [
-                          "Dracula's Castle"
-                        ]
-                      }
-                    },
-                    {
-                      "title": "The Abyss",
-                      "content": {
-                        "type": "map",
-                        "maps": [
-                          "The Abyss"
-                        ]
-                      }
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "title": "Soulsanity",
-              "content": [
-                {
-                  "type": "tabbed",
-                  "tabs": [
-                    {
-                      "title": "Dracula's Castle",
-                      "content": {
-                        "type": "map",
-                        "maps": [
-                          "Coloured Castle"
-                        ]
-                      }
-                    },
-                    {
-                      "title": "The Abyss",
-                      "content": {
-                        "type": "map",
-                        "maps": [
-                          "The Abyss"
-                        ]
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  }
+	//sets the trackers layout
+	//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
+	"tracker_default": {
+		"type": "container",
+		"background": "#000000",
+		"content": {
+			"type": "dock",
+			"dropshadow": true,
+			"content": [
+				{
+					"type": "layout",
+					"dock": "left",
+					"key": "shared_item_grid"
+				},
+				{
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Standard View",
+							"content": [
+								{
+									"type": "tabbed",
+									"tabs": [
+										{
+											"title": "Dracula's Castle",
+											"content": {
+												"type": "map",
+												"maps": [
+													"Dracula's Castle"
+												]
+											}
+										},
+										{
+											"title": "The Abyss",
+											"content": {
+												"type": "map",
+												"maps": [
+													"The Abyss"
+												]
+											}
+										}
+									]
+								}
+							]
+						},
+						{
+							"title": "Soulsanity",
+							"content": [
+								{
+									"type": "tabbed",
+									"tabs": [
+										{
+											"title": "Dracula's Castle",
+											"content": {
+												"type": "map",
+												"maps": [
+													"Coloured Castle"
+												]
+											}
+										},
+										{
+											"title": "The Abyss",
+											"content": {
+												"type": "map",
+												"maps": [
+													"The Abyss"
+												]
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	}
 }
