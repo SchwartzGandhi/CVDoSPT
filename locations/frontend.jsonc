@@ -1963,14 +1963,14 @@
 		]
 	},
 	{
-		"name": "Mine of Judgement Front End",
+		"name": "Mine of Judgment Front End",
 		"children": [
 			{
-				"name": "Mine of Judgement",
+				"name": "Mine of Judgment",
 				"sections": [
 					{
 						"name": "Death Soul",
-						"ref": "Mine of Judgement/Death Soul/"
+						"ref": "Mine of Judgment/Death Soul/"
 					}
 				],
 				"map_locations": [

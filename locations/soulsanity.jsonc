@@ -194,8 +194,8 @@
 			{
 				"name": "Slogra Soul",
 				"access_rules": [
-					"abyss, @Mine of Judgement Regions/MoJ",
-					"abyssplus, @Mine of Judgement Regions/MoJ"
+					"abyss, @Mine of Judgment Regions/MoJ",
+					"abyssplus, @Mine of Judgment Regions/MoJ"
 				],
 				"sections": [
 					{
@@ -845,8 +845,8 @@
 			{
 				"name": "Ripper Soul",
 				"access_rules": [
-					"abyss, @Mine of Judgement Regions/MoJ",
-					"abyssplus, @Mine of Judgement Regions/MoJ"
+					"abyss, @Mine of Judgment Regions/MoJ",
+					"abyssplus, @Mine of Judgment Regions/MoJ"
 				],
 				"sections": [
 					{
@@ -869,8 +869,8 @@
 			{
 				"name": "Gaibon Soul",
 				"access_rules": [
-					"abyss, @Mine of Judgement Regions/MoJ",
-					"abyssplus, @Mine of Judgement Regions/MoJ"
+					"abyss, @Mine of Judgment Regions/MoJ",
+					"abyssplus, @Mine of Judgment Regions/MoJ"
 				],
 				"sections": [
 					{
@@ -1120,8 +1120,8 @@
 				"access_rules": [
 					"@Cursed Clock Tower Regions/CCTCentral",
 					"@The Pinnacle Regions/TPLower",
-					"abyss, @Mine of Judgement Regions/MoJ",
-					"abyssplus, @Mine of Judgement Regions/MoJ"
+					"abyss, @Mine of Judgment Regions/MoJ",
+					"abyssplus, @Mine of Judgment Regions/MoJ"
 				],
 				"sections": [
 					{
@@ -1219,8 +1219,8 @@
 				"access_rules": [
 					"@Cursed Clock Tower Regions/CCTEntrance",
 					"@Cursed Clock Tower Regions/CCTCentral",
-					"abyss, @Mine of Judgement Regions/MoJ",
-					"abyssplus, @Mine of Judgement Regions/MoJ"
+					"abyss, @Mine of Judgment Regions/MoJ",
+					"abyssplus, @Mine of Judgment Regions/MoJ"
 				],
 				"sections": [
 					{
@@ -1258,8 +1258,8 @@
 			{
 				"name": "Giant Slug Soul",
 				"access_rules": [
-					"abyss, @Mine of Judgement Regions/MoJ",
-					"abyssplus, @Mine of Judgement Regions/MoJ"
+					"abyss, @Mine of Judgment Regions/MoJ",
+					"abyssplus, @Mine of Judgment Regions/MoJ"
 				],
 				"sections": [
 					{

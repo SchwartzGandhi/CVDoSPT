@@ -104,7 +104,7 @@ function apply_slot_data(slot_data)
 		warp.CurrentStage = 8
 	elseif start == "The Pinnacle" then
 		warp.CurrentStage = 9
-	elseif start == "Mine of Judgement" then
+	elseif start == "Mine of Judgment" then
 		warp.CurrentStage = 10
 	elseif start == "The Abyss" then
 		warp.CurrentStage = 11
