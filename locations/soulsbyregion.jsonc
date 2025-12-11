@@ -482,7 +482,122 @@
 				"name": "The Dark Chapel Souls",
 				"children": [
 					{
-						
+						"name": "DC",
+						"sections": [
+							{
+								"name": "Guillotiner Soul",
+								"ref": "Common Souls/Guillotiner Soul/"
+							},
+							{
+								"name": "Witch Soul",
+								"ref": "Uncommon Souls/Witch Soul/"
+							},
+							{
+								"name": "Mini Devil Soul",
+								"ref": "Uncommon Souls/Mini Devil Soul/"
+							},
+							{
+								"name": "Amalaric Sniper Soul",
+								"ref": "Uncommon Souls/Amalaric Sniper Soul/"
+							},
+							{
+								"name": "Ghost Dancer Soul",
+								"ref": "Uncommon Souls/Ghost Dancer Soul/"
+							},
+							{
+								"name": "Hell Boar Soul",
+								"ref": "Uncommon Souls/Hell Boar Soul/"
+							},
+							{
+								"name": "White Dragon Soul",
+								"ref": "Uncommon Souls/White Dragon Soul/"
+							},
+							{
+								"name": "Great Armor Soul",
+								"ref": "Uncommon Souls/Great Armor Soul/"
+							},
+							{
+								"name": "Quetzalcoatl Soul",
+								"ref": "Uncommon Souls/Quetzalcoatl Soul/"
+							},
+							{
+								"name": "Ghoul Soul",
+								"ref": "Rare Souls/Ghoul Soul/"
+							},
+							{
+								"name": "The Creature Soul",
+								"ref": "Rare Souls/The Creature Soul/"
+							},
+							{
+								"name": "Bone Pillar Soul",
+								"ref": "Rare Souls/Bone Pillar Soul/"
+							},
+							{
+								"name": "Barbariccia Soul",
+								"ref": "Rare Souls/Barbariccia Soul/"
+							},
+							{
+								"name": "Valkyrie Soul",
+								"ref": "Rare Souls/Valkyrie Soul/"
+							},
+							{
+								"name": "Ghost Soul",
+								"ref": "Rare Souls/Ghost Soul/"
+							},
+							{
+								"name": "Tombstone Soul",
+								"ref": "Rare Souls/Tombstone Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 911,
+								"y": 432,
+								"size": 32
+							}
+						]
+					},
+					{
+						"name": "DC Big Room",
+						"sections": [
+							{
+								"name": "Mini Devil Soul",
+								"ref": "Uncommon Souls/Mini Devil Soul/"
+							},
+							{
+								"name": "Quetzalcoatl Soul",
+								"ref": "Uncommon Souls/Quetzalcoatl Soul/"
+							},
+							{
+								"name": "Valkyrie Soul",
+								"ref": "Rare Souls/Valkyrie Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 1022,
+								"y": 402,
+								"size": 32
+							}
+						]
+					},
+					{
+						"name": "DC Catacombs Exit",
+						"sections": [
+							{
+								"name": "Catoblepas Soul",
+								"ref": "Uncommon Souls/Catoblepas Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 922,
+								"y": 592
+							}
+						]
 					}
 				]
 			},
@@ -490,7 +605,235 @@
 				"name": "Demon Guest House Souls",
 				"children": [
 					{
-						
+						"name": "DGH Lower",
+						"sections": [
+							{
+								"name": "Axe Armor Soul",
+								"ref": "Common Souls/Mini Devil Soul/"
+							},
+							{
+								"name": "Skeleton Soul",
+								"ref": "Uncommon Souls/Skeleton Soul/"
+							},
+							{
+								"name": "Peeping Eye Soul",
+								"ref": "Rare Souls/Peeping Eye Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 492,
+								"y": 492
+							}
+						]
+					},
+					{
+						"name": "DGH Number Puzzle West",
+						"sections": [
+							{
+								"name": "Persephone Soul",
+								"ref": "Uncommon Souls/Persephone Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 282,
+								"y": 432
+							}
+						]
+					},
+					{
+						"name": "DGH Puppet Wall Right",
+						"sections": [
+							{
+								"name": "Skelerang Soul",
+								"ref": "Uncommon Souls/Skelerang Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 512,
+								"y": 472
+							}
+						]
+					},
+					{
+						"name": "DGH Main",
+						"sections": [
+							{
+								"name": "Persephone Soul",
+								"ref": "Uncommon Souls/Persephone Soul/"
+							},
+							{
+								"name": "Skelerang Soul",
+								"ref": "Uncommon Souls/Skelerang Soul/"
+							},
+							{
+								"name": "Devil Soul",
+								"ref": "Uncommon Souls/Devil Soul/"
+							},
+							{
+								"name": "Lilith Soul",
+								"ref": "Uncommon Souls/Lilith Soul/"
+							},
+							{
+								"name": "Ghost Dancer Soul",
+								"ref": "Uncommon Souls/Ghost Dancer Soul/"
+							},
+							{
+								"name": "Killer Clown Soul",
+								"ref": "Uncommon Souls/Killer Clown Soul/"
+							},
+							{
+								"name": "Waiter Skeleton Soul",
+								"ref": "Uncommon Souls/Waiter Skeleton Soul/"
+							},
+							{
+								"name": "Valkyrie Soul",
+								"ref": "Rare Souls/Valkyrie Soul/"
+							},
+							{
+								"name": "Killer Doll Soul",
+								"ref": "Rare Souls/Killer Doll Soul/"
+							},
+							{
+								"name": "Bone Pillar Soul",
+								"ref": "Rare Souls/Bone Pillar Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 502,
+								"y": 362,
+								"size": 32
+							}
+						]
+					},
+					{
+						"name": "DGH West Wing",
+						"sections": [
+							{
+								"name": "Buer Soul",
+								"ref": "Common Souls/Buer Soul/"
+							},
+							{
+								"name": "Killer Clown Soul",
+								"ref": "Uncommon Souls/Mini Devil Soul/"
+							},
+							{
+								"name": "Lilith Soul",
+								"ref": "Uncommon Souls/Lilith Soul/"
+							},
+							{
+								"name": "Quetzalcoatl Soul",
+								"ref": "Uncommon Souls/Quetzalcoatl Soul/"
+							},
+							{
+								"name": "Killer Doll Soul",
+								"ref": "Rare Souls/Killer Doll Soul/"
+							},
+							{
+								"name": "Bone Pillar Soul",
+								"ref": "Rare Souls/Bone Pillar Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 342,
+								"y": 282,
+								"size": 32
+							}
+						]
+					},
+					{
+						"name": "DGH Upper",
+						"sections": [
+							{
+								"name": "Flame Demon Soul",
+								"ref": "Uncommon Souls/Flame Demon Soul/"
+							},
+							{
+								"name": "Malachi Soul",
+								"ref": "Uncommon Souls/Malachi Soul/"
+							},
+							{
+								"name": "Skelerang Soul",
+								"ref": "Uncommon Souls/Skelerang Soul/"
+							},
+							{
+								"name": "Werewolf Soul",
+								"ref": "Uncommon Souls/Werewolf Soul/"
+							},
+							{
+								"name": "Ghost Dancer Soul",
+								"ref": "Uncommon Souls/Ghost Dancer Soul/"
+							},
+							{
+								"name": "Student Witch Soul",
+								"ref": "Uncommon Souls/Student Witch Soul/"
+							},
+							{
+								"name": "Lilith Soul",
+								"ref": "Uncommon Souls/Lilith Soul/"
+							},
+							{
+								"name": "Witch Soul",
+								"ref": "Uncommon Souls/Witch Soul/"
+							},
+							{
+								"name": "Succubus Soul",
+								"ref": "Uncommon Souls/Succubus Soul/"
+							},
+							{
+								"name": "Persephone Soul",
+								"ref": "Uncommon Souls/Persephone Soul/"
+							},
+							{
+								"name": "Iron Golem Soul",
+								"ref": "Rare Souls/Iron Golem Soul/"
+							},
+							{
+								"name": "Mimic Soul",
+								"ref": "Rare Souls/Mimic Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 502,
+								"y": 212,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "DC Big Room",
+						"sections": [
+							{
+								"name": "Mini Devil Soul",
+								"ref": "Uncommon Souls/Mini Devil Soul/"
+							},
+							{
+								"name": "Quetzalcoatl Soul",
+								"ref": "Uncommon Souls/Quetzalcoatl Soul/"
+							},
+							{
+								"name": "Valkyrie Soul",
+								"ref": "Rare Souls/Valkyrie Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 702,
+								"y": 372
+							}
+						]
 					}
 				]
 			},
@@ -498,7 +841,57 @@
 				"name": "Condemned Tower Souls",
 				"children": [
 					{
-						
+						"name": "CT Bottom",
+						"sections": [
+							{
+								"name": "Draghignazzo Soul",
+								"ref": "Rare Souls/Draghignazzo Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 1112,
+								"y": 482
+							}
+						]
+					},
+					{
+						"name": "CT Top",
+						"sections": [
+							{
+								"name": "Buer Soul",
+								"ref": "Common Souls/Buer Soul/"
+							},
+							{
+								"name": "Disc Armor Soul",
+								"ref": "Uncommon Souls/Disc Armor Soul/"
+							},
+							{
+								"name": "Werewolf Soul",
+								"ref": "Uncommon Souls/Werewolf Soul/"
+							},
+							{
+								"name": "Fleaman Soul",
+								"ref": "Uncommon Souls/Fleaman Soul/"
+							},
+							{
+								"name": "Skeleton Ape Soul",
+								"ref": "Rare Souls/Skeleton Ape Soul/"
+							},
+							{
+								"name": "Great Axe Armor Soul",
+								"ref": "Rare Souls/Great Axe Armor Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 1132,
+								"y": 292,
+								"size": 32
+							}
+						]
 					}
 				]
 			},
@@ -514,7 +907,189 @@
 				"name": "Cursed Clock Tower Souls",
 				"children": [
 					{
-						
+						"name": "CCT Entrance",
+						"sections": [
+							{
+								"name": "Harpy Soul",
+								"ref": "Uncommon Souls/Harpy Soul/"
+							},
+							{
+								"name": "Catoblepas Soul",
+								"ref": "Uncommon Souls/Catoblepas Soul/"
+							},
+							{
+								"name": "Imp Soul",
+								"ref": "Uncommon Souls/Imp Soul/"
+							},
+							{
+								"name": "Malachi Soul",
+								"ref": "Uncommon Souls/Malachi Soul/"
+							},
+							{
+								"name": "Dead Pirate Soul",
+								"ref": "Uncommon Souls/Dead Pirate Soul/"
+							},
+							{
+								"name": "Medusa Head Soul",
+								"ref": "Rare Souls/Medusa Head Soul/"
+							},
+							{
+								"name": "Tanjelly Soul",
+								"ref": "Rare Souls/Tanjelly Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 892,
+								"y": 322,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "CCT Central",
+						"sections": [
+							{
+								"name": "Slime Soul",
+								"ref": "Common Souls/Slime Soul/"
+							},
+							{
+								"name": "Imp Soul",
+								"ref": "Uncommon Souls/Imp Soul/"
+							},
+							{
+								"name": "Medusa Head Soul",
+								"ref": "Rare Souls/Medusa Head Soul/"
+							},
+							{
+								"name": "Bugbear Soul",
+								"ref": "Rare Souls/Bugbear Soul/"
+							},
+							{
+								"name": "Tanjelly Soul",
+								"ref": "Rare Souls/Tanjelly Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 972,
+								"y": 172,
+								"size": 32
+							}
+						]
+					},
+					{
+						"name": "CCT Boss Area",
+						"sections": [
+							{
+								"name": "Flying Humanoid Soul",
+								"ref": "Common Souls/Flying Humanoid Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 972,
+								"y": 112
+							}
+						]
+					},
+					{
+						"name": "CCT Exit",
+						"sections": [
+							{
+								"name": "Devil Soul",
+								"ref": "Uncommon Souls/Devil Soul/"
+							},
+							{
+								"name": "Harpy Soul",
+								"ref": "Uncommon Souls/Harpy Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 902,
+								"y": 192,
+								"size": 24
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Silenced Ruins Souls",
+				"children": [
+					{
+						"name": "SR",
+						"sections": [
+							{
+								"name": "Dead Mate Soul",
+								"ref": "Common Souls/Dead Mate Soul/"
+							},
+							{
+								"name": "Bat Soul",
+								"ref": "Uncommon Souls/Bat Soul/"
+							},
+							{
+								"name": "Skull Archer Soul",
+								"ref": "Uncommon Souls/Skull Archer Soul/"
+							},
+							{
+								"name": "Devil Soul",
+								"ref": "Uncommon Souls/Devil Soul/"
+							},
+							{
+								"name": "Larva Soul",
+								"ref": "Uncommon Souls/Larva Soul/"
+							},
+							{
+								"name": "Ghoul Soul",
+								"ref": "Rare Souls/Ghoul Soul/"
+							},
+							{
+								"name": "Peeping Eye Soul",
+								"ref": "Rare Souls/Peeping Eye Soul/"
+							},
+							{
+								"name": "Dead Crusader Soul",
+								"ref": "Rare Souls/Dead Crusader Soul/"
+							},
+							{
+								"name": "Bone Ark Soul",
+								"ref": "Rare Souls/Bone Ark Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 842,
+								"y": 852,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "SR Back Exit",
+						"sections": [
+							{
+								"name": "Waiter Skeleton Soul",
+								"ref": "Uncommon Souls/Waiter Skeleton Soul/"
+							},
+							{
+								"name": "Gorgon Soul",
+								"ref": "Rare Souls/Gorgon Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 832,
+								"y": 732
+							}
+						]
 					}
 				]
 			},
@@ -522,15 +1097,140 @@
 				"name": "The Pinnacle Souls",
 				"children": [
 					{
-						
+						"name": "TP",
+						"sections": [
+							{
+								"name": "Guillotiner Soul",
+								"ref": "Common Souls/Guillotiner Soul/"
+							},
+							{
+								"name": "Mothman Soul",
+								"ref": "Common Souls/Mothman Soul/"
+							},
+							{
+								"name": "Werewolf Soul",
+								"ref": "Uncommon Souls/Werewolf Soul/"
+							},
+							{
+								"name": "Mushussu Soul",
+								"ref": "Uncommon Souls/Devil Soul/"
+							},
+							{
+								"name": "Alastor Soul",
+								"ref": "Uncommon Souls/Alastor Soul/"
+							},
+							{
+								"name": "Dead Crusader Soul",
+								"ref": "Rare Souls/Dead Crusader Soul/"
+							},
+							{
+								"name": "Erinys Soul",
+								"ref": "Rare Souls/Erinys Soul/"
+							},
+							{
+								"name": "Final Guard Soul",
+								"ref": "Rare Souls/Final Guard Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 742,
+								"y": 162,
+								"size": 32
+							}
+						]
+					},
+					{
+						"name": "TP Lower",
+						"sections": [
+							{
+								"name": "Guillotiner Soul",
+								"ref": "Common Souls/Guillotiner Soul/"
+							},
+							{
+								"name": "Succubus Soul",
+								"ref": "Uncommon Souls/Succubus Soul/"
+							},
+							{
+								"name": "Malachi Soul",
+								"ref": "Uncommon Souls/Malachi Soul/"
+							},
+							{
+								"name": "Mushussu Soul",
+								"ref": "Uncommon Souls/Mushussu Soul/"
+							},
+							{
+								"name": "Werewolf Soul",
+								"ref": "Uncommon Souls/Werewolf Soul/"
+							},
+							{
+								"name": "Flame Demon Soul",
+								"ref": "Uncommon Souls/Flame Demon Soul/"
+							},
+							{
+								"name": "Bugbear Soul",
+								"ref": "Rare Souls/Bugbear Soul/"
+							},
+							{
+								"name": "Dead Warrior Soul",
+								"ref": "Rare Souls/Dead Warrior Soul/"
+							},
+							{
+								"name": "Erinys Soul",
+								"ref": "Rare Souls/Erinys Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 692,
+								"y": 252,
+								"size": 24
+							}
+						]
 					}
 				]
 			},
 			{
-				"name": "Mine of Judgement Soul Souls",
+				"name": "Mine of Judgment Souls",
 				"children": [
 					{
-						
+						"name": "MoJ",
+						"sections": [
+							{
+								"name": "Slogra Soul",
+								"ref": "Common Souls/Slogra Soul/"
+							},
+							{
+								"name": "Ripper Soul",
+								"ref": "Uncommon Souls/Ripper Soul/"
+							},
+							{
+								"name": "Giabon Soul",
+								"ref": "Uncommon Souls/Giabon Soul/"
+							},
+							{
+								"name": "Tanjelly Soul",
+								"ref": "Rare Souls/Tanjelly Soul/"
+							},
+							{
+								"name": "Giant Slug Soul",
+								"ref": "Rare Souls/Giant Slug Soul/"
+							},
+							{
+								"name": "Bugbear Soul",
+								"ref": "Rare Souls/Bugbear Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 1132,
+								"y": 642,
+								"size": 32
+							}
+						]
 					}
 				]
 			},
