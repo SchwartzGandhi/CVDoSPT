@@ -1,0 +1,547 @@
+[
+	{
+		"name": "Soulsanity Front End",
+		"children": [
+			{
+				"name": "The Lost Village Souls",
+				"children": [
+					{
+						"name": "LV Upper",
+						"sections": [
+							{
+								"name": "Yeti Soul",
+								"ref": "Common Souls/Yeti Soul/"
+							},
+							{
+								"name": "Axe Armor Soul",
+								"ref": "Common Souls/Axe Armor Soul/"
+							},
+							{
+								"name": "Warg Soul",
+								"ref": "Common Souls/Warg Soul/"
+							},
+							{
+								"name": "Spin Devil Soul",
+								"ref": "Common Souls/Spin Devil Soul/"
+							},
+							{
+								"name": "Skeleton Soul",
+								"ref": "Uncommon Souls/Skeleton Soul/"
+							},
+							{
+								"name": "Bat Soul",
+								"ref": "Uncommon Souls/Bat Soul/"
+							},
+							{
+								"name": "Armor Knight Soul",
+								"ref": "Uncommon Souls/Armor Knight Soul/"
+							},
+							{
+								"name": "Zombie Soul",
+								"ref": "Uncommon Souls/Zombie Soul/"
+							},
+							{
+								"name": "Peeping Eye Soul",
+								"ref": "Rare Souls/Peeping Eye Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 212,
+								"y": 482,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "LV Upper Doorway",
+						"sections": [
+							{
+								"name": "Skelerang Soul",
+								"ref": "Uncommon Souls/Skelerang Soul/"
+							},
+							{
+								"name": "Peeping Eye Soul",
+								"ref": "Rare Souls/Peeping Eye Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 212,
+								"y": 442,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "LV Courtyard",
+						"sections": [
+							{
+								"name": "Warg Soul",
+								"ref": "Common Souls/Warg Soul/"
+							},
+							{
+								"name": "Hell Boar Soul",
+								"ref": "Uncommon Souls/Hell Boar Soul/"
+							},
+							{
+								"name": "Skeleton Ape Soul",
+								"ref": "Rare Souls/Skeleton Ape Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 322,
+								"y": 482,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "LV Lower",
+						"sections": [
+							{
+								"name": "Spin Devil Soul",
+								"ref": "Common Souls/Spin Devil Soul/"
+							},
+							{
+								"name": "Skeleton Soul",
+								"ref": "Uncommon Souls/Skeleton Soul/"
+							},
+							{
+								"name": "Armor Knight Soul",
+								"ref": "Uncommon Souls/Armor Knight Soul/"
+							},
+							{
+								"name": "Bat Soul",
+								"ref": "Uncommon Souls/Bat Soul/"
+							},
+							{
+								"name": "Zombie Soul",
+								"ref": "Uncommon Souls/Zombie Soul/"
+							},
+							{
+								"name": "Student Witch Soul",
+								"ref": "Uncommon Souls/Student Witch Soul/"
+							},
+							{
+								"name": "Ouija Table Soul",
+								"ref": "Rare Souls/Ouija Table Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 162,
+								"y": 542,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "LV Underground Top",
+						"sections": [
+							{
+								"name": "Axe Armor Soul",
+								"ref": "Common Souls/Axe Armor Soul/"
+							},
+							{
+								"name": "Merman Soul",
+								"ref": "Common Souls/Merman Soul/"
+							},
+							{
+								"name": "Great Axe Armor Soul",
+								"ref": "Rare Souls/Great Axe Armor Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 182,
+								"y": 632,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "LV Underground Bottom",
+						"sections": [
+							{
+								"name": "White Dragon Soul",
+								"ref": "Uncommon Souls/White Dragon Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 212,
+								"y": 732
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Wizardry Lab Souls",
+				"children": [
+					{
+						"name": "WL Main",
+						"sections": [
+							{
+								"name": "Slime Soul",
+								"ref": "Common Souls/Slime Soul/"
+							},
+							{
+								"name": "Axe Armor Soul",
+								"ref": "Common Souls/Axe Armor Soul/"
+							},
+							{
+								"name": "Bomber Armor Soul",
+								"ref": "Uncommon Souls/Bomber Armor Soul/"
+							},
+							{
+								"name": "Student Witch Soul",
+								"ref": "Uncommon Souls/Student Witch Soul/"
+							},
+							{
+								"name": "Skull Archer Soul",
+								"ref": "Uncommon Souls/Skull Archer Soul/"
+							},
+							{
+								"name": "Skeleton Soul",
+								"ref": "Uncommon Souls/Skeleton Soul/"
+							},
+							{
+								"name": "Slughterer Soul",
+								"ref": "Uncommon Souls/Slughterer Soul/"
+							},
+							{
+								"name": "Manticore Soul",
+								"ref": "Uncommon Souls/Manticore Soul/"
+							},
+							{
+								"name": "Armor Knight Soul",
+								"ref": "Uncommon Souls/Armor Knight Soul/"
+							},
+							{
+								"name": "Golem Soul",
+								"ref": "Uncommon Souls/Golem Soul/"
+							},
+							{
+								"name": "Ghost Soul",
+								"ref": "Rare Souls/Ghost Soul/"
+							},
+							{
+								"name": "The Creature Soul",
+								"ref": "Rare Souls/The Creature Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 392,
+								"y": 652,
+								"size": 32
+							}
+						]
+					},
+					{
+						"name": "WL West Gate",
+						"sections": [
+							{
+								"name": "Great Axe Armor Soul",
+								"ref": "Rare Souls/Great Axe Armor Soul/"
+							},
+							{
+								"name": "Heart Eater Soul",
+								"ref": "Rare Souls/Heart Eater Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 272,
+								"y": 692
+							}
+						]
+					},
+					{
+						"name": "WL East Gate",
+						"sections": [
+							{
+								"name": "Cave Troll Soul",
+								"ref": "Common Souls/Cave Troll Soul/"
+							},
+							{
+								"name": "Mimic Soul",
+								"ref": "Rare Souls/Mimic Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 522,
+								"y": 672
+							}
+						]
+					},
+					{
+						"name": "WL Sunken",
+						"sections": [
+							{
+								"name": "Homunculus Soul",
+								"ref": "Common Souls/Homunculus Soul/"
+							},
+							{
+								"name": "Larva Soul",
+								"ref": "Uncommon Souls/Larva Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 352,
+								"y": 822,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "WL Sunken West Door",
+						"sections": [
+							{
+								"name": "Iron Golem Soul",
+								"ref": "Rare Souls/Iron Golem Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 262,
+								"y": 772
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Garden of Madness Souls",
+				"children": [
+					{
+						"name": "GoM Lower",
+						"sections": [
+							{
+								"name": "Corpseweed Soul",
+								"ref": "Common Souls/Corpseweed Soul/"
+							},
+							{
+								"name": "Une Soul",
+								"ref": "Uncommon Souls/Une Soul/"
+							},
+							{
+								"name": "Skelerang Soul",
+								"ref": "Uncommon Souls/Skelerang Soul/"
+							},
+							{
+								"name": "Mandragora Soul",
+								"ref": "Uncommon Souls/Mandragora Soul/"
+							},
+							{
+								"name": "Catoblepas Soul",
+								"ref": "Uncommon Souls/Catoblepas Soul/"
+							},
+							{
+								"name": "Mollusca Soul",
+								"ref": "Uncommon Souls/Molusca Soul/"
+							},
+							{
+								"name": "Yorick Soul",
+								"ref": "Uncommon Souls/Yorick Soul/"
+							},
+							{
+								"name": "Rycuda Soul",
+								"ref": "Uncommon Souls/Rycuda Soul/"
+							},
+							{
+								"name": "Treant Soul",
+								"ref": "Rare Souls/Treant Soul/"
+							},
+							{
+								"name": "Skeleton Ape Soul",
+								"ref": "Rare Souls/Skeleton Ape Soul/"
+							},
+							{
+								"name": "Skeleton Farmer Soul",
+								"ref": "Rare Souls/Skeleton Farmer Soul/"
+							},
+							{
+								"name": "Mimic Soul",
+								"ref": "Rare Souls/Mimic Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 692,
+								"y": 472,
+								"size": 32
+							}
+						]
+					},
+					{
+						"name": "GoM Upper",
+						"sections": [
+							{
+								"name": "Corpseweed Soul",
+								"ref": "Common Souls/Corpseweed Soul/"
+							},
+							{
+								"name": "Rycuda Soul",
+								"ref": "Uncommon Souls/Rycuda Soul/"
+							},
+							{
+								"name": "Mollusca Soul",
+								"ref": "Uncommon Souls/Molusca Soul/"
+							},
+							{
+								"name": "Barbariccia Soul",
+								"ref": "Rare Souls/Barbariccia Soul/"
+							},
+							{
+								"name": "Skeleton Ape Soul",
+								"ref": "Rare Souls/Skeleton Ape Soul/"
+							},
+							{
+								"name": "Treant Soul",
+								"ref": "Rare Souls/Treant Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 692,
+								"y": 432,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "GoM Post-Boss",
+						"sections": [
+							{
+								"name": "Corpseweed Soul",
+								"ref": "Common Souls/Corpseweed Soul/"
+							},
+							{
+								"name": "Skelerang Soul",
+								"ref": "Uncommon Souls/Skelerang Soul/"
+							},
+							{
+								"name": "Une Soul",
+								"ref": "Uncommon Souls/Une Soul/"
+							},
+							{
+								"name": "Skeleton Ape Soul",
+								"ref": "Rare Souls/Skeleton Ape Soul/"
+							},
+							{
+								"name": "Ghoul Soul",
+								"ref": "Rare Souls/Ghoul Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 652,
+								"y": 392
+							}
+						]
+					},
+					{
+						"name": "GoM East Gate",
+						"sections": [
+							{
+								"name": "Wakwak Tree Soul",
+								"ref": "Uncommon Souls/Wakwak Tree Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Coloured Castle",
+								"x": 702,
+								"y": 372
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "The Dark Chapel Souls",
+				"children": [
+					{
+						
+					}
+				]
+			},
+			{
+				"name": "Demon Guest House Souls",
+				"children": [
+					{
+						
+					}
+				]
+			},
+			{
+				"name": "Condemned Tower Souls",
+				"children": [
+					{
+						
+					}
+				]
+			},
+			{
+				"name": "Subterrranean Hell Souls",
+				"children": [
+					{
+						
+					}
+				]
+			},
+			{
+				"name": "Cursed Clock Tower Souls",
+				"children": [
+					{
+						
+					}
+				]
+			},
+			{
+				"name": "The Pinnacle Souls",
+				"children": [
+					{
+						
+					}
+				]
+			},
+			{
+				"name": "Mine of Judgement Soul Souls",
+				"children": [
+					{
+						
+					}
+				]
+			},
+			{
+				"name": "The Abyss Souls",
+				"children": [
+					{
+						
+					}
+				]
+			}
+		]
+	}
+]
