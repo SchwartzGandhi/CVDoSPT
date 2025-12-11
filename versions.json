@@ -1,16 +1,11 @@
 {
     "versions": [
         {
-            "package_version": "1.0.4.0",
+            "package_version": "1.1.0.0",
             "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/1.7/CVDoSPT.zip",
-            "sha256": "21b1f95eb8750a1ca27b08f0e929a9bfa42488d90f336467701d31be78b5e6d2",
+            "sha256": "91075ce288a18a971ca500eeb11cc1066b353162b0ef55f9a954b70448546239",
             "changelog": [
-                "added backend framework for soulsanity",
-                "Slot data is now auto tracked",
-                "Added the logic changes from the new apworld update",
-                "Added more items",
-                "Locations now have images",
-                "some UI changes"
+                "Soulsanity is now viewable from the tracker! Select the soulsanity toggle in the items list to switch views"
             ]
         }
     ]
