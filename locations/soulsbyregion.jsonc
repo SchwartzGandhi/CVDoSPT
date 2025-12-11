@@ -10,44 +10,44 @@
 						"sections": [
 							{
 								"name": "Yeti Soul",
-								"ref": "Common Souls/Yeti Soul/"
+								"ref": "Soulsanity/Common Souls/Yeti Soul/"
 							},
 							{
 								"name": "Axe Armor Soul",
-								"ref": "Common Souls/Axe Armor Soul/"
+								"ref": "Soulsanity/Common Souls/Axe Armor Soul/"
 							},
 							{
 								"name": "Warg Soul",
-								"ref": "Common Souls/Warg Soul/"
+								"ref": "Soulsanity/Common Souls/Warg Soul/"
 							},
 							{
 								"name": "Spin Devil Soul",
-								"ref": "Common Souls/Spin Devil Soul/"
+								"ref": "Soulsanity/Common Souls/Spin Devil Soul/"
 							},
 							{
 								"name": "Skeleton Soul",
-								"ref": "Uncommon Souls/Skeleton Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Skeleton Soul/"
 							},
 							{
 								"name": "Bat Soul",
-								"ref": "Uncommon Souls/Bat Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Bat Soul/"
 							},
 							{
 								"name": "Armor Knight Soul",
-								"ref": "Uncommon Souls/Armor Knight Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Armor Knight Soul/"
 							},
 							{
 								"name": "Zombie Soul",
-								"ref": "Uncommon Souls/Zombie Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Zombie Soul/"
 							},
 							{
 								"name": "Peeping Eye Soul",
-								"ref": "Rare Souls/Peeping Eye Soul/"
+								"ref": "Soulsanity/Rare Souls/Peeping Eye Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 212,
 								"y": 482,
 								"size": 24
@@ -59,16 +59,16 @@
 						"sections": [
 							{
 								"name": "Skelerang Soul",
-								"ref": "Uncommon Souls/Skelerang Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Skelerang Soul/"
 							},
 							{
 								"name": "Peeping Eye Soul",
-								"ref": "Rare Souls/Peeping Eye Soul/"
+								"ref": "Soulsanity/Rare Souls/Peeping Eye Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 212,
 								"y": 442,
 								"size": 24
@@ -80,20 +80,20 @@
 						"sections": [
 							{
 								"name": "Warg Soul",
-								"ref": "Common Souls/Warg Soul/"
+								"ref": "Soulsanity/Common Souls/Warg Soul/"
 							},
 							{
 								"name": "Hell Boar Soul",
-								"ref": "Uncommon Souls/Hell Boar Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Hell Boar Soul/"
 							},
 							{
 								"name": "Skeleton Ape Soul",
-								"ref": "Rare Souls/Skeleton Ape Soul/"
+								"ref": "Soulsanity/Rare Souls/Skeleton Ape Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 322,
 								"y": 482,
 								"size": 24
@@ -105,36 +105,36 @@
 						"sections": [
 							{
 								"name": "Spin Devil Soul",
-								"ref": "Common Souls/Spin Devil Soul/"
+								"ref": "Soulsanity/Common Souls/Spin Devil Soul/"
 							},
 							{
 								"name": "Skeleton Soul",
-								"ref": "Uncommon Souls/Skeleton Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Skeleton Soul/"
 							},
 							{
 								"name": "Armor Knight Soul",
-								"ref": "Uncommon Souls/Armor Knight Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Armor Knight Soul/"
 							},
 							{
 								"name": "Bat Soul",
-								"ref": "Uncommon Souls/Bat Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Bat Soul/"
 							},
 							{
 								"name": "Zombie Soul",
-								"ref": "Uncommon Souls/Zombie Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Zombie Soul/"
 							},
 							{
 								"name": "Student Witch Soul",
-								"ref": "Uncommon Souls/Student Witch Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Student Witch Soul/"
 							},
 							{
 								"name": "Ouija Table Soul",
-								"ref": "Rare Souls/Ouija Table Soul/"
+								"ref": "Soulsanity/Rare Souls/Ouija Table Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 162,
 								"y": 542,
 								"size": 24
@@ -146,23 +146,22 @@
 						"sections": [
 							{
 								"name": "Axe Armor Soul",
-								"ref": "Common Souls/Axe Armor Soul/"
+								"ref": "Soulsanity/Common Souls/Axe Armor Soul/"
 							},
 							{
 								"name": "Merman Soul",
-								"ref": "Common Souls/Merman Soul/"
+								"ref": "Soulsanity/Common Souls/Merman Soul/"
 							},
 							{
 								"name": "Great Axe Armor Soul",
-								"ref": "Rare Souls/Great Axe Armor Soul/"
+								"ref": "Soulsanity/Rare Souls/Great Axe Armor Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 182,
-								"y": 632,
-								"size": 24
+								"y": 632
 							}
 						]
 					},
@@ -171,12 +170,12 @@
 						"sections": [
 							{
 								"name": "White Dragon Soul",
-								"ref": "Uncommon Souls/White Dragon Soul/"
+								"ref": "Soulsanity/Uncommon Souls/White Dragon Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 212,
 								"y": 732
 							}
@@ -192,56 +191,56 @@
 						"sections": [
 							{
 								"name": "Slime Soul",
-								"ref": "Common Souls/Slime Soul/"
+								"ref": "Soulsanity/Common Souls/Slime Soul/"
 							},
 							{
 								"name": "Axe Armor Soul",
-								"ref": "Common Souls/Axe Armor Soul/"
+								"ref": "Soulsanity/Common Souls/Axe Armor Soul/"
 							},
 							{
 								"name": "Bomber Armor Soul",
-								"ref": "Uncommon Souls/Bomber Armor Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Bomber Armor Soul/"
 							},
 							{
 								"name": "Student Witch Soul",
-								"ref": "Uncommon Souls/Student Witch Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Student Witch Soul/"
 							},
 							{
 								"name": "Skull Archer Soul",
-								"ref": "Uncommon Souls/Skull Archer Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Skull Archer Soul/"
 							},
 							{
 								"name": "Skeleton Soul",
-								"ref": "Uncommon Souls/Skeleton Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Skeleton Soul/"
 							},
 							{
 								"name": "Slughterer Soul",
-								"ref": "Uncommon Souls/Slughterer Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Slughterer Soul/"
 							},
 							{
 								"name": "Manticore Soul",
-								"ref": "Uncommon Souls/Manticore Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Manticore Soul/"
 							},
 							{
 								"name": "Armor Knight Soul",
-								"ref": "Uncommon Souls/Armor Knight Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Armor Knight Soul/"
 							},
 							{
 								"name": "Golem Soul",
-								"ref": "Uncommon Souls/Golem Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Golem Soul/"
 							},
 							{
 								"name": "Ghost Soul",
-								"ref": "Rare Souls/Ghost Soul/"
+								"ref": "Soulsanity/Rare Souls/Ghost Soul/"
 							},
 							{
 								"name": "The Creature Soul",
-								"ref": "Rare Souls/The Creature Soul/"
+								"ref": "Soulsanity/Rare Souls/The Creature Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 392,
 								"y": 652,
 								"size": 32
@@ -253,16 +252,16 @@
 						"sections": [
 							{
 								"name": "Great Axe Armor Soul",
-								"ref": "Rare Souls/Great Axe Armor Soul/"
+								"ref": "Soulsanity/Rare Souls/Great Axe Armor Soul/"
 							},
 							{
 								"name": "Heart Eater Soul",
-								"ref": "Rare Souls/Heart Eater Soul/"
+								"ref": "Soulsanity/Rare Souls/Heart Eater Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 272,
 								"y": 692
 							}
@@ -273,16 +272,16 @@
 						"sections": [
 							{
 								"name": "Cave Troll Soul",
-								"ref": "Common Souls/Cave Troll Soul/"
+								"ref": "Soulsanity/Common Souls/Cave Troll Soul/"
 							},
 							{
 								"name": "Mimic Soul",
-								"ref": "Rare Souls/Mimic Soul/"
+								"ref": "Soulsanity/Rare Souls/Mimic Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 522,
 								"y": 672
 							}
@@ -293,16 +292,16 @@
 						"sections": [
 							{
 								"name": "Homunculus Soul",
-								"ref": "Common Souls/Homunculus Soul/"
+								"ref": "Soulsanity/Common Souls/Homunculus Soul/"
 							},
 							{
 								"name": "Larva Soul",
-								"ref": "Uncommon Souls/Larva Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Larva Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 352,
 								"y": 822,
 								"size": 24
@@ -314,12 +313,12 @@
 						"sections": [
 							{
 								"name": "Iron Golem Soul",
-								"ref": "Rare Souls/Iron Golem Soul/"
+								"ref": "Soulsanity/Rare Souls/Iron Golem Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 262,
 								"y": 772
 							}
@@ -335,56 +334,56 @@
 						"sections": [
 							{
 								"name": "Corpseweed Soul",
-								"ref": "Common Souls/Corpseweed Soul/"
+								"ref": "Soulsanity/Common Souls/Corpseweed Soul/"
 							},
 							{
 								"name": "Une Soul",
-								"ref": "Uncommon Souls/Une Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Une Soul/"
 							},
 							{
 								"name": "Skelerang Soul",
-								"ref": "Uncommon Souls/Skelerang Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Skelerang Soul/"
 							},
 							{
 								"name": "Mandragora Soul",
-								"ref": "Uncommon Souls/Mandragora Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Mandragora Soul/"
 							},
 							{
 								"name": "Catoblepas Soul",
-								"ref": "Uncommon Souls/Catoblepas Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Catoblepas Soul/"
 							},
 							{
 								"name": "Mollusca Soul",
-								"ref": "Uncommon Souls/Molusca Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Molusca Soul/"
 							},
 							{
 								"name": "Yorick Soul",
-								"ref": "Uncommon Souls/Yorick Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Yorick Soul/"
 							},
 							{
 								"name": "Rycuda Soul",
-								"ref": "Uncommon Souls/Rycuda Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Rycuda Soul/"
 							},
 							{
 								"name": "Treant Soul",
-								"ref": "Rare Souls/Treant Soul/"
+								"ref": "Soulsanity/Rare Souls/Treant Soul/"
 							},
 							{
 								"name": "Skeleton Ape Soul",
-								"ref": "Rare Souls/Skeleton Ape Soul/"
+								"ref": "Soulsanity/Rare Souls/Skeleton Ape Soul/"
 							},
 							{
 								"name": "Skeleton Farmer Soul",
-								"ref": "Rare Souls/Skeleton Farmer Soul/"
+								"ref": "Soulsanity/Rare Souls/Skeleton Farmer Soul/"
 							},
 							{
 								"name": "Mimic Soul",
-								"ref": "Rare Souls/Mimic Soul/"
+								"ref": "Soulsanity/Rare Souls/Mimic Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 692,
 								"y": 472,
 								"size": 32
@@ -396,32 +395,32 @@
 						"sections": [
 							{
 								"name": "Corpseweed Soul",
-								"ref": "Common Souls/Corpseweed Soul/"
+								"ref": "Soulsanity/Common Souls/Corpseweed Soul/"
 							},
 							{
 								"name": "Rycuda Soul",
-								"ref": "Uncommon Souls/Rycuda Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Rycuda Soul/"
 							},
 							{
 								"name": "Mollusca Soul",
-								"ref": "Uncommon Souls/Molusca Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Molusca Soul/"
 							},
 							{
 								"name": "Barbariccia Soul",
-								"ref": "Rare Souls/Barbariccia Soul/"
+								"ref": "Soulsanity/Rare Souls/Barbariccia Soul/"
 							},
 							{
 								"name": "Skeleton Ape Soul",
-								"ref": "Rare Souls/Skeleton Ape Soul/"
+								"ref": "Soulsanity/Rare Souls/Skeleton Ape Soul/"
 							},
 							{
 								"name": "Treant Soul",
-								"ref": "Rare Souls/Treant Soul/"
+								"ref": "Soulsanity/Rare Souls/Treant Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 692,
 								"y": 432,
 								"size": 24
@@ -433,28 +432,28 @@
 						"sections": [
 							{
 								"name": "Corpseweed Soul",
-								"ref": "Common Souls/Corpseweed Soul/"
+								"ref": "Soulsanity/Common Souls/Corpseweed Soul/"
 							},
 							{
 								"name": "Skelerang Soul",
-								"ref": "Uncommon Souls/Skelerang Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Skelerang Soul/"
 							},
 							{
 								"name": "Une Soul",
-								"ref": "Uncommon Souls/Une Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Une Soul/"
 							},
 							{
 								"name": "Skeleton Ape Soul",
-								"ref": "Rare Souls/Skeleton Ape Soul/"
+								"ref": "Soulsanity/Rare Souls/Skeleton Ape Soul/"
 							},
 							{
 								"name": "Ghoul Soul",
-								"ref": "Rare Souls/Ghoul Soul/"
+								"ref": "Soulsanity/Rare Souls/Ghoul Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 652,
 								"y": 392
 							}
@@ -465,12 +464,12 @@
 						"sections": [
 							{
 								"name": "Wakwak Tree Soul",
-								"ref": "Uncommon Souls/Wakwak Tree Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Wakwak Tree Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 702,
 								"y": 372
 							}
@@ -486,72 +485,72 @@
 						"sections": [
 							{
 								"name": "Guillotiner Soul",
-								"ref": "Common Souls/Guillotiner Soul/"
+								"ref": "Soulsanity/Common Souls/Guillotiner Soul/"
 							},
 							{
 								"name": "Witch Soul",
-								"ref": "Uncommon Souls/Witch Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Witch Soul/"
 							},
 							{
 								"name": "Mini Devil Soul",
-								"ref": "Uncommon Souls/Mini Devil Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Mini Devil Soul/"
 							},
 							{
 								"name": "Amalaric Sniper Soul",
-								"ref": "Uncommon Souls/Amalaric Sniper Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Amalaric Sniper Soul/"
 							},
 							{
 								"name": "Ghost Dancer Soul",
-								"ref": "Uncommon Souls/Ghost Dancer Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Ghost Dancer Soul/"
 							},
 							{
 								"name": "Hell Boar Soul",
-								"ref": "Uncommon Souls/Hell Boar Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Hell Boar Soul/"
 							},
 							{
 								"name": "White Dragon Soul",
-								"ref": "Uncommon Souls/White Dragon Soul/"
+								"ref": "Soulsanity/Uncommon Souls/White Dragon Soul/"
 							},
 							{
 								"name": "Great Armor Soul",
-								"ref": "Uncommon Souls/Great Armor Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Great Armor Soul/"
 							},
 							{
 								"name": "Quetzalcoatl Soul",
-								"ref": "Uncommon Souls/Quetzalcoatl Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Quetzalcoatl Soul/"
 							},
 							{
 								"name": "Ghoul Soul",
-								"ref": "Rare Souls/Ghoul Soul/"
+								"ref": "Soulsanity/Rare Souls/Ghoul Soul/"
 							},
 							{
 								"name": "The Creature Soul",
-								"ref": "Rare Souls/The Creature Soul/"
+								"ref": "Soulsanity/Rare Souls/The Creature Soul/"
 							},
 							{
 								"name": "Bone Pillar Soul",
-								"ref": "Rare Souls/Bone Pillar Soul/"
+								"ref": "Soulsanity/Rare Souls/Bone Pillar Soul/"
 							},
 							{
 								"name": "Barbariccia Soul",
-								"ref": "Rare Souls/Barbariccia Soul/"
+								"ref": "Soulsanity/Rare Souls/Barbariccia Soul/"
 							},
 							{
 								"name": "Valkyrie Soul",
-								"ref": "Rare Souls/Valkyrie Soul/"
+								"ref": "Soulsanity/Rare Souls/Valkyrie Soul/"
 							},
 							{
 								"name": "Ghost Soul",
-								"ref": "Rare Souls/Ghost Soul/"
+								"ref": "Soulsanity/Rare Souls/Ghost Soul/"
 							},
 							{
 								"name": "Tombstone Soul",
-								"ref": "Rare Souls/Tombstone Soul/"
+								"ref": "Soulsanity/Rare Souls/Tombstone Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 911,
 								"y": 432,
 								"size": 32
@@ -563,20 +562,20 @@
 						"sections": [
 							{
 								"name": "Mini Devil Soul",
-								"ref": "Uncommon Souls/Mini Devil Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Mini Devil Soul/"
 							},
 							{
 								"name": "Quetzalcoatl Soul",
-								"ref": "Uncommon Souls/Quetzalcoatl Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Quetzalcoatl Soul/"
 							},
 							{
 								"name": "Valkyrie Soul",
-								"ref": "Rare Souls/Valkyrie Soul/"
+								"ref": "Soulsanity/Rare Souls/Valkyrie Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 1022,
 								"y": 402,
 								"size": 32
@@ -588,12 +587,12 @@
 						"sections": [
 							{
 								"name": "Catoblepas Soul",
-								"ref": "Uncommon Souls/Catoblepas Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Catoblepas Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 922,
 								"y": 592
 							}
@@ -609,20 +608,20 @@
 						"sections": [
 							{
 								"name": "Axe Armor Soul",
-								"ref": "Common Souls/Mini Devil Soul/"
+								"ref": "Soulsanity/Common Souls/Mini Devil Soul/"
 							},
 							{
 								"name": "Skeleton Soul",
-								"ref": "Uncommon Souls/Skeleton Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Skeleton Soul/"
 							},
 							{
 								"name": "Peeping Eye Soul",
-								"ref": "Rare Souls/Peeping Eye Soul/"
+								"ref": "Soulsanity/Rare Souls/Peeping Eye Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 492,
 								"y": 492
 							}
@@ -633,12 +632,12 @@
 						"sections": [
 							{
 								"name": "Persephone Soul",
-								"ref": "Uncommon Souls/Persephone Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Persephone Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 282,
 								"y": 432
 							}
@@ -649,12 +648,12 @@
 						"sections": [
 							{
 								"name": "Skelerang Soul",
-								"ref": "Uncommon Souls/Skelerang Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Skelerang Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 512,
 								"y": 472
 							}
@@ -665,51 +664,51 @@
 						"sections": [
 							{
 								"name": "Persephone Soul",
-								"ref": "Uncommon Souls/Persephone Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Persephone Soul/"
 							},
 							{
 								"name": "Skelerang Soul",
-								"ref": "Uncommon Souls/Skelerang Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Skelerang Soul/"
 							},
 							{
 								"name": "Devil Soul",
-								"ref": "Uncommon Souls/Devil Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Devil Soul/"
 							},
 							{
 								"name": "Lilith Soul",
-								"ref": "Uncommon Souls/Lilith Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Lilith Soul/"
 							},
 							{
 								"name": "Ghost Dancer Soul",
-								"ref": "Uncommon Souls/Ghost Dancer Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Ghost Dancer Soul/"
 							},
 							{
 								"name": "Killer Clown Soul",
-								"ref": "Uncommon Souls/Killer Clown Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Killer Clown Soul/"
 							},
 							{
 								"name": "Waiter Skeleton Soul",
-								"ref": "Uncommon Souls/Waiter Skeleton Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Waiter Skeleton Soul/"
 							},
 							{
 								"name": "Valkyrie Soul",
-								"ref": "Rare Souls/Valkyrie Soul/"
+								"ref": "Soulsanity/Rare Souls/Valkyrie Soul/"
 							},
 							{
 								"name": "Killer Doll Soul",
-								"ref": "Rare Souls/Killer Doll Soul/"
+								"ref": "Soulsanity/Rare Souls/Killer Doll Soul/"
 							},
 							{
 								"name": "Bone Pillar Soul",
-								"ref": "Rare Souls/Bone Pillar Soul/"
+								"ref": "Soulsanity/Rare Souls/Bone Pillar Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 502,
 								"y": 362,
-								"size": 32
+								"size": 24
 							}
 						]
 					},
@@ -718,35 +717,35 @@
 						"sections": [
 							{
 								"name": "Buer Soul",
-								"ref": "Common Souls/Buer Soul/"
+								"ref": "Soulsanity/Common Souls/Buer Soul/"
 							},
 							{
 								"name": "Killer Clown Soul",
-								"ref": "Uncommon Souls/Mini Devil Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Mini Devil Soul/"
 							},
 							{
 								"name": "Lilith Soul",
-								"ref": "Uncommon Souls/Lilith Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Lilith Soul/"
 							},
 							{
 								"name": "Quetzalcoatl Soul",
-								"ref": "Uncommon Souls/Quetzalcoatl Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Quetzalcoatl Soul/"
 							},
 							{
 								"name": "Killer Doll Soul",
-								"ref": "Rare Souls/Killer Doll Soul/"
+								"ref": "Soulsanity/Rare Souls/Killer Doll Soul/"
 							},
 							{
 								"name": "Bone Pillar Soul",
-								"ref": "Rare Souls/Bone Pillar Soul/"
+								"ref": "Soulsanity/Rare Souls/Bone Pillar Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 342,
 								"y": 282,
-								"size": 32
+								"size": 24
 							}
 						]
 					},
@@ -755,83 +754,59 @@
 						"sections": [
 							{
 								"name": "Flame Demon Soul",
-								"ref": "Uncommon Souls/Flame Demon Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Flame Demon Soul/"
 							},
 							{
 								"name": "Malachi Soul",
-								"ref": "Uncommon Souls/Malachi Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Malachi Soul/"
 							},
 							{
 								"name": "Skelerang Soul",
-								"ref": "Uncommon Souls/Skelerang Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Skelerang Soul/"
 							},
 							{
 								"name": "Werewolf Soul",
-								"ref": "Uncommon Souls/Werewolf Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Werewolf Soul/"
 							},
 							{
 								"name": "Ghost Dancer Soul",
-								"ref": "Uncommon Souls/Ghost Dancer Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Ghost Dancer Soul/"
 							},
 							{
 								"name": "Student Witch Soul",
-								"ref": "Uncommon Souls/Student Witch Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Student Witch Soul/"
 							},
 							{
 								"name": "Lilith Soul",
-								"ref": "Uncommon Souls/Lilith Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Lilith Soul/"
 							},
 							{
 								"name": "Witch Soul",
-								"ref": "Uncommon Souls/Witch Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Witch Soul/"
 							},
 							{
 								"name": "Succubus Soul",
-								"ref": "Uncommon Souls/Succubus Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Succubus Soul/"
 							},
 							{
 								"name": "Persephone Soul",
-								"ref": "Uncommon Souls/Persephone Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Persephone Soul/"
 							},
 							{
 								"name": "Iron Golem Soul",
-								"ref": "Rare Souls/Iron Golem Soul/"
+								"ref": "Soulsanity/Rare Souls/Iron Golem Soul/"
 							},
 							{
 								"name": "Mimic Soul",
-								"ref": "Rare Souls/Mimic Soul/"
+								"ref": "Soulsanity/Rare Souls/Mimic Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 502,
 								"y": 212,
 								"size": 24
-							}
-						]
-					},
-					{
-						"name": "DC Big Room",
-						"sections": [
-							{
-								"name": "Mini Devil Soul",
-								"ref": "Uncommon Souls/Mini Devil Soul/"
-							},
-							{
-								"name": "Quetzalcoatl Soul",
-								"ref": "Uncommon Souls/Quetzalcoatl Soul/"
-							},
-							{
-								"name": "Valkyrie Soul",
-								"ref": "Rare Souls/Valkyrie Soul/"
-							}
-						],
-						"map_locations": [
-							{
-								"map": "Coloured Castle",
-								"x": 702,
-								"y": 372
 							}
 						]
 					}
@@ -845,14 +820,15 @@
 						"sections": [
 							{
 								"name": "Draghignazzo Soul",
-								"ref": "Rare Souls/Draghignazzo Soul/"
+								"ref": "Soulsanity/Rare Souls/Draghignazzo Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
-								"x": 1112,
-								"y": 482
+								"map": "Dracula's Castle",
+								"x": 1132,
+								"y": 482,
+								"size": 24
 							}
 						]
 					},
@@ -861,32 +837,32 @@
 						"sections": [
 							{
 								"name": "Buer Soul",
-								"ref": "Common Souls/Buer Soul/"
+								"ref": "Soulsanity/Common Souls/Buer Soul/"
 							},
 							{
 								"name": "Disc Armor Soul",
-								"ref": "Uncommon Souls/Disc Armor Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Disc Armor Soul/"
 							},
 							{
 								"name": "Werewolf Soul",
-								"ref": "Uncommon Souls/Werewolf Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Werewolf Soul/"
 							},
 							{
 								"name": "Fleaman Soul",
-								"ref": "Uncommon Souls/Fleaman Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Fleaman Soul/"
 							},
 							{
 								"name": "Skeleton Ape Soul",
-								"ref": "Rare Souls/Skeleton Ape Soul/"
+								"ref": "Soulsanity/Rare Souls/Skeleton Ape Soul/"
 							},
 							{
 								"name": "Great Axe Armor Soul",
-								"ref": "Rare Souls/Great Axe Armor Soul/"
+								"ref": "Soulsanity/Rare Souls/Great Axe Armor Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 1132,
 								"y": 292,
 								"size": 32
@@ -899,7 +875,273 @@
 				"name": "Subterrranean Hell Souls",
 				"children": [
 					{
-						
+						"name": "SH Top Entrance",
+						"sections": [
+							{
+								"name": "Cave Troll Soul",
+								"ref": "Soulsanity/Common Souls/Cave Troll Soul/"
+							},
+							{
+								"name": "Decarbia Soul",
+								"ref": "Soulsanity/Common Souls/Decarbia Soul/"
+							},
+							{
+								"name": "Une Soul",
+								"ref": "Soulsanity/Uncommon Souls/Une Soul/"
+							},
+							{
+								"name": "Dead Pirate Soul",
+								"ref": "Soulsanity/Uncommon Souls/Dead Pirate Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Dracula's Castle",
+								"x": 982,
+								"y": 602,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "SH East",
+						"sections": [
+							{
+								"name": "Decarbia Soul",
+								"ref": "Soulsanity/Common Souls/Decarbia Soul/"
+							},
+							{
+								"name": "Merman Soul",
+								"ref": "Soulsanity/Common Souls/Merman Soul/"
+							},
+							{
+								"name": "Fish Head Soul",
+								"ref": "Soulsanity/Uncommon Souls/Fish Head Soul/"
+							},
+							{
+								"name": "Needles Soul",
+								"ref": "Soulsanity/Uncommon Souls/Needles Soul/"
+							},
+							{
+								"name": "Frozen Shade Soul",
+								"ref": "Soulsanity/Uncommon Souls/Frozen Shade Soul/"
+							},
+							{
+								"name": "Killer Fish Soul",
+								"ref": "Soulsanity/Uncommon Souls/Killer Fish Soul/"
+							},
+							{
+								"name": "Mimic Soul",
+								"ref": "Soulsanity/Rare Souls/Mimic Soul/"
+							},
+							{
+								"name": "Procel Soul",
+								"ref": "Soulsanity/Rare Souls/Procel Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Dracula's Castle",
+								"x": 1042,
+								"y": 662,
+								"size": 32
+							}
+						]
+					},
+					{
+						"name": "SH Central/East Connection",
+						"sections": [
+							{
+								"name": "Une Soul",
+								"ref": "Soulsanity/Uncommon Souls/Une Soul/"
+							},
+							{
+								"name": "Alura Une Soul",
+								"ref": "Soulsanity/Uncommon Souls/Alura Une Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Dracula's Castle",
+								"x": 902,
+								"y": 702,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "SH Central Upper",
+						"sections": [
+							{
+								"name": "Merman Soul",
+								"ref": "Soulsanity/Common Souls/Merman Soul/"
+							},
+							{
+								"name": "Ukoback Soul",
+								"ref": "Soulsanity/Uncommon Souls/Ukoback Soul/"
+							},
+							{
+								"name": "Frozen Shade Soul",
+								"ref": "Soulsanity/Uncommon Souls/Frozen Shade Soul/"
+							},
+							{
+								"name": "Dead Pirate Soul",
+								"ref": "Soulsanity/Uncommon Souls/Dead Pirate Soul/"
+							},
+							{
+								"name": "Killer Fish Soul",
+								"ref": "Soulsanity/Uncommon Souls/Killer Fish Soul/"
+							},
+							{
+								"name": "Needles Soul",
+								"ref": "Soulsanity/Uncommon Souls/Needles Soul/"
+							},
+							{
+								"name": "Bone Ark Soul",
+								"ref": "Soulsanity/Rare Souls/Bone Ark Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Dracula's Castle",
+								"x": 732,
+								"y": 702,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "SH Central Lower",
+						"sections": [
+							{
+								"name": "Merman Soul",
+								"ref": "Soulsanity/Common Souls/Merman Soul/"
+							},
+							{
+								"name": "Frozen Shade Soul",
+								"ref": "Soulsanity/Uncommon Souls/Frozen Shade Soul/"
+							},
+							{
+								"name": "Dead Pirate Soul",
+								"ref": "Soulsanity/Uncommon Souls/Dead Pirate Soul/"
+							},
+							{
+								"name": "Procel Soul",
+								"ref": "Soulsanity/Rare Souls/Procel Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Dracula's Castle",
+								"x": 692,
+								"y": 742,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "SH Central Exit",
+						"sections": [
+							{
+								"name": "Merman Soul",
+								"ref": "Soulsanity/Common Souls/Merman Soul/"
+							},
+							{
+								"name": "Ukoback Soul",
+								"ref": "Soulsanity/Uncommon Souls/Ukoback Soul/"
+							},
+							{
+								"name": "Frozen Shade Soul",
+								"ref": "Soulsanity/Uncommon Souls/Frozen Shade Soul/"
+							},
+							{
+								"name": "Mimic Soul",
+								"ref": "Soulsanity/Rare Souls/Mimic Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Dracula's Castle",
+								"x": 772,
+								"y": 662,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "SH Shaft Bottom",
+						"sections": [
+							{
+								"name": "Merman Soul",
+								"ref": "Soulsanity/Common Souls/Merman Soul/"
+							},
+							{
+								"name": "Dead Pirate Soul",
+								"ref": "Soulsanity/Uncommon Souls/Dead Pirate Soul/"
+							},
+							{
+								"name": "Ukoback Soul",
+								"ref": "Soulsanity/Uncommon Souls/Ukoback Soul/"
+							},
+							{
+								"name": "Medusa Head Soul",
+								"ref": "Soulsanity/Rare Souls/Medusa Head Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Dracula's Castle",
+								"x": 602,
+								"y": 802,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "SH Shaft Middle",
+						"sections": [
+							{
+								"name": "Merman Soul",
+								"ref": "Soulsanity/Common Souls/Merman Soul/"
+							},
+							{
+								"name": "Frozen Shade Soul",
+								"ref": "Soulsanity/Uncommon Souls/Frozen Shade Soul/"
+							},
+							{
+								"name": "Devil Soul",
+								"ref": "Soulsanity/Uncommon Souls/Devil Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Dracula's Castle",
+								"x": 602,
+								"y": 742,
+								"size": 24
+							}
+						]
+					},
+					{
+						"name": "SH Shaft Top",
+						"sections": [
+							{
+								"name": "Killer Fish Soul",
+								"ref": "Soulsanity/Uncommon Souls/Killer Fish Soul/"
+							},
+							{
+								"name": "Ukoback Soul",
+								"ref": "Soulsanity/Uncommon Souls/Ukoback Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Dracula's Castle",
+								"x": 602,
+								"y": 682,
+								"size": 24
+							}
+						]
 					}
 				]
 			},
@@ -911,38 +1153,38 @@
 						"sections": [
 							{
 								"name": "Harpy Soul",
-								"ref": "Uncommon Souls/Harpy Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Harpy Soul/"
 							},
 							{
 								"name": "Catoblepas Soul",
-								"ref": "Uncommon Souls/Catoblepas Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Catoblepas Soul/"
 							},
 							{
 								"name": "Imp Soul",
-								"ref": "Uncommon Souls/Imp Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Imp Soul/"
 							},
 							{
 								"name": "Malachi Soul",
-								"ref": "Uncommon Souls/Malachi Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Malachi Soul/"
 							},
 							{
 								"name": "Dead Pirate Soul",
-								"ref": "Uncommon Souls/Dead Pirate Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Dead Pirate Soul/"
 							},
 							{
 								"name": "Medusa Head Soul",
-								"ref": "Rare Souls/Medusa Head Soul/"
+								"ref": "Soulsanity/Rare Souls/Medusa Head Soul/"
 							},
 							{
 								"name": "Tanjelly Soul",
-								"ref": "Rare Souls/Tanjelly Soul/"
+								"ref": "Soulsanity/Rare Souls/Tanjelly Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
-								"x": 892,
-								"y": 322,
+								"map": "Dracula's Castle",
+								"x": 1002,
+								"y": 282,
 								"size": 24
 							}
 						]
@@ -952,28 +1194,28 @@
 						"sections": [
 							{
 								"name": "Slime Soul",
-								"ref": "Common Souls/Slime Soul/"
+								"ref": "Soulsanity/Common Souls/Slime Soul/"
 							},
 							{
 								"name": "Imp Soul",
-								"ref": "Uncommon Souls/Imp Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Imp Soul/"
 							},
 							{
 								"name": "Medusa Head Soul",
-								"ref": "Rare Souls/Medusa Head Soul/"
+								"ref": "Soulsanity/Rare Souls/Medusa Head Soul/"
 							},
 							{
 								"name": "Bugbear Soul",
-								"ref": "Rare Souls/Bugbear Soul/"
+								"ref": "Soulsanity/Rare Souls/Bugbear Soul/"
 							},
 							{
 								"name": "Tanjelly Soul",
-								"ref": "Rare Souls/Tanjelly Soul/"
+								"ref": "Soulsanity/Rare Souls/Tanjelly Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 972,
 								"y": 172,
 								"size": 32
@@ -985,12 +1227,12 @@
 						"sections": [
 							{
 								"name": "Flying Humanoid Soul",
-								"ref": "Common Souls/Flying Humanoid Soul/"
+								"ref": "Soulsanity/Common Souls/Flying Humanoid Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 972,
 								"y": 112
 							}
@@ -1001,16 +1243,16 @@
 						"sections": [
 							{
 								"name": "Devil Soul",
-								"ref": "Uncommon Souls/Devil Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Devil Soul/"
 							},
 							{
 								"name": "Harpy Soul",
-								"ref": "Uncommon Souls/Harpy Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Harpy Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 902,
 								"y": 192,
 								"size": 24
@@ -1027,44 +1269,44 @@
 						"sections": [
 							{
 								"name": "Dead Mate Soul",
-								"ref": "Common Souls/Dead Mate Soul/"
+								"ref": "Soulsanity/Common Souls/Dead Mate Soul/"
 							},
 							{
 								"name": "Bat Soul",
-								"ref": "Uncommon Souls/Bat Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Bat Soul/"
 							},
 							{
 								"name": "Skull Archer Soul",
-								"ref": "Uncommon Souls/Skull Archer Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Skull Archer Soul/"
 							},
 							{
 								"name": "Devil Soul",
-								"ref": "Uncommon Souls/Devil Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Devil Soul/"
 							},
 							{
 								"name": "Larva Soul",
-								"ref": "Uncommon Souls/Larva Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Larva Soul/"
 							},
 							{
 								"name": "Ghoul Soul",
-								"ref": "Rare Souls/Ghoul Soul/"
+								"ref": "Soulsanity/Rare Souls/Ghoul Soul/"
 							},
 							{
 								"name": "Peeping Eye Soul",
-								"ref": "Rare Souls/Peeping Eye Soul/"
+								"ref": "Soulsanity/Rare Souls/Peeping Eye Soul/"
 							},
 							{
 								"name": "Dead Crusader Soul",
-								"ref": "Rare Souls/Dead Crusader Soul/"
+								"ref": "Soulsanity/Rare Souls/Dead Crusader Soul/"
 							},
 							{
 								"name": "Bone Ark Soul",
-								"ref": "Rare Souls/Bone Ark Soul/"
+								"ref": "Soulsanity/Rare Souls/Bone Ark Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 842,
 								"y": 852,
 								"size": 24
@@ -1076,16 +1318,16 @@
 						"sections": [
 							{
 								"name": "Waiter Skeleton Soul",
-								"ref": "Uncommon Souls/Waiter Skeleton Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Waiter Skeleton Soul/"
 							},
 							{
 								"name": "Gorgon Soul",
-								"ref": "Rare Souls/Gorgon Soul/"
+								"ref": "Soulsanity/Rare Souls/Gorgon Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 832,
 								"y": 732
 							}
@@ -1101,40 +1343,40 @@
 						"sections": [
 							{
 								"name": "Guillotiner Soul",
-								"ref": "Common Souls/Guillotiner Soul/"
+								"ref": "Soulsanity/Common Souls/Guillotiner Soul/"
 							},
 							{
 								"name": "Mothman Soul",
-								"ref": "Common Souls/Mothman Soul/"
+								"ref": "Soulsanity/Common Souls/Mothman Soul/"
 							},
 							{
 								"name": "Werewolf Soul",
-								"ref": "Uncommon Souls/Werewolf Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Werewolf Soul/"
 							},
 							{
 								"name": "Mushussu Soul",
-								"ref": "Uncommon Souls/Devil Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Devil Soul/"
 							},
 							{
 								"name": "Alastor Soul",
-								"ref": "Uncommon Souls/Alastor Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Alastor Soul/"
 							},
 							{
 								"name": "Dead Crusader Soul",
-								"ref": "Rare Souls/Dead Crusader Soul/"
+								"ref": "Soulsanity/Rare Souls/Dead Crusader Soul/"
 							},
 							{
 								"name": "Erinys Soul",
-								"ref": "Rare Souls/Erinys Soul/"
+								"ref": "Soulsanity/Rare Souls/Erinys Soul/"
 							},
 							{
 								"name": "Final Guard Soul",
-								"ref": "Rare Souls/Final Guard Soul/"
+								"ref": "Soulsanity/Rare Souls/Final Guard Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 742,
 								"y": 162,
 								"size": 32
@@ -1146,44 +1388,44 @@
 						"sections": [
 							{
 								"name": "Guillotiner Soul",
-								"ref": "Common Souls/Guillotiner Soul/"
+								"ref": "Soulsanity/Common Souls/Guillotiner Soul/"
 							},
 							{
 								"name": "Succubus Soul",
-								"ref": "Uncommon Souls/Succubus Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Succubus Soul/"
 							},
 							{
 								"name": "Malachi Soul",
-								"ref": "Uncommon Souls/Malachi Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Malachi Soul/"
 							},
 							{
 								"name": "Mushussu Soul",
-								"ref": "Uncommon Souls/Mushussu Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Mushussu Soul/"
 							},
 							{
 								"name": "Werewolf Soul",
-								"ref": "Uncommon Souls/Werewolf Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Werewolf Soul/"
 							},
 							{
 								"name": "Flame Demon Soul",
-								"ref": "Uncommon Souls/Flame Demon Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Flame Demon Soul/"
 							},
 							{
 								"name": "Bugbear Soul",
-								"ref": "Rare Souls/Bugbear Soul/"
+								"ref": "Soulsanity/Rare Souls/Bugbear Soul/"
 							},
 							{
 								"name": "Dead Warrior Soul",
-								"ref": "Rare Souls/Dead Warrior Soul/"
+								"ref": "Soulsanity/Rare Souls/Dead Warrior Soul/"
 							},
 							{
 								"name": "Erinys Soul",
-								"ref": "Rare Souls/Erinys Soul/"
+								"ref": "Soulsanity/Rare Souls/Erinys Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 692,
 								"y": 252,
 								"size": 24
@@ -1200,32 +1442,32 @@
 						"sections": [
 							{
 								"name": "Slogra Soul",
-								"ref": "Common Souls/Slogra Soul/"
+								"ref": "Soulsanity/Common Souls/Slogra Soul/"
 							},
 							{
 								"name": "Ripper Soul",
-								"ref": "Uncommon Souls/Ripper Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Ripper Soul/"
 							},
 							{
 								"name": "Giabon Soul",
-								"ref": "Uncommon Souls/Giabon Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Giabon Soul/"
 							},
 							{
 								"name": "Tanjelly Soul",
-								"ref": "Rare Souls/Tanjelly Soul/"
+								"ref": "Soulsanity/Rare Souls/Tanjelly Soul/"
 							},
 							{
 								"name": "Giant Slug Soul",
-								"ref": "Rare Souls/Giant Slug Soul/"
+								"ref": "Soulsanity/Rare Souls/Giant Slug Soul/"
 							},
 							{
 								"name": "Bugbear Soul",
-								"ref": "Rare Souls/Bugbear Soul/"
+								"ref": "Soulsanity/Rare Souls/Bugbear Soul/"
 							}
 						],
 						"map_locations": [
 							{
-								"map": "Coloured Castle",
+								"map": "Dracula's Castle",
 								"x": 1132,
 								"y": 642,
 								"size": 32
@@ -1238,7 +1480,154 @@
 				"name": "The Abyss Souls",
 				"children": [
 					{
-						
+						"name": "TA",
+						"sections": [
+							{
+								"name": "Alastor Soul",
+								"ref": "Soulsanity/Uncommon Souls/Alastor Soul/"
+							},
+							{
+								"name": "Mud Demon Soul",
+								"ref": "Soulsanity/Uncommon Souls/Mud Demon Soul/"
+							},
+							{
+								"name": "Frozen Shade Soul",
+								"ref": "Soulsanity/Uncommon Souls/Frozen Shade Soul/"
+							},
+							{
+								"name": "Malachi Soul",
+								"ref": "Soulsanity/Uncommon Souls/Malachi Soul/"
+							},
+							{
+								"name": "White Dragon Soul",
+								"ref": "Soulsanity/Uncommon Souls/White Dragon Soul/"
+							},
+							{
+								"name": "Malacoda Soul",
+								"ref": "Soulsanity/Uncommon Souls/Malacoda Soul/"
+							},
+							{
+								"name": "Arc Demon Soul",
+								"ref": "Soulsanity/Rare Souls/Arc Demon Soul/"
+							},
+							{
+								"name": "Erinys Soul",
+								"ref": "Soulsanity/Rare Souls/Erinys Soul/"
+							},
+							{
+								"name": "Heart Eater Soul",
+								"ref": "Soulsanity/Rare Souls/Heart Eater Soul/"
+							},
+							{
+								"name": "Stolas Soul",
+								"ref": "Soulsanity/Rare Souls/Stolas Soul/"
+							},
+							{
+								"name": "Final Guard Soul",
+								"ref": "Soulsanity/Rare Souls/Final Guard Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "The Abyss",
+								"x": 532,
+								"y": 552,
+								"size": 32
+							}
+						]
+					},
+					{
+						"name": "TA Beyond Abaddon",
+						"sections": [
+							{
+								"name": "Black Panther Soul",
+								"ref": "Soulsanity/Common Souls/Black Panther Soul/"
+							},
+							{
+								"name": "Succubus Soul",
+								"ref": "Soulsanity/Uncommon Souls/Succubus Soul/"
+							},
+							{
+								"name": "Iron Golem Soul",
+								"ref": "Soulsanity/Rare Souls/Iron Golem Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "The Abyss",
+								"x": 772,
+								"y": 552,
+								"size": 32
+							}
+						]
+					},
+					{
+						"name": "TA",
+						"sections": [
+							{
+								"name": "Alastor Soul",
+								"ref": "Soulsanity/Uncommon Souls/Alastor Soul/"
+							},
+							{
+								"name": "Mud Demon Soul",
+								"ref": "Soulsanity/Uncommon Souls/Mud Demon Soul/"
+							},
+							{
+								"name": "Frozen Shade Soul",
+								"ref": "Soulsanity/Uncommon Souls/Frozen Shade Soul/"
+							},
+							{
+								"name": "Malachi Soul",
+								"ref": "Soulsanity/Uncommon Souls/Malachi Soul/"
+							},
+							{
+								"name": "White Dragon Soul",
+								"ref": "Soulsanity/Uncommon Souls/White Dragon Soul/"
+							},
+							{
+								"name": "Malacoda Soul",
+								"ref": "Soulsanity/Uncommon Souls/Malacoda Soul/"
+							},
+							{
+								"name": "Arc Demon Soul",
+								"ref": "Soulsanity/Rare Souls/Arc Demon Soul/"
+							},
+							{
+								"name": "Erinys Soul",
+								"ref": "Soulsanity/Rare Souls/Erinys Soul/"
+							},
+							{
+								"name": "Heart Eater Soul",
+								"ref": "Soulsanity/Rare Souls/Heart Eater Soul/"
+							},
+							{
+								"name": "Stolas Soul",
+								"ref": "Soulsanity/Rare Souls/Stolas Soul/"
+							},
+							{
+								"name": "Final Guard Soul",
+								"ref": "Soulsanity/Rare Souls/Final Guard Soul/"
+							},
+							{
+								"name": "Black Panther Soul",
+								"ref": "Soulsanity/Common Souls/Black Panther Soul/"
+							},
+							{
+								"name": "Succubus Soul",
+								"ref": "Soulsanity/Uncommon Souls/Succubus Soul/"
+							},
+							{
+								"name": "Iron Golem Soul",
+								"ref": "Soulsanity/Rare Souls/Iron Golem Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Dracula's Castle",
+								"x": 1172,
+								"y": 892
+							}
+						]
 					}
 				]
 			}

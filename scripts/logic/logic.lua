@@ -52,3 +52,9 @@ function vanillasouls()
         return true
     end
 end
+
+function oulviewoff()
+    if not has("soulview") then
+        return true
+    end
+end

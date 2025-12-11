@@ -102,7 +102,7 @@
         "name": "Soulsanity Level",
         "type": "progressive",
         "loop": false,
-        "allow_disabled": true,
+        "allow_disabled": false,
         "initial_stage_idx": 0,
         "stages": [
             {
@@ -146,5 +146,11 @@
         "img": "images/settings/speed.png",
         "type": "toggle",
         "codes": "speed"
+    },
+    {
+        "name": "Click to Switch to Soul View",
+        "img": "images/settings/soulsanity.png",
+        "type": "toggle",
+        "codes": "soulview"
     }
 ]

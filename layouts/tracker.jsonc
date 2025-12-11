@@ -17,60 +17,22 @@
 					"type": "tabbed",
 					"tabs": [
 						{
-							"title": "Standard View",
-							"content": [
-								{
-									"type": "tabbed",
-									"tabs": [
-										{
-											"title": "Dracula's Castle",
-											"content": {
-												"type": "map",
-												"maps": [
-													"Dracula's Castle"
-												]
-											}
-										},
-										{
-											"title": "The Abyss",
-											"content": {
-												"type": "map",
-												"maps": [
-													"The Abyss"
-												]
-											}
-										}
-									]
-								}
-							]
+							"title": "Dracula's Castle",
+							"content": {
+								"type": "map",
+								"maps": [
+									"Dracula's Castle"
+								]
+							}
 						},
 						{
-							"title": "Soulsanity",
-							"content": [
-								{
-									"type": "tabbed",
-									"tabs": [
-										{
-											"title": "Dracula's Castle",
-											"content": {
-												"type": "map",
-												"maps": [
-													"Coloured Castle"
-												]
-											}
-										},
-										{
-											"title": "The Abyss",
-											"content": {
-												"type": "map",
-												"maps": [
-													"The Abyss"
-												]
-											}
-										}
-									]
-								}
-							]
+							"title": "The Abyss",
+							"content": {
+								"type": "map",
+								"maps": [
+									"The Abyss"
+								]
+							}
 						}
 					]
 				}
