@@ -2,7 +2,7 @@
     "versions": [
         {
             "package_version": "1.1.0.0",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/1.7/CVDoSPT.zip",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.0/CVDoSPT.zip",
             "sha256": "91075ce288a18a971ca500eeb11cc1066b353162b0ef55f9a954b70448546239",
             "changelog": [
                 "Soulsanity is now viewable from the tracker! Select the soulsanity toggle in the items list to switch views"
