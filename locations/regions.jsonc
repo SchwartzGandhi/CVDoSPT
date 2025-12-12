@@ -93,13 +93,15 @@
 			{
 				"name": "WLWestGate",
 				"access_rules": [
-					"@The Lost Village Regions/LVUndergroundMiddle"
+					"@The Lost Village Regions/LVUndergroundMiddle",
+					"@Wizardry Lab Regions/WLMain, ^$cutallclips"
 				]
 			},
 			{
 				"name": "WLEastGate",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHShaftTop"
+					"@Subterranean Hell Regions/SHShaftTop",
+					"@Wizardry Lab Regions/WLMain, ^$cutallclips"
 				]
 			},
 			{
@@ -164,7 +166,8 @@
 			{
 				"name": "GoMEastGate",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTEntrance"
+					"@Cursed Clock Tower Regions/CCTEntrance",
+					"@Garden of Madness Regions/GoMUpper, ^$cutallclips"
 				]
 			}
 		]
@@ -262,6 +265,7 @@
 			{
 				"name": "CTBottom",
 				"access_rules": [
+					"@The Dark Chapel Regions/DC, ^$cutallclips",
 					"@The Dark Chapel Regions/DCBigRoom",
 					"@Condemned Tower Regions/CTTop"
 				]

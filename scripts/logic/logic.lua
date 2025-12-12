@@ -62,3 +62,11 @@ function oulviewoff()
         return true
     end
 end
+
+function cutallclips()
+    if has("cutall") then
+        return AccessibilityLevel.SequenceBreak
+    else
+        return AccessibilityLevel.None
+    end
+end
