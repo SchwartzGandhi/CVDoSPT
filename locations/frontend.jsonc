@@ -2037,8 +2037,7 @@
 			{
 				"name": "Abyss Center",
 				"visibility_rules": [
-					"abyss",
-					"abyssplus"
+					"$abyssaccess"
 				],
 				"sections": [
 					{

@@ -41,6 +41,10 @@ function holes()
     return has("puppet") or has("bat")
 end
 
+function abyssaccess()
+    return has("abyss") or has("abyssplus")
+end
+
 function low()
     if not has("speed") then
         return true

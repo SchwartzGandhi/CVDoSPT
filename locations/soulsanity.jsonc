@@ -200,8 +200,7 @@
 					{
 						"name": "Slogra Soul",
 						"access_rules": [
-							"abyss, @Mine of Judgment Regions/MoJ",
-							"abyssplus, @Mine of Judgment Regions/MoJ"
+							"$abyssaccess, @Mine of Judgment Regions/MoJ",
 						],
 						"sections": [
 							{
@@ -212,8 +211,7 @@
 					{
 						"name": "Black Panther Soul",
 						"access_rules": [
-							"abyss, @The Abyss Regions/TABeyondAbaddon",
-							"abyssplus, @The Abyss Regions/TABeyondAbaddon"
+							"$abyssaccess, @The Abyss Regions/TABeyondAbaddon",
 						],
 						"sections": [
 							{
@@ -620,8 +618,7 @@
 						"access_rules": [
 							"@The Lost Village Regions/LVUndergroundBottom",
 							"@The Dark Chapel Regions/DC",
-							"abyss, @The Abyss Regions/TA",
-							"abyssplus, @The Abyss Regions/TA"
+							"$abyssaccess, @The Abyss Regions/TA"
 						],
 						"sections": [
 							{
@@ -670,8 +667,7 @@
 							"@Demon Guest House Regions/DGHUpper",
 							"@Cursed Clock Tower Regions/CCTEntrance",
 							"@The Pinnacle Regions/TPLower",
-							"abyss, @The Abyss Regions/TA",
-							"abyssplus, @The Abyss Regions/TA"
+							"$abyssaccess, @The Abyss Regions/TA"
 						],
 						"sections": [
 							{
@@ -752,8 +748,7 @@
 							"@Subterranean Hell Regions/SHCentralLower",
 							"@Subterranean Hell Regions/SHCentralUpper",
 							"@Subterranean Hell Regions/SHCentralExit",
-							"abyss, @The Abyss Regions/TA",
-							"abyssplus, @The Abyss Regions/TA"
+							"$abyssaccess, @The Abyss Regions/TA"
 						],
 						"sections": [
 							{
@@ -800,8 +795,7 @@
 						"access_rules": [
 							"@Demon Guest House Regions/DGHUpper",
 							"@The Pinnacle Regions/TPLower",
-							"abyss, @The Abyss Regions/TABeyondAbaddon",
-							"abyssplus, @The Abyss Regions/TABeyondAbaddon"
+							"$abyssaccess, @The Abyss Regions/TABeyondAbaddon"
 						],
 						"sections": [
 							{
@@ -839,8 +833,7 @@
 						"name": "Alastor Soul",
 						"access_rules": [
 							"@The Pinnacle Regions/TP",
-							"abyss, @The Abyss Regions/TA",
-							"abyssplus, @The Abyss Regions/TA"
+							"$abyssaccess, @The Abyss Regions/TA"
 						],
 						"sections": [
 							{
@@ -851,8 +844,7 @@
 					{
 						"name": "Ripper Soul",
 						"access_rules": [
-							"abyss, @Mine of Judgment Regions/MoJ",
-							"abyssplus, @Mine of Judgment Regions/MoJ"
+							"$abyssaccess, @Mine of Judgment Regions/MoJ"
 						],
 						"sections": [
 							{
@@ -863,8 +855,7 @@
 					{
 						"name": "Mud Demon Soul",
 						"access_rules": [
-							"abyss, @The Abyss Regions/TA",
-							"abyssplus, @The Abyss Regions/TA"
+							"$abyssaccess, @The Abyss Regions/TA",
 						],
 						"sections": [
 							{
@@ -875,8 +866,7 @@
 					{
 						"name": "Gaibon Soul",
 						"access_rules": [
-							"abyss, @Mine of Judgment Regions/MoJ",
-							"abyssplus, @Mine of Judgment Regions/MoJ"
+							"$abyssaccess, @Mine of Judgment Regions/MoJ",
 						],
 						"sections": [
 							{
@@ -887,8 +877,7 @@
 					{
 						"name": "Malacoda Soul",
 						"access_rules": [
-							"abyss, @The Abyss Regions/TA",
-							"abyssplus, @The Abyss Regions/TA"
+							"$abyssaccess, @The Abyss Regions/TA"
 						],
 						"sections": [
 							{
@@ -1083,8 +1072,7 @@
 						"name": "Heart Eater Soul",
 						"access_rules": [
 							"@Wizardry Lab Regions/WLWestGate",
-							"abyss, @The Abyss Regions/TA",
-							"abyssplus, @The Abyss Regions/TA"
+							"$abyssaccess, @The Abyss Regions/TA"
 						],
 						"sections": [
 							{
@@ -1126,8 +1114,7 @@
 						"access_rules": [
 							"@Cursed Clock Tower Regions/CCTCentral",
 							"@The Pinnacle Regions/TPLower",
-							"abyss, @Mine of Judgment Regions/MoJ",
-							"abyssplus, @Mine of Judgment Regions/MoJ"
+							"$abyssaccess, @Mine of Judgment Regions/MoJ",
 						],
 						"sections": [
 							{
@@ -1211,8 +1198,7 @@
 						"access_rules": [
 							"@The Pinnacle Regions/TP",
 							"@The Pinnacle Regions/TPLower",
-							"abyss, @The Abyss Regions/TA",
-							"abyssplus, @The Abyss Regions/TA"
+							"$abyssaccess, @The Abyss Regions/TA"
 						],
 						"sections": [
 							{
@@ -1225,8 +1211,7 @@
 						"access_rules": [
 							"@Cursed Clock Tower Regions/CCTEntrance",
 							"@Cursed Clock Tower Regions/CCTCentral",
-							"abyss, @Mine of Judgment Regions/MoJ",
-							"abyssplus, @Mine of Judgment Regions/MoJ"
+							"$abyssaccess, @Mine of Judgment Regions/MoJ"
 						],
 						"sections": [
 							{
@@ -1238,8 +1223,7 @@
 						"name": "Final Guard Soul",
 						"access_rules": [
 							"@The Pinnacle Regions/TP",
-							"abyss, @The Abyss Regions/TA",
-							"abyssplus, @The Abyss Regions/TA"
+							"$abyssaccess, @The Abyss Regions/TA"
 						],
 						"sections": [
 							{
@@ -1252,8 +1236,7 @@
 						"access_rules": [
 							"@Wizardry Lab Regions/WLSunkenWestDoor",
 							"@Demon Guest House Regions/DGHUpper",
-							"abyss, @The Abyss Regions/TABeyondAbaddon",
-							"abyssplus, @The Abyss Regions/TABeyondAbaddon"
+							"$abyssaccess, @The Abyss Regions/TABeyondAbaddon"
 						],
 						"sections": [
 							{
@@ -1264,8 +1247,7 @@
 					{
 						"name": "Giant Slug Soul",
 						"access_rules": [
-							"abyss, @Mine of Judgment Regions/MoJ",
-							"abyssplus, @Mine of Judgment Regions/MoJ"
+							"$abyssaccess, @Mine of Judgment Regions/MoJ"
 						],
 						"sections": [
 							{
@@ -1276,8 +1258,7 @@
 					{
 						"name": "Stolas Soul",
 						"access_rules": [
-							"abyss, @The Abyss Regions/TA",
-							"abyssplus, @The Abyss Regions/TA"
+							"$abyssaccess, @The Abyss Regions/TA"
 						],
 						"sections": [
 							{
@@ -1288,8 +1269,7 @@
 					{
 						"name": "Arc Demon Soul",
 						"access_rules": [
-							"abyss, @The Abyss Regions/TA",
-							"abyssplus, @The Abyss Regions/TA"
+							"$abyssaccess, @The Abyss Regions/TA"
 						],
 						"sections": [
 							{

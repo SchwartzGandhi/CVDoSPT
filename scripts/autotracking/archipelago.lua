@@ -117,7 +117,7 @@ function apply_slot_data(slot_data)
 
 	local soullevel = Tracker:FindObjectForCode('souls')
 	if slot_data["soul_randomizer"] then
-		soullevel.CurrentStage = slot_data["soulsanity_level"] + 1
+		soullevel.CurrentStage = slot_data["soulsanity_level"]
 	else
 		soullevel.CurrentStage = 0
 	end
