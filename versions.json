@@ -2,10 +2,11 @@
     "versions": [
         {
             "package_version": "1.1.0.0",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.0/CVDoSPT.zip",
-            "sha256": "91075ce288a18a971ca500eeb11cc1066b353162b0ef55f9a954b70448546239",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.1/CVDoSPT.zip",
+            "sha256": "721790d91db038a5a77c1ae38e336ce430ca5ec9d0a8221bd415ccb9f8728d24",
             "changelog": [
-                "Soulsanity is now viewable from the tracker! Select the soulsanity toggle in the items list to switch views"
+                "Fixed autotracking for soulsanity level and open drawbridge",
+                "added some sequence break logic for cutall and soul eater ring"
             ]
         }
     ]
