@@ -108,6 +108,8 @@ function apply_slot_data(slot_data)
 		warp.CurrentStage = 10
 	elseif start == "The Abyss" then
 		warp.CurrentStage = 11
+	else
+		warp.CurrentStage = 0
 	end
 
 	local soultoggle = Tracker:FindObjectForCode('soulsanity')
@@ -124,9 +126,7 @@ function apply_slot_data(slot_data)
 
 	local drawbridge = Tracker:FindObjectForCode('drawbridge')
 	if slot_data["open_drawbridge"] then
-		drawbridge.CurrentStage = 1
-	else 
-		drawbridge.CurrentStage = 0
+		drawbridge.CurrentStage = slot_data["open_drawbridge"]
 	end
 
 	local speed = Tracker:FindObjectForCode('speed')
