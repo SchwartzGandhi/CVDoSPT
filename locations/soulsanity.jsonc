@@ -200,7 +200,7 @@
 					{
 						"name": "Slogra Soul",
 						"access_rules": [
-							"$abyssaccess, @Mine of Judgment Regions/MoJ",
+							"$abyssaccess, @Mine of Judgment Regions/MoJ"
 						],
 						"sections": [
 							{
@@ -211,7 +211,7 @@
 					{
 						"name": "Black Panther Soul",
 						"access_rules": [
-							"$abyssaccess, @The Abyss Regions/TABeyondAbaddon",
+							"$abyssaccess, @The Abyss Regions/TABeyondAbaddon"
 						],
 						"sections": [
 							{
@@ -855,7 +855,7 @@
 					{
 						"name": "Mud Demon Soul",
 						"access_rules": [
-							"$abyssaccess, @The Abyss Regions/TA",
+							"$abyssaccess, @The Abyss Regions/TA"
 						],
 						"sections": [
 							{
@@ -866,7 +866,7 @@
 					{
 						"name": "Gaibon Soul",
 						"access_rules": [
-							"$abyssaccess, @Mine of Judgment Regions/MoJ",
+							"$abyssaccess, @Mine of Judgment Regions/MoJ"
 						],
 						"sections": [
 							{
@@ -1114,7 +1114,7 @@
 						"access_rules": [
 							"@Cursed Clock Tower Regions/CCTCentral",
 							"@The Pinnacle Regions/TPLower",
-							"$abyssaccess, @Mine of Judgment Regions/MoJ",
+							"$abyssaccess, @Mine of Judgment Regions/MoJ"
 						],
 						"sections": [
 							{
