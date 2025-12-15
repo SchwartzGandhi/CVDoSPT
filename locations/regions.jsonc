@@ -339,15 +339,17 @@
 				"name": "SHEast",
 				"access_rules": [
 					"@Subterranean Hell Regions/SHTopEntrance, water, seal3",
-					"@Subterranean Hell Regions/SHCentralEastConnection"
+					"@Subterranean Hell Regions/SHCentralEastConnection",
+					"@Subterranean Hell Regions/SHCentralUpper, water, $mediumuppies",
+					"@Subterranean Hell Regions/SHCentralUpper, jump, $mediumuppies"
 				]
 			},
 			{
 				"name": "SHCentralEastConnection",
 				"access_rules": [
 					"@Subterranean Hell Regions/SHEast, $mediumuppies",
-					"@Subterranean Hell Regions/SHCentralUpper, $mediumuppies, water",
-					"@Subterranean Hell Regions/SHCentralUpper, $mediumuppies, jump"
+					"@Subterranean Hell Regions/SHCentralUpper, water",
+					"@Subterranean Hell Regions/SHCentralUpper, jump"
 				]
 			},
 			{
@@ -370,23 +372,33 @@
 			{
 				"name": "SHCentralLower",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHCentralUpper, $mediumuppies",
-					"@Subterranean Hell Regions/SHShaftMiddle",
+					"@Subterranean Hell Regions/SHCentralUpper",
+					"@Subterranean Hell Regions/SHShaftMiddle, $mediumuppies",
 					"@Subterranean Hell Regions/SHShaftBottom",
+					"@Subterranean Hell Regions/SHShaftBottomStairs",
 					"shwarp, @The Lost Village Regions/WarpRoom"
 				]
 			},
 			{
 				"name": "SHShaftTop",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHShaftMiddle, $biguppies"
+					"@Subterranean Hell Regions/SHShaftMiddle, $biguppies",
+					"@Wizardry Lab Regions/WLEastGate"
 				]
 			},
 			{
 				"name": "SHShaftMiddle",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHCentralLower",
+					"@Subterranean Hell Regions/SHCentralLower, $mediumuppies",
 					"@Subterranean Hell Regions/SHShaftTop",
+					"@Subterranean Hell Regions/SHShaftBottom, $mediumuppies"
+				]
+			},
+			{
+				"name": "SHShaftBottomStairs",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHCentralLower",
+					"@Subterranean Hell Regions/SHShaftMiddle",
 					"@Subterranean Hell Regions/SHShaftBottom, $mediumuppies"
 				]
 			},
@@ -394,8 +406,9 @@
 				"name": "SHShaftBottom",
 				"access_rules": [
 					"@Subterranean Hell Regions/SHShaftMiddle",
-					"@Wizardry Lab Regions/WLEastGate",
-					"@Silenced Ruins Regions/SRAntechamber"
+					"@Silenced Ruins Regions/SRAntechamber",
+					"@Subterranean Hell Regions/SHShaftBottomStairs",
+					"@Subterranean Hell Regions/SHSpikeRoomEast"
 				]
 			},
 			{
@@ -426,6 +439,7 @@
 				"access_rules": [
 					"@Subterranean Hell Regions/SHShaftBottom, $mediumuppies",
 					"@Subterranean Hell Regions/SHShaftBottom, armor",
+					"@Subterranean Hell Regions/SHShaftBottom, panther",
 					"@Silenced Ruins Regions/SR, dio"
 				]
 			},
