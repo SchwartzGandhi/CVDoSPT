@@ -1,12 +1,13 @@
 {
     "versions": [
         {
-            "package_version": "1.1.0.1",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.1/CVDoSPT.zip",
-            "sha256": "721790d91db038a5a77c1ae38e336ce430ca5ec9d0a8221bd415ccb9f8728d24",
+            "package_version": "1.1.2.0",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.2/CVDoSPT.zip",
+            "sha256": "02aa8db03b289a924f451e989673f575ec9b451b20ec693cbe33f47ddd653587",
             "changelog": [
-                "Fixed autotracking for soulsanity level and open drawbridge",
-                "added some sequence break logic for cutall and soul eater ring"
+                "Soul locations now have corresponding enemy portraits",
+                "Fixed a bug with item tracking procel and mud demon",
+                "Logic fixes in subterranean hell from the new apworld"
             ]
         }
     ]
