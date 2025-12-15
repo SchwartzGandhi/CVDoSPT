@@ -93,8 +93,8 @@
 				"sections": [
 					{
 						"name": "",
-						"chest_unopened_img": "images/boss/flyingarmor.png",
-						"chest_opened_img": "images/boss/flyingarmor_bw.png"
+						"chest_unopened_img": "images/enemies/102.png",
+						"chest_opened_img": "images/enemies/102_bw.png"
 					}
 				]
 			},
@@ -356,8 +356,8 @@
 				"sections": [
 					{
 						"name": "",
-						"chest_unopened_img": "images/boss/balore.png",
-						"chest_opened_img": "images/boss/balore_bw.png"
+						"chest_unopened_img": "images/enemies/103.png",
+						"chest_opened_img": "images/enemies/103_bw.png"
 					}
 				]
 			},
@@ -688,8 +688,8 @@
 				"sections": [
 					{
 						"name": "",
-						"chest_unopened_img": "images/boss/malphas.png",
-						"chest_opened_img": "images/boss/malphas_bw.png"
+						"chest_unopened_img": "images/enemies/104.png",
+						"chest_opened_img": "images/enemies/104_bw.png"
 					}
 				]
 			},
@@ -898,8 +898,8 @@
 				"sections": [
 					{
 						"name": "",
-						"chest_unopened_img": "images/boss/puppetmaster.png",
-						"chest_opened_img": "images/boss/puppetmaster_bw.png"
+						"chest_unopened_img": "images/enemies/107.png",
+						"chest_opened_img": "images/enemies/107_bw.png"
 					}
 				]
 			},
@@ -968,8 +968,8 @@
 				"sections": [
 					{
 						"name": "",
-						"chest_unopened_img": "images/boss/paranoia.png",
-						"chest_opened_img": "images/boss/paranoia_bw.png"
+						"chest_unopened_img": "images/enemies/112.png",
+						"chest_opened_img": "images/enemies/112_bw.png"
 					}
 				]
 			},
@@ -1072,8 +1072,8 @@
 				"sections": [
 					{
 						"name": "",
-						"chest_unopened_img": "images/boss/gergoth.png",
-						"chest_opened_img": "images/boss/gergoth_bw.png"
+						"chest_unopened_img": "images/enemies/109.png",
+						"chest_opened_img": "images/enemies/109_bw.png"
 					}
 				]
 			},
@@ -1178,8 +1178,8 @@
 				"sections": [
 					{
 						"name": "",
-						"chest_unopened_img": "images/boss/zephyr.png",
-						"chest_opened_img": "images/boss/zephyr_bw.png"
+						"chest_unopened_img": "images/enemies/110.png",
+						"chest_opened_img": "images/enemies/110_bw.png"
 					}
 				]
 			}
@@ -1201,8 +1201,8 @@
 				"sections": [
 					{
 						"name": "",
-						"chest_unopened_img": "images/boss/rahab.png",
-						"chest_opened_img": "images/boss/rahab_bw.png"
+						"chest_unopened_img": "images/enemies/108.png",
+						"chest_opened_img": "images/enemies/108_bw.png"
 					}
 				]
 			},
@@ -1288,9 +1288,9 @@
 			{
 				"name": "Behind Waterfall",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHCentralLower, $smalluppies",
-					"@Subterranean Hell Regions/SHCentralLower, armor",
-					"@Subterranean Hell Regions/SHCentralLower, panther"
+					"@Subterranean Hell Regions/SHShaftMiddle, $smalluppies",
+					"@Subterranean Hell Regions/SHShaftMiddle, armor",
+					"@Subterranean Hell Regions/SHShaftMiddle, panther"
 				],
 				"sections": [
 					{
@@ -1301,7 +1301,7 @@
 			{
 				"name": "Waterfall Room Lower",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHCentralLower"
+					"@Subterranean Hell Regions/SHShaftBottomStairs"
 				],
 				"sections": [
 					{
@@ -1312,7 +1312,7 @@
 			{
 				"name": "Waterfall Room Middle",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHCentralLower"
+					"@Subterranean Hell Regions/SHShaftMiddle"
 				],
 				"sections": [
 					{
@@ -1323,7 +1323,7 @@
 			{
 				"name": "Waterfall Room Upper",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHCentralLower"
+					"@Subterranean Hell Regions/SHShaftMiddle"
 				],
 				"sections": [
 					{
@@ -1360,8 +1360,8 @@
 				"sections": [
 					{
 						"name": "",
-						"chest_unopened_img": "images/boss/batcompany.png",
-						"chest_opened_img": "images/boss/batcompany_bw.png"
+						"chest_unopened_img": "images/enemies/111.png",
+						"chest_opened_img": "images/enemies/111_bw.png"
 					}
 				]
 			},
@@ -1469,8 +1469,8 @@
 				"sections": [
 					{
 						"name": "",
-						"chest_unopened_img": "images/boss/aguni.png",
-						"chest_opened_img": "images/boss/aguni_bw.png"
+						"chest_unopened_img": "images/enemies/113.png",
+						"chest_opened_img": "images/enemies/113_bw.png"
 					}
 				]
 			},
@@ -1507,8 +1507,8 @@
 				"sections": [
 					{
 						"name": "",
-						"chest_unopened_img": "images/boss/death.png",
-						"chest_opened_img": "images/boss/death_bw.png"
+						"chest_unopened_img": "images/enemies/114.png",
+						"chest_opened_img": "images/enemies/114_bw.png"
 					}
 				]
 			}
@@ -1561,8 +1561,8 @@
 				"sections": [
 					{
 						"name": "",
-						"chest_unopened_img": "images/boss/abaddon.png",
-						"chest_opened_img": "images/boss/abaddon_bw.png"
+						"chest_unopened_img": "images/enemies/115.png",
+						"chest_opened_img": "images/enemies/115_bw.png"
 					}
 				]
 			},
@@ -1575,8 +1575,8 @@
 				"sections": [
 					{
 						"name": "",
-						"chest_unopened_img": "images/boss/menace.png",
-						"chest_opened_img": "images/boss/menace_bw.png"
+						"chest_unopened_img": "images/enemies/116.png",
+						"chest_opened_img": "images/enemies/116_bw.png"
 					}
 				]
 			}

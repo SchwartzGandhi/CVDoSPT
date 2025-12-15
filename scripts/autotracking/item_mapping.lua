@@ -33,7 +33,7 @@ ITEM_MAPPING = {
 	[1400] = {{"zip", "toggle"}},
 
 	[1401] = {{"fastwater", "toggle"}},
-	[1401] = {{"fastmud", "toggle"}},
+	[1402] = {{"fastmud", "toggle"}},
 
 	[1284] = {{"skeleton", "toggle"}},
 	[1301] = {{"clown", "toggle"}},

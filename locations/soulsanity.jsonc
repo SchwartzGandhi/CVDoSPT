@@ -24,7 +24,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/7.png",
+								"chest_opened_img": "images/enemies/7_bw.png"
 							} 
 						]
 					},
@@ -36,7 +38,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/9.png",
+								"chest_opened_img": "images/enemies/9_bw.png"
 							} 
 						]
 					},
@@ -48,7 +52,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/10.png",
+								"chest_opened_img": "images/enemies/10_bw.png"
 							} 
 						]
 					},
@@ -60,7 +66,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/16.png",
+								"chest_opened_img": "images/enemies/16_bw.png"
 							} 
 						]
 					},
@@ -73,7 +81,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/28.png",
+								"chest_opened_img": "images/enemies/28_bw.png"
 							} 
 						]
 					},
@@ -84,7 +94,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/29.png",
+								"chest_opened_img": "images/enemies/29_bw.png"
 							} 
 						]
 					},
@@ -95,7 +107,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/32.png",
+								"chest_opened_img": "images/enemies/32_bw.png"
 							} 
 						]
 					},
@@ -107,7 +121,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/43.png",
+								"chest_opened_img": "images/enemies/43_bw.png"
 							} 
 						]
 					},
@@ -120,7 +136,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/49.png",
+								"chest_opened_img": "images/enemies/49_bw.png"
 							} 
 						]
 					},
@@ -132,7 +150,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/60.png",
+								"chest_opened_img": "images/enemies/60_bw.png"
 							} 
 						]
 					},
@@ -148,7 +168,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/63.png",
+								"chest_opened_img": "images/enemies/63_bw.png"
 							} 
 						]
 					},
@@ -159,7 +181,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/71.png",
+								"chest_opened_img": "images/enemies/71_bw.png"
 							} 
 						]
 					},
@@ -171,7 +195,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/73.png",
+								"chest_opened_img": "images/enemies/73_bw.png"
 							} 
 						]
 					},
@@ -182,7 +208,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/74.png",
+								"chest_opened_img": "images/enemies/74_bw.png"
 							} 
 						]
 					},
@@ -193,7 +221,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/81.png",
+								"chest_opened_img": "images/enemies/81_bw.png"
 							} 
 						]
 					},
@@ -204,7 +234,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/96.png",
+								"chest_opened_img": "images/enemies/100_bw.png"
 							} 
 						]
 					},
@@ -215,7 +247,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/88.png",
+								"chest_opened_img": "images/enemies/88_bw.png"
 							} 
 						]
 					}
@@ -238,7 +272,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/1.png",
+								"chest_opened_img": "images/enemies/1_bw.png"
 							} 
 						]
 					},
@@ -251,7 +287,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/2.png",
+								"chest_opened_img": "images/enemies/2_bw.png"
 							} 
 						]
 					},
@@ -266,7 +304,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/4.png",
+								"chest_opened_img": "images/enemies/4_bw.png"
 							} 
 						]
 					},
@@ -278,7 +318,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/8.png",
+								"chest_opened_img": "images/enemies/8_bw.png"
 							} 
 						]
 					},
@@ -291,7 +333,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/11.png",
+								"chest_opened_img": "images/enemies/11_bw.png"
 							} 
 						]
 					},
@@ -304,7 +348,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/12.png",
+								"chest_opened_img": "images/enemies/12_bw.png"
 							} 
 						]
 					},
@@ -315,7 +361,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/13.png",
+								"chest_opened_img": "images/enemies/13_bw.png"
 							} 
 						]
 					},
@@ -326,7 +374,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/14.png",
+								"chest_opened_img": "images/enemies/14_bw.png"
 							} 
 						]
 					},
@@ -337,7 +387,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/15.png",
+								"chest_opened_img": "images/enemies/15_bw.png"
 							} 
 						]
 					},
@@ -351,7 +403,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/17.png",
+								"chest_opened_img": "images/enemies/17_bw.png"
 							} 
 						]
 					},
@@ -362,7 +416,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/19.png",
+								"chest_opened_img": "images/enemies/19_bw.png"
 							} 
 						]
 					},
@@ -374,7 +430,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/20.png",
+								"chest_opened_img": "images/enemies/20_bw.png"
 							} 
 						]
 					},
@@ -386,7 +444,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/21.png",
+								"chest_opened_img": "images/enemies/21_bw.png"
 							} 
 						]
 					},
@@ -397,7 +457,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/22.png",
+								"chest_opened_img": "images/enemies/22_bw.png"
 							} 
 						]
 					},
@@ -408,7 +470,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/23.png",
+								"chest_opened_img": "images/enemies/23_bw.png"
 							} 
 						]
 					},
@@ -421,7 +485,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/26.png",
+								"chest_opened_img": "images/enemies/26_bw.png"
 							} 
 						]
 					},
@@ -434,7 +500,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/31.png",
+								"chest_opened_img": "images/enemies/31_bw.png"
 							} 
 						]
 					},
@@ -446,7 +514,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/33.png",
+								"chest_opened_img": "images/enemies/33_bw.png"
 							} 
 						]
 					},
@@ -459,7 +529,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/34.png",
+								"chest_opened_img": "images/enemies/34_bw.png"
 							} 
 						]
 					},
@@ -470,7 +542,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/36.png",
+								"chest_opened_img": "images/enemies/36_bw.png"
 							} 
 						]
 					},
@@ -481,7 +555,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/38.png",
+								"chest_opened_img": "images/enemies/38_bw.png"
 							} 
 						]
 					},
@@ -493,7 +569,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/40.png",
+								"chest_opened_img": "images/enemies/40_bw.png"
 							} 
 						]
 					},
@@ -506,7 +584,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/41.png",
+								"chest_opened_img": "images/enemies/41_bw.png"
 							} 
 						]
 					},
@@ -518,7 +598,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/42.png",
+								"chest_opened_img": "images/enemies/42_bw.png"
 							} 
 						]
 					},
@@ -531,7 +613,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/44.png",
+								"chest_opened_img": "images/enemies/44_bw.png"
 							} 
 						]
 					},
@@ -543,7 +627,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/45.png",
+								"chest_opened_img": "images/enemies/45_bw.png"
 							} 
 						]
 					},
@@ -560,7 +646,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/46.png",
+								"chest_opened_img": "images/enemies/46_bw.png"
 							} 
 						]
 					},
@@ -571,7 +659,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/47.png",
+								"chest_opened_img": "images/enemies/47_bw.png"
 							} 
 						]
 					},
@@ -585,7 +675,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/48.png",
+								"chest_opened_img": "images/enemies/48_bw.png"
 							} 
 						]
 					},
@@ -597,7 +689,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/51.png",
+								"chest_opened_img": "images/enemies/51_bw.png"
 							} 
 						]
 					},
@@ -609,7 +703,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/52.png",
+								"chest_opened_img": "images/enemies/52_bw.png"
 							} 
 						]
 					},
@@ -622,7 +718,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/54.png",
+								"chest_opened_img": "images/enemies/54_bw.png"
 							} 
 						]
 					},
@@ -633,7 +731,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/55.png",
+								"chest_opened_img": "images/enemies/55_bw.png"
 							} 
 						]
 					},
@@ -645,7 +745,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/56.png",
+								"chest_opened_img": "images/enemies/56_bw.png"
 							} 
 						]
 					},
@@ -657,7 +759,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/57.png",
+								"chest_opened_img": "images/enemies/57_bw.png"
 							} 
 						]
 					},
@@ -671,7 +775,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/59.png",
+								"chest_opened_img": "images/enemies/59_bw.png"
 							} 
 						]
 					},
@@ -683,7 +789,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/61.png",
+								"chest_opened_img": "images/enemies/61_bw.png"
 							} 
 						]
 					},
@@ -694,7 +802,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/64.png",
+								"chest_opened_img": "images/enemies/64_bw.png"
 							} 
 						]
 					},
@@ -708,7 +818,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/66.png",
+								"chest_opened_img": "images/enemies/66_bw.png"
 							} 
 						]
 					},
@@ -721,7 +833,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/67.png",
+								"chest_opened_img": "images/enemies/67_bw.png"
 							} 
 						]
 					},
@@ -736,7 +850,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/69.png",
+								"chest_opened_img": "images/enemies/69_bw.png"
 							} 
 						]
 					},
@@ -752,7 +868,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/70.png",
+								"chest_opened_img": "images/enemies/70_bw.png"
 							} 
 						]
 					},
@@ -763,7 +881,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/72.png",
+								"chest_opened_img": "images/enemies/72_bw.png"
 							} 
 						]
 					},
@@ -774,7 +894,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/79.png",
+								"chest_opened_img": "images/enemies/79_bw.png"
 							} 
 						]
 					},
@@ -786,7 +908,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/82.png",
+								"chest_opened_img": "images/enemies/82_bw.png"
 							} 
 						]
 					},
@@ -799,7 +923,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/86.png",
+								"chest_opened_img": "images/enemies/86_bw.png"
 							} 
 						]
 					},
@@ -813,7 +939,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/91.png",
+								"chest_opened_img": "images/enemies/91_bw.png"
 							} 
 						]
 					},
@@ -825,7 +953,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/92.png",
+								"chest_opened_img": "images/enemies/92_bw.png"
 							} 
 						]
 					},
@@ -837,7 +967,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/100.png",
+								"chest_opened_img": "images/enemies/100_bw.png"
 							} 
 						]
 					},
@@ -848,7 +980,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/87.png",
+								"chest_opened_img": "images/enemies/87_bw.png"
 							} 
 						]
 					},
@@ -859,7 +993,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/89.png",
+								"chest_opened_img": "images/enemies/89_bw.png"
 							} 
 						]
 					},
@@ -870,7 +1006,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/95.png",
+								"chest_opened_img": "images/enemies/95_bw.png"
 							} 
 						]
 					},
@@ -881,7 +1019,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/99.png",
+								"chest_opened_img": "images/enemies/99_bw.png"
 							} 
 						]
 					}
@@ -904,7 +1044,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/3.png",
+								"chest_opened_img": "images/enemies/3_bw.png"
 							} 
 						]
 					},
@@ -915,7 +1057,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/5.png",
+								"chest_opened_img": "images/enemies/5_bw.png"
 							} 
 						]
 					},
@@ -929,7 +1073,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/6.png",
+								"chest_opened_img": "images/enemies/6_bw.png"
 							} 
 						]
 					},
@@ -944,7 +1090,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/18.png",
+								"chest_opened_img": "images/enemies/18_bw.png"
 							} 
 						]
 					},
@@ -955,7 +1103,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/24.png",
+								"chest_opened_img": "images/enemies/24_bw.png"
 							} 
 						]
 					},
@@ -967,7 +1117,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/25.png",
+								"chest_opened_img": "images/enemies/25_bw.png"
 							} 
 						]
 					},
@@ -980,7 +1132,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/27.png",
+								"chest_opened_img": "images/enemies/27_bw.png"
 							} 
 						]
 					},
@@ -991,7 +1145,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/30.png",
+								"chest_opened_img": "images/enemies/30_bw.png"
 							} 
 						]
 					},
@@ -1003,7 +1159,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/35.png",
+								"chest_opened_img": "images/enemies/35_bw.png"
 							} 
 						]
 					},
@@ -1016,7 +1174,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/37.png",
+								"chest_opened_img": "images/enemies/37_bw.png"
 							} 
 						]
 					},
@@ -1028,7 +1188,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/39.png",
+								"chest_opened_img": "images/enemies/39_bw.png"
 							} 
 						]
 					},
@@ -1039,7 +1201,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/50.png",
+								"chest_opened_img": "images/enemies/50_bw.png"
 							} 
 						]
 					},
@@ -1052,7 +1216,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/53.png",
+								"chest_opened_img": "images/enemies/53_bw.png"
 							} 
 						]
 					},
@@ -1064,7 +1230,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/58.png",
+								"chest_opened_img": "images/enemies/58_bw.png"
 							} 
 						]
 					},
@@ -1076,7 +1244,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/62.png",
+								"chest_opened_img": "images/enemies/62_bw.png"
 							} 
 						]
 					},
@@ -1089,7 +1259,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/65.png",
+								"chest_opened_img": "images/enemies/65_bw.png"
 							} 
 						]
 					},
@@ -1105,7 +1277,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/68.png",
+								"chest_opened_img": "images/enemies/68_bw.png"
 							} 
 						]
 					},
@@ -1118,7 +1292,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/75.png",
+								"chest_opened_img": "images/enemies/75_bw.png"
 							} 
 						]
 					},
@@ -1130,7 +1306,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/76.png",
+								"chest_opened_img": "images/enemies/76_bw.png"
 							} 
 						]
 					},
@@ -1142,7 +1320,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/77.png",
+								"chest_opened_img": "images/enemies/77_bw.png"
 							} 
 						]
 					},
@@ -1153,7 +1333,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/78.png",
+								"chest_opened_img": "images/enemies/78_bw.png"
 							} 
 						]
 					},
@@ -1166,7 +1348,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/80.png",
+								"chest_opened_img": "images/enemies/80_bw.png"
 							} 
 						]
 					},
@@ -1178,7 +1362,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/83.png",
+								"chest_opened_img": "images/enemies/83_bw.png"
 							} 
 						]
 					},
@@ -1189,7 +1375,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/84.png",
+								"chest_opened_img": "images/enemies/84_bw.png"
 							} 
 						]
 					},
@@ -1202,7 +1390,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/85.png",
+								"chest_opened_img": "images/enemies/85_bw.png"
 							} 
 						]
 					},
@@ -1215,7 +1405,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/93.png",
+								"chest_opened_img": "images/enemies/93_bw.png"
 							} 
 						]
 					},
@@ -1227,7 +1419,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/98.png",
+								"chest_opened_img": "images/enemies/98_bw.png"
 							} 
 						]
 					},
@@ -1240,7 +1434,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/101.png",
+								"chest_opened_img": "images/enemies/101_bw.png"
 							} 
 						]
 					},
@@ -1251,7 +1447,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/90.png",
+								"chest_opened_img": "images/enemies/90_bw.png"
 							} 
 						]
 					},
@@ -1262,7 +1460,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/97.png",
+								"chest_opened_img": "images/enemies/97_bw.png"
 							} 
 						]
 					},
@@ -1273,7 +1473,9 @@
 						],
 						"sections": [
 							{
-								"name": ""
+								"name": "",
+								"chest_unopened_img": "images/enemies/94.png",
+								"chest_opened_img": "images/enemies/94_bw.png"
 							} 
 						]
 					}
