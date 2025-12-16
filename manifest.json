@@ -4,7 +4,7 @@
 	// for more info on the manifest check: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#manifest
 	"name": "Castlevania: Dawn of Sorrow Pack for PopTracker",
 	"game_name": "Castlevania: Dawn of Sorrow",
-	"package_version": "1.1.2.0",
+	"package_version": "1.1.2.1",
 	"package_uid": "cvdos_pack",
 	"author": "Schwartz Gandhi",
 	"min_poptracker_version": "0.25.9",
