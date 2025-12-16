@@ -1,13 +1,12 @@
 {
     "versions": [
         {
-            "package_version": "1.1.2.0",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.2/CVDoSPT.zip",
-            "sha256": "02aa8db03b289a924f451e989673f575ec9b451b20ec693cbe33f47ddd653587",
+            "package_version": "1.1.2.1",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.3/CVDoSPT.zip",
+            "sha256": "743016bcdaa1e6b9488c97bc3d690cfee426a9db464791c49d669d5870da2627",
             "changelog": [
-                "Soul locations now have corresponding enemy portraits",
-                "Fixed a bug with item tracking procel and mud demon",
-                "Logic fixes in subterranean hell from the new apworld"
+                "Darkened the images of enemies portraits when they're collected.",
+                "Fixed a bug with a soulsanity location referencing the wrong enemy."
             ]
         }
     ]
