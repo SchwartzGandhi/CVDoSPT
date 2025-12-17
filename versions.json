@@ -1,12 +1,15 @@
 {
     "versions": [
         {
-            "package_version": "1.1.2.2",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.4/CVDoSPT.zip",
-            "sha256": "8c906980ad40af6c0c2071eaf512899a8d941fd42704e5d500d471d6b20bea4f",
+            "package_version": "1.1.3.0",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.5/CVDoSPT.zip",
+            "sha256": "cea39f13c4d83d235640cb4af6045b46afb19a0d8093d401b6ad55a34ce4c166",
             "changelog": [
-                "The final boss location will now be placed at the throne room is the goal is set to the throne room",
-                "Decarabia now shows up on soul view"
+                "Added a bunch of scouting logic for locations",
+                "Access to Lower Lost Village from the Wizardry Lab now checks if you reach the moat drain switch",
+                "Cinquedia and Alucard's Sword are also tracked for cutall since they have the same special attack",
+                "You can now get inside the silenced ruins from the back out of logic using cutall",
+                "Acquiring Needles and Killer Fish souls now logically require Rahab"
             ]
         }
     ]
