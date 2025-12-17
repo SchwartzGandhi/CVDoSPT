@@ -685,7 +685,7 @@
 						"name": "Needles Soul",
 						"access_rules": [
 							"@Subterranean Hell Regions/SHEast, water",
-							"@Subterranean Hell Regions/SHCentralUpper"
+							"@Subterranean Hell Regions/SHCentralUpper, water"
 						],
 						"sections": [
 							{
@@ -827,9 +827,9 @@
 					{
 						"name": "Killer Fish Soul",
 						"access_rules": [
-							"@Subterranean Hell Regions/SHEast",
-							"@Subterranean Hell Regions/SHShaftTop",
-							"@Subterranean Hell Regions/SHCentralUpper"
+							"@Subterranean Hell Regions/SHEast, water",
+							"@Subterranean Hell Regions/SHShaftTop, water",
+							"@Subterranean Hell Regions/SHCentralUpper, water"
 						],
 						"sections": [
 							{

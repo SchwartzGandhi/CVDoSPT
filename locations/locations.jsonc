@@ -77,7 +77,9 @@
 			{
 				"name": "In Moat",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/, $biguppies"
+					"@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/, $biguppies",
+					"{@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/, jump}",
+					"{@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/, puppet}"
 				],
 				"sections": [
 					{
@@ -203,7 +205,8 @@
 			{
 				"name": "Mirror Room Right",
 				"access_rules": [
-					"@The Lost Village Regions/LVLower, mirror"
+					"@The Lost Village Regions/LVLower, mirror",
+					"{@The Lost Village Regions/LVLower}"
 				],
 				"sections": [
 					{
@@ -326,7 +329,8 @@
 			{
 				"name": "Behind West Gate",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLWestGate"
+					"@Wizardry Lab Regions/WLWestGate",
+					"{@Wizardry Lab Regions/WLMain}"
 				],
 				"sections": [
 					{
@@ -364,7 +368,8 @@
 			{
 				"name": "East Gate",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLEastGate"
+					"@Wizardry Lab Regions/WLEastGate",
+					"{@Wizardry Lab Regions/WLMain}"
 				],
 				"sections": [
 					{
@@ -462,7 +467,8 @@
 			{
 				"name": "West Upper Room",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMUpper"
+					"@Garden of Madness Regions/GoMUpper",
+					"{@Garden of Madness Regions/GoMLower}"
 				],
 				"sections": [
 					{
@@ -507,7 +513,8 @@
 				"name": "Underground Room",
 				"access_rules": [
 					"@Garden of Madness Regions/GoMWaterBlocked, $mediumuppies",
-					"@Garden of Madness Regions/GoMWaterBlocked, panther"
+					"@Garden of Madness Regions/GoMWaterBlocked, panther",
+					"{@Garden of Madness Regions/GoMWaterBlocked}"
 				],
 				"sections": [
 					{
@@ -518,7 +525,8 @@
 			{
 				"name": "East Alcove",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMEastGate"
+					"@Garden of Madness Regions/GoMEastGate",
+					"{@Garden of Madness Regions/GoMLower}"
 				],
 				"sections": [
 					{
@@ -555,7 +563,8 @@
 			{
 				"name": "Entrance Alcove",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC, $mediumuppies"
+					"@The Dark Chapel Regions/DC, $mediumuppies",
+					"{@The Dark Chapel Regions/DC}"
 				],
 				"sections": [
 					{
@@ -617,7 +626,8 @@
 			{
 				"name": "Big Square Room Alcove",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC, $mediumuppies"
+					"@The Dark Chapel Regions/DC, $mediumuppies",
+					"{@The Dark Chapel Regions/DC}"
 				],
 				"sections": [
 					{
@@ -661,7 +671,8 @@
 			{
 				"name": "Bell Room Right",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC, $mediumuppies"
+					"@The Dark Chapel Regions/DC, $mediumuppies",
+					"{@The Dark Chapel Regions/DC}"
 				],
 				"sections": [
 					{
@@ -672,7 +683,8 @@
 			{
 				"name": "Post-Dimitrii Room",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC, seal2, $smalluppies"
+					"@The Dark Chapel Regions/DC, seal2, $smalluppies",
+					"{@The Dark Chapel Regions/DC, seal2}"
 				],
 				"sections": [
 					{
@@ -697,7 +709,8 @@
 				"name": "Big Room Top Right",
 				"access_rules": [
 					"@The Dark Chapel Regions/DCBigRoom, $biguppies",
-					"@The Dark Chapel Regions/DCBigRoom, puppet, jump"
+					"@The Dark Chapel Regions/DCBigRoom, puppet, jump",
+					"{@The Dark Chapel Regions/DCBigRoom}"
 				],
 				"sections": [
 					{
@@ -719,7 +732,8 @@
 			{
 				"name": "Big Room Lower",
 				"access_rules": [
-					"@The Dark Chapel Regions/DCBigRoom, $biguppies"
+					"@The Dark Chapel Regions/DCBigRoom, $biguppies",
+					"{@The Dark Chapel Regions/DCBigRoom, jump}"
 				],
 				"sections": [
 					{
@@ -906,7 +920,8 @@
 			{
 				"name": "Ice Block Room Left",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHWestWing, $smalluppies, ice"
+					"@Demon Guest House Regions/DGHWestWing, $smalluppies, ice",
+					"{@Demon Guest House Regions/DGHWestWing, $biguppies}"
 				],
 				"sections": [
 					{
@@ -917,7 +932,8 @@
 			{
 				"name": "Ice Block Room Right",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHWestWing, $smalluppies, ice"
+					"@Demon Guest House Regions/DGHWestWing, $smalluppies, ice",
+					"{@Demon Guest House Regions/DGHWestWing, $biguppies}"
 				],
 				"sections": [
 					{
@@ -1012,7 +1028,8 @@
 			{
 				"name": "1F West",
 				"access_rules": [
-					"@Condemned Tower Regions/CTBottom, $biguppies"
+					"@Condemned Tower Regions/CTBottom, $biguppies",
+					"{@Condemned Tower Regions/CTBottom, jump}"
 				],
 				"sections": [
 					{
@@ -1255,7 +1272,9 @@
 				"access_rules": [
 					"@Subterranean Hell Regions/SHCentralExit, $mediumuppies",
 					"@Subterranean Hell Regions/SHCentralExit, armor",
-					"@Subterranean Hell Regions/SHCentralExit, panther"
+					"@Subterranean Hell Regions/SHCentralExit, panther",
+					"{@Subterranean Hell Regions/SHCentralExit}",
+					"{@Subterranean Hell Regions/SHCentralUpper, @Subterranean Hell Regions/CentralEastConnection}, water"
 				],
 				"sections": [
 					{
@@ -1323,7 +1342,8 @@
 			{
 				"name": "Waterfall Room Upper",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHShaftMiddle"
+					"@Subterranean Hell Regions/SHShaftMiddle",
+					"{@Subterranean Hell Regions/SHShaftTop}"
 				],
 				"sections": [
 					{

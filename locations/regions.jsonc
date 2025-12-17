@@ -27,7 +27,7 @@
 					"@The Lost Village Regions/LVUpper, seal1",
 					"@The Lost Village Regions/LVUndergroundTop",
 					"lvwarp, @The Lost Village Regions/WarpRoom",
-					"@Wizardry Lab Regions/WLMain, @The Lost Village/Moat Darin Switch/"
+					"@Wizardry Lab Regions/WLMain, @The Lost Village/Moat Drain Switch/"
 				]
 			},
 			{
@@ -454,7 +454,8 @@
 			{
 				"name": "SRBackExit",
 				"access_rules": [
-					"@Silenced Ruins Regions/SR, $smalluppies"
+					"@Silenced Ruins Regions/SR, $smalluppies",
+					"@Subterranean Hell Regions/SHEast, ^$cutallclips"
 				]
 			}
 		]
