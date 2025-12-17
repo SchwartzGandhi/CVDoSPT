@@ -1,12 +1,12 @@
 {
     "versions": [
         {
-            "package_version": "1.1.2.1",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.3/CVDoSPT.zip",
-            "sha256": "743016bcdaa1e6b9488c97bc3d690cfee426a9db464791c49d669d5870da2627",
+            "package_version": "1.1.2.2",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.4/CVDoSPT.zip",
+            "sha256": "8c906980ad40af6c0c2071eaf512899a8d941fd42704e5d500d471d6b20bea4f",
             "changelog": [
-                "Darkened the images of enemies portraits when they're collected.",
-                "Fixed a bug with a soulsanity location referencing the wrong enemy."
+                "The final boss location will now be placed at the throne room is the goal is set to the throne room",
+                "Decarabia now shows up on soul view"
             ]
         }
     ]
