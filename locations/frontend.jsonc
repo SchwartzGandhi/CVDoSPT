@@ -71,7 +71,7 @@
 				"sections": [
 					{
 						"name": "Drawbridge Room",
-						"ref":"The Lost Village/Drawbridge Room/"
+						"ref": "The Lost Village/Drawbridge Room/"
 					}
 				],
 				"map_locations": [
@@ -87,7 +87,7 @@
 				"sections": [
 					{
 						"name": "Above Drawbridge",
-						"ref":"The Lost Village/Above Drawbridge/"
+						"ref": "The Lost Village/Above Drawbridge/"
 					}
 				],
 				"map_locations": [
@@ -103,7 +103,7 @@
 				"sections": [
 					{
 						"name": "In Moat",
-						"ref":"The Lost Village/In Moat/"
+						"ref": "The Lost Village/In Moat/"
 					}
 				],
 				"map_locations": [
@@ -119,7 +119,7 @@
 				"sections": [
 					{
 						"name": "Flying Armor Soul",
-						"ref":"The Lost Village/Flying Armor Soul/"
+						"ref": "The Lost Village/Flying Armor Soul/"
 					}
 				],
 				"map_locations": [
@@ -135,7 +135,7 @@
 				"sections": [
 					{
 						"name": "Above Guest House Entrance",
-						"ref":"The Lost Village/Above Guest House Entrance/"
+						"ref": "The Lost Village/Above Guest House Entrance/"
 					}
 				],
 				"map_locations": [
@@ -151,7 +151,7 @@
 				"sections": [
 					{
 						"name": "Flying Armor Indoor Room",
-						"ref":"The Lost Village/Flying Armor Indoor Room/"
+						"ref": "The Lost Village/Flying Armor Indoor Room/"
 					}
 				],
 				"map_locations": [
@@ -167,7 +167,7 @@
 				"sections": [
 					{
 						"name": "West Plaza",
-						"ref":"The Lost Village/West Plaza/"
+						"ref": "The Lost Village/West Plaza/"
 					}
 				],
 				"map_locations": [
@@ -183,7 +183,7 @@
 				"sections": [
 					{
 						"name": "West Building Upper",
-						"ref":"The Lost Village/West Building Upper/"
+						"ref": "The Lost Village/West Building Upper/"
 					}
 				],
 				"map_locations": [
@@ -199,7 +199,7 @@
 				"sections": [
 					{
 						"name": "West Building Lower",
-						"ref":"The Lost Village/West Building Lower/"
+						"ref": "The Lost Village/West Building Lower/"
 					}
 				],
 				"map_locations": [
@@ -215,7 +215,7 @@
 				"sections": [
 					{
 						"name": "Central Building",
-						"ref":"The Lost Village/Central Building/"
+						"ref": "The Lost Village/Central Building/"
 					}
 				],
 				"map_locations": [
@@ -231,7 +231,7 @@
 				"sections": [
 					{
 						"name": "East Plaza",
-						"ref":"The Lost Village/East Plaza/"
+						"ref": "The Lost Village/East Plaza/"
 					}
 				],
 				"map_locations": [
@@ -251,7 +251,7 @@
 					},
 					{
 						"name": "Hidden Floor Room Item 2",
-						"ref":"The Lost Village/Hidden Floor Room/Item 2"
+						"ref": "The Lost Village/Hidden Floor Room/Item 2"
 					}
 				],
 				"map_locations": [
@@ -1943,23 +1943,26 @@
 					}
 				]
 			},
-			// {
-			//   "name": "The Abyss",
-			//   "sections": [
-			//     {
-			//       "name": "Defeat Menace",
-			//       "ref": "The Abyss/Abyss Center/"
-			//     }
-			//   ],
-			//   "map_locations": [
-			//     {
-			//       "map": "Dracula's Castle",
-			//       "x": 532,
-			//       "y": 112,
-			//       "size": 32
-			//     }
-			//   ]
-			// }
+			{
+			  "name": "The Abyss",
+			  "sections": [
+			    {
+					"name": "Defeat Menace",
+					"ref": "The Abyss/Abyss Center/"
+			    }
+			  ],
+			  "map_locations": [
+			    {
+					"map": "Dracula's Castle",
+					"restrict_visibility_rules": [
+						"throneroom"
+					],
+					"x": 532,
+					"y": 112,
+					"size": 32
+			    }
+			  ]
+			}
 		]
 	},
 	{
@@ -2077,10 +2080,14 @@
 				"map_locations": [
 					{
 						"map": "Dracula's Castle",
+						"restrict_visibility_rules": [
+							"abyss",
+							"abyssplus"
+						],
 						"x": 1172,
 						"y": 892
 					}
-				]
+				]			
 			}
 		]
 	}
