@@ -1,15 +1,11 @@
 {
     "versions": [
         {
-            "package_version": "1.1.3.0",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.5/CVDoSPT.zip",
-            "sha256": "cea39f13c4d83d235640cb4af6045b46afb19a0d8093d401b6ad55a34ce4c166",
+            "package_version": "1.1.3.1",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.6/CVDoSPT.zip",
+            "sha256": "2e673745c5d38c6fb52b8ee57afe8d4bc2d35eb5cd48fe4982842b34af9734d5",
             "changelog": [
-                "Added a bunch of scouting logic for locations",
-                "Access to Lower Lost Village from the Wizardry Lab now checks if you reach the moat drain switch",
-                "Cinquedia and Alucard's Sword are also tracked for cutall since they have the same special attack",
-                "You can now get inside the silenced ruins from the back out of logic using cutall",
-                "Acquiring Needles and Killer Fish souls now logically require Rahab"
+                "Soul Eater Ring now uses the correct sprite"
             ]
         }
     ]
