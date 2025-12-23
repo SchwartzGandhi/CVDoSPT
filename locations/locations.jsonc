@@ -648,6 +648,8 @@
 			},
 			{
 				"name": "Bell Room In Bell",
+				"chest_unopened_img": "images/events/bell.png",
+				"chest_opened_img": "images/items/bell_bw.png",
 				"access_rules": [
 					"@The Dark Chapel Regions/DC, zip"
 				],
@@ -943,6 +945,8 @@
 			},
 			{
 				"name": "Central Main Chamber Bottom Room",
+				"chest_unopened_img": "images/events/sit.png",
+				"chest_opened_img": "images/items/crown_bw.png",
 				"access_rules": [
 					"@Demon Guest House Regions/DGHMain"
 				],
@@ -1178,6 +1182,8 @@
 			},
 			{
 				"name": "Spike Room Secret",
+				"chest_unopened_img": "images/events/spike.png",
+				"chest_opened_img": "images/items/konamiman_bw.png",
 				"access_rules": [
 					"@Cursed Clock Tower Regions/CCTCentral, bat"
 				],
