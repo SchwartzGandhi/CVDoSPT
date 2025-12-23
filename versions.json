@@ -1,11 +1,12 @@
 {
     "versions": [
         {
-            "package_version": "1.1.3.1",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.6/CVDoSPT.zip",
-            "sha256": "2e673745c5d38c6fb52b8ee57afe8d4bc2d35eb5cd48fe4982842b34af9734d5",
+            "package_version": "2.7",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.7/CVDoSPT.zip",
+            "sha256": "8e9a3b138e0cb2f1b9463539aaafd78ee7895014eecbba770fb47b9caf0c4a98",
             "changelog": [
-                "Soul Eater Ring now uses the correct sprite"
+                "The three secret items now use new images to reduce confusion on acquiring them.",
+                "Pack version now matches github version."
             ]
         }
     ]
