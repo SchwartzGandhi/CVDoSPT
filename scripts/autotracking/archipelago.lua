@@ -6,6 +6,7 @@
 -- if you run into issues when touching A LOT of items/locations here, see the comment about Tracker.AllowDeferredLogicUpdate in autotracking.lua
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/bullet_souls.lua")
 
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
@@ -133,6 +134,20 @@ function apply_slot_data(slot_data)
 	if slot_data["speed_boost"] then
 		speed.Active = true
 	end
+
+	local SOUL_WALL_LIST = slot_data["soul_walls"]
+
+	local dc = Tracker:FindObjectForCode('dcsoul')
+	dc.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[3])
+
+	local dgh1 = Tracker:FindObjectForCode('dghsoul1')
+	dgh1.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[2])
+
+	local dgh2 = Tracker:FindObjectForCode('dghsoul2')
+	dgh2.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[1])
+
+	local dgh3 = Tracker:FindObjectForCode('dghsoul3')
+	dgh3.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[4])
 end
 
 -- called right after an AP slot is connected
