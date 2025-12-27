@@ -219,8 +219,8 @@
 				"access_rules": [
 					"speed, @The Lost Village Regions/LVLower",
 					"$low, @The Lost Village Regions/LVLower, $mediumuppies",
-					"$low, @The Lost Village Regions/LVLower, armor",
-					"$low, @The Lost Village Regions/LVLower, panther"
+					"$low, @The Lost Village Regions/LVLower, glide",
+					"$low, @The Lost Village Regions/LVLower, fast"
 				],
 				"sections": [
 					{
@@ -513,7 +513,7 @@
 				"name": "Underground Room",
 				"access_rules": [
 					"@Garden of Madness Regions/GoMWaterBlocked, $mediumuppies",
-					"@Garden of Madness Regions/GoMWaterBlocked, panther",
+					"@Garden of Madness Regions/GoMWaterBlocked, fast",
 					"{@Garden of Madness Regions/GoMWaterBlocked}"
 				],
 				"sections": [
@@ -598,7 +598,7 @@
 				"name": "Catacombs Soul Barrier",
 				"access_rules": [
 					"$vanillasouls, @The Dark Chapel Regions/DC",
-					"soulsanity, @The Dark Chapel Regions/DC, skeleton"
+					"soulsanity, @The Dark Chapel Regions/DC, $openDCwall"
 				],
 				"sections": [
 					{
@@ -885,7 +885,7 @@
 				"access_rules": [
 					"@Demon Guest House Regions/DGHWestWing, speed",
 					"@Demon Guest House Regions/DGHWestWing, $mediumuppies",
-					"@Demon Guest House Regions/DGHWestWing, panther"
+					"@Demon Guest House Regions/DGHWestWing, fast"
 				],
 				"sections": [
 					{
@@ -898,7 +898,7 @@
 				"access_rules": [
 					"@Demon Guest House Regions/DGHWestWing, speed",
 					"@Demon Guest House Regions/DGHWestWing, $mediumuppies",
-					"@Demon Guest House Regions/DGHWestWing, panther"
+					"@Demon Guest House Regions/DGHWestWing, fast"
 				],
 				"sections": [
 					{
@@ -982,8 +982,8 @@
 				"name": "Paranoia Soul",
 				"access_rules": [
 					"$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4",
-					"$vanillasouls, @Demon Guest House Regions/DGHUpper, ukoback, seal4",
-					"soulsanity, @Demon Guest House Regions/DGHUpper, ukoback, axe, clown, seal4"
+					"$vanillasouls, @Demon Guest House Regions/DGHUpper, flame, seal4",
+					"soulsanity, @Demon Guest House Regions/DGHUpper, $openDGHwalls, seal4"
 				],
 				"sections": [
 					{
@@ -997,8 +997,8 @@
 				"name": "Beyond Paranoia",
 				"access_rules": [
 					"$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4",
-					"$vanillasouls, @Demon Guest House Regions/DGHUpper, ukoback, seal4",
-					"soulsanity, @Demon Guest House Regions/DGHUpper, ukoback, axe, clown, seal4"
+					"$vanillasouls, @Demon Guest House Regions/DGHUpper, flame, seal4",
+					"soulsanity, @Demon Guest House Regions/DGHUpper, $openDGHwalls, seal4"
 				],
 				"sections": [
 					{
@@ -1010,8 +1010,8 @@
 				"name": "Paranoia Mirror",
 				"access_rules": [
 					"$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4, mirror",
-					"$vanillasouls, @Demon Guest House Regions/DGHUpper, ukoback, seal4, mirror",
-					"soulsanity, @Demon Guest House Regions/DGHUpper, ukoback, axe, clown, seal4, mirror"
+					"$vanillasouls, @Demon Guest House Regions/DGHUpper, flame, seal4, mirror",
+					"soulsanity, @Demon Guest House Regions/DGHUpper, $openDGHwalls, seal4, mirror"
 				],
 				"sections": [
 					{
@@ -1277,10 +1277,10 @@
 				"name": "Near Save Room",
 				"access_rules": [
 					"@Subterranean Hell Regions/SHCentralExit, $mediumuppies",
-					"@Subterranean Hell Regions/SHCentralExit, armor",
-					"@Subterranean Hell Regions/SHCentralExit, panther",
+					"@Subterranean Hell Regions/SHCentralExit, glide",
+					"@Subterranean Hell Regions/SHCentralExit, fast",
 					"{@Subterranean Hell Regions/SHCentralExit}",
-					"{@Subterranean Hell Regions/SHCentralUpper, @Subterranean Hell Regions/CentralEastConnection}, water"
+					"{@Subterranean Hell Regions/SHCentralUpper, @Subterranean Hell Regions/SHCentralEastConnection}, water"
 				],
 				"sections": [
 					{
@@ -1314,8 +1314,8 @@
 				"name": "Behind Waterfall",
 				"access_rules": [
 					"@Subterranean Hell Regions/SHShaftMiddle, $smalluppies",
-					"@Subterranean Hell Regions/SHShaftMiddle, armor",
-					"@Subterranean Hell Regions/SHShaftMiddle, panther"
+					"@Subterranean Hell Regions/SHShaftMiddle, glide",
+					"@Subterranean Hell Regions/SHShaftMiddle, fast"
 				],
 				"sections": [
 					{

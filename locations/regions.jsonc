@@ -15,9 +15,9 @@
 			{
 				"name": "LVUpperDoorway",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper, puppet, armor",
+					"@The Lost Village Regions/LVUpper, puppet, glide",
 					"@The Lost Village Regions/LVUpper, $smalluppies",
-					"@The Lost Village Regions/LVUpper, puppet, drydk",
+					"@The Lost Village Regions/LVUpper, puppet, throw",
 					"@Demon Guest House Regions/DGHNumberPuzzleWest"
 				]
 			},
@@ -274,8 +274,8 @@
 				"name": "CTTop",
 				"access_rules": [
 					"@Condemned Tower Regions/CTBottom, $biguppies",
-					"@Condemned Tower Regions/CTBottom, armor, jump",
-					"@Condemned Tower Regions/CTBottom, armor, puppet",
+					"@Condemned Tower Regions/CTBottom, glide, jump",
+					"@Condemned Tower Regions/CTBottom, glide, puppet",
 					"@Cursed Clock Tower Regions/CCTEntrance, tkey",
 					"ctwarp, @The Lost Village Regions/WarpRoom, seal3"
 				]
@@ -415,8 +415,8 @@
 				"name": "SHSpikeRoomWest",
 				"access_rules": [
 					"$vanillasouls, @Subterranean Hell Regions/SHSpikeRoomEast",
-					"soulsanity, @Subterranean Hell Regions/SHSpikeRoomEast, water, bark",
-					"soulsanity, @Subterranean Hell Regions/SHSpikeRoomEast, water, puppet, drydk",
+					"soulsanity, @Subterranean Hell Regions/SHSpikeRoomEast, water, ride",
+					"soulsanity, @Subterranean Hell Regions/SHSpikeRoomEast, water, puppet, throw",
 					"@Wizardry Lab Regions/WLSunkenEastDoor"
 				]
 			},
@@ -425,8 +425,8 @@
 				"access_rules": [
 					"@Subterranean Hell Regions/SHShaftBottom, $mediumuppies",
 					"$vanillasouls, @Subterranean Hell Regions/SHSpikeRoomWest",
-					"soulsanity, @Subterranean Hell Regions/SHSpikeRoomWest, water, bark",
-					"soulsanity, @Subterranean Hell Regions/SHSpikeRoomWest, water, puppet, drydk"
+					"soulsanity, @Subterranean Hell Regions/SHSpikeRoomWest, water, ride",
+					"soulsanity, @Subterranean Hell Regions/SHSpikeRoomWest, water, puppet, throw"
 				]
 			}
 		]
@@ -438,8 +438,8 @@
 				"name": "SRAntechamber",
 				"access_rules": [
 					"@Subterranean Hell Regions/SHShaftBottom, $mediumuppies",
-					"@Subterranean Hell Regions/SHShaftBottom, armor",
-					"@Subterranean Hell Regions/SHShaftBottom, panther",
+					"@Subterranean Hell Regions/SHShaftBottom, glide",
+					"@Subterranean Hell Regions/SHShaftBottom, fast",
 					"@Silenced Ruins Regions/SR, dio"
 				]
 			},

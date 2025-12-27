@@ -25,6 +25,7 @@ ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 
 -- Items
 Tracker:AddItems("items/items.jsonc")
+Tracker:AddItems("items/red_souls.jsonc")
 Tracker:AddItems("items/settings.json")
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
@@ -40,6 +41,7 @@ end
 
 -- Layout
 Tracker:AddLayouts("layouts/items.jsonc")
+Tracker:AddLayouts("layouts/bestiary.jsonc")
 Tracker:AddLayouts("layouts/popup.json")
 Tracker:AddLayouts("layouts/tracker.jsonc")
 Tracker:AddLayouts("layouts/broadcast.jsonc")

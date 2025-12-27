@@ -1,0 +1,276 @@
+[
+	// Progression Souls
+	{
+		"name": "Puppet Master Soul",
+		"type": "toggle",
+		"img": "images/enemies/107.png",
+		"codes": "ningyo"
+	},
+	{
+		"name": "Zephyr Soul",
+		"type": "toggle",
+		"img": "images/enemies/110.png",
+		"codes": "zawarudo"
+	},
+	{
+		"name": "Paranoia Soul",
+		"type": "toggle",
+		"img": "images/enemies/112.png",
+		"codes": "jester"
+	},
+	{
+		"name": "Imp Soul",
+		"type": "toggle",
+		"img": "images/enemies/56.png",
+		"codes": "imp"
+	},
+	// Vanilla Barrier Souls
+	{
+		"name": "Skeleton Soul",
+		"type": "toggle",
+		"img": "images/enemies/4.png",
+		"codes": "skeleton"
+	},
+	{
+		"name": "Axe Armor Soul",
+		"type": "toggle",
+		"img": "images/enemies/7.png",
+		"codes": "smallaxe"
+	},
+	{
+		"name": "Killer Clown Soul",
+		"type": "toggle",
+		"img": "images/enemies/45.png",
+		"codes": "clown"
+	},
+	{
+		"name": "Ukoback Soul",
+		"type": "toggle",
+		"img": "images/enemies/66.png",
+		"codes": "goblin"
+	},
+	// UMA News Souls
+	{
+		"name": "Waiter Skeleton Soul",
+		"type": "toggle",
+		"img": "images/enemies/40.png",
+		"codes": "waiter"
+	},
+	{
+		"name": "Mandragora Soul",
+		"type": "toggle",
+		"img": "images/enemies/22.png",
+		"codes": "freak"
+	},
+	{
+		"name": "Rycuda Soul",
+		"type": "toggle",
+		"img": "images/enemies/21.png",
+		"codes": "bird"
+	},
+	// Other Bullet Souls
+	{
+		"name": "Zombie Soul",
+		"type": "toggle",
+		"img": "images/enemies/1.png",
+		"codes": "zombie"
+	},
+	{
+		"name": "Student Witch Soul",
+		"type": "toggle",
+		"img": "images/enemies/12.png",
+		"codes": "switch"
+	},
+	{
+		"name": "Warg Soul",
+		"type": "toggle",
+		"img": "images/enemies/9.png",
+		"codes": "warg"
+	},
+	{
+		"name": "Bomber Armor Soul",
+		"type": "toggle",
+		"img": "images/enemies/14.png",
+		"codes": "bomber"
+	},
+	{
+		"name": "Amalaric Sniper Soul",
+		"type": "toggle",
+		"img": "images/enemies/36.png",
+		"codes": "angel"
+	},
+	{
+		"name": "Cave Troll Soul",
+		"type": "toggle",
+		"img": "images/enemies/60.png",
+		"codes": "troll"
+	},
+	{
+		"name": "Slime Soul",
+		"type": "toggle",
+		"img": "images/enemies/16.png",
+		"codes": "slime"
+	},
+	{
+		"name": "Yorick Soul",
+		"type": "toggle",
+		"img": "images/enemies/23.png",
+		"codes": "soccer"
+	},
+	{
+		"name": "Une Soul",
+		"type": "toggle",
+		"img": "images/enemies/17.png",
+		"codes": "une"
+	},
+	{
+		"name": "Fleaman Soul",
+		"type": "toggle",
+		"img": "images/enemies/47.png",
+		"codes": "littleguy"
+	},
+	{
+		"name": "Ripper Soul",
+		"type": "toggle",
+		"img": "images/enemies/87.png",
+		"codes": "littleguy2"
+	},
+	{
+		"name": "Guillotiner Soul",
+		"type": "toggle",
+		"img": "images/enemies/49.png",
+		"codes": "guillotine"
+	},
+	{
+		"name": "Malachi Soul",
+		"type": "toggle",
+		"img": "images/enemies/59.png",
+		"codes": "cthulu"
+	},
+	{
+		"name": "Disc Armor Soul",
+		"type": "toggle",
+		"img": "images/enemies/72.png",
+		"codes": "disc"
+	},
+	{
+		"name": "Great Axe Armor Soul",
+		"type": "toggle",
+		"img": "images/enemies/80.png",
+		"codes": "bigaxe"
+	},
+	{
+		"name": "Slaughterer Soul",
+		"type": "toggle",
+		"img": "images/enemies/13.png",
+		"codes": "pinkpig"
+	},
+	{
+		"name": "Hell Boar Soul",
+		"type": "toggle",
+		"img": "images/enemies/52.png",
+		"codes": "bluepig"
+	},
+	{
+		"name": "Frozen Shade Soul",
+		"type": "toggle",
+		"img": "images/enemies/70.png",
+		"codes": "icedemon"
+	},
+	{
+		"name": "Merman Soul",
+		"type": "toggle",
+		"img": "images/enemies/63.png",
+		"codes": "fishguy"
+	},
+	{
+		"name": "Larva Soul",
+		"type": "toggle",
+		"img": "images/enemies/61.png",
+		"codes": "larva"
+	},
+	{
+		"name": "Decarabia Soul",
+		"type": "toggle",
+		"img": "images/enemies/73.png",
+		"codes": "wheel"
+	},
+	{
+		"name": "Succubus Soul",
+		"type": "toggle",
+		"img": "images/enemies/86.png",
+		"codes": "yoko"
+	},
+	{
+		"name": "Slogra Soul",
+		"type": "toggle",
+		"img": "images/enemies/96.png",
+		"codes": "flaahgra"
+	},
+	{
+		"name": "Erinys Soul",
+		"type": "toggle",
+		"img": "images/enemies/85.png",
+		"codes": "valkyrie2"
+	},
+	{
+		"name": "Homunculus Soul",
+		"type": "toggle",
+		"img": "images/enemies/71.png",
+		"codes": "humanchicken"
+	},
+	{
+		"name": "Witch Soul",
+		"type": "toggle",
+		"img": "images/enemies/42.png",
+		"codes": "witch"
+	},
+	{
+		"name": "Fish Head Soul",
+		"type": "toggle",
+		"img": "images/enemies/64.png",
+		"codes": "bonepillarfish"
+	},
+	{
+		"name": "Mollusca Soul",
+		"type": "toggle",
+		"img": "images/enemies/20.png",
+		"codes": "slug"
+	},
+	{
+		"name": "Dead Mate Soul",
+		"type": "toggle",
+		"img": "images/enemies/74.png",
+		"codes": "dog"
+	},
+	{
+		"name": "Killer Fish Soul",
+		"type": "toggle",
+		"img": "images/enemies/67.png",
+		"codes": "sandiego"
+	},
+	{
+		"name": "Malacoda Soul",
+		"type": "toggle",
+		"img": "images/enemies/99.png",
+		"codes": "lubicant3"
+	},
+	{
+		"name": "Flame Demon Soul",
+		"type": "toggle",
+		"img": "images/enemies/92.png",
+		"codes": "devil2"
+	},
+	{
+		"name": "Aguni Soul",
+		"type": "toggle",
+		"img": "images/enemies/113.png",
+		"codes": "aguni"
+	},
+	{
+		"name": "Abaddon Soul",
+		"type": "toggle",
+		"img": "images/enemies/115.png",
+		"codes": "famine"
+	}
+]

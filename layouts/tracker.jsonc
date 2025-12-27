@@ -9,9 +9,24 @@
 			"dropshadow": true,
 			"content": [
 				{
-					"type": "layout",
+					"type": "tabbed",
 					"dock": "left",
-					"key": "shared_item_grid"
+					"tabs": [
+						{
+							"title": "Items",
+							"content": {
+								"type": "layout",
+								"key": "shared_item_grid"
+							}
+						},
+						{
+							"title": "Bestiary",
+							"content": {
+								"type": "layout",
+								"key": "shared_soul_grid"
+							}
+						}
+					]
 				},
 				{
 					"type": "tabbed",
@@ -40,3 +55,5 @@
 		}
 	}
 }
+
+

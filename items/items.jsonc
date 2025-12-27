@@ -130,18 +130,12 @@
 		"img": "images/items/slosh.png",
 		"codes": "fastmud"
 	},
-	// Barrier Souls
+	// Vanilla Barrier Souls
 	{
-		"name": "Ukoback Soul",
+		"name": "Skeleton Soul",
 		"type": "toggle",
 		"img": "images/items/toggle.png",
-		"codes": "ukoback"
-	},
-	{
-		"name": "Killer Clown Soul",
-		"type": "toggle",
-		"img": "images/items/toggle.png",
-		"codes": "clown"
+		"codes": "bone"
 	},
 	{
 		"name": "Axe Armor Soul",
@@ -150,37 +144,18 @@
 		"codes": "axe"
 	},
 	{
-		"name": "Skeleton Soul",
+		"name": "Killer Clown Soul",
 		"type": "toggle",
 		"img": "images/items/toggle.png",
-		"codes": "skeleton"
-	},
-	// Traversal Souls
-	{
-		"name": "Skeleton Ape Soul",
-		"type": "toggle",
-		"img": "images/items/skape.png",
-		"codes": "drydk"
+		"codes": "cards"
 	},
 	{
-		"name": "Bone Ark Soul",
+		"name": "Ukoback Soul",
 		"type": "toggle",
-		"img": "images/items/bark.png",
-		"codes": "bark"
+		"img": "images/items/toggle.png",
+		"codes": "flame"
 	},
-	{
-		"name": "Black Panther Soul",
-		"type": "toggle",
-		"img": "images/items/fast.png",
-		"codes": "panther"
-	},
-	{
-		"name": "Imp Soul",
-		"type": "toggle",
-		"img": "images/items/imp.png",
-		"codes": "imp"
-	},
-	//UMA News Souls
+	// UMA News Souls
 	{
 		"name": "Waiter Skeleton Soul",
 		"type": "toggle",
@@ -198,6 +173,31 @@
 		"type": "toggle",
 		"img": "images/items/thunder.png",
 		"codes": "shock"
+	},
+	// Traversal Souls
+	{
+		"name": "Skeleton Ape Soul",
+		"type": "toggle",
+		"img": "images/items/skape.png",
+		"codes": "throw"
+	},
+	{
+		"name": "Bone Ark Soul",
+		"type": "toggle",
+		"img": "images/items/bark.png",
+		"codes": "ride"
+	},
+	{
+		"name": "Black Panther Soul",
+		"type": "toggle",
+		"img": "images/items/fast.png",
+		"codes": "fast"
+	},
+	{
+		"name": "Imp Soul",
+		"type": "toggle",
+		"img": "images/items/imp.png",
+		"codes": "spirit"
 	},
 	// Events
 	{

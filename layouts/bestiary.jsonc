@@ -1,14 +1,14 @@
 {
 	// sets layouts for shadred items grids
 	// bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
-	"shared_item_grid": {
+	"shared_soul_grid": {
 		"type": "dock",
 		"dock": "left",
 		"v_alignment": "stretch",
 		"content": [
 			{
 				"type": "group",
-				"header": "Magic Seals",
+				"header": "Bullet Souls",
 				"dock": "top",
 				"h_alignment": "center",
 				"content": [
@@ -19,19 +19,35 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"item_margin": "10, 10",
+								"item_margin": "0, 0",
 								"h_alignment": "center",
-								"item_size": 66,
+								"item_h_alignment": "center",
+								"item_size": 50,
 								"rows": [
 									[
-										"seal1",
-										"seal2",
-										"seal3"
+										"zombie", "skeleton", "smallaxe", "warg", "switch", "pinkpig"
 									],
 									[
-										"seal4",
-										"seal5"
-									]
+										"bomber", "slime", "une", "slug", "bird", "freak"
+									],
+									[
+										"soccer", "angel", "waiter", "witch", "clown", "littleguy"
+									],
+									[
+										"guillotine", "bluepig", "imp", "cthulu", "troll", "larva"
+									],
+									[
+										"fishguy", "bonepillarfish", "goblin", "sandiego", "icedemon", "humanchicken"
+									],
+                                    [
+                                        "disc", "wheel", "dog", "bigaxe", "valkyrie2", "yoko"
+                                    ],
+                                    [
+                                        "littleguy2", "devil2", "flaahgra", "lubicant3", "ningyo", "zawarudo"
+                                    ],
+                                    [
+                                        "jester", "aguni", "famine", "", "", ""
+                                    ]
 								]
 							}
 						]
@@ -40,7 +56,7 @@
 			},
 			{
 				"type": "group",
-				"header": "Boss & Ability Souls",
+				"header": "Guardian Souls",
 				"dock": "top",
 				"h_alignment": "center",
 				"content": [
@@ -56,7 +72,7 @@
 								"item_size": 50,
 								"rows": [
 									[
-										"glide",
+										"armor",
 										"ice",
 										"gembox"
 									],
@@ -79,7 +95,7 @@
 			},
 			{
 				"type": "group",
-				"header": "Equipment",
+				"header": "Enchantment Souls",
 				"dock": "top",
 				"h_alignment": "center",
 				"content": [
@@ -100,70 +116,6 @@
 										"cutall",
 										"soulring"
 										//"dark"
-									]
-								]
-							}
-						]
-					}
-				]
-			},
-			{
-				"type": "group",
-				"header": "Misc Souls",
-				"dock": "top",
-				"h_alignment": "center",
-				"content": [
-					{
-						"type": "array",
-						"orientation": "horizontal",
-						"margin": "0,0",
-						"content": [
-							{
-								"type": "itemgrid",
-								"item_margin": "10, 10",
-								"h_alignment": "center",
-								"item_size": 50,
-								"rows": [
-									[
-										"spirit",
-										"throw",
-										"ride",
-										"fast"
-									],
-									[
-										"food",
-										"yell",
-										"shock"
-									],
-									[
-										"fastwater",
-										"fastmud"
-									]
-								]
-							}
-						]
-					}
-				]
-			},
-			{
-				"type": "group",
-				"header": "Soulsanity Toggle",
-				"dock": "top",
-				"h_alignment": "center",
-				"content": [
-					{
-						"type": "array",
-						"orientation": "horizontal",
-						"margin": "0,0",
-						"content": [
-							{
-								"type": "itemgrid",
-								"item_margin": "10, 10",
-								"h_alignment": "center",
-								"item_size": 50,
-								"rows": [
-									[
-										"soulview"
 									]
 								]
 							}
