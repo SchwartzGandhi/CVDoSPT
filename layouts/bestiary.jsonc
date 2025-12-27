@@ -22,31 +22,28 @@
 								"item_margin": "0, 0",
 								"h_alignment": "center",
 								"item_h_alignment": "center",
-								"item_size": 50,
+								"item_size": 40,
 								"rows": [
 									[
-										"zombie", "skeleton", "smallaxe", "warg", "switch", "pinkpig"
+										"zombie", "skeleton", "smallaxe", "warg", "switch", "pinkpig", "bomber"
 									],
 									[
-										"bomber", "slime", "une", "slug", "bird", "freak"
+										"slime", "une", "slug", "bird", "freak", "soccer", "angel"
 									],
 									[
-										"soccer", "angel", "waiter", "witch", "clown", "littleguy"
+										"waiter", "witch", "clown", "littleguy", "guillotine", "bluepig", "imp"
 									],
 									[
-										"guillotine", "bluepig", "imp", "cthulu", "troll", "larva"
+										"cthulu", "troll", "larva", "fishguy", "bonepillarfish", "goblin", "sandiego"
 									],
 									[
-										"fishguy", "bonepillarfish", "goblin", "sandiego", "icedemon", "humanchicken"
+										"icedemon", "humanchicken", "disc", "wheel", "dog", "bigaxe", "valkyrie2"
 									],
                                     [
-                                        "disc", "wheel", "dog", "bigaxe", "valkyrie2", "yoko"
+                                        "yoko", "littleguy2", "devil2", "flaahgra", "lubicant3", "ningyo", "zawarudo"
                                     ],
                                     [
-                                        "littleguy2", "devil2", "flaahgra", "lubicant3", "ningyo", "zawarudo"
-                                    ],
-                                    [
-                                        "jester", "aguni", "famine", "", "", ""
+                                        "jester", "aguni", "famine", "", "", "", ""
                                     ]
 								]
 							}
@@ -67,26 +64,29 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"item_margin": "10, 10",
+								"item_margin": "0, 0",
 								"h_alignment": "center",
-								"item_size": 50,
+								"item_h_alignment": "center",
+								"item_size": 40,
 								"rows": [
 									[
-										"armor",
-										"ice",
-										"gembox"
+										"smallbat", "ghost", "archer", "hina", "ninja", "tail", "stonecow"
 									],
 									[
-										"jump",
-										"puppet",
-										"water"
+										"bigune", "bigfoot", "far", "smalldevil", "freebonedragon", "valkyrie", "bigarmor"
 									],
 									[
-										"dio",
-										"bat",
-										"mirror",
-										"zip"
-									]
+                                        "maid", "firewheel", "devil", "urchin", "bonedragon", "harpy", "lubicant"
+									],
+									[
+										"stable", "bark", "stonecow2", "aluraune", "stonetail", "wakanda", "werewolf"
+									],
+									[
+                                        "thardus", "bigarmor2", "bigswordlmfao", "invincible", "armor", "gergy", "bad"
+                                    ],
+                                    [
+                                        "death", "", "", "", "", "", ""
+                                    ]
 								]
 							}
 						]
@@ -106,16 +106,75 @@
 						"content": [
 							{
 								"type": "itemgrid",
+								"item_margin": "0, 0",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 40,
+								"rows": [
+									[
+										"ouija", "eye", "golem", "drydk", "farmer", "frank", "zombie2"
+									],
+									[
+										"tombstone", "luck", "treegolem", "maria", "lilith", "boomerang", "lubicant2"
+									],
+									[
+                                        "bonepillar", "littleguytree", "heart", "evilchest", "pirate", "eye2", "moth"
+									],
+									[
+                                        "shield", "jockey", "slug2", "rainbowslime", "devil3", "owl", ""
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Ability Souls",
+				"dock": "top",
+				"h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "0, 0",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 40,
+								"rows": [
+									[
+										"waterface", "mudface", "balore", "malphas", "rahab", "", ""
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Soulsanity Toggle",
+				"dock": "top",
+				"h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
 								"item_margin": "10, 10",
 								"h_alignment": "center",
 								"item_size": 50,
 								"rows": [
 									[
-										"tkey",
-										"talisman",
-										"cutall",
-										"soulring"
-										//"dark"
+										"soulview"
 									]
 								]
 							}

@@ -1,0 +1,164 @@
+[
+	{
+		"name": "Golem Soul",
+		"type": "toggle",
+		"img": "images/enemies/15.png",
+		"codes": "golem"
+	},
+	{
+		"name": "Bone Pillar Soul",
+		"type": "toggle",
+		"img": "images/enemies/53.png",
+		"codes": "bonepillar"
+	},
+	{
+		"name": "Lilith Soul",
+		"type": "toggle",
+		"img": "images/enemies/44.png",
+		"codes": "lilith"
+	},
+	{
+		"name": "Ghost Dancer Soul",
+		"type": "toggle",
+		"img": "images/enemies/31.png",
+		"codes": "luck"
+	},
+	{
+		"name": "Tanjelly Soul",
+		"type": "toggle",
+		"img": "images/enemies/93.png",
+		"codes": "rainbowslime"
+	},
+	{
+		"name": "Bugbear Soul",
+		"type": "toggle",
+		"img": "images/enemies/75.png",
+		"codes": "eye2"
+	},
+	{
+		"name": "Arc Demon Soul",
+		"type": "toggle",
+		"img": "images/enemies/94.png",
+		"codes": "devil3"
+	},
+	{
+		"name": "Giant Slug Soul",
+		"type": "toggle",
+		"img": "images/enemies/90.png",
+		"codes": "slug2"
+	},
+	{
+		"name": "Killer Doll Soul",
+		"type": "toggle",
+		"img": "images/enemies/39.png",
+		"codes": "maria"
+	},
+	{
+		"name": "Tombstone Soul",
+		"type": "toggle",
+		"img": "images/enemies/30.png",
+		"codes": "tombstone"
+	},
+	{
+		"name": "Treant Soul",
+		"type": "toggle",
+		"img": "images/enemies/35.png",
+		"codes": "treegolem"
+	},
+	{
+		"name": "Ghoul Soul",
+		"type": "toggle",
+		"img": "images/enemies/27.png",
+		"codes": "zombie2"
+	},
+	{
+		"name": "Skelerang Soul",
+		"type": "toggle",
+		"img": "images/enemies/46.png",
+		"codes": "boomerang"
+	},
+	{
+		"name": "Skeleton Ape Soul",
+		"type": "toggle",
+		"img": "images/enemies/18.png",
+		"codes": "drydk"
+	},
+	{
+		"name": "Dead Warrior Soul",
+		"type": "toggle",
+		"img": "images/enemies/84.png",
+		"codes": "jockey"
+	},
+	{
+		"name": "Dead Pirate Soul",
+		"type": "toggle",
+		"img": "images/enemies/69.png",
+		"codes": "pirate"
+	},
+	{
+		"name": "Draghignazzo Soul",
+		"type": "toggle",
+		"img": "images/enemies/50.png",
+		"codes": "lubicant2"
+	},
+	{
+		"name": "Heart Eater Soul",
+		"type": "toggle",
+		"img": "images/enemies/62.png",
+		"codes": "heart"
+	},
+	{
+		"name": "Peeping Eye Soul",
+		"type": "toggle",
+		"img": "images/enemies/6.png",
+		"codes": "eye"
+	},
+	{
+		"name": "Skeleton Farmer Soul",
+		"type": "toggle",
+		"img": "images/enemies/24.png",
+		"codes": "farmer"
+	},
+	{
+		"name": "The Creature Soul",
+		"type": "toggle",
+		"img": "images/enemies/25.png",
+		"codes": "frank"
+	},
+	{
+		"name": "Mimic Soul",
+		"type": "toggle",
+		"img": "images/enemies/68.png",
+		"codes": "evilchest"
+	},
+	{
+		"name": "Mothman Soul",
+		"type": "toggle",
+		"img": "images/enemies/81.png",
+		"codes": "moth"
+	},
+	{
+		"name": "Oujia Table Soul",
+		"type": "toggle",
+		"img": "images/enemies/5.png",
+		"codes": "ouija"
+	},
+	{
+		"name": "Dead Crusader Soul",
+		"type": "toggle",
+		"img": "images/enemies/83.png",
+		"codes": "shield"
+	},
+	{
+		"name": "Stolas Soul",
+		"type": "toggle",
+		"img": "images/enemies/97.png",
+		"codes": "owl"
+	},
+	{
+		"name": "Wakwak Tree Soul",
+		"type": "toggle",
+		"img": "images/enemies/55.png",
+		"codes": "littleguytree"
+	}
+]

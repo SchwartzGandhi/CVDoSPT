@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Balore Soul",
+		"type": "toggle",
+		"img": "images/enemies/103.png",
+		"codes": "balore"
+	},
+	{
+		"name": "Malphas Soul",
+		"type": "toggle",
+		"img": "images/enemies/104.png",
+		"codes": "malphas"
+	},
+	{
+		"name": "Rahab Soul",
+		"type": "toggle",
+		"img": "images/enemies/108.png",
+		"codes": "rahab"
+	},
+	{
+		"name": "Procel Soul",
+		"type": "toggle",
+		"img": "images/enemies/76.png",
+		"codes": "waterface"
+	},
+	{
+		"name": "Mud Demon Soul",
+		"type": "toggle",
+		"img": "images/enemies/89.png",
+		"codes": "mudface"
+	}
+]

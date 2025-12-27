@@ -61,7 +61,7 @@
 		"name": "Flying Armor Soul",
 		"type": "toggle",
 		"img": "images/items/armor.png",
-		"codes": "armor"
+		"codes": "glide"
 	},
 	{
 		"name": "Balore Soul",

@@ -1,0 +1,220 @@
+[
+	// Progression Souls
+	{
+		"name": "Bat Company Soul",
+		"type": "toggle",
+		"img": "images/enemies/111.png",
+		"codes": "bad"
+	},
+	{
+		"name": "Flying Armor Soul",
+		"type": "toggle",
+		"img": "images/enemies/102.png",
+		"codes": "armor"
+	},
+	{
+		"name": "Black Panther Soul",
+		"type": "toggle",
+		"img": "images/enemies/88.png",
+		"codes": "wakanda"
+	},
+	// Other Guardian Souls
+	{
+		"name": "Armor Knight Soul",
+		"type": "toggle",
+		"img": "images/enemies/11.png",
+		"codes": "ninja"
+	},
+	{
+		"name": "Spin Devil Soul",
+		"type": "toggle",
+		"img": "images/enemies/10.png",
+		"codes": "hina"
+	},
+	{
+		"name": "Skull Archer Soul",
+		"type": "toggle",
+		"img": "images/enemies/8.png",
+		"codes": "archer"
+	},
+	{
+		"name": "Ghost Soul",
+		"type": "toggle",
+		"img": "images/enemies/3.png",
+		"codes": "ghost"
+	},
+	{
+		"name": "Yeti Soul",
+		"type": "toggle",
+		"img": "images/enemies/29.png",
+		"codes": "bigfoot"
+	},
+	{
+		"name": "Buer Soul",
+		"type": "toggle",
+		"img": "images/enemies/43.png",
+		"codes": "firewheel"
+	},
+	{
+		"name": "Manticore Soul",
+		"type": "toggle",
+		"img": "images/enemies/19.png",
+		"codes": "tail"
+	},
+	{
+		"name": "Mushussu Soul",
+		"type": "toggle",
+		"img": "images/enemies/82.png",
+		"codes": "stonetail"
+	},
+	{
+		"name": "White Dragon Soul",
+		"type": "toggle",
+		"img": "images/enemies/54.png",
+		"codes": "bonedragon"
+	},
+	{
+		"name": "Catoblepas Soul",
+		"type": "toggle",
+		"img": "images/enemies/26.png",
+		"codes": "stonecow"
+	},
+	{
+		"name": "Gorgon Soul",
+		"type": "toggle",
+		"img": "images/enemies/78.png",
+		"codes": "stonecow2"
+	},
+	{
+		"name": "Persephone Soul",
+		"type": "toggle",
+		"img": "images/enemies/41.png",
+		"codes": "maid"
+	},
+	{
+		"name": "Flying Humanoid Soul",
+		"type": "toggle",
+		"img": "images/enemies/32.png",
+		"codes": "far"
+	},
+	{
+		"name": "Devil Soul",
+		"type": "toggle",
+		"img": "images/enemies/48.png",
+		"codes": "devil"
+	},
+	{
+		"name": "Medusa Head Soul",
+		"type": "toggle",
+		"img": "images/enemies/65.png",
+		"codes": "stable"
+	},
+	{
+		"name": "Final Guard Soul",
+		"type": "toggle",
+		"img": "images/enemies/98.png",
+		"codes": "bigarmor2"
+	},
+	{
+		"name": "Werewolf Soul",
+		"type": "toggle",
+		"img": "images/enemies/91.png",
+		"codes": "werewolf"
+	},
+	{
+		"name": "Alura Une Soul",
+		"type": "toggle",
+		"img": "images/enemies/79.png",
+		"codes": "aluraune"
+	},
+	{
+		"name": "Iron Golem Soul",
+		"type": "toggle",
+		"img": "images/enemies/101.png",
+		"codes": "invincible"
+	},
+	{
+		"name": "Bone Ark Soul",
+		"type": "toggle",
+		"img": "images/enemies/77.png",
+		"codes": "bark"
+	},
+	{
+		"name": "Barbariccia Soul",
+		"type": "toggle",
+		"img": "images/enemies/58.png",
+		"codes": "lubicant"
+	},
+	{
+		"name": "Valkyrie Soul",
+		"type": "toggle",
+		"img": "images/enemies/37.png",
+		"codes": "valkyrie"
+	},
+	{
+		"name": "Bat Soul",
+		"type": "toggle",
+		"img": "images/enemies/2.png",
+		"codes": "smallbat"
+	},
+	{
+		"name": "Great Armor Soul",
+		"type": "toggle",
+		"img": "images/enemies/38.png",
+		"codes": "bigarmor"
+	},
+	{
+		"name": "Mini Devil Soul",
+		"type": "toggle",
+		"img": "images/enemies/33.png",
+		"codes": "smalldevil"
+	},
+	{
+		"name": "Harpy Soul",
+		"type": "toggle",
+		"img": "images/enemies/57.png",
+		"codes": "harpy"
+	},
+	{
+		"name": "Corpseweed Soul",
+		"type": "toggle",
+		"img": "images/enemies/28.png",
+		"codes": "bigune"
+	},
+	{
+		"name": "Quetzalcoatl Soul",
+		"type": "toggle",
+		"img": "images/enemies/34.png",
+		"codes": "freebonedragon"
+	},
+	{
+		"name": "Needles Soul",
+		"type": "toggle",
+		"img": "images/enemies/51.png",
+		"codes": "urchin"
+	},
+	{
+		"name": "Alastor Soul",
+		"type": "toggle",
+		"img": "images/enemies/100.png",
+		"codes": "bigswordlmfao"
+	},
+	{
+		"name": "Gaibon Soul",
+		"type": "toggle",
+		"img": "images/enemies/95.png",
+		"codes": "thardus"
+	},
+	{
+		"name": "Gergoth Soul",
+		"type": "toggle",
+		"img": "images/enemies/109.png",
+		"codes": "gergy"
+	},
+	{
+		"name": "Death Soul",
+		"type": "toggle",
+		"img": "images/enemies/114.png",
+		"codes": "death"
+	}
+]
