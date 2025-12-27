@@ -148,6 +148,834 @@
         "codes": "speed"
     },
     {
+        "name": "Dark Chapel Catacombs Soul Barrier",
+        "img": "images/settings/dcsoulwall.png",
+        "type": "static",
+        "codes": "dcsoulwall"
+    },
+    {
+        "name": "Dark Chapel Catacombs Soul",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/enemies/4.png",
+                "codes": "dcsoul, dc0",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/1.png",
+                "codes": "dcsoul, dc1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/7.png",
+                "codes": "dcsoul, dc2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/12.png",
+                "codes": "dcsoul, dc3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/9.png",
+                "codes": "dcsoul, dc4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/14.png",
+                "codes": "dcsoul, dc5",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/36.png",
+                "codes": "dcsoul, dc6",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/60.png",
+                "codes": "dcsoul, dc7",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/40.png",
+                "codes": "dcsoul, dc8",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/16.png",
+                "codes": "dcsoul, dc9",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/23.png",
+                "codes": "dcsoul, dc10",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/17.png",
+                "codes": "dcsoul, dc11",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/22.png",
+                "codes": "dcsoul, dc12",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/21.png",
+                "codes": "dcsoul, dc13",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/47.png",
+                "codes": "dcsoul, dc14",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/87.png",
+                "codes": "dcsoul, dc15",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/49.png",
+                "codes": "dcsoul, dc16",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/45.png",
+                "codes": "dcsoul, dc17",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/59.png",
+                "codes": "dcsoul, dc18",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/72.png",
+                "codes": "dcsoul, dc19",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/80.png",
+                "codes": "dcsoul, dc20",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/13.png",
+                "codes": "dcsoul, dc21",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/52.png",
+                "codes": "dcsoul, dc22",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/70.png",
+                "codes": "dcsoul, dc23",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/63.png",
+                "codes": "dcsoul, dc24",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/61.png",
+                "codes": "dcsoul, dc25",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/66.png",
+                "codes": "dcsoul, dc26",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/73.png",
+                "codes": "dcsoul, dc27",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/86.png",
+                "codes": "dcsoul, dc28",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/96.png",
+                "codes": "dcsoul, dc29",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/85.png",
+                "codes": "dcsoul, dc30",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/71.png",
+                "codes": "dcsoul, dc31",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/42.png",
+                "codes": "dcsoul, dc32",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/64.png",
+                "codes": "dcsoul, dc33",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/20.png",
+                "codes": "dcsoul, dc34",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/74.png",
+                "codes": "dcsoul, dc35",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/99.png",
+                "codes": "dcsoul, dc36",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/92.png",
+                "codes": "dcsoul, dc37",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/115.png",
+                "codes": "dcsoul, dc38",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Paranoia Soul Barriers",
+        "img": "images/settings/dghsoulwall.png",
+        "type": "static",
+        "codes": "dghsoulwall"
+    },
+    {
+        "name": "Paranoia Soul 1",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 2,
+        "stages": [
+            {
+                "img": "images/enemies/4.png",
+                "codes": "dghsoul1, dgh0",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/1.png",
+                "codes": "dghsoul1, dgh1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/7.png",
+                "codes": "dghsoul1, dgh2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/12.png",
+                "codes": "dghsoul1, dgh3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/9.png",
+                "codes": "dghsoul1, dgh4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/14.png",
+                "codes": "dghsoul1, dgh5",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/36.png",
+                "codes": "dghsoul1, dgh6",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/60.png",
+                "codes": "dghsoul1, dgh7",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/40.png",
+                "codes": "dghsoul1, dgh8",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/16.png",
+                "codes": "dghsoul1, dgh9",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/23.png",
+                "codes": "dghsoul1, dgh10",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/17.png",
+                "codes": "dghsoul1, dgh11",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/22.png",
+                "codes": "dghsoul1, dgh12",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/21.png",
+                "codes": "dghsoul1, dgh13",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/47.png",
+                "codes": "dghsoul1, dgh14",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/87.png",
+                "codes": "dghsoul1, dgh15",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/49.png",
+                "codes": "dghsoul1, dgh16",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/45.png",
+                "codes": "dghsoul1, dgh17",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/59.png",
+                "codes": "dghsoul1, dgh18",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/72.png",
+                "codes": "dghsoul1, dgh19",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/80.png",
+                "codes": "dghsoul1, dgh20",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/13.png",
+                "codes": "dghsoul1, dgh21",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/52.png",
+                "codes": "dghsoul1, dgh22",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/70.png",
+                "codes": "dghsoul1, dgh23",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/63.png",
+                "codes": "dghsoul1, dgh24",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/61.png",
+                "codes": "dghsoul1, dgh25",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/66.png",
+                "codes": "dghsoul1, dgh26",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/73.png",
+                "codes": "dghsoul1, dgh27",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/86.png",
+                "codes": "dghsoul1, dgh28",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/96.png",
+                "codes": "dghsoul1, dgh29",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/85.png",
+                "codes": "dghsoul1, dgh30",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/71.png",
+                "codes": "dghsoul1, dgh31",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/42.png",
+                "codes": "dghsoul1, dgh32",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/64.png",
+                "codes": "dghsoul1, dgh33",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/20.png",
+                "codes": "dghsoul1, dgh34",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/74.png",
+                "codes": "dghsoul1, dgh35",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/99.png",
+                "codes": "dghsoul1, dgh36",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/92.png",
+                "codes": "dghsoul1, dgh37",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/115.png",
+                "codes": "dghsoul1, dgh38",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Paranoia Soul 2",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 17,
+        "stages": [
+            {
+                "img": "images/enemies/4.png",
+                "codes": "dghsoul2, dgh0",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/1.png",
+                "codes": "dghsoul2, dgh1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/7.png",
+                "codes": "dghsoul2, dgh2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/12.png",
+                "codes": "dghsoul2, dgh3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/9.png",
+                "codes": "dghsoul2, dgh4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/14.png",
+                "codes": "dghsoul2, dgh5",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/36.png",
+                "codes": "dghsoul2, dgh6",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/60.png",
+                "codes": "dghsoul2, dgh7",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/40.png",
+                "codes": "dghsoul2, dgh8",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/16.png",
+                "codes": "dghsoul2, dgh9",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/23.png",
+                "codes": "dghsoul2, dgh10",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/17.png",
+                "codes": "dghsoul2, dgh11",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/22.png",
+                "codes": "dghsoul2, dgh12",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/21.png",
+                "codes": "dghsoul2, dgh13",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/47.png",
+                "codes": "dghsoul2, dgh14",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/87.png",
+                "codes": "dghsoul2, dgh15",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/49.png",
+                "codes": "dghsoul2, dgh16",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/45.png",
+                "codes": "dghsoul2, dgh17",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/59.png",
+                "codes": "dghsoul2, dgh18",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/72.png",
+                "codes": "dghsoul2, dgh19",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/80.png",
+                "codes": "dghsoul2, dgh20",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/13.png",
+                "codes": "dghsoul2, dgh21",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/52.png",
+                "codes": "dghsoul2, dgh22",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/70.png",
+                "codes": "dghsoul2, dgh23",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/63.png",
+                "codes": "dghsoul2, dgh24",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/61.png",
+                "codes": "dghsoul2, dgh25",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/66.png",
+                "codes": "dghsoul2, dgh26",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/73.png",
+                "codes": "dghsoul2, dgh27",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/86.png",
+                "codes": "dghsoul2, dgh28",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/96.png",
+                "codes": "dghsoul2, dgh29",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/85.png",
+                "codes": "dghsoul2, dgh30",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/71.png",
+                "codes": "dghsoul2, dgh31",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/42.png",
+                "codes": "dghsoul2, dgh32",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/64.png",
+                "codes": "dghsoul2, dgh33",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/20.png",
+                "codes": "dghsoul2, dgh34",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/74.png",
+                "codes": "dghsoul2, dgh35",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/99.png",
+                "codes": "dghsoul2, dgh36",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/92.png",
+                "codes": "dghsoul2, dgh37",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/115.png",
+                "codes": "dghsoul2, dgh38",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Paranoia Soul 3",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 26,
+        "stages": [
+            {
+                "img": "images/enemies/4.png",
+                "codes": "dghsoul3, dgh0",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/1.png",
+                "codes": "dghsoul3, dgh1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/7.png",
+                "codes": "dghsoul3, dgh2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/12.png",
+                "codes": "dghsoul3, dgh3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/9.png",
+                "codes": "dghsoul3, dgh4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/14.png",
+                "codes": "dghsoul3, dgh5",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/36.png",
+                "codes": "dghsoul3, dgh6",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/60.png",
+                "codes": "dghsoul3, dgh7",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/40.png",
+                "codes": "dghsoul3, dgh8",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/16.png",
+                "codes": "dghsoul3, dgh9",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/23.png",
+                "codes": "dghsoul3, dgh10",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/17.png",
+                "codes": "dghsoul3, dgh11",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/22.png",
+                "codes": "dghsoul3, dgh12",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/21.png",
+                "codes": "dghsoul3, dgh13",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/47.png",
+                "codes": "dghsoul3, dgh14",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/87.png",
+                "codes": "dghsoul3, dgh15",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/49.png",
+                "codes": "dghsoul3, dgh16",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/45.png",
+                "codes": "dghsoul3, dgh17",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/59.png",
+                "codes": "dghsoul3, dgh18",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/72.png",
+                "codes": "dghsoul3, dgh19",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/80.png",
+                "codes": "dghsoul3, dgh20",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/13.png",
+                "codes": "dghsoul3, dgh21",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/52.png",
+                "codes": "dghsoul3, dgh22",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/70.png",
+                "codes": "dghsoul3, dgh23",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/63.png",
+                "codes": "dghsoul3, dgh24",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/61.png",
+                "codes": "dghsoul3, dgh25",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/66.png",
+                "codes": "dghsoul3, dgh26",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/73.png",
+                "codes": "dghsoul3, dgh27",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/86.png",
+                "codes": "dghsoul3, dgh28",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/96.png",
+                "codes": "dghsoul3, dgh29",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/85.png",
+                "codes": "dghsoul3, dgh30",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/71.png",
+                "codes": "dghsoul3, dgh31",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/42.png",
+                "codes": "dghsoul3, dgh32",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/64.png",
+                "codes": "dghsoul3, dgh33",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/20.png",
+                "codes": "dghsoul3, dgh34",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/74.png",
+                "codes": "dghsoul3, dgh35",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/99.png",
+                "codes": "dghsoul3, dgh36",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/92.png",
+                "codes": "dghsoul3, dgh37",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/enemies/115.png",
+                "codes": "dghsoul3, dgh38",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Click to Switch to Soul View",
         "img": "images/settings/soulsanity.png",
         "type": "toggle",
