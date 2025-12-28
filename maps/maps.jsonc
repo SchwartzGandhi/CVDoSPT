@@ -17,5 +17,17 @@
 		"location_size": 12,
 		"location_border_thickness": 2,
 		"img": "images/maps/Castle_Regioned.png"
+	},
+	{
+		"name": "Soulsanity Page 1",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/Soulsanity_Page_1.png"
+	},
+	{
+		"name": "Soulsanity Page 2",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/Soulsanity_Page_2.png"
 	}
 ]

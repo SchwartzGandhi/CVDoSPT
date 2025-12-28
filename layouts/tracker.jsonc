@@ -48,6 +48,32 @@
 									"The Abyss"
 								]
 							}
+						},
+						{
+							"title": "Soulsanity",
+							"content": {
+								"type": "tabbed",
+								"tabs": [
+									{
+										"title": "Page 1",
+										"content": {
+											"type": "map",
+											"maps": [
+												"Soulsanity Page 1"
+											]
+										}
+									},
+									{
+										"title": "Page 2",
+										"content": {
+											"type": "map",
+											"maps": [
+												"Soulsanity Page 2"
+											]
+										}
+									}
+								]
+							}
 						}
 					]
 				}
