@@ -45,10 +45,10 @@
 		"codes": "talisman"
 	},
 	{
-		"name": "Cutall",
+		"name": "Cutall, Cinquedia, Alucard Sword",
 		"type": "toggle",
-		"img": "images/items/cutall.png",
-		"codes": "cutall"
+		"img": "images/items/backslash.png",
+		"codes": "backslash"
 	},
 	{
 		"name": "Soul Eater Ring",
@@ -134,25 +134,25 @@
 	{
 		"name": "Skeleton Soul",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/bone.png",
 		"codes": "bone"
 	},
 	{
 		"name": "Axe Armor Soul",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/axe.png",
 		"codes": "axe"
 	},
 	{
 		"name": "Killer Clown Soul",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/card.png",
 		"codes": "cards"
 	},
 	{
 		"name": "Ukoback Soul",
 		"type": "toggle",
-		"img": "images/items/toggle.png",
+		"img": "images/items/flame.png",
 		"codes": "flame"
 	},
 	// UMA News Souls

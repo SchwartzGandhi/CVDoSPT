@@ -11,6 +11,7 @@
 				"header": "Magic Seals",
 				"dock": "top",
 				"h_alignment": "center",
+				"item_h_alignment": "center",
 				"content": [
 					{
 						"type": "array",
@@ -21,6 +22,7 @@
 								"type": "itemgrid",
 								"item_margin": "10, 10",
 								"h_alignment": "center",
+								"item_h_alignment": "center",
 								"item_size": 66,
 								"rows": [
 									[
@@ -43,6 +45,7 @@
 				"header": "Boss & Ability Souls",
 				"dock": "top",
 				"h_alignment": "center",
+				"item_h_alignment": "center",
 				"content": [
 					{
 						"type": "array",
@@ -53,53 +56,26 @@
 								"type": "itemgrid",
 								"item_margin": "10, 10",
 								"h_alignment": "center",
+								"item_h_alignment": "center",
 								"item_size": 50,
 								"rows": [
 									[
 										"glide",
 										"ice",
-										"gembox"
+										"gembox",
+										"jump"
 									],
 									[
-										"jump",
 										"puppet",
-										"water"
+										"water",
+										"fastwater",
+										"fastmud"
 									],
 									[
 										"dio",
 										"bat",
 										"mirror",
 										"zip"
-									]
-								]
-							}
-						]
-					},
-				]
-			},
-			{
-				"type": "group",
-				"header": "Equipment",
-				"dock": "top",
-				"h_alignment": "center",
-				"content": [
-					{
-						"type": "array",
-						"orientation": "horizontal",
-						"margin": "0,0",
-						"content": [
-							{
-								"type": "itemgrid",
-								"item_margin": "10, 10",
-								"h_alignment": "center",
-								"item_size": 50,
-								"rows": [
-									[
-										"tkey",
-										"talisman",
-										"cutall",
-										"soulring"
-										//"dark"
 									]
 								]
 							}
@@ -112,6 +88,7 @@
 				"header": "Misc Souls",
 				"dock": "top",
 				"h_alignment": "center",
+				"item_h_alignment": "center",
 				"content": [
 					{
 						"type": "array",
@@ -122,6 +99,7 @@
 								"type": "itemgrid",
 								"item_margin": "10, 10",
 								"h_alignment": "center",
+								"item_h_alignment": "center",
 								"item_size": 50,
 								"rows": [
 									[
@@ -136,8 +114,42 @@
 										"shock"
 									],
 									[
-										"fastwater",
-										"fastmud"
+										"bone",
+										"axe",
+										"cards",
+										"flame"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Equipment",
+				"dock": "top",
+				"h_alignment": "center",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 50,
+								"rows": [
+									[
+										"tkey",
+										"talisman",
+										"backslash",
+										"soulring"
+										//"dark"
 									]
 								]
 							}
@@ -150,6 +162,7 @@
 				"header": "Soulsanity Toggle",
 				"dock": "top",
 				"h_alignment": "center",
+				"item_h_alignment": "center",
 				"content": [
 					{
 						"type": "array",
@@ -160,6 +173,7 @@
 								"type": "itemgrid",
 								"item_margin": "10, 10",
 								"h_alignment": "center",
+								"item_h_alignment": "center",
 								"item_size": 50,
 								"rows": [
 									[
