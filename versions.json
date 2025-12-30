@@ -1,15 +1,12 @@
 {
     "versions": [
         {
-            "package_version": "3.0",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/3.0/CVDoSPT.zip",
-            "sha256": "6317f3c41c020c3c335976e791877ef43af7057368f094613ffb5e37262a15e3",
+            "package_version": "3.1",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/3.1/CVDoSPT.zip",
+            "sha256": "a42477f47a26608519c780db5d17968764a3ca1a17bbd3d616a4c7c18222e42f",
             "changelog": [
-                "Every soul is now tracked! Select the tabs above the items window to switch between Items and the Bestiary",
-                "Soulsanity now has a new way to be viewed via a checklist",
-                "Logic now supports random bullet soul walls, you can see/configure what souls are required for each wall in the pack settings popup.",
-                "Rearranged the items window to look nicer",
-                "New logic changes imported from the new apworld"
+                "Souls on the item window are now linked to their respective bestiary icons, clicking on one will now activate the other.",
+                "The bestiary has been added to the broadcast view"
             ]
         }
     ]
