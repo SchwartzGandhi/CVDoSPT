@@ -1,12 +1,15 @@
 {
     "versions": [
         {
-            "package_version": "2.7",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/2.7/CVDoSPT.zip",
-            "sha256": "8e9a3b138e0cb2f1b9463539aaafd78ee7895014eecbba770fb47b9caf0c4a98",
+            "package_version": "3.0",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/3.0/CVDoSPT.zip",
+            "sha256": "6317f3c41c020c3c335976e791877ef43af7057368f094613ffb5e37262a15e3",
             "changelog": [
-                "The three secret items now use new images to reduce confusion on acquiring them.",
-                "Pack version now matches github version."
+                "Every soul is now tracked! Select the tabs above the items window to switch between Items and the Bestiary",
+                "Soulsanity now has a new way to be viewed via a checklist",
+                "Logic now supports random bullet soul walls, you can see/configure what souls are required for each wall in the pack settings popup.",
+                "Rearranged the items window to look nicer",
+                "New logic changes imported from the new apworld"
             ]
         }
     ]
