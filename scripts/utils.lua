@@ -20,3 +20,17 @@ function dump_table(o, depth)
         return tostring(o)
     end
 end
+
+-- Enable/Disable a linked item's partner
+function LinkSouls(item_code)
+    local code_obj = Tracker:FindObjectForCode(item_code)
+    for item_soul, soul_entry in pairs(LINKED_SOULS) do
+        if item_code == item_soul then
+            local link_obj = Tracker:FindObjectForCode(soul_entry)
+            link_obj.Active = code_obj.Active
+        elseif item_code == soulentry then
+            local link_obj = Tracker:FindObjectForCode(item_soul)
+            link_obj.Active = code_obj.Active
+        end
+    end
+end

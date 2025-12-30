@@ -12,30 +12,6 @@ CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
 
-LINKED_SOULS = {
-	["glide"] = "armor",
-	["ice"] = "balore",
-	["jump"] = "malphas",
-	["puppet"] = "ningyo",
-	["water"] = "rahab",
-	["fastwater"] = "waterface",
-	["fastmud"] = "mudface",
-	["dio"] = "zawarudo",
-	["bat"] = "bad",
-	["mirror"] = "jester",
-	["spirit"] = "imp",
-	["throw"] = "drydk",
-	["ride"] = "bark",
-	["fast"] = "wakanda",
-	["food"] = "waiter",
-	["yell"] = "freak",
-	["shock"] = "bird",
-	["bone"] = "skeleton",
-	["axe"] = "smallaxe",
-	["cards"] = "clown",
-	["flame"] = "goblin"
-}
-
 -- resets an item to its initial state
 function resetItem(item_code, item_type)
 	local obj = Tracker:FindObjectForCode(item_code)
@@ -280,16 +256,6 @@ function onItem(index, item_id, item_name, player_number)
 				end
 			elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 				print(string.format("onClear: skipping item_table with no item_code"))
-			end
-			-- Enable item's partner if it has one
-			for itemsoul, soulentry in pairs(LINKED_SOULS) do
-				if item_code == itemsoul then
-					local soul_link = Tracker:FindObjectForCode(soulentry)
-					soul_link.Active = true
-				elseif item_code == soulentry then
-					local soul_link = Tracker:FindObjectForCode(itemsoul)
-					soul_link.Active = true
-				end
 			end
 		elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 			print(string.format("onClear: skipping empty item_table"))
