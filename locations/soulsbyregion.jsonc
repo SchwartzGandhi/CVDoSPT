@@ -50,7 +50,10 @@
 								"map": "Dracula's Castle",
 								"x": 212,
 								"y": 482,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -71,7 +74,10 @@
 								"map": "Dracula's Castle",
 								"x": 212,
 								"y": 442,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -96,7 +102,10 @@
 								"map": "Dracula's Castle",
 								"x": 402,
 								"y": 482,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -137,7 +146,10 @@
 								"map": "Dracula's Castle",
 								"x": 162,
 								"y": 542,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -161,7 +173,10 @@
 							{
 								"map": "Dracula's Castle",
 								"x": 182,
-								"y": 632
+								"y": 632,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -177,7 +192,10 @@
 							{
 								"map": "Dracula's Castle",
 								"x": 212,
-								"y": 772
+								"y": 772,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					}
@@ -243,7 +261,10 @@
 								"map": "Dracula's Castle",
 								"x": 392,
 								"y": 652,
-								"size": 32
+								"size": 32,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -263,7 +284,10 @@
 							{
 								"map": "Dracula's Castle",
 								"x": 272,
-								"y": 692
+								"y": 692,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -283,7 +307,10 @@
 							{
 								"map": "Dracula's Castle",
 								"x": 522,
-								"y": 672
+								"y": 672,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -304,7 +331,10 @@
 								"map": "Dracula's Castle",
 								"x": 352,
 								"y": 822,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -320,7 +350,10 @@
 							{
 								"map": "Dracula's Castle",
 								"x": 262,
-								"y": 772
+								"y": 772,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					}
@@ -386,7 +419,10 @@
 								"map": "Dracula's Castle",
 								"x": 692,
 								"y": 472,
-								"size": 32
+								"size": 32,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -423,7 +459,10 @@
 								"map": "Dracula's Castle",
 								"x": 692,
 								"y": 432,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -455,7 +494,10 @@
 							{
 								"map": "Dracula's Castle",
 								"x": 652,
-								"y": 392
+								"y": 392,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -471,7 +513,10 @@
 							{
 								"map": "Dracula's Castle",
 								"x": 702,
-								"y": 372
+								"y": 372,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					}
@@ -553,7 +598,10 @@
 								"map": "Dracula's Castle",
 								"x": 911,
 								"y": 432,
-								"size": 32
+								"size": 32,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -578,7 +626,10 @@
 								"map": "Dracula's Castle",
 								"x": 1022,
 								"y": 402,
-								"size": 32
+								"size": 32,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -594,7 +645,10 @@
 							{
 								"map": "Dracula's Castle",
 								"x": 922,
-								"y": 592
+								"y": 592,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					}
@@ -623,7 +677,10 @@
 							{
 								"map": "Dracula's Castle",
 								"x": 492,
-								"y": 492
+								"y": 492,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -639,7 +696,10 @@
 							{
 								"map": "Dracula's Castle",
 								"x": 282,
-								"y": 432
+								"y": 432,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -655,7 +715,10 @@
 							{
 								"map": "Dracula's Castle",
 								"x": 512,
-								"y": 472
+								"y": 472,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -708,7 +771,10 @@
 								"map": "Dracula's Castle",
 								"x": 502,
 								"y": 362,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -745,7 +811,10 @@
 								"map": "Dracula's Castle",
 								"x": 342,
 								"y": 282,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -806,7 +875,10 @@
 								"map": "Dracula's Castle",
 								"x": 502,
 								"y": 212,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					}
@@ -828,7 +900,10 @@
 								"map": "Dracula's Castle",
 								"x": 1132,
 								"y": 482,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -865,7 +940,10 @@
 								"map": "Dracula's Castle",
 								"x": 1132,
 								"y": 292,
-								"size": 32
+								"size": 32,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					}
@@ -899,7 +977,10 @@
 								"map": "Dracula's Castle",
 								"x": 982,
 								"y": 602,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -944,7 +1025,10 @@
 								"map": "Dracula's Castle",
 								"x": 1042,
 								"y": 662,
-								"size": 32
+								"size": 32,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -965,7 +1049,10 @@
 								"map": "Dracula's Castle",
 								"x": 902,
 								"y": 702,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -1006,7 +1093,10 @@
 								"map": "Dracula's Castle",
 								"x": 732,
 								"y": 702,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -1035,7 +1125,10 @@
 								"map": "Dracula's Castle",
 								"x": 692,
 								"y": 742,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -1064,7 +1157,10 @@
 								"map": "Dracula's Castle",
 								"x": 772,
 								"y": 662,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -1093,7 +1189,10 @@
 								"map": "Dracula's Castle",
 								"x": 602,
 								"y": 802,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -1118,7 +1217,10 @@
 								"map": "Dracula's Castle",
 								"x": 602,
 								"y": 742,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -1139,7 +1241,10 @@
 								"map": "Dracula's Castle",
 								"x": 602,
 								"y": 682,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					}
@@ -1185,7 +1290,10 @@
 								"map": "Dracula's Castle",
 								"x": 1002,
 								"y": 282,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -1218,7 +1326,10 @@
 								"map": "Dracula's Castle",
 								"x": 972,
 								"y": 172,
-								"size": 32
+								"size": 32,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -1234,7 +1345,10 @@
 							{
 								"map": "Dracula's Castle",
 								"x": 972,
-								"y": 112
+								"y": 112,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -1255,7 +1369,10 @@
 								"map": "Dracula's Castle",
 								"x": 902,
 								"y": 192,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					}
@@ -1309,7 +1426,10 @@
 								"map": "Dracula's Castle",
 								"x": 842,
 								"y": 852,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -1329,7 +1449,10 @@
 							{
 								"map": "Dracula's Castle",
 								"x": 832,
-								"y": 732
+								"y": 732,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					}
@@ -1379,7 +1502,10 @@
 								"map": "Dracula's Castle",
 								"x": 742,
 								"y": 162,
-								"size": 32
+								"size": 32,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -1428,7 +1554,10 @@
 								"map": "Dracula's Castle",
 								"x": 692,
 								"y": 252,
-								"size": 24
+								"size": 24,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					}
@@ -1470,7 +1599,10 @@
 								"map": "Dracula's Castle",
 								"x": 1132,
 								"y": 642,
-								"size": 32
+								"size": 32,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					}
@@ -1532,7 +1664,10 @@
 								"map": "The Abyss",
 								"x": 532,
 								"y": 552,
-								"size": 32
+								"size": 32,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -1557,7 +1692,10 @@
 								"map": "The Abyss",
 								"x": 772,
 								"y": 552,
-								"size": 32
+								"size": 32,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					},
@@ -1625,7 +1763,10 @@
 							{
 								"map": "Dracula's Castle",
 								"x": 1172,
-								"y": 892
+								"y": 892,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
 							}
 						]
 					}

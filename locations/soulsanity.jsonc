@@ -1,9 +1,6 @@
 [
 	{
 		"name": "Soulsanity",
-		"visibility_rules": [
-			"soulview"
-		],
 		"children": [
 			{
 				"name": "Common Souls",

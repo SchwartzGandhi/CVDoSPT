@@ -3,9 +3,6 @@
 		"name": "The Lost Village",
 		"chest_unopened_img": "images/items/chest.png",
 		"chest_opened_img": "images/items/chest_bw.png",
-		"visibility_rules": [
-			"$oulviewoff"
-		],
 		"children": [
 			{
 				"name": "Above Entrance",
@@ -272,9 +269,6 @@
 		"name": "Wizardry Lab",
 		"chest_unopened_img": "images/items/chest.png",
 		"chest_opened_img": "images/items/chest_bw.png",
-		"visibility_rules": [
-			"$oulviewoff"
-		],
 		"children": [
 			{
 				"name": "Mirror Room",
@@ -427,9 +421,6 @@
 		"name": "Garden of Madness",
 		"chest_unopened_img": "images/items/chest.png",
 		"chest_opened_img": "images/items/chest_bw.png",
-		"visibility_rules": [
-			"$oulviewoff"
-		],
 		"children": [
 			{
 				"name": "Lower Tree Hallway",
@@ -556,9 +547,6 @@
 		"name": "The Dark Chapel",
 		"chest_unopened_img": "images/items/chest.png",
 		"chest_opened_img": "images/items/chest_bw.png",
-		"visibility_rules": [
-			"$oulviewoff"
-		],
 		"children": [
 			{
 				"name": "Entrance Alcove",
@@ -749,9 +737,6 @@
 		"name": "Demon Guest House",
 		"chest_unopened_img": "images/items/chest.png",
 		"chest_opened_img": "images/items/chest_bw.png",
-		"visibility_rules": [
-			"$oulviewoff"
-		],
 		"children": [
 			{
 				"name": "Secret Room",
@@ -1025,9 +1010,6 @@
 		"name": "Condemned Tower",
 		"chest_unopened_img": "images/items/chest.png",
 		"chest_opened_img": "images/items/chest_bw.png",
-		"visibility_rules": [
-			"$oulviewoff"
-		],
 		"children": [
 			{
 				"name": "1F West",
@@ -1115,9 +1097,6 @@
 		"name": "Cursed Clock Tower",
 		"chest_unopened_img": "images/items/chest.png",
 		"chest_opened_img": "images/items/chest_bw.png",
-		"visibility_rules": [
-			"$oulviewoff"
-		],
 		"children": [
 			{
 				"name": "Money Gate",
@@ -1212,9 +1191,6 @@
 		"name": "Subterranean Hell",
 		"chest_unopened_img": "images/items/chest.png",
 		"chest_opened_img": "images/items/chest_bw.png",
-		"visibility_rules": [
-			"$oulviewoff"
-		],
 		"children": [
 			{
 				"name": "Rahab Soul",
@@ -1363,9 +1339,6 @@
 		"name": "Silenced Ruins",
 		"chest_unopened_img": "images/items/chest.png",
 		"chest_opened_img": "images/items/chest_bw.png",
-		"visibility_rules": [
-			"$oulviewoff"
-		],
 		"children": [
 			{
 				"name": "Ice Block Room",
@@ -1414,9 +1387,6 @@
 		"name": "The Pinnacle",
 		"chest_unopened_img": "images/items/chest.png",
 		"chest_opened_img": "images/items/chest_bw.png",
-		"visibility_rules": [
-			"$oulviewoff"
-		],
 		"children": [
 			{
 				"name": "Lower Hidden Room",
@@ -1518,9 +1488,6 @@
 	},
 	{
 		"name": "Mine of Judgment",
-		"visibility_rules": [
-			"$oulviewoff"
-		],
 		"children": [
 			{
 				"name": "Death Soul",
@@ -1544,9 +1511,6 @@
 		"name": "The Abyss",
 		"chest_unopened_img": "images/items/chest.png",
 		"chest_opened_img": "images/items/chest_bw.png",
-		"visibility_rules": [
-			"$oulviewoff"
-		],
 		"children": [
 			{
 				"name": "Sand Area",

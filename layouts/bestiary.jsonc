@@ -155,32 +155,32 @@
 						]
 					}
 				]
-			},
-			{
-				"type": "group",
-				"header": "Soulsanity Toggle",
-				"dock": "top",
-				"h_alignment": "center",
-				"content": [
-					{
-						"type": "array",
-						"orientation": "horizontal",
-						"margin": "0,0",
-						"content": [
-							{
-								"type": "itemgrid",
-								"item_margin": "10, 10",
-								"h_alignment": "center",
-								"item_size": 50,
-								"rows": [
-									[
-										"soulview"
-									]
-								]
-							}
-						]
-					}
-				]
+			// },
+			// {
+			// 	"type": "group",
+			// 	"header": "Soulsanity Toggle",
+			// 	"dock": "top",
+			// 	"h_alignment": "center",
+			// 	"content": [
+			// 		{
+			// 			"type": "array",
+			// 			"orientation": "horizontal",
+			// 			"margin": "0,0",
+			// 			"content": [
+			// 				{
+			// 					"type": "itemgrid",
+			// 					"item_margin": "10, 10",
+			// 					"h_alignment": "center",
+			// 					"item_size": 50,
+			// 					"rows": [
+			// 						[
+			// 							"soulview"
+			// 						]
+			// 					]
+			// 				}
+			// 			]
+			// 		}
+			// 	]
 			}
 		]
 	}
