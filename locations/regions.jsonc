@@ -522,10 +522,332 @@
 		"name": "Soul Farming Regions",
 		"children": [
 			{
+				"name": "Skeleton",
+				"access_rules": [
+					"@The Lost Village Regions/LVUpper",
+					"@The Lost Village Regions/LVUndergroundTop",
+					"@Wizardry Lab Regions/WLMain",
+					"@Demon Guest House Regions/DGHLower"
+				]
+			},
+			{
+				"name": "Zombie",
+				"access_rules": [
+					"@The Lost Village Regions/LVUpper",
+					"@The Lost Village Regions/LVLower"
+				]
+			},
+			{
+				"name": "Axe Armor",
+				"access_rules": [
+					"@The Lost Village Regions/LVUpper",
+					"@The Lost Village Regions/LVLower",
+					"@Wizardry Lab Regions/WLMain",
+					"@Demon Guest House Regions/DGHLower",
+					"@Silenced Ruins Regions/SR"
+				]
+			},
+			{
+				"name": "Student Witch",
+				"access_rules": [
+					"@The Lost Village Regions/LVLower, @The Lost Village/Moat Drain Switch/",
+					"@Wizardry Lab Regions/WLMain",
+					"@Demon Guest House Regions/DGHUpper"
+				]
+			},
+			{
+				"name": "Warg",
+				"access_rules": [
+					"@The Lost Village Regions/LVUpper",
+					"@The Lost Village Regions/LVCourtyard"
+				]
+			},
+			{
+				"name": "Bomber Armor",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLMain"
+				]
+			},
+			{
+				"name": "Amalaric Sniper",
+				"access_rules": [
+					"@The Dark Chapel Regions/DC"
+				]
+			},
+			{
+				"name": "Cave Troll",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLEastGate",
+					"@Subterranean Hell Regions/SHTopEntrance"
+				]
+			},
+			{
+				"name": "Waiter Skeleton",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHMain",
+					"@Silenced Ruins Regions/SRBackExit"
+				]
+			},
+			{
+				"name": "Slime",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLMain",
+					"@Cursed Clock Tower Regions/CCTCentral"
+				]
+			},
+			{
+				"name": "Yorick",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMLower"
+				]
+			},
+			{
+				"name": "Une",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMLower",
+					"@Garden of Madness Regions/GoMPostBoss",
+					"@Subterranean Hell Regions/SHTopEntrance",
+					"@Subterranean Hell Regions/SHCentralEastConnection"
+				]
+			},
+			{
+				"name": "Mandragora",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMLower"
+				]
+			},
+			{
+				"name": "Rycuda",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMLower",
+					"@Garden of Madness Regions/GoMUpper"
+				]
+			},
+			{
+				"name": "Fleaman",
+				"access_rules": [
+					"@Condemned Tower Regions/CTTop"
+				]
+			},
+			{
+				"name": "Ripper",
+				"access_rules": [
+					"$abyssaccess, @Mine of Judgment Regions/MoJ"
+				]
+			},
+			{
+				"name": "Guillotiner",
+				"access_rules": [
+					"@The Dark Chapel Regions/DC",
+					"@The Pinnacle Regions/TP",
+					"@The Pinnacle Regions/TPLower"
+				]
+			},
+			{
+				"name": "Killer Clown",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHMain",
+					"@Demon Guest House Regions/DGHWestWing"
+				]
+			},
+			{
+				"name": "Malachi",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHUpper",
+					"@Cursed Clock Tower Regions/CCTEntrance",
+					"@The Pinnacle Regions/TPLower",
+					"$abyssaccess, @The Abyss Regions/TA"
+				]
+			},
+			{
+				"name": "Disc Armor",
+				"access_rules": [
+					"@Condemned Tower Regions/CTTop"
+				]
+			},
+			{
+				"name": "Great Axe Armor",
+				"access_rules": [
+					"@The Lost Village Regions/LVUndergroundTop",
+					"@Wizardry Lab Regions/WLWestGate",
+					"@Condemned Tower Regions/CTTop"
+				]
+			},
+			{
+				"name": "Slaughterer",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLMain"
+				]
+			},
+			{
+				"name": "Hell Boar",
+				"access_rules": [
+					"@The Lost Village Regions/LVCourtyard, $biguppies",
+					"@The Dark Chapel Regions/DC"
+				]
+			},
+			{
+				"name": "Frozen Shade",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHEast",
+					"@Subterranean Hell Regions/SHShaftMiddle",
+					"@Subterranean Hell Regions/SHCentralLower",
+					"@Subterranean Hell Regions/SHCentralUpper",
+					"@Subterranean Hell Regions/SHCentralExit",
+					"$abyssaccess, @The Abyss Regions/TA"
+				]
+			},
+			{
+				"name": "Merman",
+				"access_rules": [
+					"@The Lost Village Regions/LVUndergroundTop",
+					"@Subterranean Hell Regions/SHEast",
+					"@Subterranean Hell Regions/SHShaftBottom",
+					"@Subterranean Hell Regions/SHCentralLower",
+					"@Subterranean Hell Regions/SHCentralUpper",
+					"@Subterranean Hell Regions/SHCentralExit"
+				]
+			},
+			{
+				"name": "Larva",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLSunken",
+					"@Silenced Ruins Regions/SR"
+				]
+			},
+			{
 				"name": "Ukoback",
 				"access_rules": [
 					"@Subterranean Hell Regions/SHShaftBottom",
+					"@Subterranean Hell Regions/SHShaftTop",
+					"@Subterranean Hell Regions/SHCentralUpper",
 					"@Subterranean Hell Regions/SHCentralExit"
+				]
+			},
+			{
+				"name": "Decarabia",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHTopEntrance, seal3",
+					"@Subterranean Hell Regions/SHEast, water"
+				]
+			},
+			{
+				"name": "Succubus",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHUpper",
+					"@The Pinnacle Regions/TPLower",
+					"$abyssaccess, @The Abyss Regions/TABeyondAbaddon"
+				]
+			},
+			{
+				"name": "Slogra",
+				"access_rules": [
+					"$abyssaccess, @Mine of Judgment Regions/MoJ"
+				]
+			},
+			{
+				"name": "Erinys",
+				"access_rules": [
+					"@The Pinnacle Regions/TP",
+					"@The Pinnacle Regions/TPLower",
+					"$abyssaccess, @The Abyss Regions/TA"
+				]
+			},
+			{
+				"name": "Homunculus",
+				"access_rules": [
+					"@Wizardry Lab Regions/WLSunken"
+				]
+			},
+			{
+				"name": "Witch",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHUpper",
+					"@The Dark Chapel Regions/DC"
+				]
+			},
+			{
+				"name": "Fish Head",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHEast, water"
+				]
+			},
+			{
+				"name": "Mollusca",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMLower",
+					"@Garden of Madness Regions/GoMUpper"
+				]
+			},
+			{
+				"name": "Giant Slug",
+				"access_rules": [
+					"$abyssaccess, @Mine of Judgment Regions/MoJ"
+				]
+			},
+			{
+				"name": "Dead Mate",
+				"access_rules": [
+					"@Silenced Ruins Regions/SR"
+				]
+			},
+			{
+				"name": "Malacoda",
+				"access_rules": [
+					"$abyssaccess, @The Abyss Regions/TA"
+				]
+			},
+			{
+				"name": "Flame Demon",
+				"access_rules": [
+					"@Demon Guest House Regions/DGHUpper",
+					"@The Pinnacle Regions/TPLower"
+				]
+			},
+			{
+				"name": "Aguni",
+				"sections": [
+					{
+						"ref": "The Pinnacle/Aguni Soul/"
+					} 
+				]
+			},
+			{
+				"name": "Abaddon",
+				"sections": [
+					{
+						"ref": "The Abyss/Abaddon Soul/"
+					} 
+				]
+			},
+			{
+				"name": "Imp",
+				"access_rules": [
+					"@Cursed Clock Tower Regions/CCTEntrance",
+					"@Cursed Clock Tower Regions/CCTCentral"
+				]
+			},
+			{
+				"name": "Black Panther",
+				"access_rules": [
+					"@The Abyss Regions/TABeyondAbaddon"
+				]
+			},
+			{
+				"name": "Bone Ark",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHCentralUpper",
+					"@Silenced Ruins Regions/SR"
+				]
+			},
+			{
+				"name": "Skeleton Ape",
+				"access_rules": [
+					"@The Lost Village Regions/LVCourtyard",
+					"@Garden of Madness Regions/GoMLower",
+					"@Garden of Madness Regions/GoMUpper",
+					"@Garden of Madness Regions/GoMPostBoss",
+					"@Condemned Tower Regions/CTBottom"
 				]
 			}
 		]

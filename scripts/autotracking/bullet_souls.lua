@@ -41,7 +41,7 @@ BULLET_SOULS_FOR_WALLS = {
     {code = "famine", name = "Abaddon Soul"},
 }
 
--- Returns the index for the given enemy name (ie: Student Witch Soul)
+-- Returns the index for the given enemy name (ie: Student Witch Soul -> 4)
 function get_idx_for_wall(soul)
     for i, enemy in ipairs(BULLET_SOULS_FOR_WALLS) do
         if enemy.name == soul then
@@ -50,11 +50,20 @@ function get_idx_for_wall(soul)
     end
 end
 
--- Retursn the code for the given enemy's index (ie: 4)
+-- Returns the code for the given enemy's index (ie: 4 -> switch)
 function get_code_for_wall(id)
     for i, enemy in ipairs(BULLET_SOULS_FOR_WALLS) do
         if id + 1 == i then
             return enemy.code
+        end
+    end
+end
+
+-- Returns the name for the given enemy's index (ie: 4 -> Student Witch)
+function get_name_for_wall(id)
+    for i, enemy in ipairs(BULLET_SOULS_FOR_WALLS) do
+        if id + 1 == i then
+            return string.gsub(enemy.name, " Soul", "")
         end
     end
 end

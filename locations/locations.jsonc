@@ -585,8 +585,7 @@
 			{
 				"name": "Catacombs Soul Barrier",
 				"access_rules": [
-					"$vanillasouls, @The Dark Chapel Regions/DC",
-					"soulsanity, @The Dark Chapel Regions/DC, $openDCwall"
+					"@The Dark Chapel Regions/DC, ^$OpenSoulWall|dcsoul"
 				],
 				"sections": [
 					{
@@ -966,9 +965,7 @@
 			{
 				"name": "Paranoia Soul",
 				"access_rules": [
-					"$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4",
-					"$vanillasouls, @Demon Guest House Regions/DGHUpper, flame, seal4",
-					"soulsanity, @Demon Guest House Regions/DGHUpper, $openDGHwalls, seal4"
+					"@Demon Guest House Regions/DGHUpper, ^$OpenSoulWall|dghsoul1, ^$OpenSoulWall|dghsoul2, ^$OpenSoulWall|dghsoul3, seal4"
 				],
 				"sections": [
 					{
@@ -981,9 +978,7 @@
 			{
 				"name": "Beyond Paranoia",
 				"access_rules": [
-					"$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4",
-					"$vanillasouls, @Demon Guest House Regions/DGHUpper, flame, seal4",
-					"soulsanity, @Demon Guest House Regions/DGHUpper, $openDGHwalls, seal4"
+					"@Demon Guest House Regions/DGHUpper, ^$OpenSoulWall|dghsoul1, ^$OpenSoulWall|dghsoul2, ^$OpenSoulWall|dghsoul3, seal4"
 				],
 				"sections": [
 					{
@@ -994,9 +989,7 @@
 			{
 				"name": "Paranoia Mirror",
 				"access_rules": [
-					"$vanillasouls, @Demon Guest House Regions/DGHUpper, @Soul Farming Regions/Ukoback, seal4, mirror",
-					"$vanillasouls, @Demon Guest House Regions/DGHUpper, flame, seal4, mirror",
-					"soulsanity, @Demon Guest House Regions/DGHUpper, $openDGHwalls, seal4, mirror"
+					"@Demon Guest House Regions/DGHUpper, ^$OpenSoulWall|dghsoul1, ^$OpenSoulWall|dghsoul2, ^$OpenSoulWall|dghsoul3, seal4, mirror"
 				],
 				"sections": [
 					{

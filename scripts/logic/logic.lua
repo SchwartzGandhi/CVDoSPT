@@ -53,12 +53,6 @@ function low()
     end
 end
 
-function vanillasouls()
-    if not has("soulsanity") then
-        return true
-    end
-end
-
 function oulviewoff()
     if not has("soulview") then
         return true
@@ -73,18 +67,20 @@ function cutallclips()
     end
 end
 
-function openDCwall()
-    soul = Tracker:FindObjectForCode('dcsoul')
-    code = get_code_for_wall(soul.CurrentStage)
-    return has(code)
-end
-
-function openDGHwalls()
-    soul1 = Tracker:FindObjectForCode('dghsoul1')
-    soul2 = Tracker:FindObjectForCode('dghsoul2')
-    soul3 = Tracker:FindObjectForCode('dghsoul3')
-    code1 = get_code_for_wall(soul1.CurrentStage)
-    code2 = get_code_for_wall(soul2.CurrentStage)
-    code3 = get_code_for_wall(soul3.CurrentStage)
-    return has(code1) and has(code2) and has(code3)
+function OpenSoulWall(wallsoul)
+    local soul = Tracker:FindObjectForCode(wallsoul)
+    local code = get_code_for_wall(soul.CurrentStage)
+    -- If soulsanity is off, the player needs access to the enemy's region.
+    -- If soulsanity is on, the player just needs the enemy's soul.
+    if not has("soulsanity") then
+        local enemy = get_name_for_wall(soul.CurrentStage)
+        local enemy_region = Tracker:FindObjectForCode(string.format('@Soul Farming Regions/%s', enemy))
+        if enemy_region.AccessibilityLevel == AccessibilityLevel.Normal then
+            return AccessibilityLevel.Normal
+        elseif enemy_region.AccessibilityLevel == AccessibilityLevel.SequenceBreak then
+            return AccessibilityLevel.SequenceBreak
+        end
+    else
+        return has(code)
+    end
 end

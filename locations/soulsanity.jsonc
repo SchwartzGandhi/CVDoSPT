@@ -2199,10 +2199,7 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 416,
-								"y": 49,
-								"restrict_visibility_rules": [
-									""
-								]
+								"y": 49
 							}
 						]
 					},
@@ -2217,10 +2214,7 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 416,
-								"y": 60,
-								"restrict_visibility_rules": [
-									""
-								]
+								"y": 60
 							}
 						]
 					},
@@ -2235,10 +2229,7 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 416,
-								"y": 71,
-								"restrict_visibility_rules": [
-									""
-								]
+								"y": 71
 							}
 						]
 					},
@@ -2253,10 +2244,7 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 416,
-								"y": 104,
-								"restrict_visibility_rules": [
-									""
-								]
+								"y": 104
 							}
 						]
 					},
@@ -2271,10 +2259,7 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 416,
-								"y": 115,
-								"restrict_visibility_rules": [
-									""
-								]
+								"y": 115
 							}
 						]
 					},
@@ -2289,10 +2274,7 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 416,
-								"y": 126,
-								"restrict_visibility_rules": [
-									""
-								]
+								"y": 126
 							}
 						]
 					},
@@ -2307,10 +2289,7 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 416,
-								"y": 137,
-								"restrict_visibility_rules": [
-									""
-								]
+								"y": 137
 							}
 						]
 					},
@@ -2325,10 +2304,7 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 416,
-								"y": 148,
-								"restrict_visibility_rules": [
-									""
-								]
+								"y": 148
 							}
 						]
 					},
@@ -2343,10 +2319,7 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 416,
-								"y": 159,
-								"restrict_visibility_rules": [
-									""
-								]
+								"y": 159
 							}
 						]
 					},
@@ -2361,10 +2334,7 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 416,
-								"y": 170,
-								"restrict_visibility_rules": [
-									""
-								]
+								"y": 170
 							}
 						]
 					},
@@ -2379,10 +2349,7 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 416,
-								"y": 181,
-								"restrict_visibility_rules": [
-									""
-								]
+								"y": 181
 							}
 						]
 					},
@@ -2397,10 +2364,7 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 416,
-								"y": 192,
-								"restrict_visibility_rules": [
-									""
-								]
+								"y": 192
 							}
 						]
 					},
@@ -2415,10 +2379,7 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 416,
-								"y": 203,
-								"restrict_visibility_rules": [
-									""
-								]
+								"y": 203
 							}
 						]
 					}
