@@ -53,6 +53,12 @@ function low()
     end
 end
 
+function vanillasouls()
+    if not has("soulsanity") then
+        return true
+    end
+end
+
 function oulviewoff()
     if not has("soulview") then
         return true
@@ -67,9 +73,8 @@ function cutallclips()
     end
 end
 
-function OpenSoulWall(wallsoul)
-    local soul = Tracker:FindObjectForCode(wallsoul)
-    local code = get_code_for_wall(soul.CurrentStage)
+function OpenSoulWall(wall)
+    local soul = Tracker:FindObjectForCode(wall)
     -- If soulsanity is off, the player needs access to the enemy's region.
     -- If soulsanity is on, the player just needs the enemy's soul.
     if not has("soulsanity") then
@@ -81,6 +86,8 @@ function OpenSoulWall(wallsoul)
             return AccessibilityLevel.SequenceBreak
         end
     else
+        local code = get_code_for_wall(soul.CurrentStage)
+        print(string.format("%s needs %s", wall, code))
         return has(code)
     end
 end

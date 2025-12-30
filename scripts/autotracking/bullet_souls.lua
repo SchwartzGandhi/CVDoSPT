@@ -1,7 +1,7 @@
 BULLET_SOULS_FOR_WALLS = {
     {code = "skeleton", name = "Skeleton Soul"},
     {code = "zombie", name = "Zombie Soul"},
-    {code = "axe", name = "Axe Armor Soul"},
+    {code = "smallaxe", name = "Axe Armor Soul"},
     {code = "switch", name = "Student Witch Soul"},
     {code = "warg", name = "Warg Soul"},
     {code = "bomber", name = "Bomber Armor Soul"},
@@ -25,7 +25,7 @@ BULLET_SOULS_FOR_WALLS = {
     {code = "icedemon", name = "Frozen Shade Soul"},
     {code = "fishguy", name = "Merman Soul"},
     {code = "larva", name = "Larva Soul"},
-    {code = "flame", name = "Ukoback Soul"},
+    {code = "goblin", name = "Ukoback Soul"},
     {code = "wheel", name = "Decarabia Soul"},
     {code = "yoko", name = "Succubus Soul"},
     {code = "flaahgra", name = "Slogra Soul"},
