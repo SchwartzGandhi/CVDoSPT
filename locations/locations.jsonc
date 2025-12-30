@@ -215,9 +215,8 @@
 				"name": "Moat Drain Switch",
 				"access_rules": [
 					"speed, @The Lost Village Regions/LVLower",
-					"$low, @The Lost Village Regions/LVLower, $mediumuppies",
-					"$low, @The Lost Village Regions/LVLower, glide",
-					"$low, @The Lost Village Regions/LVLower, fast"
+					"$low, @The Lost Village Regions/LVLower, $tinyuppies",
+					"$low, @The Lost Village Regions/LVLower, $widies"
 				],
 				"sections": [
 					{
@@ -503,7 +502,7 @@
 			{
 				"name": "Underground Room",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMWaterBlocked, $mediumuppies",
+					"@Garden of Madness Regions/GoMWaterBlocked, $tinyuppies",
 					"@Garden of Madness Regions/GoMWaterBlocked, fast",
 					"{@Garden of Madness Regions/GoMWaterBlocked}"
 				],
@@ -551,7 +550,7 @@
 			{
 				"name": "Entrance Alcove",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC, $mediumuppies",
+					"@The Dark Chapel Regions/DC, $tinyuppies",
 					"{@The Dark Chapel Regions/DC}"
 				],
 				"sections": [
@@ -613,7 +612,7 @@
 			{
 				"name": "Big Square Room Alcove",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC, $mediumuppies",
+					"@The Dark Chapel Regions/DC, $tinyuppies",
 					"{@The Dark Chapel Regions/DC}"
 				],
 				"sections": [
@@ -660,7 +659,7 @@
 			{
 				"name": "Bell Room Right",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC, $mediumuppies",
+					"@The Dark Chapel Regions/DC, $tinyuppies",
 					"{@The Dark Chapel Regions/DC}"
 				],
 				"sections": [
@@ -806,7 +805,7 @@
 			{
 				"name": "Number 8 Room",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
+					"@Demon Guest House Regions/DGHNumberPuzzle, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -817,7 +816,7 @@
 			{
 				"name": "Number 9 Room",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
+					"@Demon Guest House Regions/DGHNumberPuzzle, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -828,7 +827,7 @@
 			{
 				"name": "Number 12 Room",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
+					"@Demon Guest House Regions/DGHNumberPuzzle, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -839,7 +838,7 @@
 			{
 				"name": "Mirror Room",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHNumberPuzzle, $mediumuppies"
+					"@Demon Guest House Regions/DGHNumberPuzzle, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -868,7 +867,7 @@
 				"name": "West Wing Left",
 				"access_rules": [
 					"@Demon Guest House Regions/DGHWestWing, speed",
-					"@Demon Guest House Regions/DGHWestWing, $mediumuppies",
+					"@Demon Guest House Regions/DGHWestWing, $tinyuppies",
 					"@Demon Guest House Regions/DGHWestWing, fast"
 				],
 				"sections": [
@@ -881,7 +880,7 @@
 				"name": "West Wing Right",
 				"access_rules": [
 					"@Demon Guest House Regions/DGHWestWing, speed",
-					"@Demon Guest House Regions/DGHWestWing, $mediumuppies",
+					"@Demon Guest House Regions/DGHWestWing, $tinyuppies",
 					"@Demon Guest House Regions/DGHWestWing, fast"
 				],
 				"sections": [
@@ -1030,7 +1029,7 @@
 			{
 				"name": "2F East",
 				"access_rules": [
-					"@Condemned Tower Regions/CTBottom, $mediumuppies"
+					"@Condemned Tower Regions/CTBottom, $tinyuppies"
 				],
 				"sections": [
 					{
@@ -1245,9 +1244,8 @@
 			{
 				"name": "Near Save Room",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHCentralExit, $mediumuppies",
-					"@Subterranean Hell Regions/SHCentralExit, glide",
-					"@Subterranean Hell Regions/SHCentralExit, fast",
+					"@Subterranean Hell Regions/SHCentralExit, $tinyuppies",
+					"@Subterranean Hell Regions/SHCentralExit, $widies",
 					"{@Subterranean Hell Regions/SHCentralExit}",
 					"{@Subterranean Hell Regions/SHCentralUpper, @Subterranean Hell Regions/SHCentralEastConnection}, water"
 				],
@@ -1283,8 +1281,7 @@
 				"name": "Behind Waterfall",
 				"access_rules": [
 					"@Subterranean Hell Regions/SHShaftMiddle, $smalluppies",
-					"@Subterranean Hell Regions/SHShaftMiddle, glide",
-					"@Subterranean Hell Regions/SHShaftMiddle, fast"
+					"@Subterranean Hell Regions/SHShaftMiddle, $widies"
 				],
 				"sections": [
 					{
@@ -1488,7 +1485,7 @@
 					"$abyssaccess"
 				],
 				"access_rules": [
-					"@Mine of Judgment Regions/MoJ, $mediumuppies, seal5"
+					"@Mine of Judgment Regions/MoJ, $tinyuppies, seal5"
 				],
 				"sections": [
 					{

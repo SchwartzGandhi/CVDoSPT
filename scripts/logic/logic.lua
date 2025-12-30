@@ -31,12 +31,16 @@ function smalluppies()
     return has("zip") or has("bat") or has("jump")
 end
 
-function mediumuppies()
+function tinyuppies()
     return smalluppies() or has("puppet")
 end
 
 function biguppies()
     return has("zip") or has("bat")
+end
+
+function widies()
+    return has("glide") or has("fast")
 end
 
 function holes()
@@ -87,7 +91,6 @@ function OpenSoulWall(wall)
         end
     else
         local code = get_code_for_wall(soul.CurrentStage)
-        print(string.format("%s needs %s", wall, code))
         return has(code)
     end
 end
