@@ -1,12 +1,11 @@
 {
     "versions": [
         {
-            "package_version": "3.1",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/3.1/CVDoSPT.zip",
-            "sha256": "a42477f47a26608519c780db5d17968764a3ca1a17bbd3d616a4c7c18222e42f",
+            "package_version": "3.2",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/3.2/CVDoSPT.zip",
+            "sha256": "c508615654efcb0a3ea4dac5363737f6768a79801aa1d3753868780c40ff02a8",
             "changelog": [
-                "Souls on the item window are now linked to their respective bestiary icons, clicking on one will now activate the other.",
-                "The bestiary has been added to the broadcast view"
+                "Slogra Soul's collected portrait now uses the correct image"
             ]
         }
     ]
