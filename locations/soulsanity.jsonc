@@ -338,7 +338,7 @@
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/96.png",
-								"chest_opened_img": "images/enemies/100_bw.png"
+								"chest_opened_img": "images/enemies/96_bw.png"
 							} 
 						],
 						"map_locations": [
