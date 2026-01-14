@@ -1,11 +1,14 @@
 {
     "versions": [
         {
-            "package_version": "3.2",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/3.2/CVDoSPT.zip",
-            "sha256": "c508615654efcb0a3ea4dac5363737f6768a79801aa1d3753868780c40ff02a8",
+            "package_version": "4.0",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/4.0/CVDoSPT.zip",
+            "sha256": "2ced86ed533100113c0c646054656f18fa1a00ae3e39657d34bdfa653e5f75c3",
             "changelog": [
-                "Slogra Soul's collected portrait now uses the correct image"
+                "The pack now has an alternate horizontal view",
+                "item/soul syncing now works both ways",
+                "Logic now expects you to have Rahab to cross Sunken Wizardry Lab",
+                "Gave the Cutall, Cinquedia & Alucard Sword item a better name lol"
             ]
         }
     ]
