@@ -1,14 +1,20 @@
 {
 	"name": "Castlevania: Dawn of Sorrow Pack for PopTracker",
 	"game_name": "Castlevania: Dawn of Sorrow",
-	"package_version": "3.2",
+	"package_version": "4.0",
 	"package_uid": "cvdos_pack",
 	"author": "Schwartz Gandhi",
 	"min_poptracker_version": "0.25.9",
 	"target_poptracker_version": "0.31.0",
 	"variants": {
 		"standard": {
-			"display_name": "Map Tracker",
+			"display_name": "Map Tracker (Vertical)",
+			"flags": [
+				"ap"
+			]
+		},
+		"var_horizontal": {
+			"display_name": "Map Tracker (Horizontal)",
 			"flags": [
 				"ap"
 			]

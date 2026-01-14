@@ -5,6 +5,7 @@ ENABLE_DEBUG_LOG = true
 local variant = Tracker.ActiveVariantUID
 -- check variant info
 IS_ITEMS_ONLY = variant:find("itemsonly")
+IS_HORIZONTAL = variant:find("horizontal")
 
 LINKED_SOULS = {
 	["glide"] = "armor",
@@ -57,8 +58,8 @@ Tracker:AddItems("items/settings.json")
 
 -- Link item codes and bestiary codes
 for k, v in pairs(LINKED_SOULS) do
-    ScriptHost:AddWatchForCode(k, v, LinkSouls)
-    ScriptHost:AddWatchForCode(v, k, LinkSouls)
+    ScriptHost:AddWatchForCode(string.format("%s_watch", k), k, LinkSouls)
+    ScriptHost:AddWatchForCode(string.format("%s_watch", v), v, LinkSouls)
 end
 
 if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
@@ -73,11 +74,18 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
 end
 
 -- Layout
-Tracker:AddLayouts("layouts/items.jsonc")
-Tracker:AddLayouts("layouts/bestiary.jsonc")
+if IS_HORIZONTAL then
+	Tracker:AddLayouts("var_horizontal/layouts/tracker.jsonc")
+	Tracker:AddLayouts("var_horizontal/layouts/items.jsonc")
+	Tracker:AddLayouts("var_horizontal/layouts/bestiary.jsonc")
+	Tracker:AddLayouts("var_horizontal/layouts/broadcast.jsonc")
+else
+	Tracker:AddLayouts("layouts/tracker.jsonc")
+	Tracker:AddLayouts("layouts/items.jsonc")
+	Tracker:AddLayouts("layouts/bestiary.jsonc")
+	Tracker:AddLayouts("layouts/broadcast.jsonc")
+end
 Tracker:AddLayouts("layouts/popup.json")
-Tracker:AddLayouts("layouts/tracker.jsonc")
-Tracker:AddLayouts("layouts/broadcast.jsonc")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

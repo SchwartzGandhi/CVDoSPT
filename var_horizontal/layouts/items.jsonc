@@ -1,0 +1,192 @@
+{
+	// sets layouts for shadred items grids
+	// bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+	"shared_item_grid": {
+		"type": "dock",
+		"dock": "left",
+		"v_alignment": "stretch",
+		"h_alignment": "stretch",
+		"content": [
+			{
+				"type": "group",
+				"header": "Magic Seals",
+				"dock": "left",
+				"h_alignment": "stretch",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "vertical",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 60,
+								"rows": [
+									[
+										"seal1",
+										"seal2",
+										"seal3"
+									],
+									[
+										"seal4",
+										"seal5"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Boss & Ability Souls",
+				"dock": "left",
+				"h_alignment": "stretch",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "vertical",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 60,
+								"rows": [
+									[
+										"glide", "ice", "gembox", "jump", "puppet", "water"
+									],
+									[
+										"fastwater", "fastmud", "dio", "bat", "mirror", "zip"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Misc Souls",
+				"dock": "left",
+				"h_alignment": "stretch",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "10, 0, 10, 0",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 60,
+								"rows": [
+									[
+										"spirit", "throw"
+									],
+									[
+										"ride", "fast"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "10, 0, 10, 0",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 60,
+								"rows": [
+									[
+										"bone", "axe"
+									],
+									[
+										"cards", "flame"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "10, 0, 10, 0",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 60,
+								"rows": [
+									[
+										"food", "yell" 
+									],
+									[
+										"shock"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Equipment",
+				"dock": "left",
+				"h_alignment": "stretch",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 60,
+								"rows": [
+									[
+										"tkey", "talisman"
+									],
+									[
+										"backslash", "soulring" //"dark"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Soulsanity Toggle",
+				"dock": "right",
+				"h_alignment": "stretch",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "itemgrid",
+						"item_margin": "10, 10",
+						"h_alignment": "center",
+						"item_h_alignment": "center",
+						"item_size": 140,
+						"rows": [
+							[
+								"soulview"
+							]
+						]
+					}
+				]
+			}
+		]
+	}
+}

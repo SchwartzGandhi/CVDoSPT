@@ -1,0 +1,164 @@
+{
+	// sets layouts for shadred items grids
+	// bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+	"shared_soul_grid": {
+		"type": "dock",
+		"dock": "left",
+		"v_alignment": "stretch",
+		"h_alignment": "stretch",
+		"content": [
+			{
+				"type": "group",
+				"header": "Bullet Souls",
+				"dock": "left",
+				"h_alignment": "stretch",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "vertical",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "0, 0",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 40,
+								"rows": [
+									[
+										"zombie", "skeleton", "smallaxe", "warg", "switch", "pinkpig", "bomber", "slime", "une", "slug", "bird", "freak", "soccer", "angel", "waiter"
+									],
+									[
+										"witch", "clown", "littleguy", "guillotine", "bluepig", "imp", "cthulu", "troll", "larva", "fishguy", "bonepillarfish", "goblin", "sandiego", "icedemon", "humanchicken"
+									],
+									[
+										"disc", "wheel", "dog", "bigaxe", "valkyrie2", "yoko", "littleguy2", "devil2", "flaahgra", "lubicant3", "ningyo", "zawarudo", "jester", "aguni", "famine"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Guardian Souls",
+				"dock": "left",
+				"h_alignment": "stretch",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "vertical",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "0, 0",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 40,
+								"rows": [
+									[
+										"smallbat", "ghost", "archer", "hina", "ninja", "tail", "stonecow", "bigune", "bigfoot", "far", "smalldevil", "freebonedragon"
+									],
+									[
+										"valkyrie", "bigarmor", "maid", "firewheel", "devil", "urchin", "bonedragon", "harpy", "lubicant", "stable", "bark", "stonecow2"
+									],
+									[
+                                        "aluraune", "stonetail", "wakanda", "werewolf", "thardus", "bigarmor2", "bigswordlmfao", "invincible", "armor", "gergy", "bad", "death"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Enchantment Souls",
+				"dock": "left",
+				"h_alignment": "stretch",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "0, 0",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 40,
+								"rows": [
+									[
+										"ouija", "eye", "golem", "drydk", "farmer", "frank", "zombie2", "tombstone", "luck"
+									],
+									[
+										"treegolem", "maria", "lilith", "boomerang", "lubicant2", "bonepillar", "littleguytree", "heart", "evilchest"
+									],
+									[
+                                        "pirate", "eye2", "moth", "shield", "jockey", "slug2", "rainbowslime", "devil3", "owl"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Ability Souls",
+				"dock": "left",
+				"h_alignment": "stretch",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "0, 0",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 40,
+								"rows": [
+									[
+										"waterface", "mudface", "balore", "malphas", "rahab"
+									]
+								]
+							}
+						]
+					}
+				]
+			// },
+			// {
+			// 	"type": "group",
+			// 	"header": "Soulsanity Toggle",
+			// 	"dock": "left",
+			// 	"h_alignment": "center",
+			// 	"content": [
+			// 		{
+			// 			"type": "array",
+			// 			"orientation": "horizontal",
+			// 			"margin": "0,0",
+			// 			"content": [
+			// 				{
+			// 					"type": "itemgrid",
+			// 					"item_margin": "10, 10",
+			// 					"h_alignment": "center",
+			// 					"item_size": 50,
+			// 					"rows": [
+			// 						[
+			// 							"soulview"
+			// 						]
+			// 					]
+			// 				}
+			// 			]
+			// 		}
+			// 	]
+			}
+		]
+	}
+}
