@@ -28,7 +28,7 @@ function LinkSouls(item_code)
         if item_code == item_soul then
             local link_obj = Tracker:FindObjectForCode(soul_entry)
             link_obj.Active = code_obj.Active
-        elseif item_code == soulentry then
+        elseif item_code == soul_entry then
             local link_obj = Tracker:FindObjectForCode(item_soul)
             link_obj.Active = code_obj.Active
         end

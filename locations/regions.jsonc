@@ -92,21 +92,21 @@
 			{
 				"name": "WLSunken",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLSunkenWestDoor",
-					"@Wizardry Lab Regions/WLSunkenEastDoor"
+					"@Wizardry Lab Regions/WLSunkenWestDoor, water",
+					"@Wizardry Lab Regions/WLSunkenEastDoor, water"
 				]
 			},
 			{
 				"name": "WLSunkenWestDoor",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLSunken",
+					"@Wizardry Lab Regions/WLSunken, water",
 					"@The Lost Village Regions/LVUndergroundBottom"
 				]
 			},
 			{
 				"name": "WLSunkenEastDoor",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLSunken",
+					"@Wizardry Lab Regions/WLSunken, water",
 					"@Subterranean Hell Regions/SHSpikeRoomWest"
 				]
 			}

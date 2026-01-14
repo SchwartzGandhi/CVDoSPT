@@ -26,13 +26,10 @@
 								"item_size": 66,
 								"rows": [
 									[
-										"seal1",
-										"seal2",
-										"seal3"
+										"seal1", "seal2", "seal3"
 									],
 									[
-										"seal4",
-										"seal5"
+										"seal4", "seal5"
 									]
 								]
 							}
@@ -60,22 +57,13 @@
 								"item_size": 50,
 								"rows": [
 									[
-										"glide",
-										"ice",
-										"gembox",
-										"jump"
+										"glide", "ice", "gembox", "jump"
 									],
 									[
-										"puppet",
-										"water",
-										"fastwater",
-										"fastmud"
+										"puppet", "water", "fastwater", "fastmud"
 									],
 									[
-										"dio",
-										"bat",
-										"mirror",
-										"zip"
+										"dio", "bat", "mirror", "zip"
 									]
 								]
 							}
@@ -103,21 +91,13 @@
 								"item_size": 50,
 								"rows": [
 									[
-										"spirit",
-										"throw",
-										"ride",
-										"fast"
+										"spirit", "throw", "ride", "fast"
 									],
 									[
-										"food",
-										"yell",
-										"shock"
+										"food", "yell", "shock"
 									],
 									[
-										"bone",
-										"axe",
-										"cards",
-										"flame"
+										"bone", "axe", "cards", "flame"
 									]
 								]
 							}
@@ -145,11 +125,7 @@
 								"item_size": 50,
 								"rows": [
 									[
-										"tkey",
-										"talisman",
-										"backslash",
-										"soulring"
-										//"dark"
+										"tkey", "talisman", "backslash", "soulring"
 									]
 								]
 							}
