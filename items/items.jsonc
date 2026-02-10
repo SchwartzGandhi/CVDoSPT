@@ -39,6 +39,30 @@
 		"codes": "tkey"
 	},
 	{
+		"name": "Cavern Gate Key",
+		"type": "toggle",
+		"img": "images/items/key.png",
+		"codes": "ckey"
+	},
+	{
+		"name": "West Lab Key Key",
+		"type": "toggle",
+		"img": "images/items/key.png",
+		"codes": "wkey"
+	},
+	{
+		"name": "East Lab Key",
+		"type": "toggle",
+		"img": "images/items/key.png",
+		"codes": "ekey"
+	},
+	{
+		"name": "Garden Gate Key",
+		"type": "toggle",
+		"img": "images/items/key.png",
+		"codes": "gkey"
+	},
+	{
 		"name": "Mina's Talisman",
 		"type": "toggle",
 		"img": "images/items/talisman.png",

@@ -17,6 +17,10 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 0577] = {{"seal5", "toggle"}},
 
 	[BASE_ITEM_ID + 0569] = {{"tkey", "toggle"}},
+	[BASE_ITEM_ID + 0718] = {{"wkey", "toggle"}},
+	[BASE_ITEM_ID + 0719] = {{"ekey", "toggle"}},
+	[BASE_ITEM_ID + 0720] = {{"gkey", "toggle"}},
+	[BASE_ITEM_ID + 0721] = {{"ckey", "toggle"}},
 	[BASE_ITEM_ID + 1077] = {{"talisman", "toggle"}},
 	[BASE_ITEM_ID + 0772] = {{"cutall", "toggle"}}, -- Cutall
 	[BASE_ITEM_ID + 0773] = {{"cutall", "toggle"}}, -- Cinquedia
