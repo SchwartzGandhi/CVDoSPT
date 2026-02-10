@@ -135,6 +135,13 @@ function apply_slot_data(slot_data)
 		speed.Active = true
 	end
 
+	local buttons = Tracker:FindObjectForCode('buttons')
+	if slot_data["buttonsanity"] then
+		buttons.CurrentStage = slot_data["buttonsanity"]
+	else
+		buttons.CurrentStage = 0
+	end
+
 	local SOUL_WALL_LIST = slot_data["soul_walls"]
 
 	local dc = Tracker:FindObjectForCode('dcsoul')

@@ -12,7 +12,7 @@
                 "item_h_alignment": "center",
                 "item_size": 128,
                 "rows": [
-                    ["goal", "warp", "soulsanity", "souls", "drawbridge", "speed"],
+                    ["goal", "warp", "soulsanity", "souls", "buttons", "drawbridge", "speed"],
                     ["dcsoulwall", "dcsoul", "dghsoulwall", "dghsoul1", "dghsoul2", "dghsoul3"]
                 ]
             }

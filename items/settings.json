@@ -142,6 +142,30 @@
         ]
     },
     {
+        "name": "Gate Buttons",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/settings/buttons_off.png",
+                "codes": "buttons, buttonsoff",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/button_keys.png",
+                "codes": "buttons, buttonkeys",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/buttonsanity.png",
+                "codes": "buttons, buttonsanity",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Speed Boost",
         "img": "images/settings/speed.png",
         "type": "toggle",
@@ -276,83 +300,68 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/70.png",
+                "img": "images/enemies/63.png",
                 "codes": "dcsoul, dc23",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/63.png",
+                "img": "images/enemies/61.png",
                 "codes": "dcsoul, dc24",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/61.png",
+                "img": "images/enemies/66.png",
                 "codes": "dcsoul, dc25",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/66.png",
+                "img": "images/enemies/73.png",
                 "codes": "dcsoul, dc26",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/73.png",
+                "img": "images/enemies/86.png",
                 "codes": "dcsoul, dc27",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/86.png",
+                "img": "images/enemies/96.png",
                 "codes": "dcsoul, dc28",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/96.png",
+                "img": "images/enemies/85.png",
                 "codes": "dcsoul, dc29",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/85.png",
+                "img": "images/enemies/71.png",
                 "codes": "dcsoul, dc30",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/71.png",
+                "img": "images/enemies/42.png",
                 "codes": "dcsoul, dc31",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/42.png",
+                "img": "images/enemies/64.png",
                 "codes": "dcsoul, dc32",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/64.png",
+                "img": "images/enemies/74.png",
                 "codes": "dcsoul, dc33",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/20.png",
+                "img": "images/enemies/92.png",
                 "codes": "dcsoul, dc34",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/74.png",
-                "codes": "dcsoul, dc35",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/enemies/99.png",
-                "codes": "dcsoul, dc36",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/enemies/92.png",
-                "codes": "dcsoul, dc37",
-                "inherit_codes": false
-            },
-            {
                 "img": "images/enemies/115.png",
-                "codes": "dcsoul, dc38",
+                "codes": "dcsoul, dc35",
                 "inherit_codes": false
             }
         ]
@@ -486,83 +495,68 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/70.png",
+                "img": "images/enemies/63.png",
                 "codes": "dghsoul1, dgh23",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/63.png",
+                "img": "images/enemies/61.png",
                 "codes": "dghsoul1, dgh24",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/61.png",
+                "img": "images/enemies/66.png",
                 "codes": "dghsoul1, dgh25",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/66.png",
+                "img": "images/enemies/73.png",
                 "codes": "dghsoul1, dgh26",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/73.png",
+                "img": "images/enemies/86.png",
                 "codes": "dghsoul1, dgh27",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/86.png",
+                "img": "images/enemies/96.png",
                 "codes": "dghsoul1, dgh28",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/96.png",
+                "img": "images/enemies/85.png",
                 "codes": "dghsoul1, dgh29",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/85.png",
+                "img": "images/enemies/71.png",
                 "codes": "dghsoul1, dgh30",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/71.png",
+                "img": "images/enemies/42.png",
                 "codes": "dghsoul1, dgh31",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/42.png",
+                "img": "images/enemies/64.png",
                 "codes": "dghsoul1, dgh32",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/64.png",
+                "img": "images/enemies/74.png",
                 "codes": "dghsoul1, dgh33",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/20.png",
+                "img": "images/enemies/92.png",
                 "codes": "dghsoul1, dgh34",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/74.png",
-                "codes": "dghsoul1, dgh35",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/enemies/99.png",
-                "codes": "dghsoul1, dgh36",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/enemies/92.png",
-                "codes": "dghsoul1, dgh37",
-                "inherit_codes": false
-            },
-            {
                 "img": "images/enemies/115.png",
-                "codes": "dghsoul1, dgh38",
+                "codes": "dghsoul1, dgh35",
                 "inherit_codes": false
             }
         ]
@@ -690,83 +684,68 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/70.png",
+                "img": "images/enemies/63.png",
                 "codes": "dghsoul2, dgh23",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/63.png",
+                "img": "images/enemies/61.png",
                 "codes": "dghsoul2, dgh24",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/61.png",
+                "img": "images/enemies/66.png",
                 "codes": "dghsoul2, dgh25",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/66.png",
+                "img": "images/enemies/73.png",
                 "codes": "dghsoul2, dgh26",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/73.png",
+                "img": "images/enemies/86.png",
                 "codes": "dghsoul2, dgh27",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/86.png",
+                "img": "images/enemies/96.png",
                 "codes": "dghsoul2, dgh28",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/96.png",
+                "img": "images/enemies/85.png",
                 "codes": "dghsoul2, dgh29",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/85.png",
+                "img": "images/enemies/71.png",
                 "codes": "dghsoul2, dgh30",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/71.png",
+                "img": "images/enemies/42.png",
                 "codes": "dghsoul2, dgh31",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/42.png",
+                "img": "images/enemies/64.png",
                 "codes": "dghsoul2, dgh32",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/64.png",
+                "img": "images/enemies/74.png",
                 "codes": "dghsoul2, dgh33",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/20.png",
+                "img": "images/enemies/92.png",
                 "codes": "dghsoul2, dgh34",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/74.png",
-                "codes": "dghsoul2, dgh35",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/enemies/99.png",
-                "codes": "dghsoul2, dgh36",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/enemies/92.png",
-                "codes": "dghsoul2, dgh37",
-                "inherit_codes": false
-            },
-            {
                 "img": "images/enemies/115.png",
-                "codes": "dghsoul2, dgh38",
+                "codes": "dghsoul2, dgh35",
                 "inherit_codes": false
             }
         ]
@@ -894,83 +873,68 @@
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/70.png",
+                "img": "images/enemies/63.png",
                 "codes": "dghsoul3, dgh23",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/63.png",
+                "img": "images/enemies/61.png",
                 "codes": "dghsoul3, dgh24",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/61.png",
+                "img": "images/enemies/66.png",
                 "codes": "dghsoul3, dgh25",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/66.png",
+                "img": "images/enemies/73.png",
                 "codes": "dghsoul3, dgh26",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/73.png",
+                "img": "images/enemies/86.png",
                 "codes": "dghsoul3, dgh27",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/86.png",
+                "img": "images/enemies/96.png",
                 "codes": "dghsoul3, dgh28",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/96.png",
+                "img": "images/enemies/85.png",
                 "codes": "dghsoul3, dgh29",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/85.png",
+                "img": "images/enemies/71.png",
                 "codes": "dghsoul3, dgh30",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/71.png",
+                "img": "images/enemies/42.png",
                 "codes": "dghsoul3, dgh31",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/42.png",
+                "img": "images/enemies/64.png",
                 "codes": "dghsoul3, dgh32",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/64.png",
+                "img": "images/enemies/74.png",
                 "codes": "dghsoul3, dgh33",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/20.png",
+                "img": "images/enemies/92.png",
                 "codes": "dghsoul3, dgh34",
                 "inherit_codes": false
             },
             {
-                "img": "images/enemies/74.png",
-                "codes": "dghsoul3, dgh35",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/enemies/99.png",
-                "codes": "dghsoul3, dgh36",
-                "inherit_codes": false
-            },
-            {
-                "img": "images/enemies/92.png",
-                "codes": "dghsoul3, dgh37",
-                "inherit_codes": false
-            },
-            {
                 "img": "images/enemies/115.png",
-                "codes": "dghsoul3, dgh38",
+                "codes": "dghsoul3, dgh35",
                 "inherit_codes": false
             }
         ]
