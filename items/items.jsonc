@@ -31,37 +31,38 @@
 		"img": "images/items/bigseal5.png",
 		"codes": "seal5"
 	},
-	// Equipment
+	// Keys
 	{
 		"name": "Tower Key",
 		"type": "toggle",
-		"img": "images/items/key.png",
+		"img": "images/items/tower.png",
 		"codes": "tkey"
 	},
 	{
-		"name": "Cavern Gate Key",
+		"name": "West Lab Gate Key",
 		"type": "toggle",
-		"img": "images/items/key.png",
-		"codes": "ckey"
-	},
-	{
-		"name": "West Lab Key Key",
-		"type": "toggle",
-		"img": "images/items/key.png",
+		"img": "images/items/westlab.png",
 		"codes": "wkey"
 	},
 	{
-		"name": "East Lab Key",
+		"name": "East Lab Gate Key",
 		"type": "toggle",
-		"img": "images/items/key.png",
+		"img": "images/items/eastlab.png",
 		"codes": "ekey"
 	},
 	{
 		"name": "Garden Gate Key",
 		"type": "toggle",
-		"img": "images/items/key.png",
+		"img": "images/items/garden.png",
 		"codes": "gkey"
 	},
+	{
+		"name": "Cavern Gate Key",
+		"type": "toggle",
+		"img": "images/items/cavern.png",
+		"codes": "ckey"
+	},
+	// Equipment
 	{
 		"name": "Mina's Talisman",
 		"type": "toggle",

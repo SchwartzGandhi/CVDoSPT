@@ -22,9 +22,9 @@ ITEM_MAPPING = {
 	[BASE_ITEM_ID + 0720] = {{"gkey", "toggle"}},
 	[BASE_ITEM_ID + 0721] = {{"ckey", "toggle"}},
 	[BASE_ITEM_ID + 1077] = {{"talisman", "toggle"}},
-	[BASE_ITEM_ID + 0772] = {{"cutall", "toggle"}}, -- Cutall
-	[BASE_ITEM_ID + 0773] = {{"cutall", "toggle"}}, -- Cinquedia
-	[BASE_ITEM_ID + 0796] = {{"cutall", "toggle"}}, -- Alucard Sword
+	[BASE_ITEM_ID + 0772] = {{"backslash", "toggle"}}, -- Cutall
+	[BASE_ITEM_ID + 0773] = {{"backslash", "toggle"}}, -- Cinquedia
+	[BASE_ITEM_ID + 0796] = {{"backslash", "toggle"}}, -- Alucard Sword
 	[BASE_ITEM_ID + 1080] = {{"soulring", "toggle"}},
 
 	[BASE_ITEM_ID + 1333] = {{"glide", "toggle"}, {"armor", "toggle"}},
