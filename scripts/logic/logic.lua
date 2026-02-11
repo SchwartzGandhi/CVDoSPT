@@ -47,8 +47,15 @@ function holes()
     return has("puppet") or has("bat")
 end
 
+-- Negative Settings
 function abyssaccess()
     return has("abyss") or has("abyssplus")
+end
+
+function buttons_on()
+    if has("buttonkeys") or has("buttonsanity") then
+        return true
+    end
 end
 
 function low()
@@ -69,8 +76,8 @@ function oulviewoff()
     end
 end
 
-function cutallclips()
-    if has("cutall") then
+function backslashclips()
+    if has("backslash") then
         return AccessibilityLevel.SequenceBreak
     else
         return AccessibilityLevel.None

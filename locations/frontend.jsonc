@@ -495,7 +495,11 @@
 				"sections": [
 					{
 						"name": "Behind West Gate",
-						"ref": "Wizardry Lab/Behind West Gate/"
+						"ref": "Wizardry Lab/Behind West Gate/Item"
+					},
+					{
+						"name": "West Gate Button",
+						"ref": "Wizardry Lab/Behind West Gate/Button"
 					}
 				],
 				"map_locations": [
@@ -552,7 +556,11 @@
 				"sections": [
 					{
 						"name": "East Gate",
-						"ref": "Wizardry Lab/East Gate/"
+						"ref": "Wizardry Lab/East Gate/Item"
+					},
+					{
+						"name": "East Gate Button",
+						"ref": "Wizardry Lab/East Gate/Button"
 					}
 				],
 				"map_locations": [
@@ -812,6 +820,25 @@
 						"map": "Dracula's Castle",
 						"x": 812,
 						"y": 472,
+						"restrict_visibility_rules": [
+							"$oulviewoff"
+						]
+					}
+				]
+			},
+			{
+				"name": "Garden of Madness",
+				"sections": [
+					{
+						"name": "Gate Button",
+						"ref": "Garden of Madness/Gate Button/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 692,
+						"y": 372,
 						"restrict_visibility_rules": [
 							"$oulviewoff"
 						]
@@ -2064,6 +2091,25 @@
 					{
 						"map": "Dracula's Castle",
 						"x": 612,
+						"y": 732,
+						"restrict_visibility_rules": [
+							"$oulviewoff"
+						]
+					}
+				]
+			},
+			{
+				"name": "Subterranean Hell",
+				"sections": [
+					{
+						"name": "Gate Button",
+						"ref": "Subterranean Hell/Gate Button/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 892,
 						"y": 732,
 						"restrict_visibility_rules": [
 							"$oulviewoff"

@@ -755,7 +755,7 @@
         "type": "progressive",
         "loop": true,
         "allow_disabled": false,
-        "initial_stage_idx": 26,
+        "initial_stage_idx": 25,
         "stages": [
             {
                 "img": "images/enemies/4.png",

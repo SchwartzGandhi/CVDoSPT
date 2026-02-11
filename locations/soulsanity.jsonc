@@ -1527,6 +1527,7 @@
 						"name": "Ghost Soul",
 						"access_rules": [
 							"@Wizardry Lab Regions/WLMain",
+							"@Wizardry Lab Regions/WLSunkenWestDoor",
 							"@The Dark Chapel Regions/DC"
 						],
 						"sections": [
@@ -1956,7 +1957,7 @@
 					{
 						"name": "Gorgon Soul",
 						"access_rules": [
-							"@Silenced Ruins Regions/SRBackExit"
+							"@Silenced Ruins Regions/SRUpperEntrance"
 						],
 						"sections": [
 							{

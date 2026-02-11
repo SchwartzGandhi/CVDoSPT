@@ -344,6 +344,10 @@
 							{
 								"name": "Iron Golem Soul",
 								"ref": "Soulsanity/Rare Souls/Iron Golem Soul/"
+							},
+							{
+								"name": "Ghost Soul",
+								"ref": "Soulsanity/Rare Souls/Ghost Soul/"
 							}
 						],
 						"map_locations": [
@@ -1434,7 +1438,7 @@
 						]
 					},
 					{
-						"name": "SR Back Exit",
+						"name": "SR Upper Entrance",
 						"sections": [
 							{
 								"name": "Waiter Skeleton Soul",
@@ -1443,12 +1447,35 @@
 							{
 								"name": "Gorgon Soul",
 								"ref": "Soulsanity/Rare Souls/Gorgon Soul/"
+							},
+							{
+								"name": "Peeping Eye Soul",
+								"ref": "Soulsanity/Rare Souls/Peeping Eye Soul/"
 							}
 						],
 						"map_locations": [
 							{
 								"map": "Dracula's Castle",
-								"x": 832,
+								"x": 772,
+								"y": 822,
+								"restrict_visibility_rules": [
+									"soulview"
+								]
+							}
+						]
+					},
+					{
+						"name": "SR Back Exit",
+						"sections": [
+							{
+								"name": "Waiter Skeleton Soul",
+								"ref": "Soulsanity/Uncommon Souls/Waiter Skeleton Soul/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Dracula's Castle",
+								"x": 852,
 								"y": 732,
 								"restrict_visibility_rules": [
 									"soulview"

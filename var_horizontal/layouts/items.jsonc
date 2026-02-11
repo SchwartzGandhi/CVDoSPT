@@ -155,10 +155,41 @@
 								"item_size": 60,
 								"rows": [
 									[
-										"tkey", "talisman"
+										"talisman", "soulring"
 									],
 									[
-										"backslash", "soulring" //"dark"
+										"backslash" //"dark"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Keys",
+				"dock": "left",
+				"h_alignment": "stretch",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"margin": "0,0",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 60,
+								"rows": [
+									[
+										"tkey", "gkey", "ckey"
+									],
+									[
+										"wkey", "ekey"
 									]
 								]
 							}

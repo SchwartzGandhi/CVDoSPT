@@ -235,13 +235,6 @@
 					{
 						"name": ""
 					}
-				],
-				"map_locations": [
-					{
-						"map": "Dracula's Castle",
-						"x": 171,
-						"y": 632
-					}
 				]
 			},
 			{
@@ -252,13 +245,6 @@
 				"sections": [
 					{
 						"name": ""
-					}
-				],
-				"map_locations": [
-					{
-						"map": "Dracula's Castle",
-						"x": 212,
-						"y": 612
 					}
 				]
 			}
@@ -322,12 +308,27 @@
 			{
 				"name": "Behind West Gate",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLWestGate",
-					"{@Wizardry Lab Regions/WLMain}"
+					"@Wizardry Lab Regions/WLWestGate"
 				],
 				"sections": [
 					{
-						"name": ""
+						"name": "Item",
+						"access_rules": [
+							"",
+							"{@Wizardry Lab Regions/WLMain}"
+						]
+					},
+					{
+						"name": "Button",
+						"chest_unopened_img": "images/items/button.png",
+						"chest_opened_img": "images/items/button_pressed.png",
+						"visibility_rules": [
+							"buttonsanity"
+						],
+						"access_rules": [
+							"",
+							"[@Wizardry Lab Regions/WLMain, backslash]"
+						]
 					}
 				]
 			},
@@ -361,12 +362,27 @@
 			{
 				"name": "East Gate",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLEastGate",
-					"{@Wizardry Lab Regions/WLMain}"
+					"@Wizardry Lab Regions/WLEastGate"
 				],
 				"sections": [
 					{
-						"name": ""
+						"name": "Item",
+						"access_rules": [
+							"",
+							"{@Wizardry Lab Regions/WLMain}"
+						]
+					},
+					{
+						"name": "Button",
+						"chest_unopened_img": "images/items/button.png",
+						"chest_opened_img": "images/items/button_pressed.png",
+						"visibility_rules": [
+							"buttonsanity"
+						],
+						"access_rules": [
+							"",
+							"[@Wizardry Lab Regions/WLMain, backslash]"
+						]
 					}
 				]
 			},
@@ -521,6 +537,23 @@
 				"sections": [
 					{
 						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Gate Button",
+				"visibility_rules": [
+					"buttonsanity"
+				],
+				"access_rules": [
+					"@Garden of Madness Regions/GoMEastGate",
+					"[@Garden of Madness Regions/GoMPostBoss, backslash]"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/items/button.png",
+						"chest_opened_img": "images/items/button_pressed.png"
 					}
 				]
 			},
@@ -1320,6 +1353,23 @@
 				"sections": [
 					{
 						"name": ""
+					}
+				]
+			},
+			{
+				"name": "Gate Button",
+				"visibility_rules": [
+					"buttonsanity"
+				],
+				"access_rules": [
+					"@Silenced Ruins Regions/SRBackExit",
+					"[@Subterranean Hell Regions/SHButtonGateRoom, backslash]"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/items/button.png",
+						"chest_opened_img": "images/items/button_pressed.png"
 					}
 				]
 			}

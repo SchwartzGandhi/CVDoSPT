@@ -70,8 +70,12 @@
 				"access_rules": [
 					"@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/",
 					"wlwarp, @Warp Room",
-					"@Wizardry Lab Regions/WLEastGate",
-					"@Wizardry Lab Regions/WLWestGate",
+					"@Wizardry Lab Regions/WLEastGate, buttonsoff",
+					"@Wizardry Lab Regions/WLEastGate, $buttons_on, ekey",
+					"[@Wizardry Lab Regions/WLEastGate, buttonsanity, backslash, yoko]",
+					"@Wizardry Lab Regions/WLWestGate, buttonsoff",
+					"@Wizardry Lab Regions/WLWestGate, $buttons_on, wkey",
+					"[@Wizardry Lab Regions/WLWestGate, buttonsanity, backslash, yoko]",
 					"@Garden of Madness Regions/GoMLower"
 				]
 			},
@@ -79,14 +83,18 @@
 				"name": "WLWestGate",
 				"access_rules": [
 					"@The Lost Village Regions/LVUndergroundMiddle",
-					"@Wizardry Lab Regions/WLMain, ^$cutallclips"
+					"@Wizardry Lab Regions/WLMain, $buttons_on, wkey",
+					"[@Wizardry Lab Regions/WLMain, buttonsoff, backslash]",
+					"[@Wizardry Lab Regions/WLMain, buttonsanity, backslash, yoko]"
 				]
 			},
 			{
 				"name": "WLEastGate",
 				"access_rules": [
 					"@Subterranean Hell Regions/SHShaftTop",
-					"@Wizardry Lab Regions/WLMain, ^$cutallclips"
+					"@Wizardry Lab Regions/WLMain, $buttons_on, ekey",
+					"[@Wizardry Lab Regions/WLMain, buttonsoff, backslash]",
+					"[@Wizardry Lab Regions/WLMain, buttonsanity, backslash, yoko]"
 				]
 			},
 			{
@@ -145,14 +153,19 @@
 				"name": "GoMPostBoss",
 				"access_rules": [
 					"@Garden of Madness Regions/GoMUpper, seal2",
-					"@Demon Guest House Regions/DGHMain"
+					"@Demon Guest House Regions/DGHMain",
+					"@Garden of Madness Regions/GoMEastGate, buttonsoff",
+					"@Garden of Madness Regions/GoMEastGate, $buttons_on, gkey",
+					"[@Garden of Madness Regions/GoMEastGate, buttonsanity, backslash, yoko]"
 				]
 			},
 			{
 				"name": "GoMEastGate",
 				"access_rules": [
 					"@Cursed Clock Tower Regions/CCTEntrance",
-					"@Garden of Madness Regions/GoMUpper, ^$cutallclips"
+					"@Garden of Madness Regions/GoMPostBoss, $buttons_on, gkey",
+					"[@Garden of Madness Regions/GoMPostBoss, buttonsoff, backslash]",
+					"[@Garden of Madness Regions/GoMPostBoss, buttonsanity, backslash, yoko]"
 				]
 			}
 		]
@@ -250,7 +263,7 @@
 			{
 				"name": "CTBottom",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC, ^$cutallclips",
+					"@The Dark Chapel Regions/DC, ^$backslashclips",
 					"@The Dark Chapel Regions/DCBigRoom",
 					"@Condemned Tower Regions/CTTop"
 				]
@@ -325,6 +338,7 @@
 				"access_rules": [
 					"@Subterranean Hell Regions/SHTopEntrance, water, seal3",
 					"@Subterranean Hell Regions/SHCentralEastConnection, $tinyuppies",
+					"@Subterranean Hell Regions/SHButtonGateRoom, $tinyuppies",
 					"@Silenced Ruins Regions/SRBackExit"
 				]
 			},
@@ -412,6 +426,15 @@
 					"soulsanity, @Subterranean Hell Regions/SHSpikeRoomWest, water, ride",
 					"soulsanity, @Subterranean Hell Regions/SHSpikeRoomWest, water, puppet, throw"
 				]
+			},
+			{
+				"name": "SHButtonGateRoom",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHEast",
+					"@Silenced Ruins Regions/SRBackExit, buttonsoff",
+					"@Silenced Ruins Regions/SRBackExit, $buttons_on, ckey",
+					"[@Silenced Ruins Regions/SRBackExit, buttonsanity, backslash, yoko]"
+				]
 			}
 		]
 	},
@@ -423,7 +446,8 @@
 				"access_rules": [
 					"@Subterranean Hell Regions/SHShaftBottom, $tinyuppies",
 					"@Subterranean Hell Regions/SHShaftBottom, $widies",
-					"@Silenced Ruins Regions/SR, dio"
+					"@Silenced Ruins Regions/SRUpperEntrance, dio",
+					"@Silenced Ruins Regions/SR"
 				]
 			},
 			{
@@ -435,10 +459,19 @@
 				]
 			},
 			{
+				"name": "SRUpperEntrance",
+				"access_rules": [
+					"@Silenced Ruins Regions/SRAntechamber, dio",
+					"@Silenced Ruins Regions/SR, $tinyuppies"
+				]
+			},
+			{
 				"name": "SRBackExit",
 				"access_rules": [
 					"@Silenced Ruins Regions/SR, $smalluppies",
-					"@Subterranean Hell Regions/SHEast, ^$cutallclips"
+					"@Subterranean Hell Regions/SHButtonGateRoom, $buttons_on, ckey",
+					"[@Subterranean Hell Regions/SHButtonGateRoom, buttonsoff, backslash]",
+					"[@Subterranean Hell Regions/SHButtonGateRoom, buttonsanity, backslash, yoko]"
 				]
 			}
 		]
