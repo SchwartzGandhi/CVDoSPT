@@ -76,7 +76,20 @@ function oulviewoff()
     end
 end
 
-function backslashclips()
+function gateclips()
+    if has("buttonsoff") then
+        if has("backslash") then
+            return AccessibilityLevel.SequenceBreak
+        end
+    else
+        if has("backslash") and has("yoko") then
+            return AccessibilityLevel.SequenceBreak
+        end
+    end
+    return AccessibilityLevel.None
+end
+
+function unsupportedgate()
     if has("backslash") then
         return AccessibilityLevel.SequenceBreak
     else
