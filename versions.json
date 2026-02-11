@@ -1,14 +1,14 @@
 {
     "versions": [
         {
-            "package_version": "4.0",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/4.0/CVDoSPT.zip",
-            "sha256": "2ced86ed533100113c0c646054656f18fa1a00ae3e39657d34bdfa653e5f75c3",
+            "package_version": "4.1",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/4.1/CVDoSPT.zip",
+            "sha256": "cb39b72919335cb6325129265c0d682f39261d994baadcb472346b219457167e",
             "changelog": [
-                "The pack now has an alternate horizontal view",
-                "item/soul syncing now works both ways",
-                "Logic now expects you to have Rahab to cross Sunken Wizardry Lab",
-                "Gave the Cutall, Cinquedia & Alucard Sword item a better name lol"
+                "Removed Mollusca, Frozen Shade, and Malacoda from the random wall soul pool",
+                "Added buttonsanity support",
+                "Tower key is in a new category 'Keys' along with the keys added from gate items",
+                "Misc logic updates"
             ]
         }
     ]
