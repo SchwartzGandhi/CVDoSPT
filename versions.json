@@ -1,14 +1,11 @@
 {
     "versions": [
         {
-            "package_version": "4.1",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/4.1/CVDoSPT.zip",
-            "sha256": "cb39b72919335cb6325129265c0d682f39261d994baadcb472346b219457167e",
+            "package_version": "4.2",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/4.2/CVDoSPT.zip",
+            "sha256": "5912462a44fe0a24a1d7d53bd5868ab23ea1e51e23d461ca03f291894a8f549b",
             "changelog": [
-                "Removed Mollusca, Frozen Shade, and Malacoda from the random wall soul pool",
-                "Added buttonsanity support",
-                "Tower key is in a new category 'Keys' along with the keys added from gate items",
-                "Misc logic updates"
+                "Fixed location mapping for Wizardry Lab West Gate items"
             ]
         }
     ]
