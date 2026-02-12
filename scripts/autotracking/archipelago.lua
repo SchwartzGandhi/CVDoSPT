@@ -131,15 +131,15 @@ function apply_slot_data(slot_data)
 	end
 
 	local speed = Tracker:FindObjectForCode('speed')
-	if slot_data["speed_boost"] then
+	if slot_data["speed_boost"] == 1 then
 		speed.Active = true
+	else
+		speed.Active = false
 	end
 
 	local buttons = Tracker:FindObjectForCode('buttons')
 	if slot_data["buttonsanity"] then
 		buttons.CurrentStage = slot_data["buttonsanity"]
-	else
-		buttons.CurrentStage = 0
 	end
 
 	local SOUL_WALL_LIST = slot_data["soul_walls"]
