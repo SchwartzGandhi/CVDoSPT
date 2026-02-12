@@ -70,11 +70,11 @@
 				"access_rules": [
 					"@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/",
 					"wlwarp, @Warp Room",
-					"@Wizardry Lab Regions/WLEastGate, buttonsoff",
-					"@Wizardry Lab Regions/WLEastGate, $buttons_on, ekey",
+					"@Wizardry Lab Regions/WLEastGate, $workingbuttons",
+					"@Wizardry Lab Regions/WLEastGate, ekey",
 					"@Wizardry Lab Regions/WLEastGate, ^$gateclips",
-					"@Wizardry Lab Regions/WLWestGate, buttonsoff",
-					"@Wizardry Lab Regions/WLWestGate, $buttons_on, wkey",
+					"@Wizardry Lab Regions/WLWestGate, $workingbuttons",
+					"@Wizardry Lab Regions/WLWestGate, wkey",
 					"@Wizardry Lab Regions/WLWestGate, ^$gateclips",
 					"@Garden of Madness Regions/GoMLower"
 				]
@@ -83,7 +83,7 @@
 				"name": "WLWestGate",
 				"access_rules": [
 					"@The Lost Village Regions/LVUndergroundMiddle",
-					"@Wizardry Lab Regions/WLMain, $buttons_on, wkey",
+					"@Wizardry Lab Regions/WLMain, wkey",
 					"@Wizardry Lab Regions/WLMain, ^$gateclips"
 				]
 			},
@@ -91,7 +91,7 @@
 				"name": "WLEastGate",
 				"access_rules": [
 					"@Subterranean Hell Regions/SHShaftTop",
-					"@Wizardry Lab Regions/WLMain, $buttons_on, ekey",
+					"@Wizardry Lab Regions/WLMain, ekey",
 					"@Wizardry Lab Regions/WLMain, ^$gateclips"
 				]
 			},
@@ -152,8 +152,8 @@
 				"access_rules": [
 					"@Garden of Madness Regions/GoMUpper, seal2",
 					"@Demon Guest House Regions/DGHMain",
-					"@Garden of Madness Regions/GoMEastGate, buttonsoff",
-					"@Garden of Madness Regions/GoMEastGate, $buttons_on, gkey",
+					"@Garden of Madness Regions/GoMEastGate, $workingbuttons",
+					"@Garden of Madness Regions/GoMEastGate, gkey",
 					"@Garden of Madness Regions/GoMEastGate, ^$gateclips"
 				]
 			},
@@ -161,7 +161,7 @@
 				"name": "GoMEastGate",
 				"access_rules": [
 					"@Cursed Clock Tower Regions/CCTEntrance",
-					"@Garden of Madness Regions/GoMPostBoss, $buttons_on, gkey",
+					"@Garden of Madness Regions/GoMPostBoss, gkey",
 					"@Garden of Madness Regions/GoMPostBoss, ^$gateclips"
 				]
 			}
@@ -428,8 +428,8 @@
 				"name": "SHButtonGateRoom",
 				"access_rules": [
 					"@Subterranean Hell Regions/SHEast",
-					"@Silenced Ruins Regions/SRBackExit, buttonsoff",
-					"@Silenced Ruins Regions/SRBackExit, $buttons_on, ckey",
+					"@Silenced Ruins Regions/SRBackExit, $workingbuttons",
+					"@Silenced Ruins Regions/SRBackExit, ckey",
 					"@Silenced Ruins Regions/SRBackExit, ^$gateclips"
 				]
 			}
@@ -466,7 +466,7 @@
 				"name": "SRBackExit",
 				"access_rules": [
 					"@Silenced Ruins Regions/SR, $smalluppies",
-					"@Subterranean Hell Regions/SHButtonGateRoom, $buttons_on, ckey",
+					"@Subterranean Hell Regions/SHButtonGateRoom, ckey",
 					"@Subterranean Hell Regions/SHButtonGateRoom, ^$gateclips"
 				]
 			}
