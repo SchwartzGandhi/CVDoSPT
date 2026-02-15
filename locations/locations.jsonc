@@ -307,14 +307,11 @@
 			},
 			{
 				"name": "Behind West Gate",
-				"access_rules": [
-					"@Wizardry Lab Regions/WLWestGate"
-				],
 				"sections": [
 					{
 						"name": "Item",
 						"access_rules": [
-							"",
+							"@Wizardry Lab Regions/WLWestGate",
 							"{@Wizardry Lab Regions/WLMain}"
 						]
 					},
@@ -326,7 +323,7 @@
 							"buttonsanity"
 						],
 						"access_rules": [
-							"",
+							"@Wizardry Lab Regions/WLWestGate",
 							"[@Wizardry Lab Regions/WLMain, backslash]"
 						]
 					}
@@ -361,14 +358,11 @@
 			},
 			{
 				"name": "East Gate",
-				"access_rules": [
-					"@Wizardry Lab Regions/WLEastGate"
-				],
 				"sections": [
 					{
 						"name": "Item",
 						"access_rules": [
-							"",
+							"@Wizardry Lab Regions/WLEastGate",
 							"{@Wizardry Lab Regions/WLMain}"
 						]
 					},
@@ -380,7 +374,7 @@
 							"buttonsanity"
 						],
 						"access_rules": [
-							"",
+							"@Wizardry Lab Regions/WLEastGate",
 							"[@Wizardry Lab Regions/WLMain, backslash]"
 						]
 					}

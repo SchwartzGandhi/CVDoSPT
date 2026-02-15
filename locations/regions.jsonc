@@ -335,8 +335,7 @@
 				"access_rules": [
 					"@Subterranean Hell Regions/SHTopEntrance, water, seal3",
 					"@Subterranean Hell Regions/SHCentralEastConnection, $tinyuppies",
-					"@Subterranean Hell Regions/SHButtonGateRoom, $tinyuppies",
-					"@Silenced Ruins Regions/SRBackExit"
+					"@Subterranean Hell Regions/SHButtonGateRoom, $tinyuppies"
 				]
 			},
 			{
@@ -443,14 +442,14 @@
 				"access_rules": [
 					"@Subterranean Hell Regions/SHShaftBottom, $tinyuppies",
 					"@Subterranean Hell Regions/SHShaftBottom, $widies",
-					"@Silenced Ruins Regions/SRUpperEntrance, dio",
-					"@Silenced Ruins Regions/SR"
+					"@Silenced Ruins Regions/SRUpperEntrance, dio"
 				]
 			},
 			{
 				"name": "SR",
 				"access_rules": [
 					"@Silenced Ruins Regions/SRAntechamber, dio",
+					"@Silenced Ruins Regions/SRUpperEntrance",
 					"@Silenced Ruins Regions/SRBackExit",
 					"srwarp, @Warp Room"
 				]
@@ -466,6 +465,7 @@
 				"name": "SRBackExit",
 				"access_rules": [
 					"@Silenced Ruins Regions/SR, $smalluppies",
+					"@Silenced Ruins Regions/SR, fast, puppet",
 					"@Subterranean Hell Regions/SHButtonGateRoom, ckey",
 					"@Subterranean Hell Regions/SHButtonGateRoom, ^$gateclips"
 				]
