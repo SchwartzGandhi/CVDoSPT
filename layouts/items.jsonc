@@ -5,12 +5,13 @@
 		"type": "dock",
 		"dock": "left",
 		"v_alignment": "stretch",
+		"h_alignment": "stretch",
 		"content": [
 			{
 				"type": "group",
 				"header": "Magic Seals",
-				"dock": "top",
-				"h_alignment": "center",
+				"dock": "left",
+				"h_alignment": "stretch",
 				"item_h_alignment": "center",
 				"content": [
 					{
@@ -20,16 +21,19 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"item_margin": "12, 10",
+								"item_margin": "10, 10",
 								"h_alignment": "center",
 								"item_h_alignment": "center",
-								"item_size": 66,
+								"item_size": 60,
 								"rows": [
 									[
-										"seal1", "seal2", "seal3"
+										"seal1",
+										"seal2",
+										"seal3"
 									],
 									[
-										"seal4", "seal5"
+										"seal4",
+										"seal5"
 									]
 								]
 							}
@@ -40,8 +44,8 @@
 			{
 				"type": "group",
 				"header": "Boss & Ability Souls",
-				"dock": "top",
-				"h_alignment": "center",
+				"dock": "left",
+				"h_alignment": "stretch",
 				"item_h_alignment": "center",
 				"content": [
 					{
@@ -54,16 +58,13 @@
 								"item_margin": "10, 10",
 								"h_alignment": "center",
 								"item_h_alignment": "center",
-								"item_size": 50,
+								"item_size": 60,
 								"rows": [
 									[
-										"glide", "ice", "gembox", "jump"
+										"glide", "ice", "gembox", "jump", "puppet", "water"
 									],
 									[
-										"puppet", "water", "fastwater", "fastmud"
-									],
-									[
-										"dio", "bat", "mirror", "zip"
+										"fastwater", "fastmud", "dio", "bat", "mirror", "zip"
 									]
 								]
 							}
@@ -74,8 +75,71 @@
 			{
 				"type": "group",
 				"header": "Misc Souls",
-				"dock": "top",
-				"h_alignment": "center",
+				"dock": "left",
+				"h_alignment": "stretch",
+				"item_h_alignment": "center",
+				"content": [
+					{
+						"type": "array",
+						"orientation": "horizontal",
+						"content": [
+							{
+								"type": "itemgrid",
+								"margin": "10, 0, 10, 0",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 60,
+								"rows": [
+									[
+										"spirit", "throw"
+									],
+									[
+										"ride", "fast"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "10, 0, 10, 0",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 60,
+								"rows": [
+									[
+										"bone", "axe"
+									],
+									[
+										"cards", "flame"
+									]
+								]
+							},
+							{
+								"type": "itemgrid",
+								"margin": "10, 0, 10, 0",
+								"item_margin": "10, 10",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 60,
+								"rows": [
+									[
+										"food", "yell" 
+									],
+									[
+										"shock"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Equipment",
+				"dock": "left",
+				"h_alignment": "stretch",
 				"item_h_alignment": "center",
 				"content": [
 					{
@@ -88,16 +152,13 @@
 								"item_margin": "10, 10",
 								"h_alignment": "center",
 								"item_h_alignment": "center",
-								"item_size": 50,
+								"item_size": 60,
 								"rows": [
 									[
-										"spirit", "throw", "ride", "fast"
+										"talisman", "soulring"
 									],
 									[
-										"food", "yell", "shock"
-									],
-									[
-										"bone", "axe", "cards", "flame"
+										"backslash" //"dark"
 									]
 								]
 							}
@@ -108,8 +169,8 @@
 			{
 				"type": "group",
 				"header": "Keys",
-				"dock": "top",
-				"h_alignment": "center",
+				"dock": "left",
+				"h_alignment": "stretch",
 				"item_h_alignment": "center",
 				"content": [
 					{
@@ -119,13 +180,16 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"item_margin": "6, 6",
+								"item_margin": "10, 10",
 								"h_alignment": "center",
 								"item_h_alignment": "center",
-								"item_size": 45,
+								"item_size": 60,
 								"rows": [
 									[
-										"tkey", "wkey", "ekey", "gkey", "ckey"
+										"tkey", "gkey", "ckey"
+									],
+									[
+										"wkey", "ekey"
 									]
 								]
 							}
@@ -134,56 +198,22 @@
 				]
 			},
 			{
-				"type": "array",
-				"orientation": "horizontal",
+				"type": "group",
+				"header": "Soulsanity Toggle",
+				"dock": "right",
+				"h_alignment": "stretch",
+				"item_h_alignment": "center",
 				"content": [
 					{
-						"type": "group",
-						"header": "Equipment",
-						"dock": "top",
+						"type": "itemgrid",
+						"item_margin": "10, 10",
 						"h_alignment": "center",
 						"item_h_alignment": "center",
-						"content": [
-							{
-								"type": "array",
-								"orientation": "horizontal",
-								"margin": "0,0",
-								"content": [
-									{
-										"type": "itemgrid",
-										"item_margin": "6, 6",
-										"h_alignment": "center",
-										"item_h_alignment": "center",
-										"item_size": 50,
-										"rows": [
-											[
-												"talisman", "backslash", "soulring" //dark
-											]
-										]
-									}
-								]
-							}
-						]
-					},
-					{
-						"type": "group",
-						"header": "Soulsanity",
-						"dock": "top",
-						"h_alignment": "center",
-						"item_h_alignment": "center",
-						"content": [
-							{
-								"type": "itemgrid",
-								"item_margin": "6, 6",
-								"h_alignment": "center",
-								"item_h_alignment": "center",
-								"item_size": 50,
-								"rows": [
-									[
-										"soulview"
-									]
-								]
-							}
+						"item_size": 140,
+						"rows": [
+							[
+								"soulview"
+							]
 						]
 					}
 				]

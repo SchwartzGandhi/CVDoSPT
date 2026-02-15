@@ -13,7 +13,7 @@
 				"ap"
 			]
 		},
-		"var_horizontal": {
+		"var_vertical": {
 			"display_name": "Map Tracker (Vertical)",
 			"flags": [
 				"ap"

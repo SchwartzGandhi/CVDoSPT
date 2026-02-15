@@ -1,7 +1,7 @@
 {
 	//sets the trackers layout
 	//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts
-	"tracker_horizontal": {
+	"tracker_vertical": {
 		"type": "container",
 		"background": "#000000",
 		"content": {
@@ -10,7 +10,7 @@
 			"content": [
 				{
 					"type": "tabbed",
-					"dock": "bottom",
+					"dock": "left",
 					"tabs": [
 						{
 							"title": "Items",
@@ -36,7 +36,15 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"Dracula's Castle",
+									"Dracula's Castle"
+								]
+							}
+						},
+						{
+							"title": "The Abyss",
+							"content": {
+								"type": "map",
+								"maps": [
 									"The Abyss"
 								]
 							}
@@ -44,10 +52,26 @@
 						{
 							"title": "Soulsanity",
 							"content": {
-								"type": "map",
-								"maps": [
-									"Soulsanity Page 1",
-									"Soulsanity Page 2"
+								"type": "tabbed",
+								"tabs": [
+									{
+										"title": "Page 1",
+										"content": {
+											"type": "map",
+											"maps": [
+												"Soulsanity Page 1"
+											]
+										}
+									},
+									{
+										"title": "Page 2",
+										"content": {
+											"type": "map",
+											"maps": [
+												"Soulsanity Page 2"
+											]
+										}
+									}
 								]
 							}
 						}

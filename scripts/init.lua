@@ -5,7 +5,7 @@ ENABLE_DEBUG_LOG = true
 local variant = Tracker.ActiveVariantUID
 -- check variant info
 IS_ITEMS_ONLY = variant:find("itemsonly")
-IS_HORIZONTAL = variant:find("horizontal")
+IS_VERTICAL = variant:find("vertical")
 
 LINKED_SOULS = {
 	["glide"] = "armor",
@@ -74,11 +74,11 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
 end
 
 -- Layout
-if IS_HORIZONTAL then
-	Tracker:AddLayouts("var_horizontal/layouts/tracker.jsonc")
-	Tracker:AddLayouts("var_horizontal/layouts/items.jsonc")
-	Tracker:AddLayouts("var_horizontal/layouts/bestiary.jsonc")
-	Tracker:AddLayouts("var_horizontal/layouts/broadcast.jsonc")
+if IS_VERTICAL then
+	Tracker:AddLayouts("var_vertical/layouts/tracker.jsonc")
+	Tracker:AddLayouts("var_vertical/layouts/items.jsonc")
+	Tracker:AddLayouts("var_vertical/layouts/bestiary.jsonc")
+	Tracker:AddLayouts("var_vertical/layouts/broadcast.jsonc")
 else
 	Tracker:AddLayouts("layouts/tracker.jsonc")
 	Tracker:AddLayouts("layouts/items.jsonc")
