@@ -1,13 +1,14 @@
 {
     "versions": [
         {
-            "package_version": "4.3",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/4.3/CVDoSPT.zip",
-            "sha256": "04ac2c34b4a1c38aa6a3cc0dfe11332f1173edba3446dbacf477616434827389",
+            "package_version": "4.4",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/4.4/CVDoSPT.zip",
+            "sha256": "5c5542a90b9e2bc4b8e5b341446aef8d69cbbba0652f40314c5d88bf24112b49",
             "changelog": [
-                "Button gates can now be passed through if you have the key regardless of your button settings",
-                "Fixed a logic bug where it expected you to pass through button gates with buttonsanity enabled without the respective key",
-                "Fixed a bug where speed boost was always be checked as active"
+                "Horizontal View is now the default layout of the tracker because I like it better",
+                "Tweaked the position of items on the vertical layout",
+                "Fixed some region logic with Silenced Ruins",
+                "Items behind the Wizardry Lab gates can now turn blue again"
             ]
         }
     ]
