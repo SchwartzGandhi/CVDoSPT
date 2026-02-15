@@ -20,7 +20,7 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"item_margin": "10, 10",
+								"item_margin": "12, 10",
 								"h_alignment": "center",
 								"item_h_alignment": "center",
 								"item_size": 66,
@@ -107,7 +107,7 @@
 			},
 			{
 				"type": "group",
-				"header": "Equipment",
+				"header": "Keys",
 				"dock": "top",
 				"h_alignment": "center",
 				"item_h_alignment": "center",
@@ -119,16 +119,68 @@
 						"content": [
 							{
 								"type": "itemgrid",
-								"item_margin": "10, 10",
+								"item_margin": "6, 6",
+								"h_alignment": "center",
+								"item_h_alignment": "center",
+								"item_size": 45,
+								"rows": [
+									[
+										"tkey", "wkey", "ekey", "gkey", "ckey"
+									]
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "array",
+				"orientation": "horizontal",
+				"content": [
+					{
+						"type": "group",
+						"header": "Equipment",
+						"dock": "top",
+						"h_alignment": "center",
+						"item_h_alignment": "center",
+						"content": [
+							{
+								"type": "array",
+								"orientation": "horizontal",
+								"margin": "0,0",
+								"content": [
+									{
+										"type": "itemgrid",
+										"item_margin": "6, 6",
+										"h_alignment": "center",
+										"item_h_alignment": "center",
+										"item_size": 50,
+										"rows": [
+											[
+												"talisman", "backslash", "soulring" //dark
+											]
+										]
+									}
+								]
+							}
+						]
+					},
+					{
+						"type": "group",
+						"header": "Soulsanity",
+						"dock": "top",
+						"h_alignment": "center",
+						"item_h_alignment": "center",
+						"content": [
+							{
+								"type": "itemgrid",
+								"item_margin": "6, 6",
 								"h_alignment": "center",
 								"item_h_alignment": "center",
 								"item_size": 50,
 								"rows": [
 									[
-										"tkey", "talisman", "backslash", "soulring"
-									],
-									[
-										"wkey", "ekey", "gkey", "ckey"
+										"soulview"
 									]
 								]
 							}
