@@ -1292,9 +1292,9 @@
 			{
 				"name": "Iron Golem",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLSunkenWestDoor",
-					"@Demon Guest House Regions/DGHUpper",
-					"$abyssaccess, @The Abyss Regions/TABeyondAbaddon"
+					"@Wizardry Lab Regions/WLSunkenWestDoor, spirit",
+					"@Demon Guest House Regions/DGHUpper, spirit",
+					"$abyssaccess, @The Abyss Regions/TABeyondAbaddon, spirit"
 				]
 			},
 			{
@@ -1308,39 +1308,6 @@
 				"access_rules": [
 					"$abyssaccess, @The Abyss Regions/TA"
 				]
-			},
-			{
-				"name": "Flying Armor"
-			},
-			{
-				"name": "Balore"
-			},
-			{
-				"name": "Malphas"
-			},
-			{
-				"name": "Puppet Master Soul"
-			},
-			{
-				"name": "Rahab"
-			},
-			{
-				"name": "Gergoth"
-			},
-			{
-				"name": "Zephyr"
-			},
-			{
-				"name": "Bat Company"
-			},
-			{
-				"name": "Paranoia"
-			},
-			{
-				"name": "Death"
-			},
-			{
-				"name": "Defeat M"
 			}
 		]
 	}
