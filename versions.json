@@ -1,14 +1,13 @@
 {
     "versions": [
         {
-            "package_version": "4.4",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/4.4/CVDoSPT.zip",
-            "sha256": "5c5542a90b9e2bc4b8e5b341446aef8d69cbbba0652f40314c5d88bf24112b49",
+            "package_version": "4.5",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/4.5/CVDoSPT.zip",
+            "sha256": "ea81904615ff8be86eec603cda7488575be9f6892fa34b993ff1ef2a538dd066",
             "changelog": [
-                "Horizontal View is now the default layout of the tracker because I like it better",
-                "Tweaked the position of items on the vertical layout",
-                "Fixed some region logic with Silenced Ruins",
-                "Items behind the Wizardry Lab gates can now turn blue again"
+                "Reformatted the region names in Soul View",
+                "Fixed some region logic for soulsanity",
+                "Fixed a logic bug preventing access into CCT Central from behind"
             ]
         }
     ]
