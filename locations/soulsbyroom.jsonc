@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Soulsanity Front End",
+		"name": "Soulsanity Front End (Rooms)",
 		"children": [
 			{
 				"name": "The Lost Village",
@@ -20,6 +20,9 @@
 			},
 			{
 				"name": "The Lost Village",
+				"access_rules": [
+					"@Subterranean Hell Regions/SHEast"
+				],
 				"sections": [
 					{
 						"name": "Skeleton Soul",
@@ -200,7 +203,7 @@
 					},
 					{
 						"name": "Skeleton Ape Soul",
-						"ref": "Common Souls/Skeleton Ape Soul/"
+						"ref": "Rare Souls/Skeleton Ape Soul/"
 					},
 					{
 						"name": "Hell Boar Soul",

@@ -1,11 +1,14 @@
 [
 	{
 		"name": "Soulsanity",
+		"access_rules": [
+			"soulsanity"
+		],
 		"children": [
 			{
 				"name": "Common Souls",
 				"access_rules": [
-					"soulsanity, common"
+					"common"
 				],
 				"visibility_rules": [
 					"common"
@@ -14,17 +17,14 @@
 					{
 						"name": "Axe Armor Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVUpper",
-							"@The Lost Village Regions/LVUndergroundTop",
-							"@Wizardry Lab Regions/WLMain",
-							"@Demon Guest House Regions/DGHLower"
+							"@Soul Farming Regions/Axe Armor"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/7.png",
 								"chest_opened_img": "images/enemies/7_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -37,15 +37,14 @@
 					{
 						"name": "Warg Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVUpper",
-							"@The Lost Village Regions/LVCourtyard"
+							"@Soul Farming Regions/Warg"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/9.png",
 								"chest_opened_img": "images/enemies/9_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -58,15 +57,14 @@
 					{
 						"name": "Spin Devil Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/",
-							"@The Lost Village Regions/LVLower"
+							"@Soul Farming Regions/Spin Devil"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/10.png",
 								"chest_opened_img": "images/enemies/10_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -79,15 +77,14 @@
 					{
 						"name": "Slime Soul",
 						"access_rules": [
-							"@Wizardry Lab Regions/WLMain",
-							"@Cursed Clock Tower Regions/CCTCentral"
+							"@Soul Farming Regions/Slime"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/16.png",
 								"chest_opened_img": "images/enemies/16_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -100,16 +97,14 @@
 					{
 						"name": "Corpseweed Soul",
 						"access_rules": [
-							"@Garden of Madness Regions/GoMLower",
-							"@Garden of Madness Regions/GoMUpper",
-							"@Garden of Madness Regions/GoMPostBoss"
+							"@Soul Farming Regions/Corpseweed"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/28.png",
 								"chest_opened_img": "images/enemies/28_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -122,14 +117,14 @@
 					{
 						"name": "Yeti Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVUpper, food"
+							"@Soul Farming Regions/Yeti"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/29.png",
 								"chest_opened_img": "images/enemies/29_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -142,14 +137,14 @@
 					{
 						"name": "Flying Humanoid Soul",
 						"access_rules": [
-							"@Cursed Clock Tower Regions/CCTBossArea, yell"
+							"@Soul Farming Regions/Flying Humanoid"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/32.png",
 								"chest_opened_img": "images/enemies/32_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -162,15 +157,14 @@
 					{
 						"name": "Buer Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHWestWing",
-							"@Condemned Tower Regions/CTTop"
+							"@Soul Farming Regions/Buer"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/43.png",
 								"chest_opened_img": "images/enemies/43_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -183,16 +177,14 @@
 					{
 						"name": "Guillotiner Soul",
 						"access_rules": [
-							"@The Dark Chapel Regions/DC",
-							"@The Pinnacle Regions/TP",
-							"@The Pinnacle Regions/TPLower"
+							"@Soul Farming Regions/Guillotiner"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/49.png",
 								"chest_opened_img": "images/enemies/49_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -205,15 +197,14 @@
 					{
 						"name": "Cave Troll Soul",
 						"access_rules": [
-							"@Wizardry Lab Regions/WLEastGate",
-							"@Subterranean Hell Regions/SHTopEntrance"
+							"@Soul Farming Regions/Cave Troll"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/60.png",
 								"chest_opened_img": "images/enemies/60_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -226,19 +217,14 @@
 					{
 						"name": "Merman Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVUndergroundTop",
-							"@Subterranean Hell Regions/SHEast",
-							"@Subterranean Hell Regions/SHShaftBottom",
-							"@Subterranean Hell Regions/SHCentralLower",
-							"@Subterranean Hell Regions/SHCentralUpper",
-							"@Subterranean Hell Regions/SHCentralExit"
+							"@Soul Farming Regions/Merman"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/63.png",
 								"chest_opened_img": "images/enemies/63_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -251,14 +237,14 @@
 					{
 						"name": "Homunculus Soul",
 						"access_rules": [
-							"@Wizardry Lab Regions/WLSunken"
+							"@Soul Farming Regions/Homunculus"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/71.png",
 								"chest_opened_img": "images/enemies/71_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -271,15 +257,14 @@
 					{
 						"name": "Decarabia Soul",
 						"access_rules": [
-							"@Subterranean Hell Regions/SHTopEntrance, seal3",
-							"@Subterranean Hell Regions/SHEast, water"
+							"@Soul Farming Regions/Decarabia"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/73.png",
 								"chest_opened_img": "images/enemies/73_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -292,14 +277,14 @@
 					{
 						"name": "Dead Mate Soul",
 						"access_rules": [
-							"@Silenced Ruins Regions/SR"
+							"@Soul Farming Regions/Dead Mate"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/74.png",
 								"chest_opened_img": "images/enemies/74_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -312,14 +297,14 @@
 					{
 						"name": "Mothman Soul",
 						"access_rules": [
-							"@The Pinnacle Regions/TP, shock"
+							"@Soul Farming Regions/Mothman"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/81.png",
 								"chest_opened_img": "images/enemies/81_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -332,14 +317,14 @@
 					{
 						"name": "Slogra Soul",
 						"access_rules": [
-							"$abyssaccess, @Mine of Judgment Regions/MoJ"
+							"@Soul Farming Regions/Slogra"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/96.png",
 								"chest_opened_img": "images/enemies/96_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -352,14 +337,14 @@
 					{
 						"name": "Black Panther Soul",
 						"access_rules": [
-							"$abyssaccess, @The Abyss Regions/TABeyondAbaddon"
+							"@Soul Farming Regions/Black Panther"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/88.png",
 								"chest_opened_img": "images/enemies/88_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -374,7 +359,7 @@
 			{
 				"name": "Uncommon Souls",
 				"access_rules": [
-					"soulsanity, uncommon"
+					"uncommon"
 				],
 				"visibility_rules": [
 					"uncommon"
@@ -383,15 +368,14 @@
 					{
 						"name": "Zombie Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVUpper",
-							"@The Lost Village Regions/LVLower"
+							"@Soul Farming Regions/Zombie"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/1.png",
 								"chest_opened_img": "images/enemies/1_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -404,16 +388,14 @@
 					{
 						"name": "Bat Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVUpper",
-							"@The Lost Village Regions/LVLower",
-							"@Silenced Ruins Regions/SR"
+							"@Soul Farming Regions/Bat"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/2.png",
 								"chest_opened_img": "images/enemies/2_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -426,18 +408,14 @@
 					{
 						"name": "Skeleton Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVUpper",
-							"@The Lost Village Regions/LVLower",
-							"@Wizardry Lab Regions/WLMain",
-							"@Demon Guest House Regions/DGHLower",
-							"@Silenced Ruins Regions/SR"
+							"@Soul Farming Regions/Skeleton"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/4.png",
 								"chest_opened_img": "images/enemies/4_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -450,15 +428,14 @@
 					{
 						"name": "Skull Archer Soul",
 						"access_rules": [
-							"@Wizardry Lab Regions/WLMain",
-							"@Silenced Ruins Regions/SR"
+							"@Soul Farming Regions/Skull Archer"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/8.png",
 								"chest_opened_img": "images/enemies/8_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -471,16 +448,14 @@
 					{
 						"name": "Armor Knight Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVUpper, $biguppies",
-							"@The Lost Village Regions/LVLower",
-							"@Wizardry Lab Regions/WLMain"
+							"@Soul Farming Regions/Armor Knight"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/11.png",
 								"chest_opened_img": "images/enemies/11_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -493,16 +468,14 @@
 					{
 						"name": "Student Witch Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVLower, @The Lost Village/Moat Drain Switch/",
-							"@Wizardry Lab Regions/WLMain",
-							"@Demon Guest House Regions/DGHUpper"
+							"@Soul Farming Regions/Student Witch"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/12.png",
 								"chest_opened_img": "images/enemies/12_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -515,14 +488,14 @@
 					{
 						"name": "Slaughterer Soul",
 						"access_rules": [
-							"@Wizardry Lab Regions/WLMain"
+							"@Soul Farming Regions/Slaughterer"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/13.png",
 								"chest_opened_img": "images/enemies/13_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -535,14 +508,14 @@
 					{
 						"name": "Bomber Armor Soul",
 						"access_rules": [
-							"@Wizardry Lab Regions/WLMain"
+							"@Soul Farming Regions/Bomber Armor"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/14.png",
 								"chest_opened_img": "images/enemies/14_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -555,14 +528,14 @@
 					{
 						"name": "Golem Soul",
 						"access_rules": [
-							"@Wizardry Lab Regions/WLMain"
+							"@Soul Farming Regions/Golem"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/15.png",
 								"chest_opened_img": "images/enemies/15_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -575,17 +548,14 @@
 					{
 						"name": "Une Soul",
 						"access_rules": [
-							"@Garden of Madness Regions/GoMLower",
-							"@Garden of Madness Regions/GoMPostBoss",
-							"@Subterranean Hell Regions/SHTopEntrance",
-							"@Subterranean Hell Regions/SHCentralEastConnection"
+							"@Soul Farming Regions/Une"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/17.png",
 								"chest_opened_img": "images/enemies/17_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -598,14 +568,14 @@
 					{
 						"name": "Manticore Soul",
 						"access_rules": [
-							"@Wizardry Lab Regions/WLMain"
+							"@Soul Farming Regions/Manticore"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/19.png",
 								"chest_opened_img": "images/enemies/19_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -618,15 +588,14 @@
 					{
 						"name": "Mollusca Soul",
 						"access_rules": [
-							"@Garden of Madness Regions/GoMLower",
-							"@Garden of Madness Regions/GoMUpper"
+							"@Soul Farming Regions/Mollusca"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/20.png",
 								"chest_opened_img": "images/enemies/20_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -639,15 +608,14 @@
 					{
 						"name": "Rycuda Soul",
 						"access_rules": [
-							"@Garden of Madness Regions/GoMLower",
-							"@Garden of Madness Regions/GoMUpper"
+							"@Soul Farming Regions/Rycuda"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/21.png",
 								"chest_opened_img": "images/enemies/21_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -660,14 +628,14 @@
 					{
 						"name": "Mandragora Soul",
 						"access_rules": [
-							"@Garden of Madness Regions/GoMLower"
+							"@Soul Farming Regions/Mandragora"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/22.png",
 								"chest_opened_img": "images/enemies/22_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -680,14 +648,14 @@
 					{
 						"name": "Yorick Soul",
 						"access_rules": [
-							"@Garden of Madness Regions/GoMLower"
+							"@Soul Farming Regions/Yorick"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/23.png",
 								"chest_opened_img": "images/enemies/23_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -700,16 +668,14 @@
 					{
 						"name": "Catoblepas Soul",
 						"access_rules": [
-							"@Garden of Madness Regions/GoMLower",
-							"@The Dark Chapel Regions/DCCatacombsExit",
-							"@Cursed Clock Tower Regions/CCTEntrance"
+							"@Soul Farming Regions/Catoblepas"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/26.png",
 								"chest_opened_img": "images/enemies/26_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -722,16 +688,14 @@
 					{
 						"name": "Ghost Dancer Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHMain",
-							"@Demon Guest House Regions/DGHUpper",
-							"@The Dark Chapel Regions/DC"
+							"@Soul Farming Regions/Ghost Dancer"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/31.png",
 								"chest_opened_img": "images/enemies/31_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -744,15 +708,14 @@
 					{
 						"name": "Mini Devil Soul",
 						"access_rules": [
-							"@The Dark Chapel Regions/DC",
-							"@The Dark Chapel Regions/DCBigRoom"
+							"@Soul Farming Regions/Mini Devil"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/33.png",
 								"chest_opened_img": "images/enemies/33_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -765,16 +728,14 @@
 					{
 						"name": "Quetzalcoatl Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHWestWing",
-							"@The Dark Chapel Regions/DC, seal2",
-							"@The Dark Chapel Regions/DCBigRoom"
+							"@Soul Farming Regions/Quetzalcoatl"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/34.png",
 								"chest_opened_img": "images/enemies/34_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -787,14 +748,14 @@
 					{
 						"name": "Amalaric Sniper Soul",
 						"access_rules": [
-							"@The Dark Chapel Regions/DC"
+							"@Soul Farming Regions/Amalaric Sniper"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/36.png",
 								"chest_opened_img": "images/enemies/36_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -807,14 +768,14 @@
 					{
 						"name": "Great Armor Soul",
 						"access_rules": [
-							"@The Dark Chapel Regions/DC"
+							"@Soul Farming Regions/Great Armor"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/38.png",
 								"chest_opened_img": "images/enemies/38_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -827,15 +788,14 @@
 					{
 						"name": "Waiter Skeleton Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHMain",
-							"@Silenced Ruins Regions/SRBackExit"
+							"@Soul Farming Regions/Waiter Skeleton"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/40.png",
 								"chest_opened_img": "images/enemies/40_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -848,16 +808,14 @@
 					{
 						"name": "Persephone Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHMain",
-							"@Demon Guest House Regions/DGHNumberPuzzleWest",
-							"@Demon Guest House Regions/DGHUpper"
+							"@Soul Farming Regions/Persephone"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/41.png",
 								"chest_opened_img": "images/enemies/41_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -870,15 +828,14 @@
 					{
 						"name": "Witch Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHUpper",
-							"@The Dark Chapel Regions/DC"
+							"@Soul Farming Regions/Witch"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/42.png",
 								"chest_opened_img": "images/enemies/42_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -891,16 +848,14 @@
 					{
 						"name": "Lilith Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHMain",
-							"@Demon Guest House Regions/DGHWestWing",
-							"@Demon Guest House Regions/DGHUpper"
+							"@Soul Farming Regions/Lilith"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/44.png",
 								"chest_opened_img": "images/enemies/44_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -913,15 +868,14 @@
 					{
 						"name": "Killer Clown Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHMain",
-							"@Demon Guest House Regions/DGHWestWing"
+							"@Soul Farming Regions/Killer Clown"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/45.png",
 								"chest_opened_img": "images/enemies/45_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -934,20 +888,14 @@
 					{
 						"name": "Skelerang Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVUpperDoorway",
-							"@Garden of Madness Regions/GoMLower",
-							"@Garden of Madness Regions/GoMPostBoss",
-							"@Demon Guest House Regions/DGHPuppetWallRight",
-							"@Demon Guest House Regions/DGHMain",
-							"@Demon Guest House Regions/DGHUpper",
-							"@Silenced Ruins Regions/SR"
+							"@Soul Farming Regions/Skelerang"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/46.png",
 								"chest_opened_img": "images/enemies/46_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -960,14 +908,14 @@
 					{
 						"name": "Fleaman Soul",
 						"access_rules": [
-							"@Condemned Tower Regions/CTTop"
+							"@Soul Farming Regions/Fleaman"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/47.png",
 								"chest_opened_img": "images/enemies/47_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -980,17 +928,14 @@
 					{
 						"name": "Devil Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHMain",
-							"@Cursed Clock Tower Regions/CCTExit",
-							"@Subterranean Hell Regions/SHShaftMiddle",
-							"@Silenced Ruins Regions/SR, ice"
+							"@Soul Farming Regions/Devil"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/48.png",
 								"chest_opened_img": "images/enemies/48_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1003,15 +948,14 @@
 					{
 						"name": "Needles Soul",
 						"access_rules": [
-							"@Subterranean Hell Regions/SHEast, water",
-							"@Subterranean Hell Regions/SHCentralUpper, water"
+							"@Soul Farming Regions/Needles"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/51.png",
 								"chest_opened_img": "images/enemies/51_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1024,15 +968,14 @@
 					{
 						"name": "Hell Boar Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVCourtyard, $biguppies",
-							"@The Dark Chapel Regions/DC"
+							"@Soul Farming Regions/Hell Boar"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/52.png",
 								"chest_opened_img": "images/enemies/52_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1045,16 +988,14 @@
 					{
 						"name": "White Dragon Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVUndergroundBottom",
-							"@The Dark Chapel Regions/DC",
-							"$abyssaccess, @The Abyss Regions/TA"
+							"@Soul Farming Regions/White Dragon"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/54.png",
 								"chest_opened_img": "images/enemies/54_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1067,14 +1008,14 @@
 					{
 						"name": "Wakwak Tree Soul",
 						"access_rules": [
-							"@Garden of Madness Regions/GoMEastGate"
+							"@Soul Farming Regions/Wakwak Tree"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/55.png",
 								"chest_opened_img": "images/enemies/55_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1087,15 +1028,14 @@
 					{
 						"name": "Imp Soul",
 						"access_rules": [
-							"@Cursed Clock Tower Regions/CCTEntrance",
-							"@Cursed Clock Tower Regions/CCTCentral"
+							"@Soul Farming Regions/Imp"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/56.png",
 								"chest_opened_img": "images/enemies/56_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1108,15 +1048,14 @@
 					{
 						"name": "Harpy Soul",
 						"access_rules": [
-							"@Cursed Clock Tower Regions/CCTEntrance",
-							"@Cursed Clock Tower Regions/CCTCentral"
+							"@Soul Farming Regions/Harpy"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/57.png",
 								"chest_opened_img": "images/enemies/57_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1129,17 +1068,14 @@
 					{
 						"name": "Malachi Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHUpper",
-							"@Cursed Clock Tower Regions/CCTEntrance",
-							"@The Pinnacle Regions/TPLower",
-							"$abyssaccess, @The Abyss Regions/TA"
+							"@Soul Farming Regions/Malachi"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/59.png",
 								"chest_opened_img": "images/enemies/59_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1152,15 +1088,14 @@
 					{
 						"name": "Larva Soul",
 						"access_rules": [
-							"@Wizardry Lab Regions/WLSunken",
-							"@Silenced Ruins Regions/SR"
+							"@Soul Farming Regions/Larva"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/61.png",
 								"chest_opened_img": "images/enemies/61_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1173,14 +1108,14 @@
 					{
 						"name": "Fish Head Soul",
 						"access_rules": [
-							"@Subterranean Hell Regions/SHEast, water"
+							"@Soul Farming Regions/Fish Head"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/64.png",
 								"chest_opened_img": "images/enemies/64_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1193,17 +1128,14 @@
 					{
 						"name": "Ukoback Soul",
 						"access_rules": [
-							"@Subterranean Hell Regions/SHShaftBottom",
-							"@Subterranean Hell Regions/SHShaftTop",
-							"@Subterranean Hell Regions/SHCentralUpper",
-							"@Subterranean Hell Regions/SHCentralExit"
+							"@Soul Farming Regions/Ukoback"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/66.png",
 								"chest_opened_img": "images/enemies/66_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1216,16 +1148,14 @@
 					{
 						"name": "Killer Fish Soul",
 						"access_rules": [
-							"@Subterranean Hell Regions/SHEast, water",
-							"@Subterranean Hell Regions/SHShaftTop, water",
-							"@Subterranean Hell Regions/SHCentralUpper, water"
+							"@Soul Farming Regions/Killer Fish"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/67.png",
 								"chest_opened_img": "images/enemies/67_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1238,18 +1168,14 @@
 					{
 						"name": "Dead Pirate Soul",
 						"access_rules": [
-							"@Cursed Clock Tower Regions/CCTEntrance",
-							"@Subterranean Hell Regions/SHTopEntrance",
-							"@Subterranean Hell Regions/SHShaftBottom",
-							"@Subterranean Hell Regions/SHCentralLower",
-							"@Subterranean Hell Regions/SHCentralUpper"
+							"@Soul Farming Regions/Dead Pirate"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/69.png",
 								"chest_opened_img": "images/enemies/69_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1262,19 +1188,14 @@
 					{
 						"name": "Frozen Shade Soul",
 						"access_rules": [
-							"@Subterranean Hell Regions/SHEast",
-							"@Subterranean Hell Regions/SHShaftMiddle",
-							"@Subterranean Hell Regions/SHCentralLower",
-							"@Subterranean Hell Regions/SHCentralUpper",
-							"@Subterranean Hell Regions/SHCentralExit",
-							"$abyssaccess, @The Abyss Regions/TA"
+							"@Soul Farming Regions/Frozen Shade"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/70.png",
 								"chest_opened_img": "images/enemies/70_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1287,14 +1208,14 @@
 					{
 						"name": "Disc Armor Soul",
 						"access_rules": [
-							"@Condemned Tower Regions/CTTop"
+							"@Soul Farming Regions/Disc Armor"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/72.png",
 								"chest_opened_img": "images/enemies/72_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1307,14 +1228,14 @@
 					{
 						"name": "Alura Une Soul",
 						"access_rules": [
-							"@Subterranean Hell Regions/SHCentralEastConnection"
+							"@Soul Farming Regions/Alura Une"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/79.png",
 								"chest_opened_img": "images/enemies/79_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1327,15 +1248,14 @@
 					{
 						"name": "Mushussu Soul",
 						"access_rules": [
-							"@The Pinnacle Regions/TPLower",
-							"@The Pinnacle Regions/TP"
+							"@Soul Farming Regions/Mushussu"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/82.png",
 								"chest_opened_img": "images/enemies/82_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1348,16 +1268,14 @@
 					{
 						"name": "Succubus Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHUpper",
-							"@The Pinnacle Regions/TPLower",
-							"$abyssaccess, @The Abyss Regions/TABeyondAbaddon"
+							"@Soul Farming Regions/Succubus"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/86.png",
 								"chest_opened_img": "images/enemies/86_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1370,17 +1288,14 @@
 					{
 						"name": "Werewolf Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHUpper",
-							"@Condemned Tower Regions/CTTop",
-							"@The Pinnacle Regions/TPLower",
-							"@The Pinnacle Regions/TP"
+							"@Soul Farming Regions/Werewolf"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/91.png",
 								"chest_opened_img": "images/enemies/91_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1393,15 +1308,14 @@
 					{
 						"name": "Flame Demon Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHUpper",
-							"@The Pinnacle Regions/TPLower"
+							"@Soul Farming Regions/Flame Demon"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/92.png",
 								"chest_opened_img": "images/enemies/92_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1414,15 +1328,14 @@
 					{
 						"name": "Alastor Soul",
 						"access_rules": [
-							"@The Pinnacle Regions/TP",
-							"$abyssaccess, @The Abyss Regions/TA"
+							"@Soul Farming Regions/Alastor"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/100.png",
 								"chest_opened_img": "images/enemies/100_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1435,14 +1348,14 @@
 					{
 						"name": "Ripper Soul",
 						"access_rules": [
-							"$abyssaccess, @Mine of Judgment Regions/MoJ"
+							"@Soul Farming Regions/Ripper"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/87.png",
 								"chest_opened_img": "images/enemies/87_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1455,14 +1368,14 @@
 					{
 						"name": "Mud Demon Soul",
 						"access_rules": [
-							"$abyssaccess, @The Abyss Regions/TA"
+							"@Soul Farming Regions/Mud Demon"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/89.png",
 								"chest_opened_img": "images/enemies/89_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1475,14 +1388,14 @@
 					{
 						"name": "Gaibon Soul",
 						"access_rules": [
-							"$abyssaccess, @Mine of Judgment Regions/MoJ"
+							"@Soul Farming Regions/Gaibon"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/95.png",
 								"chest_opened_img": "images/enemies/95_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1495,14 +1408,14 @@
 					{
 						"name": "Malacoda Soul",
 						"access_rules": [
-							"$abyssaccess, @The Abyss Regions/TA"
+							"@Soul Farming Regions/Malacoda"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/99.png",
 								"chest_opened_img": "images/enemies/99_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1517,7 +1430,7 @@
 			{
 				"name": "Rare Souls",
 				"access_rules": [
-					"soulsanity, rare, soulring"
+					"rare, soulring"
 				],
 				"visibility_rules": [
 					"rare"
@@ -1526,16 +1439,14 @@
 					{
 						"name": "Ghost Soul",
 						"access_rules": [
-							"@Wizardry Lab Regions/WLMain",
-							"@Wizardry Lab Regions/WLSunkenWestDoor",
-							"@The Dark Chapel Regions/DC"
+							"@Soul Farming Regions/Ghost"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/3.png",
 								"chest_opened_img": "images/enemies/3_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1548,14 +1459,14 @@
 					{
 						"name": "Ouija Table Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVLower"
+							"@Soul Farming Regions/Ouija Table"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/5.png",
 								"chest_opened_img": "images/enemies/5_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1568,17 +1479,14 @@
 					{
 						"name": "Peeping Eye Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVUpper",
-							"@The Lost Village Regions/LVUpperDoorway",
-							"@Demon Guest House Regions/DGHLower",
-							"@Silenced Ruins Regions/SR"
+							"@Soul Farming Regions/Peeping Eye"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/6.png",
 								"chest_opened_img": "images/enemies/6_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1591,18 +1499,14 @@
 					{
 						"name": "Skeleton Ape Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVCourtyard",
-							"@Garden of Madness Regions/GoMLower",
-							"@Garden of Madness Regions/GoMUpper",
-							"@Garden of Madness Regions/GoMPostBoss",
-							"@Condemned Tower Regions/CTTop"
+							"@Soul Farming Regions/Skeleton Ape"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/18.png",
 								"chest_opened_img": "images/enemies/18_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1615,14 +1519,14 @@
 					{
 						"name": "Skeleton Farmer Soul",
 						"access_rules": [
-							"@Garden of Madness Regions/GoMLower"
+							"@Soul Farming Regions/Skeleton Farmer"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/24.png",
 								"chest_opened_img": "images/enemies/24_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1635,15 +1539,14 @@
 					{
 						"name": "The Creature Soul",
 						"access_rules": [
-							"@Wizardry Lab Regions/WLMain",
-							"@The Dark Chapel Regions/DC"
+							"@Soul Farming Regions/The Creature"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/25.png",
 								"chest_opened_img": "images/enemies/25_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1656,16 +1559,14 @@
 					{
 						"name": "Ghoul Soul",
 						"access_rules": [
-							"@Garden of Madness Regions/GoMPostBoss",
-							"@The Dark Chapel Regions/DC",
-							"@Silenced Ruins Regions/SR"
+							"@Soul Farming Regions/Ghoul"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/27.png",
 								"chest_opened_img": "images/enemies/27_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1678,14 +1579,14 @@
 					{
 						"name": "Tombstone Soul",
 						"access_rules": [
-							"@The Dark Chapel Regions/DC"
+							"@Soul Farming Regions/Tombstone"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/30.png",
 								"chest_opened_img": "images/enemies/30_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1698,15 +1599,14 @@
 					{
 						"name": "Treant Soul",
 						"access_rules": [
-							"@Garden of Madness Regions/GoMLower",
-							"@Garden of Madness Regions/GoMUpper"
+							"@Soul Farming Regions/Treant"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/35.png",
 								"chest_opened_img": "images/enemies/35_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1719,16 +1619,14 @@
 					{
 						"name": "Valkyrie Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHMain",
-							"@The Dark Chapel Regions/DC",
-							"@The Dark Chapel Regions/DCBigRoom"
+							"@Soul Farming Regions/Valkyrie"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/37.png",
 								"chest_opened_img": "images/enemies/37_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1741,15 +1639,14 @@
 					{
 						"name": "Killer Doll Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHMain",
-							"@Demon Guest House Regions/DGHWestWing"
+							"@Soul Farming Regions/Killer Doll"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/39.png",
 								"chest_opened_img": "images/enemies/39_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1762,14 +1659,14 @@
 					{
 						"name": "Draghignazzo Soul",
 						"access_rules": [
-							"@Condemned Tower Regions/CTBottom"
+							"@Soul Farming Regions/Draghignazzo"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/50.png",
 								"chest_opened_img": "images/enemies/50_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1782,16 +1679,14 @@
 					{
 						"name": "Bone Pillar Soul",
 						"access_rules": [
-							"@Demon Guest House Regions/DGHMain",
-							"@Demon Guest House Regions/DGHWestWing",
-							"@The Dark Chapel Regions/DC"
+							"@Soul Farming Regions/Bone Pillar"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/53.png",
 								"chest_opened_img": "images/enemies/53_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1804,15 +1699,14 @@
 					{
 						"name": "Barbariccia Soul",
 						"access_rules": [
-							"@Garden of Madness Regions/GoMUpper",
-							"@The Dark Chapel Regions/DC"
+							"@Soul Farming Regions/Barbariccia"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/58.png",
 								"chest_opened_img": "images/enemies/58_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1825,15 +1719,14 @@
 					{
 						"name": "Heart Eater Soul",
 						"access_rules": [
-							"@Wizardry Lab Regions/WLWestGate",
-							"$abyssaccess, @The Abyss Regions/TA"
+							"@Soul Farming Regions/Heart Eater"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/62.png",
 								"chest_opened_img": "images/enemies/62_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1846,16 +1739,14 @@
 					{
 						"name": "Medusa Head Soul",
 						"access_rules": [
-							"@Cursed Clock Tower Regions/CCTEntrance",
-							"@Cursed Clock Tower Regions/CCTCentral",
-							"@Subterranean Hell Regions/SHShaftBottom"
+							"@Soul Farming Regions/Medusa Head"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/65.png",
 								"chest_opened_img": "images/enemies/65_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1868,19 +1759,14 @@
 					{
 						"name": "Mimic Soul",
 						"access_rules": [
-							"@Wizardry Lab Regions/WLEastGate",
-							"@Wizardry Lab Regions/WLSunken",
-							"@Garden of Madness Regions/GoMLower, $smalluppies",
-							"@Demon Guest House Regions/DGHUpper",
-							"@Subterranean Hell Regions/SHEast, water",
-							"@Subterranean Hell Regions/SHCentralExit"
+							"@Soul Farming Regions/Mimic"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/68.png",
 								"chest_opened_img": "images/enemies/68_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1893,16 +1779,14 @@
 					{
 						"name": "Bugbear Soul",
 						"access_rules": [
-							"@Cursed Clock Tower Regions/CCTCentral",
-							"@The Pinnacle Regions/TPLower",
-							"$abyssaccess, @Mine of Judgment Regions/MoJ"
+							"@Soul Farming Regions/Bugbear"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/75.png",
 								"chest_opened_img": "images/enemies/75_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1915,15 +1799,14 @@
 					{
 						"name": "Procel Soul",
 						"access_rules": [
-							"@Subterranean Hell Regions/SHEast",
-							"@Subterranean Hell Regions/SHCentralLower"
+							"@Soul Farming Regions/Procel"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/76.png",
 								"chest_opened_img": "images/enemies/76_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1936,15 +1819,14 @@
 					{
 						"name": "Bone Ark Soul",
 						"access_rules": [
-							"@Subterranean Hell Regions/SHCentralUpper",
-							"@Silenced Ruins Regions/SR"
+							"@Soul Farming Regions/Bone Ark"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/77.png",
 								"chest_opened_img": "images/enemies/77_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1957,14 +1839,14 @@
 					{
 						"name": "Gorgon Soul",
 						"access_rules": [
-							"@Silenced Ruins Regions/SRUpperEntrance"
+							"@Soul Farming Regions/Gorgon"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/78.png",
 								"chest_opened_img": "images/enemies/78_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1977,16 +1859,14 @@
 					{
 						"name": "Great Axe Armor Soul",
 						"access_rules": [
-							"@The Lost Village Regions/LVUndergroundTop",
-							"@Wizardry Lab Regions/WLWestGate",
-							"@Condemned Tower Regions/CTTop"
+							"@Soul Farming Regions/Great Axe Armor"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/80.png",
 								"chest_opened_img": "images/enemies/80_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -1999,15 +1879,14 @@
 					{
 						"name": "Dead Crusader Soul",
 						"access_rules": [
-							"@Silenced Ruins Regions/SR",
-							"@The Pinnacle Regions/TP"
+							"@Soul Farming Regions/Dead Crusader"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/83.png",
 								"chest_opened_img": "images/enemies/83_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2020,14 +1899,14 @@
 					{
 						"name": "Dead Warrior Soul",
 						"access_rules": [
-							"@The Pinnacle Regions/TPLower"
+							"@Soul Farming Regions/Dead Warrior"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/84.png",
 								"chest_opened_img": "images/enemies/84_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2040,16 +1919,14 @@
 					{
 						"name": "Erinys Soul",
 						"access_rules": [
-							"@The Pinnacle Regions/TP",
-							"@The Pinnacle Regions/TPLower",
-							"$abyssaccess, @The Abyss Regions/TA"
+							"@Soul Farming Regions/Erinys"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/85.png",
 								"chest_opened_img": "images/enemies/85_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2062,16 +1939,14 @@
 					{
 						"name": "Tanjelly Soul",
 						"access_rules": [
-							"@Cursed Clock Tower Regions/CCTEntrance",
-							"@Cursed Clock Tower Regions/CCTCentral",
-							"$abyssaccess, @Mine of Judgment Regions/MoJ"
+							"@Soul Farming Regions/Tanjelly"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/93.png",
 								"chest_opened_img": "images/enemies/93_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2084,15 +1959,14 @@
 					{
 						"name": "Final Guard Soul",
 						"access_rules": [
-							"@The Pinnacle Regions/TP",
-							"$abyssaccess, @The Abyss Regions/TA"
+							"@Soul Farming Regions/Final Guard"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/98.png",
 								"chest_opened_img": "images/enemies/98_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2105,16 +1979,14 @@
 					{
 						"name": "Iron Golem Soul",
 						"access_rules": [
-							"@Wizardry Lab Regions/WLSunkenWestDoor",
-							"@Demon Guest House Regions/DGHUpper",
-							"$abyssaccess, @The Abyss Regions/TABeyondAbaddon"
+							"@Soul Farming Regions/Iron Golem"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/101.png",
 								"chest_opened_img": "images/enemies/101_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2127,14 +1999,14 @@
 					{
 						"name": "Giant Slug Soul",
 						"access_rules": [
-							"$abyssaccess, @Mine of Judgment Regions/MoJ"
+							"@Soul Farming Regions/Giant Slug"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/90.png",
 								"chest_opened_img": "images/enemies/90_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2147,14 +2019,14 @@
 					{
 						"name": "Stolas Soul",
 						"access_rules": [
-							"$abyssaccess, @The Abyss Regions/TA"
+							"@Soul Farming Regions/Stolas"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/97.png",
 								"chest_opened_img": "images/enemies/97_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2167,14 +2039,14 @@
 					{
 						"name": "Arc Demon Soul",
 						"access_rules": [
-							"$abyssaccess, @The Abyss Regions/TA"
+							"@Soul Farming Regions/Arc Demon"
 						],
 						"sections": [
 							{
 								"name": "",
 								"chest_unopened_img": "images/enemies/94.png",
 								"chest_opened_img": "images/enemies/94_bw.png"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2194,7 +2066,7 @@
 						"sections": [
 							{
 								"ref": "The Lost Village/Flying Armor Soul/"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2209,7 +2081,7 @@
 						"sections": [
 							{
 								"ref": "Wizardry Lab/Balore Soul/"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2224,7 +2096,7 @@
 						"sections": [
 							{
 								"ref": "The Dark Chapel/Malphas Soul/"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2239,7 +2111,7 @@
 						"sections": [
 							{
 								"ref": "Demon Guest House/Puppet Master Soul/"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2254,7 +2126,7 @@
 						"sections": [
 							{
 								"ref": "Subterranean Hell/Rahab Soul/"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2269,7 +2141,7 @@
 						"sections": [
 							{
 								"ref": "Condemned Tower/Gergoth Soul/"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2284,7 +2156,7 @@
 						"sections": [
 							{
 								"ref": "Cursed Clock Tower/Zephyr Soul/"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2299,7 +2171,7 @@
 						"sections": [
 							{
 								"ref": "Silenced Ruins/Bat Company Soul/"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2314,7 +2186,7 @@
 						"sections": [
 							{
 								"ref": "Demon Guest House/Paranoia Soul/"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2329,7 +2201,7 @@
 						"sections": [
 							{
 								"ref": "The Pinnacle/Aguni Soul/"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2344,7 +2216,7 @@
 						"sections": [
 							{
 								"ref": "Mine of Judgment/Death Soul/"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2359,7 +2231,7 @@
 						"sections": [
 							{
 								"ref": "The Abyss/Abaddon Soul/"
-							} 
+							}
 						],
 						"map_locations": [
 							{
@@ -2374,7 +2246,7 @@
 						"sections": [
 							{
 								"ref": "The Abyss/Abyss Center/"
-							} 
+							}
 						],
 						"map_locations": [
 							{

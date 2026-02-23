@@ -1,12 +1,12 @@
 [
 	{
-		"name": "Soulsanity Front End",
+		"name": "Soulsanity Front End (Regions)",
 		"children": [
 			{
 				"name": "The Lost Village Souls",
 				"children": [
 					{
-						"name": "LV Upper",
+						"name": "The Lost Village - Upper",
 						"sections": [
 							{
 								"name": "Yeti Soul",
@@ -58,7 +58,7 @@
 						]
 					},
 					{
-						"name": "LV Upper Doorway",
+						"name": "The Lost Village - Upper Doorway",
 						"sections": [
 							{
 								"name": "Skelerang Soul",
@@ -82,7 +82,7 @@
 						]
 					},
 					{
-						"name": "LV Courtyard",
+						"name": "The Lost Village - Courtyard",
 						"sections": [
 							{
 								"name": "Warg Soul",
@@ -110,7 +110,7 @@
 						]
 					},
 					{
-						"name": "LV Lower",
+						"name": "The Lost Village - Lower",
 						"sections": [
 							{
 								"name": "Spin Devil Soul",
@@ -154,7 +154,7 @@
 						]
 					},
 					{
-						"name": "LV Underground Top",
+						"name": "The Lost Village - Underground Top",
 						"sections": [
 							{
 								"name": "Axe Armor Soul",
@@ -181,7 +181,7 @@
 						]
 					},
 					{
-						"name": "LV Underground Bottom",
+						"name": "The Lost Village - Underground Bottom",
 						"sections": [
 							{
 								"name": "White Dragon Soul",
@@ -205,7 +205,7 @@
 				"name": "Wizardry Lab Souls",
 				"children": [
 					{
-						"name": "WL Main",
+						"name": "Wizardry Lab - Main",
 						"sections": [
 							{
 								"name": "Slime Soul",
@@ -269,7 +269,7 @@
 						]
 					},
 					{
-						"name": "WL West Gate",
+						"name": "Wizardry Lab - West Gate",
 						"sections": [
 							{
 								"name": "Great Axe Armor Soul",
@@ -292,7 +292,7 @@
 						]
 					},
 					{
-						"name": "WL East Gate",
+						"name": "Wizardry Lab - East Gate",
 						"sections": [
 							{
 								"name": "Cave Troll Soul",
@@ -315,7 +315,7 @@
 						]
 					},
 					{
-						"name": "WL Sunken",
+						"name": "Wizardry Lab - Sunken",
 						"sections": [
 							{
 								"name": "Homunculus Soul",
@@ -339,7 +339,7 @@
 						]
 					},
 					{
-						"name": "WL Sunken West Door",
+						"name": "Wizardry Lab - Sunken West Door",
 						"sections": [
 							{
 								"name": "Iron Golem Soul",
@@ -367,7 +367,7 @@
 				"name": "Garden of Madness Souls",
 				"children": [
 					{
-						"name": "GoM Lower",
+						"name": "Garden of Madness - Lower",
 						"sections": [
 							{
 								"name": "Corpseweed Soul",
@@ -431,7 +431,7 @@
 						]
 					},
 					{
-						"name": "GoM Upper",
+						"name": "Garden of Madness - Upper",
 						"sections": [
 							{
 								"name": "Corpseweed Soul",
@@ -471,7 +471,7 @@
 						]
 					},
 					{
-						"name": "GoM Post-Boss",
+						"name": "Garden of Madness - Post-Boss",
 						"sections": [
 							{
 								"name": "Corpseweed Soul",
@@ -506,7 +506,7 @@
 						]
 					},
 					{
-						"name": "GoM East Gate",
+						"name": "Garden of Madness - East Gate",
 						"sections": [
 							{
 								"name": "Wakwak Tree Soul",
@@ -530,7 +530,7 @@
 				"name": "The Dark Chapel Souls",
 				"children": [
 					{
-						"name": "DC",
+						"name": "The Dark Chapel - Main",
 						"sections": [
 							{
 								"name": "Guillotiner Soul",
@@ -610,7 +610,7 @@
 						]
 					},
 					{
-						"name": "DC Big Room",
+						"name": "The Dark Chapel - Big Room",
 						"sections": [
 							{
 								"name": "Mini Devil Soul",
@@ -638,7 +638,7 @@
 						]
 					},
 					{
-						"name": "DC Catacombs Exit",
+						"name": "The Dark Chapel - Catacombs Exit",
 						"sections": [
 							{
 								"name": "Catoblepas Soul",
@@ -662,7 +662,7 @@
 				"name": "Demon Guest House Souls",
 				"children": [
 					{
-						"name": "DGH Lower",
+						"name": "Demon Guest House - Lower",
 						"sections": [
 							{
 								"name": "Axe Armor Soul",
@@ -689,7 +689,7 @@
 						]
 					},
 					{
-						"name": "DGH Number Puzzle West",
+						"name": "Demon Guest House - Number Puzzle West",
 						"sections": [
 							{
 								"name": "Persephone Soul",
@@ -708,7 +708,7 @@
 						]
 					},
 					{
-						"name": "DGH Puppet Wall Right",
+						"name": "Demon Guest House - Puppet Wall Right",
 						"sections": [
 							{
 								"name": "Skelerang Soul",
@@ -727,7 +727,7 @@
 						]
 					},
 					{
-						"name": "DGH Main",
+						"name": "Demon Guest House - Main",
 						"sections": [
 							{
 								"name": "Persephone Soul",
@@ -783,7 +783,7 @@
 						]
 					},
 					{
-						"name": "DGH West Wing",
+						"name": "Demon Guest House - West Wing",
 						"sections": [
 							{
 								"name": "Buer Soul",
@@ -823,7 +823,7 @@
 						]
 					},
 					{
-						"name": "DGH Upper",
+						"name": "Demon Guest House - Upper",
 						"sections": [
 							{
 								"name": "Flame Demon Soul",
@@ -892,7 +892,7 @@
 				"name": "Condemned Tower Souls",
 				"children": [
 					{
-						"name": "CT Bottom",
+						"name": "Condemned Tower - Bottom",
 						"sections": [
 							{
 								"name": "Draghignazzo Soul",
@@ -912,7 +912,7 @@
 						]
 					},
 					{
-						"name": "CT Top",
+						"name": "Condemned Tower - Top",
 						"sections": [
 							{
 								"name": "Buer Soul",
@@ -957,7 +957,7 @@
 				"name": "Subterrranean Hell Souls",
 				"children": [
 					{
-						"name": "SH Top Entrance",
+						"name": "Subterranean Hell - Top Entrance",
 						"sections": [
 							{
 								"name": "Cave Troll Soul",
@@ -989,7 +989,7 @@
 						]
 					},
 					{
-						"name": "SH East",
+						"name": "Subterranean Hell - East",
 						"sections": [
 							{
 								"name": "Decarabia Soul",
@@ -1061,7 +1061,7 @@
 						]
 					},
 					{
-						"name": "SH Central Upper",
+						"name": "Subterranean Hell - Central Upper",
 						"sections": [
 							{
 								"name": "Merman Soul",
@@ -1105,7 +1105,7 @@
 						]
 					},
 					{
-						"name": "SH Central Lower",
+						"name": "Subterranean Hell - Central Lower",
 						"sections": [
 							{
 								"name": "Merman Soul",
@@ -1137,7 +1137,7 @@
 						]
 					},
 					{
-						"name": "SH Central Exit",
+						"name": "Subterranean Hell - Central Exit",
 						"sections": [
 							{
 								"name": "Merman Soul",
@@ -1169,7 +1169,7 @@
 						]
 					},
 					{
-						"name": "SH Shaft Bottom",
+						"name": "Subterranean Hell - Shaft Bottom",
 						"sections": [
 							{
 								"name": "Merman Soul",
@@ -1201,7 +1201,7 @@
 						]
 					},
 					{
-						"name": "SH Shaft Middle",
+						"name": "Subterranean Hell - Shaft Middle",
 						"sections": [
 							{
 								"name": "Merman Soul",
@@ -1229,7 +1229,7 @@
 						]
 					},
 					{
-						"name": "SH Shaft Top",
+						"name": "Subterranean Hell - Shaft Top",
 						"sections": [
 							{
 								"name": "Killer Fish Soul",
@@ -1258,7 +1258,7 @@
 				"name": "Cursed Clock Tower Souls",
 				"children": [
 					{
-						"name": "CCT Entrance",
+						"name": "Cursed Clock Tower - Entrance",
 						"sections": [
 							{
 								"name": "Harpy Soul",
@@ -1302,7 +1302,7 @@
 						]
 					},
 					{
-						"name": "CCT Central",
+						"name": "Cursed Clock Tower - Central",
 						"sections": [
 							{
 								"name": "Slime Soul",
@@ -1338,7 +1338,7 @@
 						]
 					},
 					{
-						"name": "CCT Boss Area",
+						"name": "Cursed Clock Tower - Boss Area",
 						"sections": [
 							{
 								"name": "Flying Humanoid Soul",
@@ -1357,7 +1357,7 @@
 						]
 					},
 					{
-						"name": "CCT Exit",
+						"name": "Cursed Clock Tower - Exit",
 						"sections": [
 							{
 								"name": "Devil Soul",
@@ -1386,7 +1386,7 @@
 				"name": "Silenced Ruins Souls",
 				"children": [
 					{
-						"name": "SR",
+						"name": "Silenced Ruins - Main",
 						"sections": [
 							{
 								"name": "Dead Mate Soul",
@@ -1438,7 +1438,7 @@
 						]
 					},
 					{
-						"name": "SR Upper Entrance",
+						"name": "Silenced Ruins - Upper Entrance",
 						"sections": [
 							{
 								"name": "Waiter Skeleton Soul",
@@ -1465,7 +1465,7 @@
 						]
 					},
 					{
-						"name": "SR Back Exit",
+						"name": "Silenced Ruins - Back Exit",
 						"sections": [
 							{
 								"name": "Waiter Skeleton Soul",
@@ -1489,7 +1489,7 @@
 				"name": "The Pinnacle Souls",
 				"children": [
 					{
-						"name": "TP",
+						"name": "The Pinnacle - Main",
 						"sections": [
 							{
 								"name": "Guillotiner Soul",
@@ -1537,7 +1537,7 @@
 						]
 					},
 					{
-						"name": "TP Lower",
+						"name": "The Pinnacle - Lower",
 						"sections": [
 							{
 								"name": "Guillotiner Soul",
@@ -1594,7 +1594,7 @@
 				"name": "Mine of Judgment Souls",
 				"children": [
 					{
-						"name": "MoJ",
+						"name": "Mine of Judgment",
 						"sections": [
 							{
 								"name": "Slogra Soul",
@@ -1639,7 +1639,7 @@
 				"name": "The Abyss Souls",
 				"children": [
 					{
-						"name": "TA",
+						"name": "The Abyss - Before Abaddon",
 						"sections": [
 							{
 								"name": "Alastor Soul",
@@ -1699,7 +1699,7 @@
 						]
 					},
 					{
-						"name": "TA Beyond Abaddon",
+						"name": "The Abyss - Beyond Abaddon",
 						"sections": [
 							{
 								"name": "Black Panther Soul",
@@ -1727,7 +1727,7 @@
 						]
 					},
 					{
-						"name": "TA",
+						"name": "The Abyss",
 						"sections": [
 							{
 								"name": "Alastor Soul",
