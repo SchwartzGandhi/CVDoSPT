@@ -1,0 +1,602 @@
+[
+    {
+        "name": "The Lost Village Seal Door",
+        "img": "images/settings/lvsealdoor.png",
+        "type": "static",
+        "codes": "lvsealdoor"
+    },
+    {
+        "name": "The Lost Village Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "lvseal, lvseal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "lvseal, lvseal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "lvseal, lvseal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "lvseal, lvseal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "lvseal, lvseal5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Wizardry Lab Seal Door",
+        "img": "images/settings/wlsealdoor.png",
+        "type": "static",
+        "codes": "wlsealdoor"
+    },
+    {
+        "name": "Wizardry Lab Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "wlseal, wlseal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "wlseal, wlseal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "wlseal, wlseal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "wlseal, wlseal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "wlseal, wlseal5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Garden of Madness Seal Door",
+        "img": "images/settings/gomsealdoor.png",
+        "type": "static",
+        "codes": "gomsealdoor"
+    },
+    {
+        "name": "Garden of Madness Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "gomseal, gomseal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "gomseal, gomseal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "gomseal, gomseal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "gomseal, gomseal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "gomseal, gomseal5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "The Dark Chapel Seal Door",
+        "img": "images/settings/dcsealdoor.png",
+        "type": "static",
+        "codes": "dcsealdoor"
+    },
+    {
+        "name": "The Dark Chapel Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "dcseal, dcseal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "dcseal, dcseal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "dcseal, dcseal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "dcseal, dcseal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "dcseal, dcseal5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Dark Chapel Inner Seal Door",
+        "img": "images/settings/dc2sealdoor.png",
+        "type": "static",
+        "codes": "dc2sealdoor"
+    },
+    {
+        "name": "The Dark Chapel Inner Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "dc2seal, dc2seal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "dc2seal, dc2seal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "dc2seal, dc2seal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "dc2seal, dc2seal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "dc2seal, dc2seal5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Demon Guest House Seal Door",
+        "img": "images/settings/dghsealdoor.png",
+        "type": "static",
+        "codes": "dghsealdoor"
+    },
+    {
+        "name": "Demon Guest House Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "dghseal, dghseal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "dghseal, dghseal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "dghseal, dghseal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "dghseal, dghseal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "dghseal, dghseal5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Condemned Tower Seal Door",
+        "img": "images/settings/ctsealdoor.png",
+        "type": "static",
+        "codes": "ctsealdoor"
+    },
+    {
+        "name": "Condemned Tower Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "ctseal, ctseal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "ctseal, ctseal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "ctseal, ctseal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "ctseal, ctseal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "ctseal, ctseal5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Cursed Clock Tower Seal Door",
+        "img": "images/settings/cctsealdoor.png",
+        "type": "static",
+        "codes": "cctsealdoor"
+    },
+    {
+        "name": "Cursed Clock Tower Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "cctseal, cctseal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "cctseal, cctseal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "cctseal, cctseal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "cctseal, cctseal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "cctseal, cctseal5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Subeterranean Hell Seal Door",
+        "img": "images/settings/shsealdoor.png",
+        "type": "static",
+        "codes": "shsealdoor"
+    },
+    {
+        "name": "Subterranean Hell Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "shseal, shseal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "shseal, shseal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "shseal, shseal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "shseal, shseal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "shseal, shseal5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Silenced Ruins Seal Door",
+        "img": "images/settings/srsealdoor.png",
+        "type": "static",
+        "codes": "srsealdoor"
+    },
+    {
+        "name": "Silenced Ruins Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "srseal, srseal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "srseal, srseal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "srseal, srseal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "srseal, srseal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "srseal, srseal5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Demon Guest House Upper Seal Door",
+        "img": "images/settings/dgh2sealdoor.png",
+        "type": "static",
+        "codes": "dgh2sealdoor"
+    },
+    {
+        "name": "Demon Guest House Upper Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "dgh2seal, dgh2seal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "dgh2seal, dgh2seal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "dgh2seal, dgh2seal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "dgh2seal, dgh2seal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "dgh2seal, dgh2seal5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "The Pinnacle Seal Door",
+        "img": "images/settings/tpsealdoor.png",
+        "type": "static",
+        "codes": "tpsealdoor"
+    },
+    {
+        "name": "The Pinnacle Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "tpseal, tpseal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "tpseal, tpseal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "tpseal, tpseal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "tpseal, tpseal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "tpseal, tpseal5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Castle Center Seal Door",
+        "img": "images/settings/gom2sealdoor.png",
+        "type": "static",
+        "codes": "gom2sealdoor"
+    },
+    {
+        "name": "Castle Center Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "gom2seal, gom2seal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "gom2seal, gom2seal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "gom2seal, gom2seal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "gom2seal, gom2seal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "gom2seal, gom2seal5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mine of Judgment Seal Door",
+        "img": "images/settings/mojsealdoor.png",
+        "type": "static",
+        "codes": "mojsealdoor"
+    },
+    {
+        "name": "Mine of Judgment Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "mojseal, mojseal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "mojseal, mojseal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "mojseal, mojseal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "mojseal, mojseal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "mojseal, mojseal5",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "The Abyss Seal Door",
+        "img": "images/settings/tasealdoor.png",
+        "type": "static",
+        "codes": "tasealdoor"
+    },
+    {
+        "name": "The Abyss Seal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/items/seal1.png",
+                "codes": "taseal, taseal1",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal2.png",
+                "codes": "taseal, taseal2",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal3.png",
+                "codes": "taseal, taseal3",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal4.png",
+                "codes": "taseal, taseal4",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/items/seal5.png",
+                "codes": "taseal, taseal5",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

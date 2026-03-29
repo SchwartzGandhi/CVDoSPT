@@ -1,0 +1,103 @@
+[
+    {
+        "name": "Goal",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/settings/throneroom.png",
+                "codes": "goal, throneroom",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/abyss.png",
+                "codes": "goal, abyss",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Garden Condition",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/settings/throneroom.png",
+                "codes": "garden, opengarden",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/abyss.png",
+                "codes": "garden, gardenthrone",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/abyss.png",
+                "codes": "garden, gardenbosses",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Mine Condition",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 2,
+        "stages": [
+            {
+                "img": "images/settings/throneroom.png",
+                "codes": "mine, openmine",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/abyss.png",
+                "codes": "mine, minethrone",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/abyss.png",
+                "codes": "mine, minegarden",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/abyss.png",
+                "codes": "mine, minebosses",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Menace Condition",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "img": "images/settings/throneroom.png",
+                "codes": "menace, openmenace",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/abyss.png",
+                "codes": "menace, menacethrone",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/abyss.png",
+                "codes": "menace, menacegarden",
+                "inherit_codes": false
+            },
+            {
+                "img": "images/settings/abyss.png",
+                "codes": "menace, menacebosses",
+                "inherit_codes": false
+            }
+        ]
+    }
+]

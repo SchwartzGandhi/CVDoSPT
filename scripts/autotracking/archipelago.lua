@@ -80,10 +80,21 @@ end
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
 	-- put any code here that slot_data should affect (toggling setting items for example)
-	local goal = Tracker:FindObjectForCode('goal')
-	goal.CurrentStage = slot_data['goal']
+	local goal = Tracker:FindObjectForCode("goal")
+	goal.CurrentStage = slot_data["goal"]
 
-	local warp = Tracker:FindObjectForCode('warp')
+	local garden = Tracker:FindObjectForCode("garden")
+	garden.CurrectStage = slot_data["garden_condition"]
+
+	local mine = Tracker:FindObjectForCode("mine")
+	mine.CurrectStage = slot_data["mine_condition"]
+
+	local menace = Tracker:FindObjectForCode("menace")
+	menace.CurrectStage = slot_data["menace_condition"]
+
+	local SEAL_LAYOUT = slot_datap["seals"]
+
+	local warp = Tracker:FindObjectForCode("warp")
 	local start = slot_data["starting_warp"]
 	if start == "Lost Village" then
 		warp.CurrentStage = 0
@@ -97,9 +108,9 @@ function apply_slot_data(slot_data)
 		warp.CurrentStage = 4
 	elseif start == "Condemned Tower" then
 		warp.CurrentStage = 5
-	elseif start == "Subterranean Hell" then
-		warp.CurrentStage = 6
 	elseif start == "Cursed Clock Tower" then
+		warp.CurrentStage = 6
+	elseif start == "Subterranean Hell" then
 		warp.CurrentStage = 7
 	elseif start == "Silenced Ruins" then
 		warp.CurrentStage = 8
@@ -113,47 +124,47 @@ function apply_slot_data(slot_data)
 		warp.CurrentStage = 0
 	end
 
-	local soultoggle = Tracker:FindObjectForCode('soulsanity')
+	local soultoggle = Tracker:FindObjectForCode("soulsanity")
 	if slot_data["soul_randomizer"] == 2 then
 		soultoggle.Active = true
 	end
 
-	local soullevel = Tracker:FindObjectForCode('souls')
+	local soullevel = Tracker:FindObjectForCode("souls")
 	if slot_data["soul_randomizer"] then
 		soullevel.CurrentStage = slot_data["soulsanity_level"]
 	else
 		soullevel.CurrentStage = 0
 	end
 
-	local drawbridge = Tracker:FindObjectForCode('drawbridge')
+	local drawbridge = Tracker:FindObjectForCode("drawbridge")
 	if slot_data["open_drawbridge"] then
 		drawbridge.CurrentStage = slot_data["open_drawbridge"]
 	end
 
-	local speed = Tracker:FindObjectForCode('speed')
+	local speed = Tracker:FindObjectForCode("speed")
 	if slot_data["speed_boost"] == 1 then
 		speed.Active = true
 	else
 		speed.Active = false
 	end
 
-	local buttons = Tracker:FindObjectForCode('buttons')
+	local buttons = Tracker:FindObjectForCode("buttons")
 	if slot_data["buttonsanity"] then
 		buttons.CurrentStage = slot_data["buttonsanity"]
 	end
 
 	local SOUL_WALL_LIST = slot_data["soul_walls"]
 
-	local dc = Tracker:FindObjectForCode('dcsoul')
+	local dc = Tracker:FindObjectForCode("dcsoul")
 	dc.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[3])
 
-	local dgh1 = Tracker:FindObjectForCode('dghsoul1')
+	local dgh1 = Tracker:FindObjectForCode("dghsoul1")
 	dgh1.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[2])
 
-	local dgh2 = Tracker:FindObjectForCode('dghsoul2')
+	local dgh2 = Tracker:FindObjectForCode("dghsoul2")
 	dgh2.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[1])
 
-	local dgh3 = Tracker:FindObjectForCode('dghsoul3')
+	local dgh3 = Tracker:FindObjectForCode("dghsoul3")
 	dgh3.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[4])
 end
 

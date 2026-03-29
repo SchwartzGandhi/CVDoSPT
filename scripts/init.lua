@@ -54,7 +54,12 @@ Tracker:AddItems("items/red_souls.jsonc")
 Tracker:AddItems("items/blue_souls.jsonc")
 Tracker:AddItems("items/yellow_souls.jsonc")
 Tracker:AddItems("items/grey_souls.jsonc")
-Tracker:AddItems("items/settings.json")
+
+-- Settings
+Tracker:AddItems("settings/settings.json")
+Tracker:AddItems("settings/goals.json")
+Tracker:AddItems("settings/seals.json")
+Tracker:AddItems("settings/souls.json")
 
 -- Link item codes and bestiary codes
 for k, v in pairs(LINKED_SOULS) do

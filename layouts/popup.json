@@ -1,19 +1,77 @@
 {
     "settings_popup": {
-        "type": "array",
-        "orientation": "horizontal",
-        "margin": "0,0",
-        "content": [
+        "type": "tabbed",
+        "tabs": [
             {
-                "type": "itemgrid",
-                "background": "#000000",
-                "item_margin": "2, 2",
-                "h_alignment": "center",
-                "item_h_alignment": "center",
-                "item_size": 128,
-                "rows": [
-                    ["goal", "warp", "soulsanity", "souls", "buttons", "drawbridge", "speed"],
-                    ["dcsoulwall", "dcsoul", "dghsoulwall", "dghsoul1", "dghsoul2", "dghsoul3"]
+                "title": "Goal Conditions",
+                "content": [
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "0,0",
+                        "content": [
+                            {
+                                "type": "itemgrid",
+                                "background": "#000000",
+                                "item_margin": "2, 2",
+                                "h_alignment": "center",
+                                "item_h_alignment": "center",
+                                "item_size": 128,
+                                "rows": [
+                                    ["goal", "garden", "mine", "menace"]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Magic Seal Configuration",
+                "content": [
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "0,0",
+                        "content": [
+                            {
+                                "type": "itemgrid",
+                                "background": "#000000",
+                                "item_margin": "2, 2",
+                                "h_alignment": "center",
+                                "item_h_alignment": "center",
+                                "item_size": 128,
+                                "rows": [
+                                    ["lvseal", "wlseal", "gomseal", "dcseal", "dc2seal", "dghseal"],
+                                    ["ctseal", "cctseal", "shseal", "srseal", "dgh2seal", "tpseal"],
+                                    ["gom2seal", "mojseal", "taseal"]
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Other Logic Settings",
+                "content": [
+                    {
+                        "type": "array",
+                        "orientation": "horizontal",
+                        "margin": "0,0",
+                        "content": [
+                            {
+                                "type": "itemgrid",
+                                "background": "#000000",
+                                "item_margin": "2, 2",
+                                "h_alignment": "center",
+                                "item_h_alignment": "center",
+                                "item_size": 128,
+                                "rows": [
+                                    ["warp", "soulsanity", "souls", "buttons", "drawbridge", "speed"],
+                                    ["dcsoulwall", "dcsoul", "dghsoulwall", "dghsoul1", "dghsoul2", "dghsoul3"]
+                                ]
+                            }
+                        ]
+                    }
                 ]
             }
         ]
