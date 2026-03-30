@@ -7,62 +7,62 @@
         "initial_stage_idx": 0,
         "stages": [
             {
-                "img": "images/settings/warplv.png",
+                "img": "images/settings/warps/lv.png",
                 "codes": "warp, lvwarp",
                 "inherit_codes": false
             },
             {
-                "img": "images/settings/warpwl.png",
+                "img": "images/settings/warps/wl.png",
                 "codes": "warp, wlwarp",
                 "inherit_codes": false
             },
             {
-                "img": "images/settings/warpgom.png",
+                "img": "images/settings/warps/gom.png",
                 "codes": "warp, gomwarp",
                 "inherit_codes": false
             },
             {
-                "img": "images/settings/warpdc.png",
+                "img": "images/settings/warps/dc.png",
                 "codes": "warp, dcwarp",
                 "inherit_codes": false
             },
             {
-                "img": "images/settings/warpdgh.png",
+                "img": "images/settings/warps/dgh.png",
                 "codes": "warp, dghwarp",
                 "inherit_codes": false
             },
             {
-                "img": "images/settings/warpct.png",
+                "img": "images/settings/warps/ct.png",
                 "codes": "warp, ctwarp",
                 "inherit_codes": false
             },
             {
-                "img": "images/settings/warpcct.png",
+                "img": "images/settings/warps/cct.png",
                 "codes": "warp, cctwarp",
                 "inherit_codes": false
             },
             {
-                "img": "images/settings/warpsh.png",
+                "img": "images/settings/warps/sh.png",
                 "codes": "warp, shwarp",
                 "inherit_codes": false
             },
             {
-                "img": "images/settings/warpsr.png",
+                "img": "images/settings/warps/sr.png",
                 "codes": "warp, srwarp",
                 "inherit_codes": false
             },
             {
-                "img": "images/settings/warptp.png",
+                "img": "images/settings/warps/tp.png",
                 "codes": "warp, tpwarp",
                 "inherit_codes": false
             },
             {
-                "img": "images/settings/warpmoj.png",
+                "img": "images/settings/warps/moj.png",
                 "codes": "warp, mojwarp",
                 "inherit_codes": false
             },
             {
-                "img": "images/settings/warpta.png",
+                "img": "images/settings/warps/ta.png",
                 "codes": "warp, tawarp",
                 "inherit_codes": false
             }
