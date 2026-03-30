@@ -18,7 +18,9 @@
                                 "item_h_alignment": "center",
                                 "item_size": 128,
                                 "rows": [
-                                    ["goal", "garden", "mine", "menace"]
+                                    ["goal", "", "gardenframe", "garden"],
+                                    ["", "", "mineframe", "mine"],
+                                    ["", "", "menaceframe", "menace"]
                                 ]
                             }
                         ]
@@ -41,9 +43,9 @@
                                 "item_h_alignment": "center",
                                 "item_size": 128,
                                 "rows": [
-                                    ["lvseal", "wlseal", "gomseal", "dcseal", "dc2seal", "dghseal"],
-                                    ["ctseal", "cctseal", "shseal", "srseal", "dgh2seal", "tpseal"],
-                                    ["gom2seal", "mojseal", "taseal"]
+                                    ["lvsealdoor", "lvseal", "wlsealdoor", "wlseal", "gomsealdoor", "gomseal", "dcsealdoor", "dcseal", "dc2sealdoor", "dc2seal"],
+                                    ["dghsealdoor", "dghseal", "ctsealdoor", "ctseal", "cctsealdoor", "cctseal", "shsealdoor", "shseal", "srsealdoor", "srseal"],
+                                    ["dgh2sealdoor", "dgh2seal", "tpsealdoor", "tpseal", "gom2sealdoor", "gom2seal", "mojsealdoor", "mojseal", "tasealdoor", "taseal"]
                                 ]
                             }
                         ]

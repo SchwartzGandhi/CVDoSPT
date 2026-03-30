@@ -1,7 +1,7 @@
 [
     {
         "name": "The Lost Village Seal Door",
-        "img": "images/settings/lvsealdoor.png",
+        "img": "images/settings/doors/lv.png",
         "type": "static",
         "codes": "lvsealdoor"
     },
@@ -41,7 +41,7 @@
     },
     {
         "name": "Wizardry Lab Seal Door",
-        "img": "images/settings/wlsealdoor.png",
+        "img": "images/settings/doors/wl.png",
         "type": "static",
         "codes": "wlsealdoor"
     },
@@ -81,7 +81,7 @@
     },
     {
         "name": "Garden of Madness Seal Door",
-        "img": "images/settings/gomsealdoor.png",
+        "img": "images/settings/doors/gom.png",
         "type": "static",
         "codes": "gomsealdoor"
     },
@@ -121,7 +121,7 @@
     },
     {
         "name": "The Dark Chapel Seal Door",
-        "img": "images/settings/dcsealdoor.png",
+        "img": "images/settings/doors/dc.png",
         "type": "static",
         "codes": "dcsealdoor"
     },
@@ -161,7 +161,7 @@
     },
     {
         "name": "Dark Chapel Inner Seal Door",
-        "img": "images/settings/dc2sealdoor.png",
+        "img": "images/settings/doors/dc2.png",
         "type": "static",
         "codes": "dc2sealdoor"
     },
@@ -201,7 +201,7 @@
     },
     {
         "name": "Demon Guest House Seal Door",
-        "img": "images/settings/dghsealdoor.png",
+        "img": "images/settings/doors/dgh.png",
         "type": "static",
         "codes": "dghsealdoor"
     },
@@ -241,7 +241,7 @@
     },
     {
         "name": "Condemned Tower Seal Door",
-        "img": "images/settings/ctsealdoor.png",
+        "img": "images/settings/doors/ct.png",
         "type": "static",
         "codes": "ctsealdoor"
     },
@@ -281,7 +281,7 @@
     },
     {
         "name": "Cursed Clock Tower Seal Door",
-        "img": "images/settings/cctsealdoor.png",
+        "img": "images/settings/doors/cct.png",
         "type": "static",
         "codes": "cctsealdoor"
     },
@@ -321,7 +321,7 @@
     },
     {
         "name": "Subeterranean Hell Seal Door",
-        "img": "images/settings/shsealdoor.png",
+        "img": "images/settings/doors/sh.png",
         "type": "static",
         "codes": "shsealdoor"
     },
@@ -361,7 +361,7 @@
     },
     {
         "name": "Silenced Ruins Seal Door",
-        "img": "images/settings/srsealdoor.png",
+        "img": "images/settings/doors/sr.png",
         "type": "static",
         "codes": "srsealdoor"
     },
@@ -401,7 +401,7 @@
     },
     {
         "name": "Demon Guest House Upper Seal Door",
-        "img": "images/settings/dgh2sealdoor.png",
+        "img": "images/settings/doors/dgh2.png",
         "type": "static",
         "codes": "dgh2sealdoor"
     },
@@ -441,7 +441,7 @@
     },
     {
         "name": "The Pinnacle Seal Door",
-        "img": "images/settings/tpsealdoor.png",
+        "img": "images/settings/doors/tp.png",
         "type": "static",
         "codes": "tpsealdoor"
     },
@@ -481,7 +481,7 @@
     },
     {
         "name": "Castle Center Seal Door",
-        "img": "images/settings/gom2sealdoor.png",
+        "img": "images/settings/doors/gom2.png",
         "type": "static",
         "codes": "gom2sealdoor"
     },
@@ -521,7 +521,7 @@
     },
     {
         "name": "Mine of Judgment Seal Door",
-        "img": "images/settings/mojsealdoor.png",
+        "img": "images/settings/doors/moj.png",
         "type": "static",
         "codes": "mojsealdoor"
     },
@@ -561,7 +561,7 @@
     },
     {
         "name": "The Abyss Seal Door",
-        "img": "images/settings/tasealdoor.png",
+        "img": "images/settings/doors/ta.png",
         "type": "static",
         "codes": "tasealdoor"
     },
