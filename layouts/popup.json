@@ -44,7 +44,7 @@
                                 "item_size": 128,
                                 "rows": [
                                     ["lvsealdoor", "lvseal", "wlsealdoor", "wlseal", "gomsealdoor", "gomseal", "dcsealdoor", "dcseal", "dc2sealdoor", "dc2seal"],
-                                    ["dghsealdoor", "dghseal", "ctsealdoor", "ctseal", "cctsealdoor", "cctseal", "shsealdoor", "shseal", "srsealdoor", "srseal"],
+                                    ["dghsealdoor", "dghseal", "ctsealdoor", "ctseal", "shsealdoor", "shseal", "cctsealdoor", "cctseal", "srsealdoor", "srseal"],
                                     ["dgh2sealdoor", "dgh2seal", "tpsealdoor", "tpseal", "gom2sealdoor", "gom2seal", "mojsealdoor", "mojseal", "tasealdoor", "taseal"]
                                 ]
                             }

@@ -7,6 +7,7 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/bullet_souls.lua")
+ScriptHost:LoadScript("scripts/autotracking/magic_seals.lua")
 
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
@@ -79,21 +80,53 @@ end
 
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
-	-- put any code here that slot_data should affect (toggling setting items for example)
+	-- Goal Conditions
 	local goal = Tracker:FindObjectForCode("goal")
 	goal.CurrentStage = slot_data["goal"]
 
 	local garden = Tracker:FindObjectForCode("garden")
-	garden.CurrectStage = slot_data["garden_condition"]
+	garden.CurrentStage = slot_data["garden_condition"]
 
 	local mine = Tracker:FindObjectForCode("mine")
-	mine.CurrectStage = slot_data["mine_condition"]
+	mine.CurrentStage = slot_data["mine_condition"]
 
 	local menace = Tracker:FindObjectForCode("menace")
-	menace.CurrectStage = slot_data["menace_condition"]
+	menace.CurrentStage = slot_data["menace_condition"]
 
-	local SEAL_LAYOUT = slot_datap["seals"]
+	-- Seal Configuration
+	local SEAL_LAYOUT = slot_data["seals"]
+	local lvseal = Tracker:FindObjectForCode("lvseal")
+	lvseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Lost Village"])
+	local wlseal = Tracker:FindObjectForCode("wlseal")
+	wlseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Wizardry Lab"])
+	local gomseal = Tracker:FindObjectForCode("gomseal")
+	gomseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Garden of Madness"])
+	local dcseal = Tracker:FindObjectForCode("dcseal")
+	dcseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Dark Chapel"])
+	local dc2seal = Tracker:FindObjectForCode("dc2seal")
+	dc2seal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Dark Chapel Inner"])
+	local dghseal = Tracker:FindObjectForCode("dghseal")
+	dghseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Demon Guest House"])
+	local ctseal = Tracker:FindObjectForCode("ctseal")
+	ctseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Condemned Tower"])
+	local cctseal = Tracker:FindObjectForCode("cctseal")
+	cctseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Cursed Clock Tower"])
+	local shseal = Tracker:FindObjectForCode("shseal")
+	shseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Subterranean Hell"])
+	local srseal = Tracker:FindObjectForCode("srseal")
+	srseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Silenced Ruins"])
+	local tpseal = Tracker:FindObjectForCode("tpseal")
+	tpseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["The Pinnacle"])
+	local dgh2seal = Tracker:FindObjectForCode("dgh2seal")
+	dgh2seal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Demon Guest House Upper"])
+	local gom2seal = Tracker:FindObjectForCode("gom2seal")
+	gom2seal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Castle Center"])
+	local mojseal = Tracker:FindObjectForCode("mojseal")
+	mojseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Mine of Judgment"])
+	local taseal = Tracker:FindObjectForCode("taseal")
+	taseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["The Abyss"])
 
+	-- Starting Warp
 	local warp = Tracker:FindObjectForCode("warp")
 	local start = slot_data["starting_warp"]
 	if start == "Lost Village" then
@@ -124,6 +157,7 @@ function apply_slot_data(slot_data)
 		warp.CurrentStage = 0
 	end
 
+	-- Soulsanity
 	local soultoggle = Tracker:FindObjectForCode("soulsanity")
 	if slot_data["soul_randomizer"] == 2 then
 		soultoggle.Active = true
@@ -136,6 +170,7 @@ function apply_slot_data(slot_data)
 		soullevel.CurrentStage = 0
 	end
 
+	-- Misc
 	local drawbridge = Tracker:FindObjectForCode("drawbridge")
 	if slot_data["open_drawbridge"] then
 		drawbridge.CurrentStage = slot_data["open_drawbridge"]
@@ -153,19 +188,17 @@ function apply_slot_data(slot_data)
 		buttons.CurrentStage = slot_data["buttonsanity"]
 	end
 
+	-- Soul Walls
 	local SOUL_WALL_LIST = slot_data["soul_walls"]
 
-	local dc = Tracker:FindObjectForCode("dcsoul")
-	dc.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[3])
-
-	local dgh1 = Tracker:FindObjectForCode("dghsoul1")
-	dgh1.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[2])
-
-	local dgh2 = Tracker:FindObjectForCode("dghsoul2")
-	dgh2.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[1])
-
-	local dgh3 = Tracker:FindObjectForCode("dghsoul3")
-	dgh3.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[4])
+	local dcwall = Tracker:FindObjectForCode("dcsoul")
+	dcwall.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[3])
+	local dghwall1 = Tracker:FindObjectForCode("dghsoul1")
+	dghwall1.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[2])
+	local dghwall2 = Tracker:FindObjectForCode("dghsoul2")
+	dghwall2.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[1])
+	local dghwall3 = Tracker:FindObjectForCode("dghsoul3")
+	dghwall3.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[4])
 end
 
 -- called right after an AP slot is connected
