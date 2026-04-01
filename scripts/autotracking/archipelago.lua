@@ -95,65 +95,22 @@ function apply_slot_data(slot_data)
 
 	-- Seal Configuration
 	local SEAL_LAYOUT = slot_data["seals"]
-	local lvseal = Tracker:FindObjectForCode("lvseal")
-	lvseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Lost Village"])
-	local wlseal = Tracker:FindObjectForCode("wlseal")
-	wlseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Wizardry Lab"])
-	local gomseal = Tracker:FindObjectForCode("gomseal")
-	gomseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Garden of Madness"])
-	local dcseal = Tracker:FindObjectForCode("dcseal")
-	dcseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Dark Chapel"])
-	local dc2seal = Tracker:FindObjectForCode("dc2seal")
-	dc2seal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Dark Chapel Inner"])
-	local dghseal = Tracker:FindObjectForCode("dghseal")
-	dghseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Demon Guest House"])
-	local ctseal = Tracker:FindObjectForCode("ctseal")
-	ctseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Condemned Tower"])
-	local cctseal = Tracker:FindObjectForCode("cctseal")
-	cctseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Cursed Clock Tower"])
-	local shseal = Tracker:FindObjectForCode("shseal")
-	shseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Subterranean Hell"])
-	local srseal = Tracker:FindObjectForCode("srseal")
-	srseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Silenced Ruins"])
-	local tpseal = Tracker:FindObjectForCode("tpseal")
-	tpseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["The Pinnacle"])
-	local dgh2seal = Tracker:FindObjectForCode("dgh2seal")
-	dgh2seal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Demon Guest House Upper"])
-	local gom2seal = Tracker:FindObjectForCode("gom2seal")
-	gom2seal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Castle Center"])
-	local mojseal = Tracker:FindObjectForCode("mojseal")
-	mojseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["Mine of Judgment"])
-	local taseal = Tracker:FindObjectForCode("taseal")
-	taseal.CurrentStage = get_seal_stage(SEAL_LAYOUT["The Abyss"])
+
+	for _, entry in ipairs(REGION_TABLE) do
+		fullcode = string.format("%sseal", entry.code)
+		seal_obj = Tracker:FindObjectForCode(fullcode)
+		seal_obj.CurrentStage = get_seal_stage(SEAL_LAYOUT[entry.name])
+	end
 
 	-- Starting Warp
 	local warp = Tracker:FindObjectForCode("warp")
 	local start = slot_data["starting_warp"]
-	if start == "Lost Village" then
-		warp.CurrentStage = 0
-	elseif start == "Wizardry Lab" then
-		warp.CurrentStage = 1
-	elseif start == "Garden of Madness" then
-		warp.CurrentStage = 2
-	elseif start == "Dark Chapel" then
-		warp.CurrentStage = 3
-	elseif start == "Demon Guest House" then
-		warp.CurrentStage = 4
-	elseif start == "Condemned Tower" then
-		warp.CurrentStage = 5
-	elseif start == "Cursed Clock Tower" then
-		warp.CurrentStage = 6
-	elseif start == "Subterranean Hell" then
-		warp.CurrentStage = 7
-	elseif start == "Silenced Ruins" then
-		warp.CurrentStage = 8
-	elseif start == "The Pinnacle" then
-		warp.CurrentStage = 9
-	elseif start == "Mine of Judgment" then
-		warp.CurrentStage = 10
-	elseif start == "The Abyss" then
-		warp.CurrentStage = 11
-	else
+
+	for _, region in ipairs(REGION_TABLE) do
+		if start == region.name then
+			warp.CurrentStage = region.id - 1
+			break
+		end
 		warp.CurrentStage = 0
 	end
 

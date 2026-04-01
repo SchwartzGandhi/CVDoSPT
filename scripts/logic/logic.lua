@@ -48,10 +48,6 @@ function holes()
 end
 
 -- Settings Macros
-function abyssaccess()
-    return has("abyss") or has("abyssplus")
-end
-
 function workingbuttons()
     if has("buttonsoff") or has("buttonkeys") then
         return true
@@ -104,11 +100,7 @@ function OpenSoulWall(wall)
     if not has("soulsanity") then
         local enemy = get_name_for_wall(soul.CurrentStage)
         local enemy_region = Tracker:FindObjectForCode(string.format('@Soul Farming Regions/%s', enemy))
-        if enemy_region.AccessibilityLevel == AccessibilityLevel.Normal then
-            return AccessibilityLevel.Normal
-        elseif enemy_region.AccessibilityLevel == AccessibilityLevel.SequenceBreak then
-            return AccessibilityLevel.SequenceBreak
-        end
+        return enemy_region.AccessibilityLevel
     else
         local code = get_code_for_wall(soul.CurrentStage)
         return has(code)
