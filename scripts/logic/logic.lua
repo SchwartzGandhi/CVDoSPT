@@ -114,3 +114,52 @@ function OpenSoulWall(wall)
         return has(code)
     end
 end
+
+function GetSeal(door)
+    local seal = Tracker:FindObjectForCode(door)
+    return has(string.format("seal%s", seal.CurrentStage + 1))
+end
+
+function allbosses(mode)
+    local boss_reach = {
+        armor = Tracker:FindObjectForCode("@The Lost Village/Flying Armor Soul/").AccessibilityLevel,
+        balore = Tracker:FindObjectForCode("@Wizardry Lab/Balore Soul/").AccessibilityLevel,
+        dario = Tracker:FindObjectForCode("@Garden of Madness/Dario/").AccessibilityLevel,
+        puppet = Tracker:FindObjectForCode("@Demon Guest House/Puppet Master Soul/").AccessibilityLevel,
+        dmitrii = Tracker:FindObjectForCode("@The Dark Chapel/Dmitrii/").AccessibilityLevel,
+        malphas = Tracker:FindObjectForCode("@The Dark Chapel/Malphas Soul/").AccessibilityLevel,
+        gergoth = Tracker:FindObjectForCode("@Condemned Tower/Gergoth Soul/").AccessibilityLevel,
+        rahab = Tracker:FindObjectForCode("@Subterranean Hell/Rahab Soul/").AccessibilityLevel,
+        zephyr = Tracker:FindObjectForCode("@Cursed Clock Tower/Zephyr Soul/").AccessibilityLevel,
+        bat = Tracker:FindObjectForCode("@Silenced Ruins/Bat Company Soul/").AccessibilityLevel,
+        aguni = Tracker:FindObjectForCode("@The Pinnacle/Aguni Soul/").AccessibilityLevel,
+        paranoia = Tracker:FindObjectForCode("@Demon Guest House/Paranoia Soul/").AccessibilityLevel
+    }
+    local post_mine = {
+        death = Tracker:FindObjectForCode("@Mine of Judgment/Death Soul/").AccessibilityLevel,
+        abaddon = Tracker:FindObjectForCode("@The Abyss/Abaddon Soul/").AccessibilityLevel
+    }
+
+    -- Break and return false if any boss listed isn't reachable.
+    for name, access in pairs(boss_reach) do
+        if access ~= AccessibilityLevel.Normal then
+            -- print(string.format("%s is cringe", name))
+            return false
+        end
+        -- print(string.format("%s is based", name))
+    end
+
+    -- Garden doesn't need all bosses if mine is set to garden or all bosses.
+    -- Mine never needs all bosses.
+    -- Menace always needs all bosses.
+    if mode == "menace" or (mode == "garden" and (has("openmine") or has("minethrone"))) then
+        for _, access in pairs(post_mine) do
+            if access ~= AccessibilityLevel.Normal then
+                return false
+            end
+        end
+    end
+
+    -- If it hasn't returned already it must be in logic.
+    return true
+end
