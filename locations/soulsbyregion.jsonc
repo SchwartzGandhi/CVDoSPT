@@ -232,8 +232,8 @@
 								"ref": "Soulsanity/Uncommon Souls/Skeleton Soul/"
 							},
 							{
-								"name": "Slughterer Soul",
-								"ref": "Soulsanity/Uncommon Souls/Slughterer Soul/"
+								"name": "Slaughterer Soul",
+								"ref": "Soulsanity/Uncommon Souls/Slaughterer Soul/"
 							},
 							{
 								"name": "Manticore Soul",
@@ -391,7 +391,7 @@
 							},
 							{
 								"name": "Mollusca Soul",
-								"ref": "Soulsanity/Uncommon Souls/Molusca Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Mollusca Soul/"
 							},
 							{
 								"name": "Yorick Soul",
@@ -443,7 +443,7 @@
 							},
 							{
 								"name": "Mollusca Soul",
-								"ref": "Soulsanity/Uncommon Souls/Molusca Soul/"
+								"ref": "Soulsanity/Uncommon Souls/Mollusca Soul/"
 							},
 							{
 								"name": "Barbariccia Soul",
@@ -666,7 +666,7 @@
 						"sections": [
 							{
 								"name": "Axe Armor Soul",
-								"ref": "Soulsanity/Common Souls/Mini Devil Soul/"
+								"ref": "Soulsanity/Common Souls/Axe Armor Soul/"
 							},
 							{
 								"name": "Skeleton Soul",
@@ -1605,8 +1605,8 @@
 								"ref": "Soulsanity/Uncommon Souls/Ripper Soul/"
 							},
 							{
-								"name": "Giabon Soul",
-								"ref": "Soulsanity/Uncommon Souls/Giabon Soul/"
+								"name": "Gaibon Soul",
+								"ref": "Soulsanity/Uncommon Souls/Gaibon Soul/"
 							},
 							{
 								"name": "Tanjelly Soul",

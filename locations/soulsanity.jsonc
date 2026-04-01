@@ -2107,7 +2107,37 @@
 						]
 					},
 					{
-						"name": "Puppet Master Soul Soul",
+						"name": "Dmitrii",
+						"sections": [
+							{
+								"ref": "The Dark Chapel/Dmitrii/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Soulsanity Page 2",
+								"x": 416,
+								"y": 82
+							}
+						]
+					},
+					{
+						"name": "Dario",
+						"sections": [
+							{
+								"ref": "Garden of Madness/Dario/"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "Soulsanity Page 2",
+								"x": 416,
+								"y": 93
+							}
+						]
+					},
+					{
+						"name": "Puppet Master Soul",
 						"sections": [
 							{
 								"ref": "Demon Guest House/Puppet Master Soul/"

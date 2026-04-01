@@ -811,6 +811,25 @@
 				"name": "Garden of Madness",
 				"sections": [
 					{
+						"name": "Dario",
+						"ref": "Garden of Madness/Dario/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 682,
+						"y": 412,
+						"restrict_visibility_rules": [
+							"$oulviewoff"
+						]
+					}
+				]
+			},
+			{
+				"name": "Garden of Madness",
+				"sections": [
+					{
 						"name": "East Alcove",
 						"ref": "Garden of Madness/East Alcove/"
 					}
@@ -1067,8 +1086,27 @@
 				"name": "The Dark Chapel",
 				"sections": [
 					{
-						"name": "Post-Dimitrii Room",
-						"ref": "The Dark Chapel/Post-Dimitrii Room/"
+						"name": "Dmitrii",
+						"ref": "The Dark Chapel/Dmitrii/"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "Dracula's Castle",
+						"x": 922,
+						"y": 432,
+						"restrict_visibility_rules": [
+							"$oulviewoff"
+						]
+					}
+				]
+			},
+			{
+				"name": "The Dark Chapel",
+				"sections": [
+					{
+						"name": "Post-Dmitrii Room",
+						"ref": "The Dark Chapel/Post-Dmitrii Room/"
 					}
 				],
 				"map_locations": [
