@@ -8,7 +8,7 @@
 					"", // starting region
 					"@The Lost Village Regions/LVUpperDoorway",
 					"@The Lost Village Regions/LVCourtyard",
-					"@The Lost Village Regions/LVLower, seal1",
+					"@The Lost Village Regions/LVLower, $GetSeal|lvseal",
 					"@Demon Guest House Regions/DGHLower"
 				]
 			},
@@ -24,9 +24,9 @@
 			{
 				"name": "LVLower",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper, seal1, speed",
-					"@The Lost Village Regions/LVUpper, seal1, $tinyuppies",
-					"@The Lost Village Regions/LVUpper, seal1, $widies",
+					"@The Lost Village Regions/LVUpper, $GetSeal|lvseal, speed",
+					"@The Lost Village Regions/LVUpper, $GetSeal|lvseal, $tinyuppies",
+					"@The Lost Village Regions/LVUpper, $GetSeal|lvseal, $widies",
 					"@The Lost Village Regions/LVUndergroundTop",
 					"lvwarp, @Warp Room",
 					"@Wizardry Lab Regions/WLMain, @The Lost Village/Moat Drain Switch/"
@@ -137,7 +137,7 @@
 				"name": "GoMUpper",
 				"access_rules": [
 					"@Garden of Madness Regions/GoMLower, $tinyuppies",
-					"@Garden of Madness Regions/GoMPostBoss, seal2"
+					"@Garden of Madness Regions/GoMPostBoss, $GetSeal|gomseal"
 				]
 			},
 			{
@@ -150,7 +150,7 @@
 			{
 				"name": "GoMPostBoss",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMUpper, seal2",
+					"@Garden of Madness Regions/GoMUpper, $GetSeal|gomseal",
 					"@Demon Guest House Regions/DGHMain",
 					"@Garden of Madness Regions/GoMEastGate, $workingbuttons",
 					"@Garden of Madness Regions/GoMEastGate, gkey",
@@ -272,7 +272,7 @@
 					"@Condemned Tower Regions/CTBottom, glide, jump",
 					"@Condemned Tower Regions/CTBottom, glide, puppet",
 					"@Cursed Clock Tower Regions/CCTEntrance, tkey",
-					"ctwarp, @Warp Room, seal3"
+					"ctwarp, @Warp Room, $GetSeal|ctseal"
 				]
 			}
 		]
@@ -300,13 +300,13 @@
 				"name": "CCTBossArea",
 				"access_rules": [
 					"@Cursed Clock Tower Regions/CCTCentral",
-					"@Cursed Clock Tower Regions/CCTPostBoss, seal4"
+					"@Cursed Clock Tower Regions/CCTPostBoss, $GetSeal|cctseal"
 				]
 			},
 			{
 				"name": "CCTPostBoss",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTBossArea, seal4",
+					"@Cursed Clock Tower Regions/CCTBossArea, $GetSeal|cctseal",
 					"@Cursed Clock Tower Regions/CCTExit, bat",
 					"cctwarp, @Warp Room"
 				]
@@ -327,13 +327,13 @@
 				"name": "SHTopEntrance",
 				"access_rules": [
 					"@The Dark Chapel Regions/DCCatacombsExit",
-					"@Subterranean Hell Regions/SHEast, water, seal3, $tinyuppies"
+					"@Subterranean Hell Regions/SHEast, water, $GetSeal|shseal, $tinyuppies"
 				]
 			},
 			{
 				"name": "SHEast",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHTopEntrance, water, seal3",
+					"@Subterranean Hell Regions/SHTopEntrance, water, $GetSeal|shseal",
 					"@Subterranean Hell Regions/SHCentralEastConnection, $tinyuppies",
 					"@Subterranean Hell Regions/SHButtonGateRoom, $tinyuppies"
 				]
@@ -504,8 +504,10 @@
 			{
 				"name": "MoJ",
 				"access_rules": [
-					"abyss, @Condemned Tower Regions/CTBottom, @Garden of Madness/Central Chamber/",
-					"abyssplus, @Condemned Tower Regions/CTBottom, @Garden of Madness/Central Chamber/, @The Pinnacle/Aguni Soul/",
+					"openmine, @Condemned Tower Regions/CTBottom",
+					"minegarden, @Condemned Tower Regions/CTBottom, @Garden of Madness/Central Chamber/",
+					"minethrone, @Condemned Tower Regions/CTBottom, @The Pinnacle/Aguni Soul/",
+					"minebosses, @Condemned Tower Regions/CTBottom, $allbosses|mine",
 					"@The Abyss Regions/TA, $smalluppies",
 					"mojwarp, @Warp Room"
 				]
@@ -518,13 +520,13 @@
 			{
 				"name": "TA",
 				"access_rules": [
-					"@Mine of Judgment Regions/MoJ, $tinyuppies, seal5"
+					"@Mine of Judgment Regions/MoJ, $tinyuppies, $GetSeal|mojseal"
 				]
 			},
 			{
 				"name": "TABeyondAbaddon",
 				"access_rules": [
-					"@The Abyss Regions/TA, $biguppies, seal5",
+					"@The Abyss Regions/TA, $biguppies, $GetSeal|taseal",
 					"tawarp, @Warp Room"
 				]
 			}
@@ -538,8 +540,8 @@
 			"@Garden of Madness Regions/GoMLower",
 			"@Demon Guest House Regions/DGHWestWing",
 			"@The Dark Chapel Regions/DC",
-			"@Condemned Tower Regions/CTTop, seal3",
-			"@Cursed Clock Tower Regions/CCTBossArea, seal4",
+			"@Condemned Tower Regions/CTTop, $GetSeal|ctseal",
+			"@Cursed Clock Tower Regions/CCTBossArea, $GetSeal|cctseal",
 			"@Subterranean Hell Regions/SHCentralLower",
 			"@Silenced Ruins Regions/SR",
 			"@The Pinnacle Regions/TPLower, $tinyuppies",
@@ -760,7 +762,7 @@
 			{
 				"name": "Decarabia",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHTopEntrance, seal3",
+					"@Subterranean Hell Regions/SHTopEntrance, $GetSeal|shseal",
 					"@Subterranean Hell Regions/SHEast, water"
 				]
 			},
@@ -969,7 +971,7 @@
 				"name": "Quetzalcoatl",
 				"access_rules": [
 					"@Demon Guest House Regions/DGHWestWing",
-					"@The Dark Chapel Regions/DC, seal2",
+					"@The Dark Chapel Regions/DC, $GetSeal|dcseal",
 					"@The Dark Chapel Regions/DCBigRoom"
 				]
 			},

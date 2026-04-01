@@ -87,7 +87,7 @@
 			{
 				"name": "Flying Armor Soul",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper, seal1"
+					"@The Lost Village Regions/LVUpper, $GetSeal|lvseal"
 				],
 				"sections": [
 					{
@@ -346,7 +346,7 @@
 			{
 				"name": "Balore Soul",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLMain, seal1"
+					"@Wizardry Lab Regions/WLMain, $GetSeal|wlseal"
 				],
 				"sections": [
 					{
@@ -552,12 +552,27 @@
 				]
 			},
 			{
+				"name": "Dario",
+				"access_rules": [
+					"@Garden of Madness Regions/GoMUpper, $GetSeal|gomseal"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/enemies/106.png",
+						"chest_opened_img": "images/enemies/106_bw.png"
+					}
+				]
+			},
+			{
 				"name": "Central Chamber",
 				"visibility_rules": [
 					"$abyssaccess"
 				],
 				"access_rules": [
-					"$abyssaccess, @Garden of Madness Regions/GoMLower, talisman, seal5"
+					"$abyssaccess, opengarden, @Garden of Madness Regions/GoMLower, talisman, $GetSeal|gom2seal",
+					"$abyssaccess, gardenthrone, @The Pinnacle/Aguni Soul/, @Garden of Madness Regions/GoMLower, talisman, $GetSeal|gom2seal",
+					"$abyssaccess, gardenbosses, $allbosses|garden, @Garden of Madness Regions/GoMLower, talisman, $GetSeal|gom2seal"
 				],
 				"sections": [
 					{
@@ -696,10 +711,23 @@
 				]
 			},
 			{
-				"name": "Post-Dimitrii Room",
+				"name": "Dmitrii",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC, seal2, $smalluppies",
-					"{@The Dark Chapel Regions/DC, seal2}"
+					"@The Dark Chapel Regions/DC, $GetSeal|dcseal"
+				],
+				"sections": [
+					{
+						"name": "",
+						"chest_unopened_img": "images/enemies/105.png",
+						"chest_opened_img": "images/enemies/105_bw.png"
+					}
+				]
+			},
+			{
+				"name": "Post-Dmitrii Room",
+				"access_rules": [
+					"@The Dark Chapel Regions/DC, $GetSeal|dcseal, $smalluppies",
+					"{@The Dark Chapel Regions/DC, $GetSeal|dcseal}"
 				],
 				"sections": [
 					{
@@ -710,7 +738,7 @@
 			{
 				"name": "Malphas Soul",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC, seal2"
+					"@The Dark Chapel Regions/DC, $GetSeal|dc2seal"
 				],
 				"sections": [
 					{
@@ -919,7 +947,7 @@
 			{
 				"name": "Puppet Master Soul",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHWestWing, $smalluppies, seal3"
+					"@Demon Guest House Regions/DGHWestWing, $smalluppies, $GetSeal|dghseal"
 				],
 				"sections": [
 					{
@@ -991,7 +1019,7 @@
 			{
 				"name": "Paranoia Soul",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHUpper, ^$OpenSoulWall|dghsoul1, ^$OpenSoulWall|dghsoul2, ^$OpenSoulWall|dghsoul3, seal4"
+					"@Demon Guest House Regions/DGHUpper, ^$OpenSoulWall|dghsoul1, ^$OpenSoulWall|dghsoul2, ^$OpenSoulWall|dghsoul3, $GetSeal|dgh2seal"
 				],
 				"sections": [
 					{
@@ -1004,7 +1032,7 @@
 			{
 				"name": "Beyond Paranoia",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHUpper, ^$OpenSoulWall|dghsoul1, ^$OpenSoulWall|dghsoul2, ^$OpenSoulWall|dghsoul3, seal4"
+					"@Demon Guest House Regions/DGHUpper, ^$OpenSoulWall|dghsoul1, ^$OpenSoulWall|dghsoul2, ^$OpenSoulWall|dghsoul3, $GetSeal|dgh2seal"
 				],
 				"sections": [
 					{
@@ -1015,7 +1043,7 @@
 			{
 				"name": "Paranoia Mirror",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHUpper, ^$OpenSoulWall|dghsoul1, ^$OpenSoulWall|dghsoul2, ^$OpenSoulWall|dghsoul3, seal4, mirror"
+					"@Demon Guest House Regions/DGHUpper, ^$OpenSoulWall|dghsoul1, ^$OpenSoulWall|dghsoul2, ^$OpenSoulWall|dghsoul3, $GetSeal|dgh2seal, mirror"
 				],
 				"sections": [
 					{
@@ -1089,7 +1117,7 @@
 			{
 				"name": "Gergoth Soul",
 				"access_rules": [
-					"@Condemned Tower Regions/CTTop, seal3"
+					"@Condemned Tower Regions/CTTop, $GetSeal|ctseal"
 				],
 				"sections": [
 					{
@@ -1102,7 +1130,7 @@
 			{
 				"name": "Top of the Tower",
 				"access_rules": [
-					"@Condemned Tower Regions/CTTop, seal3"
+					"@Condemned Tower Regions/CTTop, $GetSeal|ctseal"
 				],
 				"sections": [
 					{
@@ -1194,7 +1222,7 @@
 			{
 				"name": "Zephyr Soul",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTBossArea, seal4"
+					"@Cursed Clock Tower Regions/CCTBossArea, $GetSeal|cctseal"
 				],
 				"sections": [
 					{
@@ -1214,7 +1242,7 @@
 			{
 				"name": "Rahab Soul",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHTopEntrance, seal3"
+					"@Subterranean Hell Regions/SHTopEntrance, $GetSeal|shseal"
 				],
 				"sections": [
 					{
@@ -1388,7 +1416,7 @@
 			{
 				"name": "Bat Company Soul",
 				"access_rules": [
-					"@Silenced Ruins Regions/SR, seal4"
+					"@Silenced Ruins Regions/SR, $GetSeal|srseal"
 				],
 				"sections": [
 					{
@@ -1494,7 +1522,7 @@
 					"$abyssaccess"
 				],
 				"access_rules": [
-					"@The Pinnacle Regions/TPThroneRoom, seal4, mirror"
+					"@The Pinnacle Regions/TPThroneRoom, $GetSeal|tpseal, mirror"
 				],
 				"sections": [
 					{
@@ -1510,7 +1538,7 @@
 					"$abyssaccess"
 				],
 				"access_rules": [
-					"@The Pinnacle Regions/TPThroneRoom, seal4, mirror"
+					"@The Pinnacle Regions/TPThroneRoom, $GetSeal|tpseal, mirror"
 				],
 				"sections": [
 					{
@@ -1529,7 +1557,7 @@
 					"$abyssaccess"
 				],
 				"access_rules": [
-					"@Mine of Judgment Regions/MoJ, $tinyuppies, seal5"
+					"@Mine of Judgment Regions/MoJ, $tinyuppies, $GetSeal|mojseal"
 				],
 				"sections": [
 					{
@@ -1593,8 +1621,11 @@
 			{
 				"name": "Abyss Center",
 				"access_rules": [
-					"throneroom, @The Pinnacle Regions/TPThroneRoom",
-					"$abyssaccess, @The Abyss Regions/TABeyondAbaddon, $biguppies"
+					"throneroom, @The Pinnacle Regions/TPThroneRoom, $biguppies",
+					"$abyssaccess, openmenace, @The Abyss Regions/TABeyondAbaddon, $biguppies",
+					"$abyssaccess, menacethrone, @The Pinnacle/Aguni Soul/, @The Abyss Regions/TABeyondAbaddon, $biguppies",
+					"$abyssaccess, menacegarden, @Garden of Madness/Central Chamber/, @The Abyss Regions/TABeyondAbaddon, $biguppies",
+					"$abyssaccess, menacebosses, $allbosses|menace, @The Abyss Regions/TABeyondAbaddon, $biguppies"
 				],
 				"sections": [
 					{
