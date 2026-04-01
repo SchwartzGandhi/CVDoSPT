@@ -25,7 +25,7 @@ MAGIC_SEAL_TO_ID = {
 }
 
 function get_seal_stage(stageseal)
-    for i, seal  in ipairs(MAGIC_SEAL_TO_ID) do
+    for _, seal  in ipairs(MAGIC_SEAL_TO_ID) do
         if seal.name == stageseal then
             return seal.id
         end
