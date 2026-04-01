@@ -1,13 +1,16 @@
 {
     "versions": [
         {
-            "package_version": "4.5",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/4.5/CVDoSPT.zip",
-            "sha256": "ea81904615ff8be86eec603cda7488575be9f6892fa34b993ff1ef2a538dd066",
+            "package_version": "5.0",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/5.0/CVDoSPT.zip",
+            "sha256": "22b3c712e5d834be95e659c8b36b0ee4c4437150fd588f32d61e27f032ba2a01",
             "changelog": [
-                "Reformatted the region names in Soul View",
-                "Fixed some region logic for soulsanity",
-                "Fixed a logic bug preventing access into CCT Central from behind"
+                "The settings popup now has a lot more settings separated into tabs",
+                "The goal settings has been moved into its own tab along with the new goal conditions.",
+                "The required Magic Seal for each door is now configurable in the settings popup",
+                "Dmitrii and Dario have been added as untracked locations due to the new all bosses condition",
+                "Optimised some lua backend code",
+                "Fixed some typos causing some souls to not appear in soulview"
             ]
         }
     ]
