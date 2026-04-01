@@ -567,12 +567,12 @@
 			{
 				"name": "Central Chamber",
 				"visibility_rules": [
-					"$abyssaccess"
+					"abyss"
 				],
 				"access_rules": [
-					"$abyssaccess, opengarden, @Garden of Madness Regions/GoMLower, talisman, $GetSeal|gom2seal",
-					"$abyssaccess, gardenthrone, @The Pinnacle/Aguni Soul/, @Garden of Madness Regions/GoMLower, talisman, $GetSeal|gom2seal",
-					"$abyssaccess, gardenbosses, $allbosses|garden, @Garden of Madness Regions/GoMLower, talisman, $GetSeal|gom2seal"
+					"abyss, opengarden, @Garden of Madness Regions/GoMLower, talisman, $GetSeal|gom2seal",
+					"abyss, gardenthrone, @The Pinnacle/Aguni Soul/, @Garden of Madness Regions/GoMLower, talisman, $GetSeal|gom2seal",
+					"abyss, gardenbosses, $allbosses|garden, @Garden of Madness Regions/GoMLower, talisman, $GetSeal|gom2seal"
 				],
 				"sections": [
 					{
@@ -702,6 +702,7 @@
 				"name": "Bell Room Right",
 				"access_rules": [
 					"@The Dark Chapel Regions/DC, $tinyuppies",
+					"@The Dark Chapel Regions/DC, fast",
 					"{@The Dark Chapel Regions/DC}"
 				],
 				"sections": [
@@ -1519,7 +1520,7 @@
 			{
 				"name": "Aguni Soul",
 				"visibility_rules": [
-					"$abyssaccess"
+					"abyss"
 				],
 				"access_rules": [
 					"@The Pinnacle Regions/TPThroneRoom, $GetSeal|tpseal, mirror"
@@ -1535,7 +1536,7 @@
 			{
 				"name": "Beyond Throne Room",
 				"visibility_rules": [
-					"$abyssaccess"
+					"abyss"
 				],
 				"access_rules": [
 					"@The Pinnacle Regions/TPThroneRoom, $GetSeal|tpseal, mirror"
@@ -1554,7 +1555,7 @@
 			{
 				"name": "Death Soul",
 				"visibility_rules": [
-					"$abyssaccess"
+					"abyss"
 				],
 				"access_rules": [
 					"@Mine of Judgment Regions/MoJ, $tinyuppies, $GetSeal|mojseal"
@@ -1577,7 +1578,7 @@
 			{
 				"name": "Sand Area",
 				"visibility_rules": [
-					"$abyssaccess"
+					"abyss"
 				],
 				"access_rules": [
 					"@The Abyss Regions/TA"
@@ -1591,7 +1592,7 @@
 			{
 				"name": "Ice Area",
 				"visibility_rules": [
-					"$abyssaccess"
+					"abyss"
 				],
 				"access_rules": [
 					"@The Abyss Regions/TA"
@@ -1605,7 +1606,7 @@
 			{
 				"name": "Abaddon Soul",
 				"visibility_rules": [
-					"$abyssaccess"
+					"abyss"
 				],
 				"access_rules": [
 					"@The Abyss Regions/TABeyondAbaddon"
@@ -1622,10 +1623,10 @@
 				"name": "Abyss Center",
 				"access_rules": [
 					"throneroom, @The Pinnacle Regions/TPThroneRoom, $biguppies",
-					"$abyssaccess, openmenace, @The Abyss Regions/TABeyondAbaddon, $biguppies",
-					"$abyssaccess, menacethrone, @The Pinnacle/Aguni Soul/, @The Abyss Regions/TABeyondAbaddon, $biguppies",
-					"$abyssaccess, menacegarden, @Garden of Madness/Central Chamber/, @The Abyss Regions/TABeyondAbaddon, $biguppies",
-					"$abyssaccess, menacebosses, $allbosses|menace, @The Abyss Regions/TABeyondAbaddon, $biguppies"
+					"abyss, openmenace, @The Abyss Regions/TABeyondAbaddon, $biguppies",
+					"abyss, menacethrone, @The Pinnacle/Aguni Soul/, @The Abyss Regions/TABeyondAbaddon, $biguppies",
+					"abyss, menacegarden, @Garden of Madness/Central Chamber/, @The Abyss Regions/TABeyondAbaddon, $biguppies",
+					"abyss, menacebosses, $allbosses|menace, @The Abyss Regions/TABeyondAbaddon, $biguppies"
 				],
 				"sections": [
 					{

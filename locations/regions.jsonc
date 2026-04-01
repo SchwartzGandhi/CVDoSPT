@@ -667,7 +667,7 @@
 			{
 				"name": "Ripper",
 				"access_rules": [
-					"$abyssaccess, @Mine of Judgment Regions/MoJ"
+					"abyss, @Mine of Judgment Regions/MoJ"
 				]
 			},
 			{
@@ -691,7 +691,7 @@
 					"@Demon Guest House Regions/DGHUpper",
 					"@Cursed Clock Tower Regions/CCTEntrance",
 					"@The Pinnacle Regions/TPLower",
-					"$abyssaccess, @The Abyss Regions/TA"
+					"abyss, @The Abyss Regions/TA"
 				]
 			},
 			{
@@ -729,7 +729,7 @@
 					"@Subterranean Hell Regions/SHCentralLower",
 					"@Subterranean Hell Regions/SHCentralUpper",
 					"@Subterranean Hell Regions/SHCentralExit",
-					"$abyssaccess, @The Abyss Regions/TA"
+					"abyss, @The Abyss Regions/TA"
 				]
 			},
 			{
@@ -771,13 +771,13 @@
 				"access_rules": [
 					"@Demon Guest House Regions/DGHUpper",
 					"@The Pinnacle Regions/TPLower",
-					"$abyssaccess, @The Abyss Regions/TABeyondAbaddon"
+					"abyss, @The Abyss Regions/TABeyondAbaddon"
 				]
 			},
 			{
 				"name": "Slogra",
 				"access_rules": [
-					"$abyssaccess, @Mine of Judgment Regions/MoJ"
+					"abyss, @Mine of Judgment Regions/MoJ"
 				]
 			},
 			{
@@ -785,7 +785,7 @@
 				"access_rules": [
 					"@The Pinnacle Regions/TP",
 					"@The Pinnacle Regions/TPLower",
-					"$abyssaccess, @The Abyss Regions/TA"
+					"abyss, @The Abyss Regions/TA"
 				]
 			},
 			{
@@ -817,7 +817,7 @@
 			{
 				"name": "Giant Slug",
 				"access_rules": [
-					"$abyssaccess, @Mine of Judgment Regions/MoJ"
+					"abyss, @Mine of Judgment Regions/MoJ"
 				]
 			},
 			{
@@ -829,7 +829,7 @@
 			{
 				"name": "Malacoda",
 				"access_rules": [
-					"$abyssaccess, @The Abyss Regions/TA"
+					"abyss, @The Abyss Regions/TA"
 				]
 			},
 			{
@@ -1030,7 +1030,7 @@
 				"access_rules": [
 					"@The Lost Village Regions/LVUndergroundBottom",
 					"@The Dark Chapel Regions/DC",
-					"$abyssaccess, @The Abyss Regions/TA"
+					"abyss, @The Abyss Regions/TA"
 				]
 			},
 			{
@@ -1091,19 +1091,19 @@
 				"name": "Alastor",
 				"access_rules": [
 					"@The Pinnacle Regions/TP",
-					"$abyssaccess, @The Abyss Regions/TA"
+					"abyss, @The Abyss Regions/TA"
 				]
 			},
 			{
 				"name": "Mud Demon",
 				"access_rules": [
-					"$abyssaccess, @The Abyss Regions/TA"
+					"abyss, @The Abyss Regions/TA"
 				]
 			},
 			{
 				"name": "Gaibon",
 				"access_rules": [
-					"$abyssaccess, @Mine of Judgment Regions/MoJ"
+					"abyss, @Mine of Judgment Regions/MoJ"
 				]
 			},
 			// Enchantment Souls
@@ -1220,7 +1220,7 @@
 				"name": "Heart Eater",
 				"access_rules": [
 					"@Wizardry Lab Regions/WLWestGate",
-					"$abyssaccess, @The Abyss Regions/TA"
+					"abyss, @The Abyss Regions/TA"
 				]
 			},
 			{
@@ -1247,7 +1247,7 @@
 				"access_rules": [
 					"@Cursed Clock Tower Regions/CCTCentral",
 					"@The Pinnacle Regions/TPLower",
-					"$abyssaccess, @Mine of Judgment Regions/MoJ"
+					"abyss, @Mine of Judgment Regions/MoJ"
 				]
 			},
 			{
@@ -1281,14 +1281,14 @@
 				"access_rules": [
 					"@Cursed Clock Tower Regions/CCTEntrance",
 					"@Cursed Clock Tower Regions/CCTCentral",
-					"$abyssaccess, @Mine of Judgment Regions/MoJ"
+					"abyss, @Mine of Judgment Regions/MoJ"
 				]
 			},
 			{
 				"name": "Final Guard",
 				"access_rules": [
 					"@The Pinnacle Regions/TP",
-					"$abyssaccess, @The Abyss Regions/TA"
+					"abyss, @The Abyss Regions/TA"
 				]
 			},
 			{
@@ -1296,19 +1296,19 @@
 				"access_rules": [
 					"@Wizardry Lab Regions/WLSunkenWestDoor, spirit",
 					"@Demon Guest House Regions/DGHUpper, spirit",
-					"$abyssaccess, @The Abyss Regions/TABeyondAbaddon, spirit"
+					"abyss, @The Abyss Regions/TABeyondAbaddon, spirit"
 				]
 			},
 			{
 				"name": "Stolas",
 				"access_rules": [
-					"$abyssaccess, @The Abyss Regions/TA"
+					"abyss, @The Abyss Regions/TA"
 				]
 			},
 			{
 				"name": "Arc Demon",
 				"access_rules": [
-					"$abyssaccess, @The Abyss Regions/TA"
+					"abyss, @The Abyss Regions/TA"
 				]
 			}
 		]

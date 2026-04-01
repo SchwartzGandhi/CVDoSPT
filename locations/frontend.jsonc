@@ -2449,7 +2449,7 @@
 			{
 				"name": "Abyss Center",
 				"visibility_rules": [
-					"$abyssaccess"
+					"abyss"
 				],
 				"sections": [
 					{
