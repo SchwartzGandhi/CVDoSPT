@@ -2499,7 +2499,7 @@
 						"y": 472,
 						"size": 48,
 						"restrict_visibility_rules": [
-							"$oulviewoff, $abyssaccess"
+							"$oulviewoff, abyss"
 						]
 					}
 				]
