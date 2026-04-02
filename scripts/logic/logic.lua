@@ -93,6 +93,15 @@ function unsupportedgate()
     end
 end
 
+function abyssaccess()
+    if has("throneroom") then
+        local abysslocked =  has("minethrone") or (has("minegarden") and has("gardenthrone"))
+        return not abysslocked
+    else
+        return has("abyss")
+    end
+end
+
 function OpenSoulWall(wall)
     local soul = Tracker:FindObjectForCode(wall)
     -- If soulsanity is off, the player needs access to the enemy's region.
