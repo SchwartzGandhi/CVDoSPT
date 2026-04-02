@@ -1,16 +1,12 @@
 {
     "versions": [
         {
-            "package_version": "5.0",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/5.0/CVDoSPT.zip",
-            "sha256": "22b3c712e5d834be95e659c8b36b0ee4c4437150fd588f32d61e27f032ba2a01",
+            "package_version": "5.1",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/5.1/CVDoSPT.zip",
+            "sha256": "8854dd98a520233a0408e6d009a62d7e3de06c4067a45a34df47e01aca0820e1",
             "changelog": [
-                "The settings popup now has a lot more settings separated into tabs",
-                "The goal settings has been moved into its own tab along with the new goal conditions.",
-                "The required Magic Seal for each door is now configurable in the settings popup",
-                "Dmitrii and Dario have been added as untracked locations due to the new all bosses condition",
-                "Optimised some lua backend code",
-                "Fixed some typos causing some souls to not appear in soulview"
+                "Mine of Judgment and The Abyss locations are now only hidden if the abyss is unreachable.",
+                "Souls unique to the abyss will be hidden if the abyss is unreachable."
             ]
         }
     ]
