@@ -1628,7 +1628,7 @@
 								"y": 642,
 								"size": 32,
 								"restrict_visibility_rules": [
-									"soulview"
+									"soulview, $abyssaccess"
 								]
 							}
 						]
@@ -1693,7 +1693,7 @@
 								"y": 552,
 								"size": 32,
 								"restrict_visibility_rules": [
-									"soulview"
+									"soulview, $abyssaccess"
 								]
 							}
 						]
@@ -1721,7 +1721,7 @@
 								"y": 552,
 								"size": 32,
 								"restrict_visibility_rules": [
-									"soulview"
+									"soulview, $abyssaccess"
 								]
 							}
 						]
@@ -1792,7 +1792,7 @@
 								"x": 1172,
 								"y": 892,
 								"restrict_visibility_rules": [
-									"soulview"
+									"soulview, $abyssaccess"
 								]
 							}
 						]

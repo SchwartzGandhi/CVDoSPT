@@ -330,7 +330,10 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 237,
-								"y": 258
+								"y": 258,
+								"restrict_visibility_rules": [
+									"$abyssaccess"
+								]
 							}
 						]
 					},
@@ -350,7 +353,10 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 237,
-								"y": 170
+								"y": 170,
+								"restrict_visibility_rules": [
+									"$abyssaccess"
+								]
 							}
 						]
 					}
@@ -1361,7 +1367,10 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 237,
-								"y": 159
+								"y": 159,
+								"restrict_visibility_rules": [
+									"$abyssaccess"
+								]
 							}
 						]
 					},
@@ -1381,7 +1390,10 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 237,
-								"y": 181
+								"y": 181,
+								"restrict_visibility_rules": [
+									"$abyssaccess"
+								]
 							}
 						]
 					},
@@ -1401,7 +1413,10 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 237,
-								"y": 247
+								"y": 247,
+								"restrict_visibility_rules": [
+									"$abyssaccess"
+								]
 							}
 						]
 					},
@@ -1421,7 +1436,10 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 237,
-								"y": 291
+								"y": 291,
+								"restrict_visibility_rules": [
+									"$abyssaccess"
+								]
 							}
 						]
 					}
@@ -2012,7 +2030,10 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 237,
-								"y": 192
+								"y": 192,
+								"restrict_visibility_rules": [
+									"$abyssaccess"
+								]
 							}
 						]
 					},
@@ -2032,7 +2053,10 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 237,
-								"y": 269
+								"y": 269,
+								"restrict_visibility_rules": [
+									"$abyssaccess"
+								]
 							}
 						]
 					},
@@ -2052,7 +2076,10 @@
 							{
 								"map": "Soulsanity Page 2",
 								"x": 237,
-								"y": 236
+								"y": 236,
+								"restrict_visibility_rules": [
+									"$abyssaccess"
+								]
 							}
 						]
 					}
