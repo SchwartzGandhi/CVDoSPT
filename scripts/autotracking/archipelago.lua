@@ -212,6 +212,8 @@ function onClear(slot_data)
 		end
 	end
 	apply_slot_data(slot_data)
+	Archipelago:SetNotify({"MoatDrained", "DmitriiDefeated", "DarioDefeated", "DarknessRejected"})
+	Archipelago:Get({"MoatDrained", "DmitriiDefeated", "DarioDefeated", "DarknessRejected"})
 	LOCAL_ITEMS = {}
 	GLOBAL_ITEMS = {}
 	-- manually run snes interface functions after onClear in case we need to update them (i.e. because they need slot_data)
@@ -336,6 +338,28 @@ function onBounce(json)
 	-- your code goes here
 end
 
+function onEvent(key, value, oldvalue)
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print(string.format("called onEvent: key %s, value %s", key, value))
+	end
+	if key == "MoatDrained" then
+		event = Tracker:FindObjectForCode("@The Lost Village/Moat Drain Switch/")
+	elseif key == "DmitriiDefeated" then
+		event = Tracker:FindObjectForCode("@The Dark Chapel/Dmitrii/")
+	elseif key == "DarioDefeated" then
+		event = Tracker:FindObjectForCode("@Garden of Madness/Dario/")
+	elseif key == "DarknessRejected" then
+		event = Tracker:FindObjectForCode("@Garden of Madness/Central Chamber/")
+	else
+		return
+	end
+	if value == 1 then
+		event.AvailableChestCount = 0
+	else
+		event.AvailableChestCount = 1
+	end
+end
+
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
@@ -344,6 +368,8 @@ if AUTOTRACKER_ENABLE_ITEM_TRACKING then
 end
 if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
 	Archipelago:AddLocationHandler("location handler", onLocation)
+	Archipelago:AddSetReplyHandler("event handler", onEvent)
+	Archipelago:AddRetrievedHandler("event handler", onEvent)
 end
 -- Archipelago:AddScoutHandler("scout handler", onScout)
 -- Archipelago:AddBouncedHandler("bounce handler", onBounce)

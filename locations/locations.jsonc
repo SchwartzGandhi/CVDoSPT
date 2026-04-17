@@ -736,7 +736,7 @@
 			{
 				"name": "Malphas Soul",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC, $GetSeal|dc2seal"
+					"@The Dark Chapel Regions/DC, $GetSeal|dcseal, $GetSeal|dc2seal"
 				],
 				"sections": [
 					{
