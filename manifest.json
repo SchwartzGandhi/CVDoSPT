@@ -5,7 +5,7 @@
 	"package_uid": "cvdos_pack",
 	"author": "Schwartz Gandhi",
 	"min_poptracker_version": "0.25.9",
-	"target_poptracker_version": "0.34.0",
+	"target_poptracker_version": "0.35.1",
 	"variants": {
 		"standard": {
 			"display_name": "Map Tracker (Horizontal)",
