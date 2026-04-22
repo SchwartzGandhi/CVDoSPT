@@ -350,6 +350,8 @@ function onEvent(key, value, oldvalue)
 		event = Tracker:FindObjectForCode("@Garden of Madness/Dario/")
 	elseif key == "DarknessRejected" then
 		event = Tracker:FindObjectForCode("@Garden of Madness/Central Chamber/")
+	elseif key == "MenaceDefeated" then
+		event = Tracker:FindObjectForCode("@The Abyss/Abyss Center/")
 	else
 		return
 	end
