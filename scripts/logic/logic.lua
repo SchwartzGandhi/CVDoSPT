@@ -142,12 +142,12 @@ function allbosses(mode)
     }
 
     -- Break and return false if any boss listed isn't reachable.
-    for name, access in pairs(boss_reach) do
-        if access ~= AccessibilityLevel.Normal then
-            -- print(string.format("%s is cringe", name))
+    for _, access in pairs(boss_reach) do
+        if access < AccessibilityLevel.Normal then
+            -- print(string.format("%s is cringe", _))
             return false
         end
-        -- print(string.format("%s is based", name))
+        -- print(string.format("%s is based", _))
     end
 
     -- Garden doesn't need all bosses if mine is set to garden or all bosses.
@@ -155,7 +155,7 @@ function allbosses(mode)
     -- Menace always needs all bosses.
     if mode == "menace" or (mode == "garden" and (has("openmine") or has("minethrone"))) then
         for _, access in pairs(post_mine) do
-            if access ~= AccessibilityLevel.Normal then
+            if access < AccessibilityLevel.Normal then
                 return false
             end
         end
