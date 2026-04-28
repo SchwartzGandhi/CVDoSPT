@@ -1,75 +1,131 @@
 {
     "settings_popup": {
-        "type": "tabbed",
-        "tabs": [
+		"type": "container",
+		"background": "#000000",
+        "content": [
             {
-                "title": "Goal Conditions",
-                "content": [
+                "type": "tabbed",
+                "tabs": [
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "margin": "0,0",
+                        "title": "Goal Conditions",
                         "content": [
                             {
-                                "type": "itemgrid",
-                                "background": "#000000",
-                                "item_margin": "2, 2",
-                                "h_alignment": "center",
-                                "item_h_alignment": "center",
-                                "item_size": 128,
-                                "rows": [
-                                    ["goal", "", "gardenframe", "garden"],
-                                    ["", "", "mineframe", "mine"],
-                                    ["", "", "menaceframe", "menace"]
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "0,0",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "background": "#000000",
+                                        "item_margin": "2, 2",
+                                        "h_alignment": "center",
+                                        "item_h_alignment": "center",
+                                        "item_size": 384,
+                                        "rows": [
+                                            ["goal"]
+                                        ]
+                                    },
+                                    {
+                                        "type": "itemgrid",
+                                        "background": "#000000",
+                                        "h_alignment": "center",
+                                        "item_size": 64,
+                                        "rows": [
+                                            [""]
+                                        ]
+                                    },
+                                    {
+                                        "type": "array",
+                                        "orientation": "horizontal",
+                                        "margin": "12,0",
+                                        "content": [
+                                            {
+                                                "type": "itemgrid",
+                                                "background": "#000000",
+                                                "item_margin": "32, 2",
+                                                "h_alignment": "center",
+                                                "item_h_alignment": "center",
+                                                "item_size": 192,
+                                                "rows": [
+                                                    ["gardenframe"],
+                                                    ["garden"]
+                                                ]
+                                            },
+                                            {
+                                                "type": "itemgrid",
+                                                "background": "#000000",
+                                                "item_margin": "32, 2",
+                                                "h_alignment": "center",
+                                                "item_h_alignment": "center",
+                                                "item_size": 192,
+                                                "rows": [
+                                                    ["mineframe"],
+                                                    ["mine"]
+                                                ]
+                                            },
+                                            {
+                                                "type": "itemgrid",
+                                                "background": "#000000",
+                                                "item_margin": "32, 2",
+                                                "h_alignment": "center",
+                                                "item_h_alignment": "center",
+                                                "item_size": 192,
+                                                "rows": [
+                                                    ["menaceframe"],
+                                                    ["menace"]
+                                                ]
+                                            }
+                                        ]
+                                    }
                                 ]
                             }
                         ]
-                    }
-                ]
-            },
-            {
-                "title": "Magic Seal Configuration",
-                "content": [
+                    },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "margin": "0,0",
+                        "title": "Magic Seal Configuration",
                         "content": [
                             {
-                                "type": "itemgrid",
-                                "background": "#000000",
-                                "item_margin": "2, 2",
-                                "h_alignment": "center",
-                                "item_h_alignment": "center",
-                                "item_size": 128,
-                                "rows": [
-                                    ["lvsealdoor", "lvseal", "wlsealdoor", "wlseal", "gomsealdoor", "gomseal", "dcsealdoor", "dcseal", "dc2sealdoor", "dc2seal"],
-                                    ["dghsealdoor", "dghseal", "ctsealdoor", "ctseal", "shsealdoor", "shseal", "cctsealdoor", "cctseal", "srsealdoor", "srseal"],
-                                    ["dgh2sealdoor", "dgh2seal", "tpsealdoor", "tpseal", "gom2sealdoor", "gom2seal", "mojsealdoor", "mojseal", "tasealdoor", "taseal"]
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "0,0",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "background": "#000000",
+                                        "item_margin": "2, 2",
+                                        "h_alignment": "center",
+                                        "item_h_alignment": "center",
+                                        "item_size": 128,
+                                        "rows": [
+                                            ["lvsealdoor", "lvseal", "wlsealdoor", "wlseal", "gomsealdoor", "gomseal", "dcsealdoor", "dcseal", "dc2sealdoor", "dc2seal"],
+                                            ["dghsealdoor", "dghseal", "ctsealdoor", "ctseal", "shsealdoor", "shseal", "cctsealdoor", "cctseal", "srsealdoor", "srseal"],
+                                            ["dgh2sealdoor", "dgh2seal", "tpsealdoor", "tpseal", "gom2sealdoor", "gom2seal", "mojsealdoor", "mojseal", "tasealdoor", "taseal"]
+                                        ]
+                                    }
                                 ]
                             }
                         ]
-                    }
-                ]
-            },
-            {
-                "title": "Other Logic Settings",
-                "content": [
+                    },
                     {
-                        "type": "array",
-                        "orientation": "horizontal",
-                        "margin": "0,0",
+                        "title": "Other Logic Settings",
                         "content": [
                             {
-                                "type": "itemgrid",
-                                "background": "#000000",
-                                "item_margin": "2, 2",
-                                "h_alignment": "center",
-                                "item_h_alignment": "center",
-                                "item_size": 128,
-                                "rows": [
-                                    ["warp", "soulsanity", "souls", "buttons", "drawbridge", "speed"],
-                                    ["dcsoulwall", "dcsoul", "dghsoulwall", "dghsoul1", "dghsoul2", "dghsoul3"]
+                                "type": "array",
+                                "orientation": "horizontal",
+                                "margin": "0,0",
+                                "content": [
+                                    {
+                                        "type": "itemgrid",
+                                        "background": "#000000",
+                                        "item_margin": "12, 2",
+                                        "h_alignment": "center",
+                                        "item_h_alignment": "center",
+                                        "item_size": 192,
+                                        "rows": [
+                                            ["warp", "drawbridge", "soulsanity", "souls", "buttons", "speed"],
+                                            ["dcsoulwall", "dcsoul", "dghsoulwall", "dghsoul1", "dghsoul2", "dghsoul3"]
+                                        ]
+                                    }
                                 ]
                             }
                         ]

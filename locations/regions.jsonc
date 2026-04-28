@@ -105,7 +105,7 @@
 			{
 				"name": "WLSunkenWestDoor",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLSunken, water",
+					"@Wizardry Lab Regions/WLSunken, $biguppies",
 					"@The Lost Village Regions/LVUndergroundBottom"
 				]
 			},

@@ -79,7 +79,7 @@
         "type": "progressive",
         "loop": false,
         "allow_disabled": false,
-        "initial_stage_idx": 0,
+        "initial_stage_idx": 2,
         "stages": [
             {
                 "img": "images/settings/common.png",
