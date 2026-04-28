@@ -1,12 +1,18 @@
 {
     "versions": [
         {
-            "package_version": "5.1",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/5.1/CVDoSPT.zip",
-            "sha256": "8854dd98a520233a0408e6d009a62d7e3de06c4067a45a34df47e01aca0820e1",
+            "package_version": "6.0",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/6.0/CVDoSPT.zip",
+            "sha256": "1ffa6279e090142fdea0286279e08bcf8acee961e9632ef887661cd995d2a4ff",
             "changelog": [
-                "Mine of Judgment and The Abyss locations are now only hidden if the abyss is unreachable.",
-                "Souls unique to the abyss will be hidden if the abyss is unreachable."
+                "Draining the Moat, defeating Dario and Dmitrii, and rejecting the power of darkness will now be tracked automatically (when the new apworld update happens)",
+                "Made the settings popup a bit nicer",
+                "Soulsanity Level is now set to max by default",
+                "Fixed the logic for the all bosses goal condition",
+                "Getting into the Lost Village underground via sunken Wizardry Lab now checks for Hipppogryph or Bat",
+                "Malphas now checks for the seal for Dmitrii's room",
+                "Compressed all of the images files to reduce file size",
+                "refactored how locations are placed in the backend"
             ]
         }
     ]
