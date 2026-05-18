@@ -1,18 +1,13 @@
 {
     "versions": [
         {
-            "package_version": "6.0",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/6.0/CVDoSPT.zip",
-            "sha256": "1ffa6279e090142fdea0286279e08bcf8acee961e9632ef887661cd995d2a4ff",
+            "package_version": "6.1",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/6.1/CVDoSPT.zip",
+            "sha256": "ac72b1f0bd84806f69f88434dbb1f80077a04202c2319730b1a32ab62aeef36b",
             "changelog": [
-                "Draining the Moat, defeating Dario and Dmitrii, and rejecting the power of darkness will now be tracked automatically (when the new apworld update happens)",
-                "Made the settings popup a bit nicer",
-                "Soulsanity Level is now set to max by default",
-                "Fixed the logic for the all bosses goal condition",
-                "Getting into the Lost Village underground via sunken Wizardry Lab now checks for Hipppogryph or Bat",
-                "Malphas now checks for the seal for Dmitrii's room",
-                "Compressed all of the images files to reduce file size",
-                "refactored how locations are placed in the backend"
+                "Fixed some region logic, as well as put some locations in the correct regions",
+                "Throne Room goal now correctly checks for the seal for the throne room",
+                "Refined logic regarding buttonsanity"
             ]
         }
     ]
