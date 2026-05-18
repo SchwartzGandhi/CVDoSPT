@@ -100,7 +100,7 @@
 			{
 				"name": "Above Guest House Entrance",
 				"access_rules": [
-					"@The Lost Village Regions/Upper, $biguppies"
+					"@The Lost Village Regions/Courtyard, $biguppies"
 				],
 				"sections": [
 					{
@@ -1093,7 +1093,7 @@
 			{
 				"name": "5F West",
 				"access_rules": [
-					"@Condemned Tower Regions/Top"
+					"@Condemned Tower Regions/Main"
 				],
 				"sections": [
 					{
@@ -1104,7 +1104,7 @@
 			{
 				"name": "7F West",
 				"access_rules": [
-					"@Condemned Tower Regions/Top"
+					"@Condemned Tower Regions/Main"
 				],
 				"sections": [
 					{
@@ -1115,7 +1115,7 @@
 			{
 				"name": "Gergoth Soul",
 				"access_rules": [
-					"@Condemned Tower Regions/Top, $GetSeal|ctseal"
+					"@Condemned Tower Regions/Main, $GetSeal|ctseal"
 				],
 				"sections": [
 					{
@@ -1128,7 +1128,7 @@
 			{
 				"name": "Top of the Tower",
 				"access_rules": [
-					"@Condemned Tower Regions/Top, $GetSeal|ctseal"
+					"@Condemned Tower Regions/Top"
 				],
 				"sections": [
 					{
@@ -1300,7 +1300,7 @@
 					"@Subterranean Hell Regions/CentralExit, $tinyuppies",
 					"@Subterranean Hell Regions/CentralExit, $widies",
 					"{@Subterranean Hell Regions/CentralExit}",
-					"{@Subterranean Hell Regions/CentralUpper, @Subterranean Hell Regions/CentralEastConnection}, water"
+					"{@Subterranean Hell Regions/CentralUpper, @Subterranean Hell Regions/CentralEastConnection}, water" // ?
 				],
 				"sections": [
 					{
@@ -1322,7 +1322,7 @@
 			{
 				"name": "Central Upper Room",
 				"access_rules": [
-					"@Subterranean Hell Regions/CentralLower"
+					"@Subterranean Hell Regions/CentralUpper"
 				],
 				"sections": [
 					{
@@ -1612,7 +1612,7 @@
 			},
 			{
 				"name": "Abyss Center",
-				"access_rules": [
+				"access_rules": [ // Currently the tracker assumes you're fighting Menace
 					"throneroom, @The Pinnacle Regions/ThroneRoom, $GetSeal|tpseal, $biguppies",
 					"$abyssaccess, openmenace, @The Abyss Regions/BeyondAbaddon, $biguppies",
 					"$abyssaccess, menacethrone, @The Pinnacle/Aguni Soul/, @The Abyss Regions/BeyondAbaddon, $biguppies",
