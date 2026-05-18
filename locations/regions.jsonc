@@ -251,7 +251,7 @@
 			{
 				"name": "Bottom",
 				"access_rules": [
-					"@The Dark Chapel Regions/Main, ^$unsupportedgate",
+					"@The Dark Chapel Regions/Main, ^$gateclip",
 					"@The Dark Chapel Regions/BigRoom",
 					"@Condemned Tower Regions/Main"
 				]

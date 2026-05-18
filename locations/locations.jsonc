@@ -324,7 +324,7 @@
 						],
 						"access_rules": [
 							"@Wizardry Lab Regions/WestGate",
-							"[@Wizardry Lab Regions/Main, backslash]"
+							"@Wizardry Lab Regions/Main, ^$gateclip"
 						]
 					}
 				]
@@ -375,7 +375,7 @@
 						],
 						"access_rules": [
 							"@Wizardry Lab Regions/EastGate",
-							"[@Wizardry Lab Regions/Main, backslash]"
+							"@Wizardry Lab Regions/Main, ^$gateclip"
 						]
 					}
 				]
@@ -541,7 +541,7 @@
 				],
 				"access_rules": [
 					"@Garden of Madness Regions/EastGate",
-					"[@Garden of Madness Regions/PostBoss, backslash]"
+					"@Garden of Madness Regions/PostBoss, ^$gateclip"
 				],
 				"sections": [
 					{
@@ -1383,7 +1383,7 @@
 				],
 				"access_rules": [
 					"@Silenced Ruins Regions/BackExit",
-					"[@Subterranean Hell Regions/ButtonGateRoom, backslash]"
+					"@Subterranean Hell Regions/ButtonGateRoom, ^$gateclip"
 				],
 				"sections": [
 					{

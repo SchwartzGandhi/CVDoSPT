@@ -93,7 +93,7 @@ function gateskip()
     return AccessibilityLevel.None
 end
 
-function unsupportedgate()
+function gateclip()
     if has("backslash") then
         return AccessibilityLevel.SequenceBreak
     else
