@@ -27,33 +27,35 @@ function has(item, amount)
 end
 
 -- Move Macros
+function biguppies()
+    return has("zip") or has("bat")
+end
+
 function smalluppies()
-    return has("zip") or has("bat") or has("jump")
+    return biguppies() or has("jump")
 end
 
 function tinyuppies()
     return smalluppies() or has("puppet")
 end
 
-function biguppies()
-    return has("zip") or has("bat")
-end
-
 function widies()
     return has("glide") or has("fast")
+end
+
+function smallwidies()
+    return widies() or has("puppet")
 end
 
 function holes()
     return has("puppet") or has("bat")
 end
 
--- Settings Macros
-function workingbuttons()
-    if has("buttonsoff") or has("buttonkeys") then
-        return true
-    end
+function subhellspeed()
+    return has("speed") or has("widies")
 end
 
+-- Settings Macros
 function low()
     if not has("speed") then
         return true
@@ -72,7 +74,13 @@ function oulviewoff()
     end
 end
 
-function gateclips()
+function workingbuttons()
+    if has("buttonsoff") or has("buttonkeys") then
+        return true
+    end
+end
+
+function gateskip()
     if has("buttonsoff") or has("buttonkeys") then
         if has("backslash") then
             return AccessibilityLevel.SequenceBreak
@@ -90,6 +98,22 @@ function unsupportedgate()
         return AccessibilityLevel.SequenceBreak
     else
         return AccessibilityLevel.None
+    end
+end
+
+function PassGate(side, key)
+    -- If the player is on the side of the button, then they can just use the button if it works
+    if side == "True" then
+        if workingbuttons() then
+            return AccessibilityLevel.Normal
+        end
+    -- Otherwise, they'll need the key or to do a gate skip
+    else
+        if has(key) then
+            return AccessibilityLevel.Normal
+        else
+            return gateskip()
+        end
     end
 end
 

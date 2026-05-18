@@ -3,61 +3,61 @@
 		"name": "The Lost Village Regions",
 		"children": [
 			{
-				"name": "LVUpper",
+				"name": "Upper",
 				"access_rules": [
 					"", // starting region
-					"@The Lost Village Regions/LVUpperDoorway",
-					"@The Lost Village Regions/LVCourtyard",
-					"@The Lost Village Regions/LVLower, $GetSeal|lvseal",
-					"@Demon Guest House Regions/DGHLower"
+					"@The Lost Village Regions/Courtyard",
+					"@The Lost Village Regions/UpperDoorway",
+					"@The Lost Village Regions/Lower, $GetSeal|lvseal",
+					"@Demon Guest House Regions/Lower"
 				]
 			},
 			{
-				"name": "LVUpperDoorway",
+				"name": "UpperDoorway",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper, puppet, glide",
-					"@The Lost Village Regions/LVUpper, $smalluppies",
-					"@The Lost Village Regions/LVUpper, puppet, throw",
-					"@Demon Guest House Regions/DGHNumberPuzzleWest"
+					"@The Lost Village Regions/Upper, puppet, glide",
+					"@The Lost Village Regions/Upper, $smalluppies",
+					"@The Lost Village Regions/Upper, puppet, throw",
+					"@Demon Guest House Regions/NumberPuzzleWest"
 				]
 			},
 			{
-				"name": "LVLower",
+				"name": "Lower",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper, $GetSeal|lvseal, speed",
-					"@The Lost Village Regions/LVUpper, $GetSeal|lvseal, $tinyuppies",
-					"@The Lost Village Regions/LVUpper, $GetSeal|lvseal, $widies",
-					"@The Lost Village Regions/LVUndergroundTop",
+					"@The Lost Village Regions/Upper, $GetSeal|lvseal, speed",
+					"@The Lost Village Regions/Upper, $GetSeal|lvseal, $tinyuppies",
+					"@The Lost Village Regions/Upper, $GetSeal|lvseal, $widies",
+					"@The Lost Village Regions/UndergroundTop",
 					"lvwarp, @Warp Room",
-					"@Wizardry Lab Regions/WLMain, @The Lost Village/Moat Drain Switch/"
+					"@Wizardry Lab Regions/Main, @The Lost Village/Moat Drain Switch/"
 				]
 			},
 			{
-				"name": "LVUndergroundBottom",
+				"name": "UndergroundBottom",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLSunkenWestDoor",
-					"@The Lost Village Regions/LVUndergroundMiddle"
+					"@The Lost Village Regions/UndergroundMiddle",
+					"@Wizardry Lab Regions/SunkenWestDoor"
 				]
 			},
 			{
-				"name": "LVUndergroundMiddle",
+				"name": "UndergroundMiddle",
 				"access_rules": [
-					"@The Lost Village Regions/LVUndergroundBottom, $tinyuppies",
-					"@Wizardry Lab Regions/WLWestGate",
-					"@The Lost Village Regions/LVUndergroundTop"
+					"@The Lost Village Regions/UndergroundBottom, $tinyuppies",
+					"@The Lost Village Regions/UndergroundTop",
+					"@Wizardry Lab Regions/WestGate"
 				]
 			},
 			{
-				"name": "LVUndergroundTop",
+				"name": "UndergroundTop",
 				"access_rules": [
-					"@The Lost Village Regions/LVUndergroundMiddle, $tinyuppies"
+					"@The Lost Village Regions/UndergroundMiddle, $tinyuppies"
 				]
 			},
 			{
-				"name": "LVCourtyard",
+				"name": "Courtyard",
 				"access_rules": [
-					"dbclose, @The Lost Village Regions/LVUpper, $smalluppies",
-					"dbopen, @The Lost Village Regions/LVUpper"
+					"dbclose, @The Lost Village Regions/Upper, $smalluppies",
+					"dbopen, @The Lost Village Regions/Upper"
 				]
 			}
 		]
@@ -66,54 +66,48 @@
 		"name": "Wizardry Lab Regions",
 		"children": [
 			{
-				"name": "WLMain",
+				"name": "Main",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper, @The Lost Village/Moat Drain Switch/",
+					"@The Lost Village Regions/Upper, @The Lost Village/Moat Drain Switch/",
 					"wlwarp, @Warp Room",
-					"@Wizardry Lab Regions/WLEastGate, $workingbuttons",
-					"@Wizardry Lab Regions/WLEastGate, ekey",
-					"@Wizardry Lab Regions/WLEastGate, ^$gateclips",
-					"@Wizardry Lab Regions/WLWestGate, $workingbuttons",
-					"@Wizardry Lab Regions/WLWestGate, wkey",
-					"@Wizardry Lab Regions/WLWestGate, ^$gateclips",
-					"@Garden of Madness Regions/GoMLower"
+					"@Wizardry Lab Regions/EastGate, ^$PassGate|True|ekey",
+					"@Wizardry Lab Regions/WestGate, ^$PassGate|True|wkey",
+					"@Garden of Madness Regions/Lower"
 				]
 			},
 			{
-				"name": "WLWestGate",
+				"name": "WestGate",
 				"access_rules": [
-					"@The Lost Village Regions/LVUndergroundMiddle",
-					"@Wizardry Lab Regions/WLMain, wkey",
-					"@Wizardry Lab Regions/WLMain, ^$gateclips"
+					"@The Lost Village Regions/UndergroundMiddle",
+					"@Wizardry Lab Regions/Main, ^$PassGate|False|wkey"
 				]
 			},
 			{
-				"name": "WLEastGate",
+				"name": "EastGate",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHShaftTop",
-					"@Wizardry Lab Regions/WLMain, ekey",
-					"@Wizardry Lab Regions/WLMain, ^$gateclips"
+					"@Subterranean Hell Regions/ShaftTop",
+					"@Wizardry Lab Regions/Main, ^$PassGate|False|ekey"
 				]
 			},
 			{
-				"name": "WLSunken",
+				"name": "Sunken",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLSunkenWestDoor, water",
-					"@Wizardry Lab Regions/WLSunkenEastDoor, water"
+					"@The Lost Village Regions/UndergroundBottom, water", // ?
+					"@Wizardry Lab Regions/SunkenWestDoor, water",
+					"@Wizardry Lab Regions/SunkenEastDoor, water"
 				]
 			},
 			{
-				"name": "WLSunkenWestDoor",
+				"name": "SunkenWestDoor",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLSunken, $biguppies",
-					"@The Lost Village Regions/LVUndergroundBottom"
+					"@Wizardry Lab Regions/Sunken, $biguppies"
 				]
 			},
 			{
-				"name": "WLSunkenEastDoor",
+				"name": "SunkenEastDoor",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLSunken, water",
-					"@Subterranean Hell Regions/SHSpikeRoomWest"
+					"@Wizardry Lab Regions/Sunken",
+					"@Subterranean Hell Regions/SpikeRoomWest"
 				]
 			}
 		]
@@ -122,47 +116,44 @@
 		"name": "Garden of Madness Regions",
 		"children": [
 			{
-				"name": "GoMLower",
+				"name": "Lower",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLMain, ice",
-					"@Wizardry Lab Regions/WLMain, $smalluppies",
-					"@Garden of Madness Regions/GoMWaterBlocked, water",
-					"@Garden of Madness Regions/GoMUpper",
-					"@Demon Guest House Regions/DGHLower",
-					"@The Dark Chapel Regions/DC",
+					"@Wizardry Lab Regions/Main, ice",
+					"@Wizardry Lab Regions/Main, $smalluppies",
+					"@Garden of Madness Regions/WaterBlocked, water",
+					"@Garden of Madness Regions/Upper",
+					"@Demon Guest House Regions/Lower",
+					"@The Dark Chapel Regions/Main",
 					"gomwarp, @Warp Room"
 				]
 			},
 			{
-				"name": "GoMUpper",
+				"name": "Upper",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMLower, $tinyuppies",
-					"@Garden of Madness Regions/GoMPostBoss, $GetSeal|gomseal"
+					"@Garden of Madness Regions/Lower, $tinyuppies",
+					"@Garden of Madness Regions/PostBoss, $GetSeal|gomseal"
 				]
 			},
 			{
-				"name": "GoMWaterBlocked",
+				"name": "WaterBlocked",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMLower, water",
-					"@Subterranean Hell Regions/SHCentralExit"
+					"@Garden of Madness Regions/Lower, water",
+					"@Subterranean Hell Regions/CentralExit"
 				]
 			},
 			{
-				"name": "GoMPostBoss",
+				"name": "PostBoss",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMUpper, $GetSeal|gomseal",
-					"@Demon Guest House Regions/DGHMain",
-					"@Garden of Madness Regions/GoMEastGate, $workingbuttons",
-					"@Garden of Madness Regions/GoMEastGate, gkey",
-					"@Garden of Madness Regions/GoMEastGate, ^$gateclips"
+					"@Garden of Madness Regions/Upper, $GetSeal|gomseal",
+					"@Garden of Madness Regions/EastGate, ^$PassGate|True|gkey",
+					"@Demon Guest House Regions/Main"
 				]
 			},
 			{
-				"name": "GoMEastGate",
+				"name": "EastGate",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTEntrance",
-					"@Garden of Madness Regions/GoMPostBoss, gkey",
-					"@Garden of Madness Regions/GoMPostBoss, ^$gateclips"
+					"@Garden of Madness Regions/PostBoss, ^$PassGate|False|gkey",
+					"@Cursed Clock Tower Regions/Entrance"
 				]
 			}
 		]
@@ -171,27 +162,27 @@
 		"name": "The Dark Chapel Regions",
 		"children": [
 			{
-				"name": "DC",
+				"name": "Main",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMLower",
-					"@The Dark Chapel Regions/DCBigRoom",
-					"@Condemned Tower Regions/CTBottom",
-					"@The Dark Chapel Regions/DC, $holes",
+					"@Garden of Madness Regions/Lower",
+					"@The Dark Chapel Regions/BigRoom",
+					"@The Dark Chapel Regions/CatacombsExit, $holes",
+					"@Condemned Tower Regions/Bottom",
 					"dcwarp, @Warp Room"
 				]
 			},
 			{
-				"name": "DCBigRoom",
+				"name": "BigRoom",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC, $holes",
-					"@Condemned Tower Regions/CTBottom, $smalluppies"
+					"@The Dark Chapel Regions/Main, $holes",
+					"@Condemned Tower Regions/Bottom, $smalluppies"
 				]
 			},
 			{
-				"name": "DCCatacombsExit",
+				"name": "CatacombsExit",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC, $holes",
-					"@Subterranean Hell Regions/SHTopEntrance"
+					"@The Dark Chapel Regions/Main, $holes",
+					"@Subterranean Hell Regions/TopEntrance"
 				]
 			}
 		]
@@ -200,56 +191,56 @@
 		"name": "Demon Guest House Regions",
 		"children": [
 			{
-				"name": "DGHMain",
+				"name": "Main",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHPuppetWallRight, $holes",
-					"@Garden of Madness Regions/GoMPostBoss",
-					"@Demon Guest House Regions/DGHNumberPuzzle",
-					"@Demon Guest House Regions/DGHWestWing, $holes",
-					"@Demon Guest House Regions/DGHUpper"
+					"@Garden of Madness Regions/PostBoss",
+					"@Demon Guest House Regions/PuppetWallRight, $holes",
+					"@Demon Guest House Regions/NumberPuzzle",
+					"@Demon Guest House Regions/WestWing, $holes",
+					"@Demon Guest House Regions/Upper"
 				]
 			},
 			{
-				"name": "DGHPuppetWallRight",
+				"name": "PuppetWallRight",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHLower, $tinyuppies",
-					"@Demon Guest House Regions/DGHMain, $holes"
+					"@Demon Guest House Regions/Main, $holes",
+					"@Demon Guest House Regions/Lower, $tinyuppies"
 				]
 			},
 			{
-				"name": "DGHLower",
+				"name": "Lower",
 				"access_rules": [
-					"@The Lost Village Regions/LVCourtyard",
-					"@Garden of Madness Regions/GoMLower",
-					"@Demon Guest House Regions/DGHPuppetWallRight"
+					"@The Lost Village Regions/Courtyard",
+					"@Garden of Madness Regions/Lower",
+					"@Demon Guest House Regions/PuppetWallRight"
 				]
 			},
 			{
-				"name": "DGHNumberPuzzle",
+				"name": "NumberPuzzle",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHMain",
-					"@Demon Guest House Regions/DGHWestWing"
+					"@Demon Guest House Regions/Main",
+					"@Demon Guest House Regions/WestWing"
 				]
 			},
 			{
-				"name": "DGHNumberPuzzleWest",
+				"name": "NumberPuzzleWest",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpperDoorway",
-					"@Demon Guest House Regions/DGHNumberPuzzle"
+					"@The Lost Village Regions/UpperDoorway",
+					"@Demon Guest House Regions/NumberPuzzle"
 				]
 			},
 			{
-				"name": "DGHWestWing",
+				"name": "WestWing",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHMain, $holes",
-					"@Demon Guest House Regions/DGHNumberPuzzle",
+					"@Demon Guest House Regions/Main, $holes",
+					"@Demon Guest House Regions/NumberPuzzle, $tinyuppies",
 					"dghwarp, @Warp Room"
 				]
 			},
 			{
-				"name": "DGHUpper",
+				"name": "Upper",
 				"access_rules": [
-					"@The Pinnacle Regions/TPLower"
+					"@The Pinnacle Regions/Lower"
 				]
 			}
 		]
@@ -258,22 +249,26 @@
 		"name": "Condemned Tower Regions",
 		"children": [
 			{
-				"name": "CTBottom",
+				"name": "Bottom",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC, ^$unsupportedgate",
-					"@The Dark Chapel Regions/DCBigRoom",
-					"@Condemned Tower Regions/CTTop",
-					"@Mine of Judgment Regions/MoJ, $smalluppies"
+					"@The Dark Chapel Regions/Main, ^$unsupportedgate",
+					"@The Dark Chapel Regions/BigRoom",
+					"@Condemned Tower Regions/Main"
 				]
 			},
 			{
-				"name": "CTTop",
+				"name": "Main",
 				"access_rules": [
-					"@Condemned Tower Regions/CTBottom, $biguppies",
-					"@Condemned Tower Regions/CTBottom, glide, jump",
-					"@Condemned Tower Regions/CTBottom, glide, puppet",
-					"@Cursed Clock Tower Regions/CCTEntrance, tkey",
-					"ctwarp, @Warp Room, $GetSeal|ctseal"
+					"@Condemned Tower Regions/Bottom, $tinyuppies",
+					"@Condemned Tower Regions/Top, $GetSeal|ctseal",
+					"@Cursed Clock Tower Regions/Entrance, tkey"
+				]
+			},
+			{
+				"name": "Top",
+				"access_rules": [
+					"@Condemned Tower Regions/Main, $GetSeal|ctseal",
+					"ctwarp, @Warp Room"
 				]
 			}
 		]
@@ -282,41 +277,41 @@
 		"name": "Cursed Clock Tower Regions",
 		"children": [
 			{
-				"name": "CCTEntrance",
+				"name": "Entrance",
 				"access_rules": [
-					"@Condemned Tower Regions/CTTop, tkey",
-					"@Garden of Madness Regions/GoMEastGate",
-					"@Cursed Clock Tower Regions/CCTCentral, $tinyuppies",
-					"@Cursed Clock Tower Regions/CCTBossArea"
+					"@Garden of Madness Regions/EastGate",
+					"@Condemned Tower Regions/Main, tkey",
+					"@Cursed Clock Tower Regions/Central"
 				]
 			},
 			{
-				"name": "CCTCentral",
+				"name": "Central",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTEntrance, $tinyuppies",
-					"@Cursed Clock Tower Regions/CCTBossArea"
+					"@Cursed Clock Tower Regions/Entrance, $tinyuppies",
+					"@Cursed Clock Tower Regions/BossArea",
+					"@Cursed Clock Tower Regions/PostBoss"
 				]
 			},
 			{
-				"name": "CCTBossArea",
+				"name": "BossArea",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTCentral",
-					"@Cursed Clock Tower Regions/CCTPostBoss, $GetSeal|cctseal"
+					"@Cursed Clock Tower Regions/Central, $tinyuppies",
+					"@Cursed Clock Tower Regions/PostBoss, $GetSeal|cctseal"
 				]
 			},
 			{
-				"name": "CCTPostBoss",
+				"name": "PostBoss",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTBossArea, $GetSeal|cctseal",
-					"@Cursed Clock Tower Regions/CCTExit, bat",
+					"@Cursed Clock Tower Regions/BossArea, $GetSeal|cctseal",
+					"@Cursed Clock Tower Regions/Exit, bat",
 					"cctwarp, @Warp Room"
 				]
 			},
 			{
-				"name": "CCTExit",
+				"name": "Exit",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTPostBoss, bat",
-					"@The Pinnacle Regions/TPLower, $tinyuppies"
+					"@Cursed Clock Tower Regions/PostBoss, bat",
+					"@The Pinnacle Regions/Lower, $tinyuppies"
 				]
 			}
 		]
@@ -325,112 +320,119 @@
 		"name": "Subterranean Hell Regions",
 		"children": [
 			{
-				"name": "SHTopEntrance",
+				"name": "TopEntrance",
 				"access_rules": [
-					"@The Dark Chapel Regions/DCCatacombsExit",
-					"@Subterranean Hell Regions/SHEast, water, $GetSeal|shseal, $tinyuppies"
+					"@The Dark Chapel Regions/CatacombsExit",
+					"@Subterranean Hell Regions/East, water, $GetSeal|shseal, $tinyuppies"
 				]
 			},
 			{
-				"name": "SHEast",
+				"name": "East",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHTopEntrance, water, $GetSeal|shseal",
-					"@Subterranean Hell Regions/SHCentralEastConnection, $tinyuppies",
-					"@Subterranean Hell Regions/SHButtonGateRoom, $tinyuppies"
+					"@Subterranean Hell Regions/TopEntrance, water, $GetSeal|shseal",
+					"@Subterranean Hell Regions/CentralEastConnection, $tinyuppies",
+					"@Subterranean Hell Regions/ButtonGateRoom, $tinyuppies"
 				]
 			},
 			{
-				"name": "SHCentralEastConnection",
+				"name": "CentralEastConnection",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHEast, $tinyuppies",
-					"@Subterranean Hell Regions/SHCentralUpper, water",
-					"@Subterranean Hell Regions/SHCentralUpper, jump"
+					"@Subterranean Hell Regions/East, $tinyuppies",
+					"@Subterranean Hell Regions/CentralUpper, water",
+					"@Subterranean Hell Regions/CentralUpper, jump"
 				]
 			},
 			{
-				"name": "SHCentralUpper",
+				"name": "CentralUpper",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHCentralEastConnection, water",
-					"@Subterranean Hell Regions/SHCentralEastConnection, jump",
-					"@Subterranean Hell Regions/SHCentralLower, $tinyuppies",
-					"@Subterranean Hell Regions/SHCentralExit, water",
-					"@Subterranean Hell Regions/SHCentralExit, jump"
+					"@Subterranean Hell Regions/CentralEastConnection, water",
+					"@Subterranean Hell Regions/CentralEastConnection, jump",
+					"@Subterranean Hell Regions/CentralExit, water",
+					"@Subterranean Hell Regions/CentralExit, jump",
+					"@Subterranean Hell Regions/CentralLower, $tinyuppies"
 				]
 			},
 			{
-				"name": "SHCentralExit",
+				"name": "CentralExit",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHCentralUpper, $tinyuppies",
-					"@Garden of Madness Regions/GoMWaterBlocked"
+					"@Garden of Madness Regions/WaterBlocked",
+					"@Subterranean Hell Regions/CentralUpper, $tinyuppies",
+					"@Subterranean Hell Regions/CentralUpper, puppet",
+					"@Subterranean Hell Regions/CentralUpper, fast"
 				]
 			},
 			{
-				"name": "SHCentralLower",
+				"name": "CentralLower",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHCentralUpper",
-					"@Subterranean Hell Regions/SHShaftMiddle, $tinyuppies",
-					"@Subterranean Hell Regions/SHShaftBottom",
-					"@Subterranean Hell Regions/SHShaftBottomStairs",
+					"@Subterranean Hell Regions/CentralUpper",
+					"@Subterranean Hell Regions/ShaftMiddle, $tinyuppies",
+					"@Subterranean Hell Regions/CentralShaftDivide",
 					"shwarp, @Warp Room"
 				]
 			},
 			{
-				"name": "SHShaftTop",
+				"name": "CentralShaftDivide",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHShaftMiddle, $biguppies",
-					"@Wizardry Lab Regions/WLEastGate"
+					"@Subterranean Hell Regions/CentralLower",
+					"@Subterranean Hell Regions/ShaftBottomStairs, $tinyuppies"
 				]
 			},
 			{
-				"name": "SHShaftMiddle",
+				"name": "ShaftTop",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHCentralLower, $tinyuppies",
-					"@Subterranean Hell Regions/SHShaftTop",
-					"@Subterranean Hell Regions/SHShaftBottom, $tinyuppies"
+					"@Wizardry Lab Regions/EastGate",
+					"@Subterranean Hell Regions/ShaftMiddle, $biguppies"
 				]
 			},
 			{
-				"name": "SHShaftBottomStairs",
+				"name": "ShaftMiddle",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHCentralLower",
-					"@Subterranean Hell Regions/SHShaftMiddle",
-					"@Subterranean Hell Regions/SHShaftBottom, $tinyuppies"
+					"@Subterranean Hell Regions/CentralLower, $tinyuppies",
+					"@Subterranean Hell Regions/ShaftTop, $subhellspeed",
+					"@Subterranean Hell Regions/ShaftBottom, $tinyuppies"
 				]
 			},
 			{
-				"name": "SHShaftBottom",
+				"name": "ShaftBottomStairs",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHShaftMiddle",
-					"@Silenced Ruins Regions/SRAntechamber",
-					"@Subterranean Hell Regions/SHShaftBottomStairs",
-					"@Subterranean Hell Regions/SHSpikeRoomEast"
+					"@Subterranean Hell Regions/ShaftMiddle",
+					"@Subterranean Hell Regions/ShaftTop",
+					"@Subterranean Hell Regions/ShaftBottom, $tinyuppies",
+					"@Subterranean Hell Regions/CentralShaftDivide"
 				]
 			},
 			{
-				"name": "SHSpikeRoomWest",
+				"name": "ShaftBottom",
 				"access_rules": [
-					"$vanillasouls, @Subterranean Hell Regions/SHSpikeRoomEast",
-					"soulsanity, @Subterranean Hell Regions/SHSpikeRoomEast, water, ride",
-					"soulsanity, @Subterranean Hell Regions/SHSpikeRoomEast, water, puppet, throw",
-					"@Wizardry Lab Regions/WLSunkenEastDoor"
+					"@Subterranean Hell Regions/ShaftMiddle",
+					"@Subterranean Hell Regions/ShaftBottomStairs",
+					"@Subterranean Hell Regions/SpikeRoomEast",
+					"@Silenced Ruins Regions/Antechamber"
 				]
 			},
 			{
-				"name": "SHSpikeRoomEast",
+				"name": "SpikeRoomWest",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHShaftBottom, $tinyuppies",
-					"$vanillasouls, @Subterranean Hell Regions/SHSpikeRoomWest",
-					"soulsanity, @Subterranean Hell Regions/SHSpikeRoomWest, water, ride",
-					"soulsanity, @Subterranean Hell Regions/SHSpikeRoomWest, water, puppet, throw"
+					"@Wizardry Lab Regions/SunkenEastDoor",
+					"$vanillasouls, @Subterranean Hell Regions/SpikeRoomEast",
+					"soulsanity, @Subterranean Hell Regions/SpikeRoomEast, water, ride",
+					"soulsanity, @Subterranean Hell Regions/SpikeRoomEast, water, puppet, throw"
 				]
 			},
 			{
-				"name": "SHButtonGateRoom",
+				"name": "SpikeRoomEast",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHEast",
-					"@Silenced Ruins Regions/SRBackExit, $workingbuttons",
-					"@Silenced Ruins Regions/SRBackExit, ckey",
-					"@Silenced Ruins Regions/SRBackExit, ^$gateclips"
+					"@Subterranean Hell Regions/ShaftBottom, $tinyuppies",
+					"$vanillasouls, @Subterranean Hell Regions/SpikeRoomWest",
+					"soulsanity, @Subterranean Hell Regions/SpikeRoomWest, water, ride",
+					"soulsanity, @Subterranean Hell Regions/SpikeRoomWest, water, puppet, throw"
+				]
+			},
+			{
+				"name": "ButtonGateRoom",
+				"access_rules": [
+					"@Subterranean Hell Regions/East",
+					"@Silenced Ruins Regions/BackExit, ^$PassGate|True|ckey"
 				]
 			}
 		]
@@ -439,36 +441,34 @@
 		"name": "Silenced Ruins Regions",
 		"children": [
 			{
-				"name": "SRAntechamber",
+				"name": "Antechamber",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHShaftBottom, $tinyuppies",
-					"@Subterranean Hell Regions/SHShaftBottom, $widies",
-					"@Silenced Ruins Regions/SRUpperEntrance, dio"
+					"@Subterranean Hell Regions/ShaftBottom, $tinyuppies",
+					"@Subterranean Hell Regions/ShaftBottom, $widies",
+					"@Silenced Ruins Regions/UpperEntrance, dio"
 				]
 			},
 			{
-				"name": "SR",
+				"name": "Main",
 				"access_rules": [
-					"@Silenced Ruins Regions/SRAntechamber, dio",
-					"@Silenced Ruins Regions/SRUpperEntrance",
-					"@Silenced Ruins Regions/SRBackExit",
+					"@Silenced Ruins Regions/UpperEntrance",
+					"@Silenced Ruins Regions/BackExit",
 					"srwarp, @Warp Room"
 				]
 			},
 			{
-				"name": "SRUpperEntrance",
+				"name": "UpperEntrance",
 				"access_rules": [
-					"@Silenced Ruins Regions/SRAntechamber, dio",
-					"@Silenced Ruins Regions/SR, $tinyuppies"
+					"@Silenced Ruins Regions/Antechamber, dio",
+					"@Silenced Ruins Regions/Main, $tinyuppies"
 				]
 			},
 			{
-				"name": "SRBackExit",
+				"name": "BackExit",
 				"access_rules": [
-					"@Silenced Ruins Regions/SR, $smalluppies",
-					"@Silenced Ruins Regions/SR, fast, puppet",
-					"@Subterranean Hell Regions/SHButtonGateRoom, ckey",
-					"@Subterranean Hell Regions/SHButtonGateRoom, ^$gateclips"
+					"@Subterranean Hell Regions/ButtonGateRoom, ^$PassGate|False|ckey",
+					"@Silenced Ruins Regions/Main, $smalluppies",
+					"@Silenced Ruins Regions/Main, fast, puppet"
 				]
 			}
 		]
@@ -477,24 +477,24 @@
 		"name": "The Pinnacle Regions",
 		"children": [
 			{
-				"name": "TP",
+				"name": "Main",
 				"access_rules": [
-					"@The Pinnacle Regions/TPLower, $smalluppies"
+					"@The Pinnacle Regions/Lower, $smalluppies"
 				]
 			},
 			{
-				"name": "TPLower",
+				"name": "Lower",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTExit",
-					"@The Pinnacle Regions/TP",
-					"@Demon Guest House Regions/DGHUpper",
-					"tpwarp, @Warp Room, $tinyuppies"
+					"@Demon Guest House Regions/Upper",
+					"@Cursed Clock Tower Regions/Exit",
+					"@The Pinnacle Regions/Main",
+					"tpwarp, @Warp Room"
 				]
 			},
 			{
-				"name": "TPThroneRoom",
+				"name": "ThroneRoom",
 				"access_rules": [
-					"@The Pinnacle Regions/TP, $biguppies"
+					"@The Pinnacle Regions/Main, $biguppies"
 				]
 			}
 		]
@@ -503,13 +503,13 @@
 		"name": "Mine of Judgment Regions",
 		"children": [
 			{
-				"name": "MoJ",
+				"name": "Main",
 				"access_rules": [
-					"$abyssaccess, openmine, @Condemned Tower Regions/CTBottom",
-					"$abyssaccess, minegarden, @Condemned Tower Regions/CTBottom, @Garden of Madness/Central Chamber/",
-					"$abyssaccess, minethrone, @Condemned Tower Regions/CTBottom, @The Pinnacle/Aguni Soul/",
-					"$abyssaccess, minebosses, @Condemned Tower Regions/CTBottom, $allbosses|mine",
-					"@The Abyss Regions/TA, $smalluppies",
+					"$abyssaccess, openmine, @Condemned Tower Regions/Bottom",
+					"$abyssaccess, minegarden, @Condemned Tower Regions/Bottom, @Garden of Madness/Central Chamber/",
+					"$abyssaccess, minethrone, @Condemned Tower Regions/Bottom, @The Pinnacle/Aguni Soul/",
+					"$abyssaccess, minebosses, @Condemned Tower Regions/Bottom, $allbosses|mine",
+					"@The Abyss Regions/Main, $smalluppies",
 					"mojwarp, @Warp Room"
 				]
 			}
@@ -519,15 +519,15 @@
 		"name": "The Abyss Regions",
 		"children": [
 			{
-				"name": "TA",
+				"name": "Main",
 				"access_rules": [
-					"@Mine of Judgment Regions/MoJ, $tinyuppies, $GetSeal|mojseal"
+					"@Mine of Judgment Regions/Main, $tinyuppies, $GetSeal|mojseal"
 				]
 			},
 			{
-				"name": "TABeyondAbaddon",
+				"name": "BeyondAbaddon",
 				"access_rules": [
-					"@The Abyss Regions/TA, $biguppies, $GetSeal|taseal",
+					"@The Abyss Regions/Main, $biguppies, $GetSeal|taseal",
 					"tawarp, @Warp Room"
 				]
 			}
@@ -536,18 +536,18 @@
 	{
 		"name": "Warp Room",
 		"access_rules": [
-			"@The Lost Village Regions/LVLower",
-			"@Wizardry Lab Regions/WLMain",
-			"@Garden of Madness Regions/GoMLower",
-			"@Demon Guest House Regions/DGHWestWing",
-			"@The Dark Chapel Regions/DC",
-			"@Condemned Tower Regions/CTTop, $GetSeal|ctseal",
-			"@Cursed Clock Tower Regions/CCTBossArea, $GetSeal|cctseal",
-			"@Subterranean Hell Regions/SHCentralLower",
-			"@Silenced Ruins Regions/SR",
-			"@The Pinnacle Regions/TPLower, $tinyuppies",
-			"@Mine of Judgment Regions/MoJ",
-			"@The Abyss Regions/TABeyondAbaddon"
+			"@The Lost Village Regions/Lower",
+			"@Wizardry Lab Regions/Main",
+			"@Garden of Madness Regions/Lower",
+			"@Demon Guest House Regions/WestWing",
+			"@The Dark Chapel Regions/Main",
+			"@Condemned Tower Regions/Top",
+			"@Cursed Clock Tower Regions/PostBoss",
+			"@Subterranean Hell Regions/CentralLower",
+			"@Silenced Ruins Regions/Main",
+			"@The Pinnacle Regions/Lower, $tinyuppies",
+			"@Mine of Judgment Regions/Main",
+			"@The Abyss Regions/BeyondAbaddon"
 		]
 	},
 	{
@@ -557,287 +557,287 @@
 			{
 				"name": "Skeleton",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper",
-					"@The Lost Village Regions/LVLower",
-					"@Wizardry Lab Regions/WLMain",
-					"@Demon Guest House Regions/DGHLower",
-					"@Silenced Ruins Regions/SR"
+					"@The Lost Village Regions/Upper",
+					"@The Lost Village Regions/Lower",
+					"@Wizardry Lab Regions/Main",
+					"@Demon Guest House Regions/Lower",
+					"@Silenced Ruins Regions/Main"
 				]
 			},
 			{
 				"name": "Zombie",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper",
-					"@The Lost Village Regions/LVLower"
+					"@The Lost Village Regions/Upper",
+					"@The Lost Village Regions/Lower"
 				]
 			},
 			{
 				"name": "Axe Armor",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper",
-					"@The Lost Village Regions/LVLower",
-					"@The Lost Village Regions/LVUndergroundTop",
-					"@Wizardry Lab Regions/WLMain",
-					"@Demon Guest House Regions/DGHLower"
+					"@The Lost Village Regions/Upper",
+					"@The Lost Village Regions/Lower",
+					"@The Lost Village Regions/UndergroundTop",
+					"@Wizardry Lab Regions/Main",
+					"@Demon Guest House Regions/Lower"
 				]
 			},
 			{
 				"name": "Student Witch",
 				"access_rules": [
-					"@The Lost Village Regions/LVLower, @The Lost Village/Moat Drain Switch/",
-					"@Wizardry Lab Regions/WLMain",
-					"@Demon Guest House Regions/DGHUpper"
+					"@The Lost Village Regions/Lower, @The Lost Village/Moat Drain Switch/",
+					"@Wizardry Lab Regions/Main",
+					"@Demon Guest House Regions/Upper"
 				]
 			},
 			{
 				"name": "Warg",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper",
-					"@The Lost Village Regions/LVCourtyard"
+					"@The Lost Village Regions/Upper",
+					"@The Lost Village Regions/Courtyard"
 				]
 			},
 			{
 				"name": "Bomber Armor",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLMain"
+					"@Wizardry Lab Regions/Main"
 				]
 			},
 			{
 				"name": "Amalaric Sniper",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC"
+					"@The Dark Chapel Regions/Main"
 				]
 			},
 			{
 				"name": "Cave Troll",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLEastGate",
-					"@Subterranean Hell Regions/SHTopEntrance"
+					"@Wizardry Lab Regions/EastGate",
+					"@Subterranean Hell Regions/TopEntrance"
 				]
 			},
 			{
 				"name": "Waiter Skeleton",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHMain",
-					"@Silenced Ruins Regions/SRUpperEntrance",
-					"@Silenced Ruins Regions/SRBackExit"
+					"@Demon Guest House Regions/Main",
+					"@Silenced Ruins Regions/UpperEntrance",
+					"@Silenced Ruins Regions/BackExit"
 				]
 			},
 			{
 				"name": "Slime",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLMain",
-					"@Cursed Clock Tower Regions/CCTCentral"
+					"@Wizardry Lab Regions/Main",
+					"@Cursed Clock Tower Regions/Central"
 				]
 			},
 			{
 				"name": "Yorick",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMLower"
+					"@Garden of Madness Regions/Lower"
 				]
 			},
 			{
 				"name": "Une",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMLower",
-					"@Garden of Madness Regions/GoMPostBoss",
-					"@Subterranean Hell Regions/SHTopEntrance",
-					"@Subterranean Hell Regions/SHCentralEastConnection"
+					"@Garden of Madness Regions/Lower",
+					"@Garden of Madness Regions/PostBoss",
+					"@Subterranean Hell Regions/TopEntrance",
+					"@Subterranean Hell Regions/CentralEastConnection"
 				]
 			},
 			{
 				"name": "Mandragora",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMLower"
+					"@Garden of Madness Regions/Lower"
 				]
 			},
 			{
 				"name": "Rycuda",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMLower",
-					"@Garden of Madness Regions/GoMUpper"
+					"@Garden of Madness Regions/Lower",
+					"@Garden of Madness Regions/Upper"
 				]
 			},
 			{
 				"name": "Fleaman",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMEastGate",
-					"@Condemned Tower Regions/CTTop"
+					"@Garden of Madness Regions/EastGate",
+					"@Condemned Tower Regions/Top"
 				]
 			},
 			{
 				"name": "Ripper",
 				"access_rules": [
-					"@Mine of Judgment Regions/MoJ"
+					"@Mine of Judgment Regions/Main"
 				]
 			},
 			{
 				"name": "Guillotiner",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC",
-					"@The Pinnacle Regions/TP",
-					"@The Pinnacle Regions/TPLower"
+					"@The Dark Chapel Regions/Main",
+					"@The Pinnacle Regions/Main",
+					"@The Pinnacle Regions/Lower"
 				]
 			},
 			{
 				"name": "Killer Clown",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHMain",
-					"@Demon Guest House Regions/DGHWestWing"
+					"@Demon Guest House Regions/Main",
+					"@Demon Guest House Regions/WestWing"
 				]
 			},
 			{
 				"name": "Malachi",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHUpper",
-					"@Cursed Clock Tower Regions/CCTEntrance",
-					"@The Pinnacle Regions/TPLower",
-					"@The Abyss Regions/TA"
+					"@Demon Guest House Regions/Upper",
+					"@Cursed Clock Tower Regions/Entrance",
+					"@The Pinnacle Regions/Lower",
+					"@The Abyss Regions/Main"
 				]
 			},
 			{
 				"name": "Disc Armor",
 				"access_rules": [
-					"@Condemned Tower Regions/CTTop"
+					"@Condemned Tower Regions/Top"
 				]
 			},
 			{
 				"name": "Great Axe Armor",
 				"access_rules": [
-					"@The Lost Village Regions/LVUndergroundTop",
-					"@Wizardry Lab Regions/WLWestGate",
-					"@Condemned Tower Regions/CTBottom"
+					"@The Lost Village Regions/UndergroundTop",
+					"@Wizardry Lab Regions/WestGate",
+					"@Condemned Tower Regions/Bottom"
 				]
 			},
 			{
 				"name": "Slaughterer",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLMain"
+					"@Wizardry Lab Regions/Main"
 				]
 			},
 			{
 				"name": "Hell Boar",
 				"access_rules": [
-					"@The Lost Village Regions/LVCourtyard, $biguppies",
-					"@The Dark Chapel Regions/DC"
+					"@The Lost Village Regions/Courtyard, $biguppies",
+					"@The Dark Chapel Regions/Main"
 				]
 			},
 			{
 				"name": "Frozen Shade",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHEast",
-					"@Subterranean Hell Regions/SHShaftMiddle",
-					"@Subterranean Hell Regions/SHCentralLower",
-					"@Subterranean Hell Regions/SHCentralUpper",
-					"@Subterranean Hell Regions/SHCentralExit",
-					"@The Abyss Regions/TA"
+					"@Subterranean Hell Regions/East",
+					"@Subterranean Hell Regions/ShaftMiddle",
+					"@Subterranean Hell Regions/CentralLower",
+					"@Subterranean Hell Regions/CentralUpper",
+					"@Subterranean Hell Regions/CentralExit",
+					"@The Abyss Regions/Main"
 				]
 			},
 			{
 				"name": "Merman",
 				"access_rules": [
-					"@The Lost Village Regions/LVUndergroundTop",
-					"@Subterranean Hell Regions/SHEast",
-					"@Subterranean Hell Regions/SHShaftBottom",
-					"@Subterranean Hell Regions/SHCentralLower",
-					"@Subterranean Hell Regions/SHCentralUpper",
-					"@Subterranean Hell Regions/SHCentralExit"
+					"@The Lost Village Regions/UndergroundTop",
+					"@Subterranean Hell Regions/East",
+					"@Subterranean Hell Regions/ShaftBottom",
+					"@Subterranean Hell Regions/CentralLower",
+					"@Subterranean Hell Regions/CentralUpper",
+					"@Subterranean Hell Regions/CentralExit"
 				]
 			},
 			{
 				"name": "Larva",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLSunken",
-					"@Silenced Ruins Regions/SR"
+					"@Wizardry Lab Regions/Sunken",
+					"@Silenced Ruins Regions/Main"
 				]
 			},
 			{
 				"name": "Ukoback",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHShaftBottom",
-					"@Subterranean Hell Regions/SHShaftTop",
-					"@Subterranean Hell Regions/SHCentralUpper",
-					"@Subterranean Hell Regions/SHCentralExit"
+					"@Subterranean Hell Regions/ShaftBottom",
+					"@Subterranean Hell Regions/ShaftTop",
+					"@Subterranean Hell Regions/CentralUpper",
+					"@Subterranean Hell Regions/CentralExit"
 				]
 			},
 			{
 				"name": "Decarabia",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHTopEntrance, $GetSeal|shseal",
-					"@Subterranean Hell Regions/SHEast, water"
+					"@Subterranean Hell Regions/TopEntrance, $GetSeal|shseal",
+					"@Subterranean Hell Regions/East, water"
 				]
 			},
 			{
 				"name": "Succubus",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHUpper",
-					"@The Pinnacle Regions/TPLower",
-					"@The Abyss Regions/TABeyondAbaddon"
+					"@Demon Guest House Regions/Upper",
+					"@The Pinnacle Regions/Lower",
+					"@The Abyss Regions/BeyondAbaddon"
 				]
 			},
 			{
 				"name": "Slogra",
 				"access_rules": [
-					"@Mine of Judgment Regions/MoJ"
+					"@Mine of Judgment Regions/Main"
 				]
 			},
 			{
 				"name": "Erinys",
 				"access_rules": [
-					"@The Pinnacle Regions/TP",
-					"@The Pinnacle Regions/TPLower",
-					"@The Abyss Regions/TA"
+					"@The Pinnacle Regions/Main",
+					"@The Pinnacle Regions/Lower",
+					"@The Abyss Regions/Main"
 				]
 			},
 			{
 				"name": "Homunculus",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLSunken"
+					"@Wizardry Lab Regions/Sunken"
 				]
 			},
 			{
 				"name": "Witch",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHUpper",
-					"@The Dark Chapel Regions/DC"
+					"@Demon Guest House Regions/Upper",
+					"@The Dark Chapel Regions/Main"
 				]
 			},
 			{
 				"name": "Fish Head",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHEast, water"
+					"@Subterranean Hell Regions/East, water"
 				]
 			},
 			{
 				"name": "Mollusca",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMLower",
-					"@Garden of Madness Regions/GoMUpper"
+					"@Garden of Madness Regions/Lower",
+					"@Garden of Madness Regions/Upper"
 				]
 			},
 			{
 				"name": "Giant Slug",
 				"access_rules": [
-					"@Mine of Judgment Regions/MoJ"
+					"@Mine of Judgment Regions/Main"
 				]
 			},
 			{
 				"name": "Dead Mate",
 				"access_rules": [
-					"@Silenced Ruins Regions/SR"
+					"@Silenced Ruins Regions/Main"
 				]
 			},
 			{
 				"name": "Malacoda",
 				"access_rules": [
-					"@The Abyss Regions/TA"
+					"@The Abyss Regions/Main"
 				]
 			},
 			{
 				"name": "Flame Demon",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHUpper",
-					"@The Pinnacle Regions/TPLower"
+					"@Demon Guest House Regions/Upper",
+					"@The Pinnacle Regions/Lower"
 				]
 			},
 			{
@@ -859,457 +859,457 @@
 			{
 				"name": "Imp",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTEntrance",
-					"@Cursed Clock Tower Regions/CCTCentral"
+					"@Cursed Clock Tower Regions/Entrance",
+					"@Cursed Clock Tower Regions/Central"
 				]
 			},
 			{
 				"name": "Yeti",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper, food"
+					"@The Lost Village Regions/Upper, food"
 				]
 			},
 			// Guardian Souls
 			{
 				"name": "Black Panther",
 				"access_rules": [
-					"@The Abyss Regions/TABeyondAbaddon"
+					"@The Abyss Regions/BeyondAbaddon"
 				]
 			},
 			{
 				"name": "Bone Ark",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHCentralUpper",
-					"@Silenced Ruins Regions/SR"
+					"@Subterranean Hell Regions/CentralUpper",
+					"@Silenced Ruins Regions/Main"
 				]
 			},
 			{
 				"name": "Spin Devil",
 				"access_rules": [
-					"@The Lost Village Regions/LVLower"
+					"@The Lost Village Regions/Lower"
 				]
 			},
 			{
 				"name": "Corpseweed",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMLower",
-					"@Garden of Madness Regions/GoMUpper",
-					"@Garden of Madness Regions/GoMPostBoss"
+					"@Garden of Madness Regions/Lower",
+					"@Garden of Madness Regions/Upper",
+					"@Garden of Madness Regions/PostBoss"
 				]
 			},
 			{
 				"name": "Flying Humanoid",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTBossArea, yell"
+					"@Cursed Clock Tower Regions/BossArea, yell"
 				]
 			},
 			{
 				"name": "Buer",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHWestWing",
-					"@Condemned Tower Regions/CTTop"
+					"@Demon Guest House Regions/WestWing",
+					"@Condemned Tower Regions/Top"
 				]
 			},
 			{
 				"name": "Bat",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper",
-					"@The Lost Village Regions/LVLower",
-					"@Silenced Ruins Regions/SR"
+					"@The Lost Village Regions/Upper",
+					"@The Lost Village Regions/Lower",
+					"@Silenced Ruins Regions/Main"
 				]
 			},
 			{
 				"name": "Skull Archer",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLMain",
-					"@Silenced Ruins Regions/SR"
+					"@Wizardry Lab Regions/Main",
+					"@Silenced Ruins Regions/Main"
 				]
 			},
 			{
 				"name": "Armor Knight",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper, $biguppies",
-					"@The Lost Village Regions/LVLower",
-					"@Wizardry Lab Regions/WLMain"
+					"@The Lost Village Regions/Upper, $biguppies",
+					"@The Lost Village Regions/Lower",
+					"@Wizardry Lab Regions/Main"
 				]
 			},
 			{
 				"name": "Golem",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLMain"
+					"@Wizardry Lab Regions/Main"
 				]
 			},
 			{
 				"name": "Manticore",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLMain"
+					"@Wizardry Lab Regions/Main"
 				]
 			},
 			{
 				"name": "Catoblepas",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMLower",
-					"@The Dark Chapel Regions/DCCatacombsExit",
-					"@Cursed Clock Tower Regions/CCTEntrance"
+					"@Garden of Madness Regions/Lower",
+					"@The Dark Chapel Regions/CatacombsExit",
+					"@Cursed Clock Tower Regions/Entrance"
 				]
 			},
 			{
 				"name": "Ghost Dancer",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHMain",
-					"@Demon Guest House Regions/DGHUpper",
-					"@The Dark Chapel Regions/DC"
+					"@Demon Guest House Regions/Main",
+					"@Demon Guest House Regions/Upper",
+					"@The Dark Chapel Regions/Main"
 				]
 			},
 			{
 				"name": "Mini Devil",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC",
-					"@The Dark Chapel Regions/DCBigRoom"
+					"@The Dark Chapel Regions/Main",
+					"@The Dark Chapel Regions/BigRoom"
 				]
 			},
 			{
 				"name": "Quetzalcoatl",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHWestWing",
-					"@The Dark Chapel Regions/DC, $GetSeal|dcseal",
-					"@The Dark Chapel Regions/DCBigRoom"
+					"@Demon Guest House Regions/WestWing",
+					"@The Dark Chapel Regions/Main, $GetSeal|dcseal",
+					"@The Dark Chapel Regions/BigRoom"
 				]
 			},
 			{
 				"name": "Great Armor",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC"
+					"@The Dark Chapel Regions/Main"
 				]
 			},
 			{
 				"name": "Persephone",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHMain",
-					"@Demon Guest House Regions/DGHNumberPuzzleWest",
-					"@Demon Guest House Regions/DGHUpper"
+					"@Demon Guest House Regions/Main",
+					"@Demon Guest House Regions/NumberPuzzleWest",
+					"@Demon Guest House Regions/Upper"
 				]
 			},
 			{
 				"name": "Lilith",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHMain",
-					"@Demon Guest House Regions/DGHWestWing",
-					"@Demon Guest House Regions/DGHUpper"
+					"@Demon Guest House Regions/Main",
+					"@Demon Guest House Regions/WestWing",
+					"@Demon Guest House Regions/Upper"
 				]
 			},
 			{
 				"name": "Skelerang",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpperDoorway",
-					"@Garden of Madness Regions/GoMLower",
-					"@Garden of Madness Regions/GoMPostBoss",
-					"@Demon Guest House Regions/DGHPuppetWallRight",
-					"@Demon Guest House Regions/DGHMain",
-					"@Demon Guest House Regions/DGHUpper",
-					"@Silenced Ruins Regions/SR"
+					"@The Lost Village Regions/UpperDoorway",
+					"@Garden of Madness Regions/Lower",
+					"@Garden of Madness Regions/PostBoss",
+					"@Demon Guest House Regions/PuppetWallRight",
+					"@Demon Guest House Regions/Main",
+					"@Demon Guest House Regions/Upper",
+					"@Silenced Ruins Regions/Main"
 				]
 			},
 			{
 				"name": "Devil",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHMain",
-					"@Cursed Clock Tower Regions/CCTExit",
-					"@Subterranean Hell Regions/SHShaftMiddle",
-					"@Silenced Ruins Regions/SR, ice"
+					"@Demon Guest House Regions/Main",
+					"@Cursed Clock Tower Regions/Exit",
+					"@Subterranean Hell Regions/ShaftMiddle",
+					"@Silenced Ruins Regions/Main, ice"
 				]
 			},
 			{
 				"name": "Needles",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHEast, water",
-					"@Subterranean Hell Regions/SHCentralUpper, water"
+					"@Subterranean Hell Regions/East, water",
+					"@Subterranean Hell Regions/CentralUpper, water"
 				]
 			},
 			{
 				"name": "White Dragon",
 				"access_rules": [
-					"@The Lost Village Regions/LVUndergroundBottom",
-					"@The Dark Chapel Regions/DC",
-					"@The Abyss Regions/TA"
+					"@The Lost Village Regions/UndergroundBottom",
+					"@The Dark Chapel Regions/Main",
+					"@The Abyss Regions/Main"
 				]
 			},
 			{
 				"name": "Wakwak Tree",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMEastGate"
+					"@Garden of Madness Regions/EastGate"
 				]
 			},
 			{
 				"name": "Harpy",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTEntrance",
-					"@Cursed Clock Tower Regions/CCTCentral"
+					"@Cursed Clock Tower Regions/Entrance",
+					"@Cursed Clock Tower Regions/Central"
 				]
 			},
 			{
 				"name": "Killer Fish",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLSunken",
-					"@Subterranean Hell Regions/SHEast",
-					"@Subterranean Hell Regions/SHShaftTop",
-					"@Subterranean Hell Regions/SHCentralUpper, water"
+					"@Wizardry Lab Regions/Sunken",
+					"@Subterranean Hell Regions/East",
+					"@Subterranean Hell Regions/ShaftTop",
+					"@Subterranean Hell Regions/CentralUpper, water"
 				]
 			},
 			{
 				"name": "Dead Pirate",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTEntrance",
-					"@Subterranean Hell Regions/SHTopEntrance",
-					"@Subterranean Hell Regions/SHShaftBottom",
-					"@Subterranean Hell Regions/SHCentralLower",
-					"@Subterranean Hell Regions/SHCentralUpper"
+					"@Cursed Clock Tower Regions/Entrance",
+					"@Subterranean Hell Regions/TopEntrance",
+					"@Subterranean Hell Regions/ShaftBottom",
+					"@Subterranean Hell Regions/CentralLower",
+					"@Subterranean Hell Regions/CentralUpper"
 				]
 			},
 			{
 				"name": "Alura Une",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHCentralEastConnection"
+					"@Subterranean Hell Regions/CentralEastConnection"
 				]
 			},
 			{
 				"name": "Mushussu",
 				"access_rules": [
-					"@The Pinnacle Regions/TPLower",
-					"@The Pinnacle Regions/TP"
+					"@The Pinnacle Regions/Lower",
+					"@The Pinnacle Regions/Main"
 				]
 			},
 			{
 				"name": "Werewolf",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHUpper",
-					"@Condemned Tower Regions/CTTop",
-					"@The Pinnacle Regions/TPLower",
-					"@The Pinnacle Regions/TP"
+					"@Demon Guest House Regions/Upper",
+					"@Condemned Tower Regions/Top",
+					"@The Pinnacle Regions/Lower",
+					"@The Pinnacle Regions/Main"
 				]
 			},
 			{
 				"name": "Alastor",
 				"access_rules": [
-					"@The Pinnacle Regions/TP",
-					"@The Abyss Regions/TA"
+					"@The Pinnacle Regions/Main",
+					"@The Abyss Regions/Main"
 				]
 			},
 			{
 				"name": "Mud Demon",
 				"access_rules": [
-					"@The Abyss Regions/TA"
+					"@The Abyss Regions/Main"
 				]
 			},
 			{
 				"name": "Gaibon",
 				"access_rules": [
-					"@Mine of Judgment Regions/MoJ"
+					"@Mine of Judgment Regions/Main"
 				]
 			},
 			// Enchantment Souls
 			{
 				"name": "Ghost",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLMain",
-					"@Wizardry Lab Regions/WLSunkenWestDoor",
-					"@The Dark Chapel Regions/DC"
+					"@Wizardry Lab Regions/Main",
+					"@Wizardry Lab Regions/SunkenWestDoor",
+					"@The Dark Chapel Regions/Main"
 				]
 			},
 			{
 				"name": "Mothman",
 				"access_rules": [
-					"@The Pinnacle Regions/TP, shock"
+					"@The Pinnacle Regions/Main, shock"
 				]
 			},
 			{
 				"name": "Ouija Table",
 				"access_rules": [
-					"@The Lost Village Regions/LVLower"
+					"@The Lost Village Regions/Lower"
 				]
 			},
 			{
 				"name": "Peeping Eye",
 				"access_rules": [
-					"@The Lost Village Regions/LVUpper",
-					"@The Lost Village Regions/LVUpperDoorway",
-					"@Demon Guest House Regions/DGHLower",
-					"@Silenced Ruins Regions/SR"
+					"@The Lost Village Regions/Upper",
+					"@The Lost Village Regions/UpperDoorway",
+					"@Demon Guest House Regions/Lower",
+					"@Silenced Ruins Regions/Main"
 				]
 			},
 			{
 				"name": "Skeleton Farmer",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMLower"
+					"@Garden of Madness Regions/Lower"
 				]
 			},
 			{
 				"name": "Skeleton Ape",
 				"access_rules": [
-					"@The Lost Village Regions/LVCourtyard",
-					"@Garden of Madness Regions/GoMLower",
-					"@Garden of Madness Regions/GoMUpper",
-					"@Garden of Madness Regions/GoMPostBoss",
-					"@Condemned Tower Regions/CTBottom"
+					"@The Lost Village Regions/Courtyard",
+					"@Garden of Madness Regions/Lower",
+					"@Garden of Madness Regions/Upper",
+					"@Garden of Madness Regions/PostBoss",
+					"@Condemned Tower Regions/Bottom"
 				]
 			},
 			{
 				"name": "The Creature",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLMain",
-					"@The Dark Chapel Regions/DC"
+					"@Wizardry Lab Regions/Main",
+					"@The Dark Chapel Regions/Main"
 				]
 			},
 			{
 				"name": "Ghoul",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMPostBoss",
-					"@The Dark Chapel Regions/DC",
-					"@Silenced Ruins Regions/SR"
+					"@Garden of Madness Regions/PostBoss",
+					"@The Dark Chapel Regions/Main",
+					"@Silenced Ruins Regions/Main"
 				]
 			},
 			{
 				"name": "Tombstone",
 				"access_rules": [
-					"@The Dark Chapel Regions/DC"
+					"@The Dark Chapel Regions/Main"
 				]
 			},
 			{
 				"name": "Treant",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMLower",
-					"@Garden of Madness Regions/GoMUpper"
+					"@Garden of Madness Regions/Lower",
+					"@Garden of Madness Regions/Upper"
 				]
 			},
 			{
 				"name": "Valkyrie",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHMain",
-					"@The Dark Chapel Regions/DC",
-					"@The Dark Chapel Regions/DCBigRoom"
+					"@Demon Guest House Regions/Main",
+					"@The Dark Chapel Regions/Main",
+					"@The Dark Chapel Regions/BigRoom"
 				]
 			},
 			{
 				"name": "Killer Doll",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHMain",
-					"@Demon Guest House Regions/DGHWestWing"
+					"@Demon Guest House Regions/Main",
+					"@Demon Guest House Regions/WestWing"
 				]
 			},
 			{
 				"name": "Draghignazzo",
 				"access_rules": [
-					"@Condemned Tower Regions/CTBottom"
+					"@Condemned Tower Regions/Bottom"
 				]
 			},
 			{
 				"name": "Bone Pillar",
 				"access_rules": [
-					"@Demon Guest House Regions/DGHMain",
-					"@Demon Guest House Regions/DGHWestWing",
-					"@The Dark Chapel Regions/DC"
+					"@Demon Guest House Regions/Main",
+					"@Demon Guest House Regions/WestWing",
+					"@The Dark Chapel Regions/Main"
 				]
 			},
 			{
 				"name": "Barbariccia",
 				"access_rules": [
-					"@Garden of Madness Regions/GoMUpper",
-					"@The Dark Chapel Regions/DC"
+					"@Garden of Madness Regions/Upper",
+					"@The Dark Chapel Regions/Main"
 				]
 			},
 			{
 				"name": "Heart Eater",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLWestGate",
-					"@The Abyss Regions/TA"
+					"@Wizardry Lab Regions/WestGate",
+					"@The Abyss Regions/Main"
 				]
 			},
 			{
 				"name": "Medusa Head",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTEntrance",
-					"@Cursed Clock Tower Regions/CCTCentral",
-					"@Subterranean Hell Regions/SHShaftBottom"
+					"@Cursed Clock Tower Regions/Entrance",
+					"@Cursed Clock Tower Regions/Central",
+					"@Subterranean Hell Regions/ShaftBottom"
 				]
 			},
 			{
 				"name": "Mimic",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLEastGate",
-					"@Wizardry Lab Regions/WLSunken",
-					"@Garden of Madness Regions/GoMLower, $smalluppies",
-					"@Demon Guest House Regions/DGHUpper",
-					"@Subterranean Hell Regions/SHEast, water",
-					"@Subterranean Hell Regions/SHCentralExit"
+					"@Wizardry Lab Regions/EastGate",
+					"@Wizardry Lab Regions/Sunken",
+					"@Garden of Madness Regions/Lower, $smalluppies",
+					"@Demon Guest House Regions/Upper",
+					"@Subterranean Hell Regions/East, water",
+					"@Subterranean Hell Regions/CentralExit"
 				]
 			},
 			{
 				"name": "Bugbear",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTCentral",
-					"@The Pinnacle Regions/TPLower",
-					"@Mine of Judgment Regions/MoJ"
+					"@Cursed Clock Tower Regions/Central",
+					"@The Pinnacle Regions/Lower",
+					"@Mine of Judgment Regions/Main"
 				]
 			},
 			{
 				"name": "Procel",
 				"access_rules": [
-					"@Subterranean Hell Regions/SHEast",
-					"@Subterranean Hell Regions/SHCentralLower"
+					"@Subterranean Hell Regions/East",
+					"@Subterranean Hell Regions/CentralLower"
 				]
 			},
 			{
 				"name": "Gorgon",
 				"access_rules": [
-					"@Silenced Ruins Regions/SRUpperEntrance"
+					"@Silenced Ruins Regions/UpperEntrance"
 				]
 			},
 			{
 				"name": "Dead Crusader",
 				"access_rules": [
-					"@Silenced Ruins Regions/SR",
-					"@The Pinnacle Regions/TP"
+					"@Silenced Ruins Regions/Main",
+					"@The Pinnacle Regions/Main"
 				]
 			},
 			{
 				"name": "Dead Warrior",
 				"access_rules": [
-					"@The Pinnacle Regions/TPLower"
+					"@The Pinnacle Regions/Lower"
 				]
 			},
 			{
 				"name": "Tanjelly",
 				"access_rules": [
-					"@Cursed Clock Tower Regions/CCTEntrance",
-					"@Cursed Clock Tower Regions/CCTCentral",
-					"@Mine of Judgment Regions/MoJ"
+					"@Cursed Clock Tower Regions/Entrance",
+					"@Cursed Clock Tower Regions/Central",
+					"@Mine of Judgment Regions/Main"
 				]
 			},
 			{
 				"name": "Final Guard",
 				"access_rules": [
-					"@The Pinnacle Regions/TP",
-					"@The Abyss Regions/TA"
+					"@The Pinnacle Regions/Main",
+					"@The Abyss Regions/Main"
 				]
 			},
 			{
 				"name": "Iron Golem",
 				"access_rules": [
-					"@Wizardry Lab Regions/WLSunkenWestDoor, spirit",
-					"@Demon Guest House Regions/DGHUpper, spirit",
-					"@The Abyss Regions/TABeyondAbaddon, spirit"
+					"@Wizardry Lab Regions/SunkenWestDoor, spirit",
+					"@Demon Guest House Regions/Upper, spirit",
+					"@The Abyss Regions/BeyondAbaddon, spirit"
 				]
 			},
 			{
 				"name": "Stolas",
 				"access_rules": [
-					"@The Abyss Regions/TA"
+					"@The Abyss Regions/Main"
 				]
 			},
 			{
 				"name": "Arc Demon",
 				"access_rules": [
-					"@The Abyss Regions/TA"
+					"@The Abyss Regions/Main"
 				]
 			}
 		]
