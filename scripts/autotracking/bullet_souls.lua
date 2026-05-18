@@ -45,7 +45,7 @@ BULLET_SOULS_FOR_WALLS = {
 function get_idx_for_wall(soul)
     for i, enemy in ipairs(BULLET_SOULS_FOR_WALLS) do
         if enemy.name == soul then
-            return i - 1 -- Lua is cringe and doesn't index on 0?
+            return i - 1 -- Lua is cringe and doesn't index on 0
         end
     end
 end

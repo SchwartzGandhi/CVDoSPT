@@ -128,15 +128,22 @@ end
 
 function OpenSoulWall(wall)
     local soul = Tracker:FindObjectForCode(wall)
-    -- If soulsanity is off, the player needs access to the enemy's region.
+    local code = get_code_for_wall(soul.CurrentStage)
+    local enemy = get_name_for_wall(soul.CurrentStage)
+    local enemy_region = Tracker:FindObjectForCode(string.format('@Soul Farming Regions/%s', enemy))
+
+    -- If soulsanity is off, the player needs the enemy's soul or access to the enemy's region.
     -- If soulsanity is on, the player just needs the enemy's soul.
     if not has("soulsanity") then
-        local enemy = get_name_for_wall(soul.CurrentStage)
-        local enemy_region = Tracker:FindObjectForCode(string.format('@Soul Farming Regions/%s', enemy))
-        return enemy_region.AccessibilityLevel
+        if has(code) then
+            return AccessibilityLevel.Normal
+        else
+            return enemy_region.AccessibilityLevel
+        end
     else
-        local code = get_code_for_wall(soul.CurrentStage)
-        return has(code)
+        if has(code) then
+            return AccessibilityLevel.Normal
+        end
     end
 end
 
