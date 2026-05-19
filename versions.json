@@ -1,13 +1,13 @@
 {
     "versions": [
         {
-            "package_version": "6.1",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/6.1/CVDoSPT.zip",
-            "sha256": "ac72b1f0bd84806f69f88434dbb1f80077a04202c2319730b1a32ab62aeef36b",
+            "package_version": "6.2",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/6.2/CVDoSPT.zip",
+            "sha256": "774a10630a3141a2779ba35f8bf07e14c545430174a011bc7fcdb883bc063465",
             "changelog": [
-                "Fixed some region logic, as well as put some locations in the correct regions",
-                "Throne Room goal now correctly checks for the seal for the throne room",
-                "Refined logic regarding buttonsanity"
+                "Soul View now accounts for what region it's in (dont ask)",
+                "Added and removed soul view listings that were incorrect",
+                "Soul barriers now correctly account for receiving the soul as an item when soulsanity is off"
             ]
         }
     ]
