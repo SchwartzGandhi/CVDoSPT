@@ -77,6 +77,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddLocations("locations/soulsanity.jsonc")
     Tracker:AddLocations("locations/soulsbyregion.jsonc")
     -- Tracker:AddLocations("locations/soulsbyroom.jsonc")
+	ScriptHost:AddOnLocationSectionChangedHandler("loc_watch", BindSoulsanity)
 end
 
 -- Layout

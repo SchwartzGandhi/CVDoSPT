@@ -3,6 +3,7 @@
     "workspace.library": ["./.junk"],
     "runtime.version": "Lua 5.4",
     "diagnostics.disable": [
-        "lowercase-global"
+        "lowercase-global",
+        "need-check-nil"
     ]
 }

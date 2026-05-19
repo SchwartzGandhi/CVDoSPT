@@ -7,42 +7,81 @@
 				"children": [
 					{
 						"name": "The Lost Village - Upper",
+						"access_rules": [
+							"@The Lost Village Regions/Upper"
+						],
 						"sections": [
 							{
 								"name": "Yeti Soul",
-								"ref": "Soulsanity/Common Souls/Yeti Soul/"
+								"chest_unopened_img": "images/enemies/29.png",
+								"chest_opened_img": "images/enemies/29_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Yeti"
+								]
 							},
 							{
 								"name": "Axe Armor Soul",
-								"ref": "Soulsanity/Common Souls/Axe Armor Soul/"
+								"chest_unopened_img": "images/enemies/7.png",
+								"chest_opened_img": "images/enemies/7_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Axe Armor"
+								]
 							},
 							{
 								"name": "Warg Soul",
-								"ref": "Soulsanity/Common Souls/Warg Soul/"
+								"chest_unopened_img": "images/enemies/9.png",
+								"chest_opened_img": "images/enemies/9_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Warg"
+								]
 							},
 							{
 								"name": "Spin Devil Soul",
-								"ref": "Soulsanity/Common Souls/Spin Devil Soul/"
+								"chest_unopened_img": "images/enemies/10.png",
+								"chest_opened_img": "images/enemies/10_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Spin Devil"
+								]
 							},
 							{
 								"name": "Skeleton Soul",
-								"ref": "Soulsanity/Uncommon Souls/Skeleton Soul/"
+								"chest_unopened_img": "images/enemies/4.png",
+								"chest_opened_img": "images/enemies/4_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skeleton"
+								]
 							},
 							{
 								"name": "Bat Soul",
-								"ref": "Soulsanity/Uncommon Souls/Bat Soul/"
+								"chest_unopened_img": "images/enemies/2.png",
+								"chest_opened_img": "images/enemies/2_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Bat"
+								]
 							},
 							{
 								"name": "Armor Knight Soul",
-								"ref": "Soulsanity/Uncommon Souls/Armor Knight Soul/"
+								"chest_unopened_img": "images/enemies/11.png",
+								"chest_opened_img": "images/enemies/11_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Armor Knight"
+								]
 							},
 							{
 								"name": "Zombie Soul",
-								"ref": "Soulsanity/Uncommon Souls/Zombie Soul/"
+								"chest_unopened_img": "images/enemies/1.png",
+								"chest_opened_img": "images/enemies/1_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Zombie"
+								]
 							},
 							{
 								"name": "Peeping Eye Soul",
-								"ref": "Soulsanity/Rare Souls/Peeping Eye Soul/"
+								"chest_unopened_img": "images/enemies/6.png",
+								"chest_opened_img": "images/enemies/6_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Peeping Eye"
+								]
 							}
 						],
 						"map_locations": [
@@ -59,14 +98,25 @@
 					},
 					{
 						"name": "The Lost Village - Upper Doorway",
+						"access_rules": [
+							"@The Lost Village Regions/UpperDoorway"
+						],
 						"sections": [
 							{
 								"name": "Skelerang Soul",
-								"ref": "Soulsanity/Uncommon Souls/Skelerang Soul/"
+								"chest_unopened_img": "images/enemies/46.png",
+								"chest_opened_img": "images/enemies/46_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skelerang"
+								]
 							},
 							{
 								"name": "Peeping Eye Soul",
-								"ref": "Soulsanity/Rare Souls/Peeping Eye Soul/"
+								"chest_unopened_img": "images/enemies/6.png",
+								"chest_opened_img": "images/enemies/6_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Peeping Eye"
+								]
 							}
 						],
 						"map_locations": [
@@ -83,18 +133,33 @@
 					},
 					{
 						"name": "The Lost Village - Courtyard",
+						"access_rules": [
+							"@The Lost Village Regions/Courtyard"
+						],
 						"sections": [
 							{
 								"name": "Warg Soul",
-								"ref": "Soulsanity/Common Souls/Warg Soul/"
+								"chest_unopened_img": "images/enemies/9.png",
+								"chest_opened_img": "images/enemies/9_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Warg"
+								]
 							},
 							{
 								"name": "Hell Boar Soul",
-								"ref": "Soulsanity/Uncommon Souls/Hell Boar Soul/"
+								"chest_unopened_img": "images/enemies/52.png",
+								"chest_opened_img": "images/enemies/52_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Hell Boar"
+								]
 							},
 							{
 								"name": "Skeleton Ape Soul",
-								"ref": "Soulsanity/Rare Souls/Skeleton Ape Soul/"
+								"chest_unopened_img": "images/enemies/18.png",
+								"chest_opened_img": "images/enemies/18_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skeleton Ape"
+								]
 							}
 						],
 						"map_locations": [
@@ -111,34 +176,65 @@
 					},
 					{
 						"name": "The Lost Village - Lower",
+						"access_rules": [
+							"@The Lost Village Regions/Lower"
+						],
 						"sections": [
 							{
 								"name": "Spin Devil Soul",
-								"ref": "Soulsanity/Common Souls/Spin Devil Soul/"
+								"chest_unopened_img": "images/enemies/10.png",
+								"chest_opened_img": "images/enemies/10_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Spin Devil"
+								]
 							},
 							{
 								"name": "Skeleton Soul",
-								"ref": "Soulsanity/Uncommon Souls/Skeleton Soul/"
+								"chest_unopened_img": "images/enemies/4.png",
+								"chest_opened_img": "images/enemies/4_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skeleton"
+								]
 							},
 							{
 								"name": "Armor Knight Soul",
-								"ref": "Soulsanity/Uncommon Souls/Armor Knight Soul/"
+								"chest_unopened_img": "images/enemies/11.png",
+								"chest_opened_img": "images/enemies/11_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Armor Knight"
+								]
 							},
 							{
 								"name": "Bat Soul",
-								"ref": "Soulsanity/Uncommon Souls/Bat Soul/"
+								"chest_unopened_img": "images/enemies/2.png",
+								"chest_opened_img": "images/enemies/2_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Bat"
+								]
 							},
 							{
 								"name": "Zombie Soul",
-								"ref": "Soulsanity/Uncommon Souls/Zombie Soul/"
+								"chest_unopened_img": "images/enemies/1.png",
+								"chest_opened_img": "images/enemies/1_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Zombie"
+								]
 							},
 							{
 								"name": "Student Witch Soul",
-								"ref": "Soulsanity/Uncommon Souls/Student Witch Soul/"
+								"chest_unopened_img": "images/enemies/12.png",
+								"chest_opened_img": "images/enemies/12_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Student Witch"
+								]
 							},
 							{
 								"name": "Ouija Table Soul",
-								"ref": "Soulsanity/Rare Souls/Ouija Table Soul/"
+								"chest_unopened_img": "images/enemies/5.png",
+								"chest_opened_img": "images/enemies/5_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ouija Table"
+								]
 							}
 						],
 						"map_locations": [
@@ -155,18 +251,33 @@
 					},
 					{
 						"name": "The Lost Village - Underground Top",
+						"access_rules": [
+							"@The Lost Village Regions/UndergroundTop"
+						],
 						"sections": [
 							{
 								"name": "Axe Armor Soul",
-								"ref": "Soulsanity/Common Souls/Axe Armor Soul/"
+								"chest_unopened_img": "images/enemies/7.png",
+								"chest_opened_img": "images/enemies/7_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Axe Armor"
+								]
 							},
 							{
 								"name": "Merman Soul",
-								"ref": "Soulsanity/Common Souls/Merman Soul/"
+								"chest_unopened_img": "images/enemies/63.png",
+								"chest_opened_img": "images/enemies/63_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Merman"
+								]
 							},
 							{
 								"name": "Great Axe Armor Soul",
-								"ref": "Soulsanity/Rare Souls/Great Axe Armor Soul/"
+								"chest_unopened_img": "images/enemies/80.png",
+								"chest_opened_img": "images/enemies/80_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Great Axe Armor"
+								]
 							}
 						],
 						"map_locations": [
@@ -182,10 +293,17 @@
 					},
 					{
 						"name": "The Lost Village - Underground Bottom",
+						"access_rules": [
+							"@The Lost Village Regions/UndergroundBottom"
+						],
 						"sections": [
 							{
 								"name": "White Dragon Soul",
-								"ref": "Soulsanity/Uncommon Souls/White Dragon Soul/"
+								"chest_unopened_img": "images/enemies/54.png",
+								"chest_opened_img": "images/enemies/54_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/White Dragon"
+								]
 							}
 						],
 						"map_locations": [
@@ -206,54 +324,105 @@
 				"children": [
 					{
 						"name": "Wizardry Lab - Main",
+						"access_rules": [
+							"@Wizardry Lab Regions/Main"
+						],
 						"sections": [
 							{
 								"name": "Slime Soul",
-								"ref": "Soulsanity/Common Souls/Slime Soul/"
+								"chest_unopened_img": "images/enemies/16.png",
+								"chest_opened_img": "images/enemies/16_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Slime"
+								]
 							},
 							{
 								"name": "Axe Armor Soul",
-								"ref": "Soulsanity/Common Souls/Axe Armor Soul/"
+								"chest_unopened_img": "images/enemies/7.png",
+								"chest_opened_img": "images/enemies/7_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Axe Armor"
+								]
 							},
 							{
 								"name": "Bomber Armor Soul",
-								"ref": "Soulsanity/Uncommon Souls/Bomber Armor Soul/"
+								"chest_unopened_img": "images/enemies/14.png",
+								"chest_opened_img": "images/enemies/14_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Bomber Armor"
+								]
 							},
 							{
 								"name": "Student Witch Soul",
-								"ref": "Soulsanity/Uncommon Souls/Student Witch Soul/"
+								"chest_unopened_img": "images/enemies/12.png",
+								"chest_opened_img": "images/enemies/12_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Student Witch"
+								]
 							},
 							{
 								"name": "Skull Archer Soul",
-								"ref": "Soulsanity/Uncommon Souls/Skull Archer Soul/"
+								"chest_unopened_img": "images/enemies/8.png",
+								"chest_opened_img": "images/enemies/8_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skull Archer"
+								]
 							},
 							{
 								"name": "Skeleton Soul",
-								"ref": "Soulsanity/Uncommon Souls/Skeleton Soul/"
+								"chest_unopened_img": "images/enemies/4.png",
+								"chest_opened_img": "images/enemies/4_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skeleton"
+								]
 							},
 							{
 								"name": "Slaughterer Soul",
-								"ref": "Soulsanity/Uncommon Souls/Slaughterer Soul/"
+								"chest_unopened_img": "images/enemies/13.png",
+								"chest_opened_img": "images/enemies/13_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Slaughterer"
+								]
 							},
 							{
 								"name": "Manticore Soul",
-								"ref": "Soulsanity/Uncommon Souls/Manticore Soul/"
+								"chest_unopened_img": "images/enemies/19.png",
+								"chest_opened_img": "images/enemies/19_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Manticore"
+								]
 							},
 							{
 								"name": "Armor Knight Soul",
-								"ref": "Soulsanity/Uncommon Souls/Armor Knight Soul/"
+								"chest_unopened_img": "images/enemies/11.png",
+								"chest_opened_img": "images/enemies/11_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Armor Knight"
+								]
 							},
 							{
 								"name": "Golem Soul",
-								"ref": "Soulsanity/Uncommon Souls/Golem Soul/"
+								"chest_unopened_img": "images/enemies/15.png",
+								"chest_opened_img": "images/enemies/15_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Golem"
+								]
 							},
 							{
 								"name": "Ghost Soul",
-								"ref": "Soulsanity/Rare Souls/Ghost Soul/"
+								"chest_unopened_img": "images/enemies/3.png",
+								"chest_opened_img": "images/enemies/3_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ghost"
+								]
 							},
 							{
 								"name": "The Creature Soul",
-								"ref": "Soulsanity/Rare Souls/The Creature Soul/"
+								"chest_unopened_img": "images/enemies/25.png",
+								"chest_opened_img": "images/enemies/25_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/The Creature"
+								]
 							}
 						],
 						"map_locations": [
@@ -270,14 +439,25 @@
 					},
 					{
 						"name": "Wizardry Lab - West Gate",
+						"access_rules": [
+							"@Wizardry Lab Regions/WestGate"
+						],
 						"sections": [
 							{
 								"name": "Great Axe Armor Soul",
-								"ref": "Soulsanity/Rare Souls/Great Axe Armor Soul/"
+								"chest_unopened_img": "images/enemies/80.png",
+								"chest_opened_img": "images/enemies/80_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Great Axe Armor"
+								]
 							},
 							{
 								"name": "Heart Eater Soul",
-								"ref": "Soulsanity/Rare Souls/Heart Eater Soul/"
+								"chest_unopened_img": "images/enemies/62.png",
+								"chest_opened_img": "images/enemies/62_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Heart Eater"
+								]
 							}
 						],
 						"map_locations": [
@@ -293,14 +473,25 @@
 					},
 					{
 						"name": "Wizardry Lab - East Gate",
+						"access_rules": [
+							"@Wizardry Lab Regions/EastGate"
+						],
 						"sections": [
 							{
 								"name": "Cave Troll Soul",
-								"ref": "Soulsanity/Common Souls/Cave Troll Soul/"
+								"chest_unopened_img": "images/enemies/60.png",
+								"chest_opened_img": "images/enemies/60_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Cave Troll"
+								]
 							},
 							{
 								"name": "Mimic Soul",
-								"ref": "Soulsanity/Rare Souls/Mimic Soul/"
+								"chest_unopened_img": "images/enemies/68.png",
+								"chest_opened_img": "images/enemies/68_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mimic"
+								]
 							}
 						],
 						"map_locations": [
@@ -316,14 +507,25 @@
 					},
 					{
 						"name": "Wizardry Lab - Sunken",
+						"access_rules": [
+							"@Wizardry Lab Regions/Sunken"
+						],
 						"sections": [
 							{
 								"name": "Homunculus Soul",
-								"ref": "Soulsanity/Common Souls/Homunculus Soul/"
+								"chest_unopened_img": "images/enemies/71.png",
+								"chest_opened_img": "images/enemies/71_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Homunculus"
+								]
 							},
 							{
 								"name": "Larva Soul",
-								"ref": "Soulsanity/Uncommon Souls/Larva Soul/"
+								"chest_unopened_img": "images/enemies/61.png",
+								"chest_opened_img": "images/enemies/61_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Larva"
+								]
 							}
 						],
 						"map_locations": [
@@ -340,14 +542,25 @@
 					},
 					{
 						"name": "Wizardry Lab - Sunken West Door",
+						"access_rules": [
+							"@Wizardry Lab Regions/SunkenWestDoor"
+						],
 						"sections": [
 							{
 								"name": "Iron Golem Soul",
-								"ref": "Soulsanity/Rare Souls/Iron Golem Soul/"
+								"chest_unopened_img": "images/enemies/101.png",
+								"chest_opened_img": "images/enemies/101_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Iron Golem"
+								]
 							},
 							{
 								"name": "Ghost Soul",
-								"ref": "Soulsanity/Rare Souls/Ghost Soul/"
+								"chest_unopened_img": "images/enemies/3.png",
+								"chest_opened_img": "images/enemies/3_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ghost"
+								]
 							}
 						],
 						"map_locations": [
@@ -368,54 +581,105 @@
 				"children": [
 					{
 						"name": "Garden of Madness - Lower",
+						"access_rules": [
+							"@Garden of Madness Regions/Lower"
+						],
 						"sections": [
 							{
 								"name": "Corpseweed Soul",
-								"ref": "Soulsanity/Common Souls/Corpseweed Soul/"
+								"chest_unopened_img": "images/enemies/28.png",
+								"chest_opened_img": "images/enemies/28_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Corpseweed"
+								]
 							},
 							{
 								"name": "Une Soul",
-								"ref": "Soulsanity/Uncommon Souls/Une Soul/"
+								"chest_unopened_img": "images/enemies/17.png",
+								"chest_opened_img": "images/enemies/17_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Une"
+								]
 							},
 							{
 								"name": "Skelerang Soul",
-								"ref": "Soulsanity/Uncommon Souls/Skelerang Soul/"
+								"chest_unopened_img": "images/enemies/46.png",
+								"chest_opened_img": "images/enemies/46_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skelerang"
+								]
 							},
 							{
 								"name": "Mandragora Soul",
-								"ref": "Soulsanity/Uncommon Souls/Mandragora Soul/"
+								"chest_unopened_img": "images/enemies/22.png",
+								"chest_opened_img": "images/enemies/22_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mandragora"
+								]
 							},
 							{
 								"name": "Catoblepas Soul",
-								"ref": "Soulsanity/Uncommon Souls/Catoblepas Soul/"
+								"chest_unopened_img": "images/enemies/26.png",
+								"chest_opened_img": "images/enemies/26_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Catoblepas"
+								]
 							},
 							{
 								"name": "Mollusca Soul",
-								"ref": "Soulsanity/Uncommon Souls/Mollusca Soul/"
+								"chest_unopened_img": "images/enemies/20.png",
+								"chest_opened_img": "images/enemies/20_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mollusca"
+								]
 							},
 							{
 								"name": "Yorick Soul",
-								"ref": "Soulsanity/Uncommon Souls/Yorick Soul/"
+								"chest_unopened_img": "images/enemies/23.png",
+								"chest_opened_img": "images/enemies/23_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Yorick"
+								]
 							},
 							{
 								"name": "Rycuda Soul",
-								"ref": "Soulsanity/Uncommon Souls/Rycuda Soul/"
+								"chest_unopened_img": "images/enemies/21.png",
+								"chest_opened_img": "images/enemies/21_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Rycuda"
+								]
 							},
 							{
 								"name": "Treant Soul",
-								"ref": "Soulsanity/Rare Souls/Treant Soul/"
+								"chest_unopened_img": "images/enemies/35.png",
+								"chest_opened_img": "images/enemies/35_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Treant"
+								]
 							},
 							{
 								"name": "Skeleton Ape Soul",
-								"ref": "Soulsanity/Rare Souls/Skeleton Ape Soul/"
+								"chest_unopened_img": "images/enemies/18.png",
+								"chest_opened_img": "images/enemies/18_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skeleton Ape"
+								]
 							},
 							{
 								"name": "Skeleton Farmer Soul",
-								"ref": "Soulsanity/Rare Souls/Skeleton Farmer Soul/"
+								"chest_unopened_img": "images/enemies/24.png",
+								"chest_opened_img": "images/enemies/24_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skeleton Farmer"
+								]
 							},
 							{
 								"name": "Mimic Soul",
-								"ref": "Soulsanity/Rare Souls/Mimic Soul/"
+								"chest_unopened_img": "images/enemies/68.png",
+								"chest_opened_img": "images/enemies/68_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mimic"
+								]
 							}
 						],
 						"map_locations": [
@@ -432,30 +696,57 @@
 					},
 					{
 						"name": "Garden of Madness - Upper",
+						"access_rules": [
+							"@Garden of Madness Regions/Upper"
+						],
 						"sections": [
 							{
 								"name": "Corpseweed Soul",
-								"ref": "Soulsanity/Common Souls/Corpseweed Soul/"
+								"chest_unopened_img": "images/enemies/28.png",
+								"chest_opened_img": "images/enemies/28_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Corpseweed"
+								]
 							},
 							{
 								"name": "Rycuda Soul",
-								"ref": "Soulsanity/Uncommon Souls/Rycuda Soul/"
+								"chest_unopened_img": "images/enemies/21.png",
+								"chest_opened_img": "images/enemies/21_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Rycuda"
+								]
 							},
 							{
 								"name": "Mollusca Soul",
-								"ref": "Soulsanity/Uncommon Souls/Mollusca Soul/"
+								"chest_unopened_img": "images/enemies/20.png",
+								"chest_opened_img": "images/enemies/20_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mollusca"
+								]
 							},
 							{
 								"name": "Barbariccia Soul",
-								"ref": "Soulsanity/Rare Souls/Barbariccia Soul/"
+								"chest_unopened_img": "images/enemies/58.png",
+								"chest_opened_img": "images/enemies/58_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Barbariccia"
+								]
 							},
 							{
 								"name": "Skeleton Ape Soul",
-								"ref": "Soulsanity/Rare Souls/Skeleton Ape Soul/"
+								"chest_unopened_img": "images/enemies/18.png",
+								"chest_opened_img": "images/enemies/18_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skeleton Ape"
+								]
 							},
 							{
 								"name": "Treant Soul",
-								"ref": "Soulsanity/Rare Souls/Treant Soul/"
+								"chest_unopened_img": "images/enemies/35.png",
+								"chest_opened_img": "images/enemies/35_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Treant"
+								]
 							}
 						],
 						"map_locations": [
@@ -472,26 +763,49 @@
 					},
 					{
 						"name": "Garden of Madness - Post-Boss",
+						"access_rules": [
+							"@Garden of Madness Regions/PostBoss"
+						],
 						"sections": [
 							{
 								"name": "Corpseweed Soul",
-								"ref": "Soulsanity/Common Souls/Corpseweed Soul/"
+								"chest_unopened_img": "images/enemies/28.png",
+								"chest_opened_img": "images/enemies/28_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Corpseweed"
+								]
 							},
 							{
 								"name": "Skelerang Soul",
-								"ref": "Soulsanity/Uncommon Souls/Skelerang Soul/"
+								"chest_unopened_img": "images/enemies/46.png",
+								"chest_opened_img": "images/enemies/46_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skelerang"
+								]
 							},
 							{
 								"name": "Une Soul",
-								"ref": "Soulsanity/Uncommon Souls/Une Soul/"
+								"chest_unopened_img": "images/enemies/17.png",
+								"chest_opened_img": "images/enemies/17_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Une"
+								]
 							},
 							{
 								"name": "Skeleton Ape Soul",
-								"ref": "Soulsanity/Rare Souls/Skeleton Ape Soul/"
+								"chest_unopened_img": "images/enemies/18.png",
+								"chest_opened_img": "images/enemies/18_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skeleton Ape"
+								]
 							},
 							{
 								"name": "Ghoul Soul",
-								"ref": "Soulsanity/Rare Souls/Ghoul Soul/"
+								"chest_unopened_img": "images/enemies/27.png",
+								"chest_opened_img": "images/enemies/27_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ghoul"
+								]
 							}
 						],
 						"map_locations": [
@@ -507,10 +821,17 @@
 					},
 					{
 						"name": "Garden of Madness - East Gate",
+						"access_rules": [
+							"@Garden of Madness Regions/EastGate"
+						],
 						"sections": [
 							{
 								"name": "Wakwak Tree Soul",
-								"ref": "Soulsanity/Uncommon Souls/Wakwak Tree Soul/"
+								"chest_unopened_img": "images/enemies/55.png",
+								"chest_opened_img": "images/enemies/55_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Wakwak Tree"
+								]
 							}
 						],
 						"map_locations": [
@@ -531,70 +852,137 @@
 				"children": [
 					{
 						"name": "The Dark Chapel - Main",
+						"access_rules": [
+							"@The Dark Chapel Regions/Main"
+						],
 						"sections": [
 							{
 								"name": "Guillotiner Soul",
-								"ref": "Soulsanity/Common Souls/Guillotiner Soul/"
+								"chest_unopened_img": "images/enemies/49.png",
+								"chest_opened_img": "images/enemies/49_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Guillotiner"
+								]
 							},
 							{
 								"name": "Witch Soul",
-								"ref": "Soulsanity/Uncommon Souls/Witch Soul/"
+								"chest_unopened_img": "images/enemies/42.png",
+								"chest_opened_img": "images/enemies/42_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Witch"
+								]
 							},
 							{
 								"name": "Mini Devil Soul",
-								"ref": "Soulsanity/Uncommon Souls/Mini Devil Soul/"
+								"chest_unopened_img": "images/enemies/33.png",
+								"chest_opened_img": "images/enemies/33_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mini Devil"
+								]
 							},
 							{
 								"name": "Amalaric Sniper Soul",
-								"ref": "Soulsanity/Uncommon Souls/Amalaric Sniper Soul/"
+								"chest_unopened_img": "images/enemies/36.png",
+								"chest_opened_img": "images/enemies/36_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Amalaric Sniper"
+								]
 							},
 							{
 								"name": "Ghost Dancer Soul",
-								"ref": "Soulsanity/Uncommon Souls/Ghost Dancer Soul/"
+								"chest_unopened_img": "images/enemies/31.png",
+								"chest_opened_img": "images/enemies/31_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ghost Dancer"
+								]
 							},
 							{
 								"name": "Hell Boar Soul",
-								"ref": "Soulsanity/Uncommon Souls/Hell Boar Soul/"
+								"chest_unopened_img": "images/enemies/52.png",
+								"chest_opened_img": "images/enemies/52_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Hell Boar"
+								]
 							},
 							{
 								"name": "White Dragon Soul",
-								"ref": "Soulsanity/Uncommon Souls/White Dragon Soul/"
+								"chest_unopened_img": "images/enemies/54.png",
+								"chest_opened_img": "images/enemies/54_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/White Dragon"
+								]
 							},
 							{
 								"name": "Great Armor Soul",
-								"ref": "Soulsanity/Uncommon Souls/Great Armor Soul/"
+								"chest_unopened_img": "images/enemies/38.png",
+								"chest_opened_img": "images/enemies/38_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Great Armor"
+								]
 							},
 							{
 								"name": "Quetzalcoatl Soul",
-								"ref": "Soulsanity/Uncommon Souls/Quetzalcoatl Soul/"
+								"chest_unopened_img": "images/enemies/34.png",
+								"chest_opened_img": "images/enemies/34_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Quetzalcoatl"
+								]
 							},
 							{
 								"name": "Ghoul Soul",
-								"ref": "Soulsanity/Rare Souls/Ghoul Soul/"
+								"chest_unopened_img": "images/enemies/27.png",
+								"chest_opened_img": "images/enemies/27_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ghoul"
+								]
 							},
 							{
 								"name": "The Creature Soul",
-								"ref": "Soulsanity/Rare Souls/The Creature Soul/"
+								"chest_unopened_img": "images/enemies/25.png",
+								"chest_opened_img": "images/enemies/25_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/The Creature"
+								]
 							},
 							{
 								"name": "Bone Pillar Soul",
-								"ref": "Soulsanity/Rare Souls/Bone Pillar Soul/"
+								"chest_unopened_img": "images/enemies/53.png",
+								"chest_opened_img": "images/enemies/53_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Bone Pillar"
+								]
 							},
 							{
 								"name": "Barbariccia Soul",
-								"ref": "Soulsanity/Rare Souls/Barbariccia Soul/"
+								"chest_unopened_img": "images/enemies/58.png",
+								"chest_opened_img": "images/enemies/58_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Barbariccia"
+								]
 							},
 							{
 								"name": "Valkyrie Soul",
-								"ref": "Soulsanity/Rare Souls/Valkyrie Soul/"
+								"chest_unopened_img": "images/enemies/37.png",
+								"chest_opened_img": "images/enemies/37_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Valkyrie"
+								]
 							},
 							{
 								"name": "Ghost Soul",
-								"ref": "Soulsanity/Rare Souls/Ghost Soul/"
+								"chest_unopened_img": "images/enemies/3.png",
+								"chest_opened_img": "images/enemies/3_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ghost"
+								]
 							},
 							{
 								"name": "Tombstone Soul",
-								"ref": "Soulsanity/Rare Souls/Tombstone Soul/"
+								"chest_unopened_img": "images/enemies/30.png",
+								"chest_opened_img": "images/enemies/30_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Tombstone"
+								]
 							}
 						],
 						"map_locations": [
@@ -611,18 +999,33 @@
 					},
 					{
 						"name": "The Dark Chapel - Big Room",
+						"access_rules": [
+							"@The Dark Chapel Regions/BigRoom"
+						],
 						"sections": [
 							{
 								"name": "Mini Devil Soul",
-								"ref": "Soulsanity/Uncommon Souls/Mini Devil Soul/"
+								"chest_unopened_img": "images/enemies/33.png",
+								"chest_opened_img": "images/enemies/33_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mini Devil"
+								]
 							},
 							{
 								"name": "Quetzalcoatl Soul",
-								"ref": "Soulsanity/Uncommon Souls/Quetzalcoatl Soul/"
+								"chest_unopened_img": "images/enemies/34.png",
+								"chest_opened_img": "images/enemies/34_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Quetzalcoatl"
+								]
 							},
 							{
 								"name": "Valkyrie Soul",
-								"ref": "Soulsanity/Rare Souls/Valkyrie Soul/"
+								"chest_unopened_img": "images/enemies/37.png",
+								"chest_opened_img": "images/enemies/37_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Valkyrie"
+								]
 							}
 						],
 						"map_locations": [
@@ -639,10 +1042,17 @@
 					},
 					{
 						"name": "The Dark Chapel - Catacombs Exit",
+						"access_rules": [
+							"@The Dark Chapel Regions/CatacombsExit"
+						],
 						"sections": [
 							{
 								"name": "Catoblepas Soul",
-								"ref": "Soulsanity/Uncommon Souls/Catoblepas Soul/"
+								"chest_unopened_img": "images/enemies/26.png",
+								"chest_opened_img": "images/enemies/26_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Catoblepas"
+								]
 							}
 						],
 						"map_locations": [
@@ -663,18 +1073,33 @@
 				"children": [
 					{
 						"name": "Demon Guest House - Lower",
+						"access_rules": [
+							"@Demon Guest House Regions/Lower"
+						],
 						"sections": [
 							{
 								"name": "Axe Armor Soul",
-								"ref": "Soulsanity/Common Souls/Axe Armor Soul/"
+								"chest_unopened_img": "images/enemies/7.png",
+								"chest_opened_img": "images/enemies/7_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Axe Armor"
+								]
 							},
 							{
 								"name": "Skeleton Soul",
-								"ref": "Soulsanity/Uncommon Souls/Skeleton Soul/"
+								"chest_unopened_img": "images/enemies/4.png",
+								"chest_opened_img": "images/enemies/4_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skeleton"
+								]
 							},
 							{
 								"name": "Peeping Eye Soul",
-								"ref": "Soulsanity/Rare Souls/Peeping Eye Soul/"
+								"chest_unopened_img": "images/enemies/6.png",
+								"chest_opened_img": "images/enemies/6_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Peeping Eye"
+								]
 							}
 						],
 						"map_locations": [
@@ -690,10 +1115,17 @@
 					},
 					{
 						"name": "Demon Guest House - Number Puzzle West",
+						"access_rules": [
+							"@Demon Guest House Regions/NumberPuzzleWest"
+						],
 						"sections": [
 							{
 								"name": "Persephone Soul",
-								"ref": "Soulsanity/Uncommon Souls/Persephone Soul/"
+								"chest_unopened_img": "images/enemies/41.png",
+								"chest_opened_img": "images/enemies/41_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Persephone"
+								]
 							}
 						],
 						"map_locations": [
@@ -709,10 +1141,17 @@
 					},
 					{
 						"name": "Demon Guest House - Puppet Wall Right",
+						"access_rules": [
+							"@Demon Guest House Regions/PuppetWallRight"
+						],
 						"sections": [
 							{
 								"name": "Skelerang Soul",
-								"ref": "Soulsanity/Uncommon Souls/Skelerang Soul/"
+								"chest_unopened_img": "images/enemies/46.png",
+								"chest_opened_img": "images/enemies/46_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skelerang"
+								]
 							}
 						],
 						"map_locations": [
@@ -728,46 +1167,89 @@
 					},
 					{
 						"name": "Demon Guest House - Main",
+						"access_rules": [
+							"@Demon Guest House Regions/Main"
+						],
 						"sections": [
 							{
 								"name": "Persephone Soul",
-								"ref": "Soulsanity/Uncommon Souls/Persephone Soul/"
+								"chest_unopened_img": "images/enemies/41.png",
+								"chest_opened_img": "images/enemies/41_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Persephone"
+								]
 							},
 							{
 								"name": "Skelerang Soul",
-								"ref": "Soulsanity/Uncommon Souls/Skelerang Soul/"
+								"chest_unopened_img": "images/enemies/46.png",
+								"chest_opened_img": "images/enemies/46_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skelerang"
+								]
 							},
 							{
 								"name": "Devil Soul",
-								"ref": "Soulsanity/Uncommon Souls/Devil Soul/"
+								"chest_unopened_img": "images/enemies/48.png",
+								"chest_opened_img": "images/enemies/48_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Devil"
+								]
 							},
 							{
 								"name": "Lilith Soul",
-								"ref": "Soulsanity/Uncommon Souls/Lilith Soul/"
+								"chest_unopened_img": "images/enemies/44.png",
+								"chest_opened_img": "images/enemies/44_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Lilith"
+								]
 							},
 							{
 								"name": "Ghost Dancer Soul",
-								"ref": "Soulsanity/Uncommon Souls/Ghost Dancer Soul/"
+								"chest_unopened_img": "images/enemies/31.png",
+								"chest_opened_img": "images/enemies/31_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ghost Dancer"
+								]
 							},
 							{
 								"name": "Killer Clown Soul",
-								"ref": "Soulsanity/Uncommon Souls/Killer Clown Soul/"
+								"chest_unopened_img": "images/enemies/45.png",
+								"chest_opened_img": "images/enemies/45_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Killer Clown"
+								]
 							},
 							{
 								"name": "Waiter Skeleton Soul",
-								"ref": "Soulsanity/Uncommon Souls/Waiter Skeleton Soul/"
+								"chest_unopened_img": "images/enemies/40.png",
+								"chest_opened_img": "images/enemies/40_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Waiter Skeleton"
+								]
 							},
 							{
 								"name": "Valkyrie Soul",
-								"ref": "Soulsanity/Rare Souls/Valkyrie Soul/"
+								"chest_unopened_img": "images/enemies/37.png",
+								"chest_opened_img": "images/enemies/37_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Valkyrie"
+								]
 							},
 							{
 								"name": "Killer Doll Soul",
-								"ref": "Soulsanity/Rare Souls/Killer Doll Soul/"
+								"chest_unopened_img": "images/enemies/39.png",
+								"chest_opened_img": "images/enemies/39_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Killer Doll"
+								]
 							},
 							{
 								"name": "Bone Pillar Soul",
-								"ref": "Soulsanity/Rare Souls/Bone Pillar Soul/"
+								"chest_unopened_img": "images/enemies/53.png",
+								"chest_opened_img": "images/enemies/53_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Bone Pillar"
+								]
 							}
 						],
 						"map_locations": [
@@ -784,30 +1266,57 @@
 					},
 					{
 						"name": "Demon Guest House - West Wing",
+						"access_rules": [
+							"@Demon Guest House Regions/WestWing"
+						],
 						"sections": [
 							{
 								"name": "Buer Soul",
-								"ref": "Soulsanity/Common Souls/Buer Soul/"
+								"chest_unopened_img": "images/enemies/43.png",
+								"chest_opened_img": "images/enemies/43_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Buer"
+								]
 							},
 							{
 								"name": "Killer Clown Soul",
-								"ref": "Soulsanity/Uncommon Souls/Killer Clown Soul/"
+								"chest_unopened_img": "images/enemies/45.png",
+								"chest_opened_img": "images/enemies/45_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Killer Clown"
+								]
 							},
 							{
 								"name": "Lilith Soul",
-								"ref": "Soulsanity/Uncommon Souls/Lilith Soul/"
+								"chest_unopened_img": "images/enemies/44.png",
+								"chest_opened_img": "images/enemies/44_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Lilith"
+								]
 							},
 							{
 								"name": "Quetzalcoatl Soul",
-								"ref": "Soulsanity/Uncommon Souls/Quetzalcoatl Soul/"
+								"chest_unopened_img": "images/enemies/34.png",
+								"chest_opened_img": "images/enemies/34_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Quetzalcoatl"
+								]
 							},
 							{
 								"name": "Killer Doll Soul",
-								"ref": "Soulsanity/Rare Souls/Killer Doll Soul/"
+								"chest_unopened_img": "images/enemies/39.png",
+								"chest_opened_img": "images/enemies/39_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Killer Doll"
+								]
 							},
 							{
 								"name": "Bone Pillar Soul",
-								"ref": "Soulsanity/Rare Souls/Bone Pillar Soul/"
+								"chest_unopened_img": "images/enemies/53.png",
+								"chest_opened_img": "images/enemies/53_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Bone Pillar"
+								]
 							}
 						],
 						"map_locations": [
@@ -824,54 +1333,105 @@
 					},
 					{
 						"name": "Demon Guest House - Upper",
+						"access_rules": [
+							"@Demon Guest House Regions/Upper"
+						],
 						"sections": [
 							{
 								"name": "Flame Demon Soul",
-								"ref": "Soulsanity/Uncommon Souls/Flame Demon Soul/"
+								"chest_unopened_img": "images/enemies/92.png",
+								"chest_opened_img": "images/enemies/92_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Flame Demon"
+								]
 							},
 							{
 								"name": "Malachi Soul",
-								"ref": "Soulsanity/Uncommon Souls/Malachi Soul/"
+								"chest_unopened_img": "images/enemies/59.png",
+								"chest_opened_img": "images/enemies/59_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Malachi"
+								]
 							},
 							{
 								"name": "Skelerang Soul",
-								"ref": "Soulsanity/Uncommon Souls/Skelerang Soul/"
+								"chest_unopened_img": "images/enemies/46.png",
+								"chest_opened_img": "images/enemies/46_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skelerang"
+								]
 							},
 							{
 								"name": "Werewolf Soul",
-								"ref": "Soulsanity/Uncommon Souls/Werewolf Soul/"
+								"chest_unopened_img": "images/enemies/91.png",
+								"chest_opened_img": "images/enemies/91_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Werewolf"
+								]
 							},
 							{
 								"name": "Ghost Dancer Soul",
-								"ref": "Soulsanity/Uncommon Souls/Ghost Dancer Soul/"
+								"chest_unopened_img": "images/enemies/31.png",
+								"chest_opened_img": "images/enemies/31_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ghost Dancer"
+								]
 							},
 							{
 								"name": "Student Witch Soul",
-								"ref": "Soulsanity/Uncommon Souls/Student Witch Soul/"
+								"chest_unopened_img": "images/enemies/12.png",
+								"chest_opened_img": "images/enemies/12_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Student Witch"
+								]
 							},
 							{
 								"name": "Lilith Soul",
-								"ref": "Soulsanity/Uncommon Souls/Lilith Soul/"
+								"chest_unopened_img": "images/enemies/44.png",
+								"chest_opened_img": "images/enemies/44_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Lilith"
+								]
 							},
 							{
 								"name": "Witch Soul",
-								"ref": "Soulsanity/Uncommon Souls/Witch Soul/"
+								"chest_unopened_img": "images/enemies/42.png",
+								"chest_opened_img": "images/enemies/42_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Witch"
+								]
 							},
 							{
 								"name": "Succubus Soul",
-								"ref": "Soulsanity/Uncommon Souls/Succubus Soul/"
+								"chest_unopened_img": "images/enemies/86.png",
+								"chest_opened_img": "images/enemies/86_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Succubus"
+								]
 							},
 							{
 								"name": "Persephone Soul",
-								"ref": "Soulsanity/Uncommon Souls/Persephone Soul/"
+								"chest_unopened_img": "images/enemies/41.png",
+								"chest_opened_img": "images/enemies/41_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Persephone"
+								]
 							},
 							{
 								"name": "Iron Golem Soul",
-								"ref": "Soulsanity/Rare Souls/Iron Golem Soul/"
+								"chest_unopened_img": "images/enemies/101.png",
+								"chest_opened_img": "images/enemies/101_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Iron Golem"
+								]
 							},
 							{
 								"name": "Mimic Soul",
-								"ref": "Soulsanity/Rare Souls/Mimic Soul/"
+								"chest_unopened_img": "images/enemies/68.png",
+								"chest_opened_img": "images/enemies/68_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mimic"
+								]
 							}
 						],
 						"map_locations": [
@@ -893,10 +1453,17 @@
 				"children": [
 					{
 						"name": "Condemned Tower - Bottom",
+						"access_rules": [
+							"@Condemned Tower Regions/Bottom"
+						],
 						"sections": [
 							{
 								"name": "Draghignazzo Soul",
-								"ref": "Soulsanity/Rare Souls/Draghignazzo Soul/"
+								"chest_unopened_img": "images/enemies/50.png",
+								"chest_opened_img": "images/enemies/50_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Draghignazzo"
+								]
 							}
 						],
 						"map_locations": [
@@ -913,30 +1480,57 @@
 					},
 					{
 						"name": "Condemned Tower - Top",
+						"access_rules": [
+							"@Condemned Tower Regions/Top"
+						],
 						"sections": [
 							{
 								"name": "Buer Soul",
-								"ref": "Soulsanity/Common Souls/Buer Soul/"
+								"chest_unopened_img": "images/enemies/43.png",
+								"chest_opened_img": "images/enemies/43_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Buer"
+								]
 							},
 							{
 								"name": "Disc Armor Soul",
-								"ref": "Soulsanity/Uncommon Souls/Disc Armor Soul/"
+								"chest_unopened_img": "images/enemies/72.png",
+								"chest_opened_img": "images/enemies/72_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Disc Armor"
+								]
 							},
 							{
 								"name": "Werewolf Soul",
-								"ref": "Soulsanity/Uncommon Souls/Werewolf Soul/"
+								"chest_unopened_img": "images/enemies/91.png",
+								"chest_opened_img": "images/enemies/91_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Werewolf"
+								]
 							},
 							{
 								"name": "Fleaman Soul",
-								"ref": "Soulsanity/Uncommon Souls/Fleaman Soul/"
+								"chest_unopened_img": "images/enemies/47.png",
+								"chest_opened_img": "images/enemies/47_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Fleaman"
+								]
 							},
 							{
 								"name": "Skeleton Ape Soul",
-								"ref": "Soulsanity/Rare Souls/Skeleton Ape Soul/"
+								"chest_unopened_img": "images/enemies/18.png",
+								"chest_opened_img": "images/enemies/18_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skeleton Ape"
+								]
 							},
 							{
 								"name": "Great Axe Armor Soul",
-								"ref": "Soulsanity/Rare Souls/Great Axe Armor Soul/"
+								"chest_unopened_img": "images/enemies/80.png",
+								"chest_opened_img": "images/enemies/80_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Great Axe Armor"
+								]
 							}
 						],
 						"map_locations": [
@@ -958,22 +1552,41 @@
 				"children": [
 					{
 						"name": "Subterranean Hell - Top Entrance",
+						"access_rules": [
+							"@Subterranean Hell Regions/TopEntrance"
+						],
 						"sections": [
 							{
 								"name": "Cave Troll Soul",
-								"ref": "Soulsanity/Common Souls/Cave Troll Soul/"
+								"chest_unopened_img": "images/enemies/60.png",
+								"chest_opened_img": "images/enemies/60_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Cave Troll"
+								]
 							},
 							{
 								"name": "Decarabia Soul",
-								"ref": "Soulsanity/Common Souls/Decarabia Soul/"
+								"chest_unopened_img": "images/enemies/73.png",
+								"chest_opened_img": "images/enemies/73_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Decarabia"
+								]
 							},
 							{
 								"name": "Une Soul",
-								"ref": "Soulsanity/Uncommon Souls/Une Soul/"
+								"chest_unopened_img": "images/enemies/17.png",
+								"chest_opened_img": "images/enemies/17_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Une"
+								]
 							},
 							{
 								"name": "Dead Pirate Soul",
-								"ref": "Soulsanity/Uncommon Souls/Dead Pirate Soul/"
+								"chest_unopened_img": "images/enemies/69.png",
+								"chest_opened_img": "images/enemies/69_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Dead Pirate"
+								]
 							}
 						],
 						"map_locations": [
@@ -990,38 +1603,73 @@
 					},
 					{
 						"name": "Subterranean Hell - East",
+						"access_rules": [
+							"@Subterranean Hell Regions/East"
+						],
 						"sections": [
 							{
 								"name": "Decarabia Soul",
-								"ref": "Soulsanity/Common Souls/Decarabia Soul/"
+								"chest_unopened_img": "images/enemies/73.png",
+								"chest_opened_img": "images/enemies/73_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Decarabia"
+								]
 							},
 							{
 								"name": "Merman Soul",
-								"ref": "Soulsanity/Common Souls/Merman Soul/"
+								"chest_unopened_img": "images/enemies/63.png",
+								"chest_opened_img": "images/enemies/63_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Merman"
+								]
 							},
 							{
 								"name": "Fish Head Soul",
-								"ref": "Soulsanity/Uncommon Souls/Fish Head Soul/"
+								"chest_unopened_img": "images/enemies/64.png",
+								"chest_opened_img": "images/enemies/64_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Fish Head"
+								]
 							},
 							{
 								"name": "Needles Soul",
-								"ref": "Soulsanity/Uncommon Souls/Needles Soul/"
+								"chest_unopened_img": "images/enemies/51.png",
+								"chest_opened_img": "images/enemies/51_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Needles"
+								]
 							},
 							{
 								"name": "Frozen Shade Soul",
-								"ref": "Soulsanity/Uncommon Souls/Frozen Shade Soul/"
+								"chest_unopened_img": "images/enemies/70.png",
+								"chest_opened_img": "images/enemies/70_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Frozen Shade"
+								]
 							},
 							{
 								"name": "Killer Fish Soul",
-								"ref": "Soulsanity/Uncommon Souls/Killer Fish Soul/"
+								"chest_unopened_img": "images/enemies/67.png",
+								"chest_opened_img": "images/enemies/67_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Killer Fish"
+								]
 							},
 							{
 								"name": "Mimic Soul",
-								"ref": "Soulsanity/Rare Souls/Mimic Soul/"
+								"chest_unopened_img": "images/enemies/68.png",
+								"chest_opened_img": "images/enemies/68_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mimic"
+								]
 							},
 							{
 								"name": "Procel Soul",
-								"ref": "Soulsanity/Rare Souls/Procel Soul/"
+								"chest_unopened_img": "images/enemies/76.png",
+								"chest_opened_img": "images/enemies/76_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Procel"
+								]
 							}
 						],
 						"map_locations": [
@@ -1037,15 +1685,26 @@
 						]
 					},
 					{
-						"name": "SH Central/East Connection",
+						"name": "Subterranean Hell - Central/East Connection",
+						"access_rules": [
+							"@Subterranean Hell Regions/CentralEastConnection"
+						],
 						"sections": [
 							{
 								"name": "Une Soul",
-								"ref": "Soulsanity/Uncommon Souls/Une Soul/"
+								"chest_unopened_img": "images/enemies/17.png",
+								"chest_opened_img": "images/enemies/17_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Une"
+								]
 							},
 							{
 								"name": "Alura Une Soul",
-								"ref": "Soulsanity/Uncommon Souls/Alura Une Soul/"
+								"chest_unopened_img": "images/enemies/79.png",
+								"chest_opened_img": "images/enemies/79_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Alura Une"
+								]
 							}
 						],
 						"map_locations": [
@@ -1062,34 +1721,65 @@
 					},
 					{
 						"name": "Subterranean Hell - Central Upper",
+						"access_rules": [
+							"@Subterranean Hell Regions/CentralUpper"
+						],
 						"sections": [
 							{
 								"name": "Merman Soul",
-								"ref": "Soulsanity/Common Souls/Merman Soul/"
+								"chest_unopened_img": "images/enemies/63.png",
+								"chest_opened_img": "images/enemies/63_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Merman"
+								]
 							},
 							{
 								"name": "Ukoback Soul",
-								"ref": "Soulsanity/Uncommon Souls/Ukoback Soul/"
+								"chest_unopened_img": "images/enemies/66.png",
+								"chest_opened_img": "images/enemies/66_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ukoback"
+								]
 							},
 							{
 								"name": "Frozen Shade Soul",
-								"ref": "Soulsanity/Uncommon Souls/Frozen Shade Soul/"
+								"chest_unopened_img": "images/enemies/70.png",
+								"chest_opened_img": "images/enemies/70_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Frozen Shade"
+								]
 							},
 							{
 								"name": "Dead Pirate Soul",
-								"ref": "Soulsanity/Uncommon Souls/Dead Pirate Soul/"
+								"chest_unopened_img": "images/enemies/69.png",
+								"chest_opened_img": "images/enemies/69_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Dead Pirate"
+								]
 							},
 							{
 								"name": "Killer Fish Soul",
-								"ref": "Soulsanity/Uncommon Souls/Killer Fish Soul/"
+								"chest_unopened_img": "images/enemies/67.png",
+								"chest_opened_img": "images/enemies/67_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Killer Fish"
+								]
 							},
 							{
 								"name": "Needles Soul",
-								"ref": "Soulsanity/Uncommon Souls/Needles Soul/"
+								"chest_unopened_img": "images/enemies/51.png",
+								"chest_opened_img": "images/enemies/51_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Needles"
+								]
 							},
 							{
 								"name": "Bone Ark Soul",
-								"ref": "Soulsanity/Rare Souls/Bone Ark Soul/"
+								"chest_unopened_img": "images/enemies/77.png",
+								"chest_opened_img": "images/enemies/77_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Bone Ark"
+								]
 							}
 						],
 						"map_locations": [
@@ -1106,22 +1796,41 @@
 					},
 					{
 						"name": "Subterranean Hell - Central Lower",
+						"access_rules": [
+							"@Subterranean Hell Regions/CentralLower"
+						],
 						"sections": [
 							{
 								"name": "Merman Soul",
-								"ref": "Soulsanity/Common Souls/Merman Soul/"
+								"chest_unopened_img": "images/enemies/63.png",
+								"chest_opened_img": "images/enemies/63_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Merman"
+								]
 							},
 							{
 								"name": "Frozen Shade Soul",
-								"ref": "Soulsanity/Uncommon Souls/Frozen Shade Soul/"
+								"chest_unopened_img": "images/enemies/70.png",
+								"chest_opened_img": "images/enemies/70_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Frozen Shade"
+								]
 							},
 							{
 								"name": "Dead Pirate Soul",
-								"ref": "Soulsanity/Uncommon Souls/Dead Pirate Soul/"
+								"chest_unopened_img": "images/enemies/69.png",
+								"chest_opened_img": "images/enemies/69_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Dead Pirate"
+								]
 							},
 							{
 								"name": "Procel Soul",
-								"ref": "Soulsanity/Rare Souls/Procel Soul/"
+								"chest_unopened_img": "images/enemies/76.png",
+								"chest_opened_img": "images/enemies/76_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Procel"
+								]
 							}
 						],
 						"map_locations": [
@@ -1138,22 +1847,41 @@
 					},
 					{
 						"name": "Subterranean Hell - Central Exit",
+						"access_rules": [
+							"@Subterranean Hell Regions/CentralExit"
+						],
 						"sections": [
 							{
 								"name": "Merman Soul",
-								"ref": "Soulsanity/Common Souls/Merman Soul/"
+								"chest_unopened_img": "images/enemies/63.png",
+								"chest_opened_img": "images/enemies/63_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Merman"
+								]
 							},
 							{
 								"name": "Ukoback Soul",
-								"ref": "Soulsanity/Uncommon Souls/Ukoback Soul/"
+								"chest_unopened_img": "images/enemies/66.png",
+								"chest_opened_img": "images/enemies/66_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ukoback"
+								]
 							},
 							{
 								"name": "Frozen Shade Soul",
-								"ref": "Soulsanity/Uncommon Souls/Frozen Shade Soul/"
+								"chest_unopened_img": "images/enemies/70.png",
+								"chest_opened_img": "images/enemies/70_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Frozen Shade"
+								]
 							},
 							{
 								"name": "Mimic Soul",
-								"ref": "Soulsanity/Rare Souls/Mimic Soul/"
+								"chest_unopened_img": "images/enemies/68.png",
+								"chest_opened_img": "images/enemies/68_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mimic"
+								]
 							}
 						],
 						"map_locations": [
@@ -1170,22 +1898,41 @@
 					},
 					{
 						"name": "Subterranean Hell - Shaft Bottom",
+						"access_rules": [
+							"@Subterranean Hell Regions/ShaftBottom"
+						],
 						"sections": [
 							{
 								"name": "Merman Soul",
-								"ref": "Soulsanity/Common Souls/Merman Soul/"
+								"chest_unopened_img": "images/enemies/63.png",
+								"chest_opened_img": "images/enemies/63_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Merman"
+								]
 							},
 							{
 								"name": "Dead Pirate Soul",
-								"ref": "Soulsanity/Uncommon Souls/Dead Pirate Soul/"
+								"chest_unopened_img": "images/enemies/69.png",
+								"chest_opened_img": "images/enemies/69_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Dead Pirate"
+								]
 							},
 							{
 								"name": "Ukoback Soul",
-								"ref": "Soulsanity/Uncommon Souls/Ukoback Soul/"
+								"chest_unopened_img": "images/enemies/66.png",
+								"chest_opened_img": "images/enemies/66_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ukoback"
+								]
 							},
 							{
 								"name": "Medusa Head Soul",
-								"ref": "Soulsanity/Rare Souls/Medusa Head Soul/"
+								"chest_unopened_img": "images/enemies/65.png",
+								"chest_opened_img": "images/enemies/65_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Medusa Head"
+								]
 							}
 						],
 						"map_locations": [
@@ -1202,18 +1949,33 @@
 					},
 					{
 						"name": "Subterranean Hell - Shaft Middle",
+						"access_rules": [
+							"@Subterranean Hell Regions/ShaftMiddle"
+						],
 						"sections": [
 							{
 								"name": "Merman Soul",
-								"ref": "Soulsanity/Common Souls/Merman Soul/"
+								"chest_unopened_img": "images/enemies/63.png",
+								"chest_opened_img": "images/enemies/63_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Merman"
+								]
 							},
 							{
 								"name": "Frozen Shade Soul",
-								"ref": "Soulsanity/Uncommon Souls/Frozen Shade Soul/"
+								"chest_unopened_img": "images/enemies/70.png",
+								"chest_opened_img": "images/enemies/70_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Frozen Shade"
+								]
 							},
 							{
 								"name": "Devil Soul",
-								"ref": "Soulsanity/Uncommon Souls/Devil Soul/"
+								"chest_unopened_img": "images/enemies/48.png",
+								"chest_opened_img": "images/enemies/48_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Devil"
+								]
 							}
 						],
 						"map_locations": [
@@ -1230,14 +1992,25 @@
 					},
 					{
 						"name": "Subterranean Hell - Shaft Top",
+						"access_rules": [
+							"@Subterranean Hell Regions/ShaftTop"
+						],
 						"sections": [
 							{
 								"name": "Killer Fish Soul",
-								"ref": "Soulsanity/Uncommon Souls/Killer Fish Soul/"
+								"chest_unopened_img": "images/enemies/67.png",
+								"chest_opened_img": "images/enemies/67_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Killer Fish"
+								]
 							},
 							{
 								"name": "Ukoback Soul",
-								"ref": "Soulsanity/Uncommon Souls/Ukoback Soul/"
+								"chest_unopened_img": "images/enemies/66.png",
+								"chest_opened_img": "images/enemies/66_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ukoback"
+								]
 							}
 						],
 						"map_locations": [
@@ -1259,34 +2032,65 @@
 				"children": [
 					{
 						"name": "Cursed Clock Tower - Entrance",
+						"access_rules": [
+							"@Cursed Clock Tower Regions/Entrance"
+						],
 						"sections": [
 							{
 								"name": "Harpy Soul",
-								"ref": "Soulsanity/Uncommon Souls/Harpy Soul/"
+								"chest_unopened_img": "images/enemies/57.png",
+								"chest_opened_img": "images/enemies/57_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Harpy"
+								]
 							},
 							{
 								"name": "Catoblepas Soul",
-								"ref": "Soulsanity/Uncommon Souls/Catoblepas Soul/"
+								"chest_unopened_img": "images/enemies/26.png",
+								"chest_opened_img": "images/enemies/26_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Catoblepas"
+								]
 							},
 							{
 								"name": "Imp Soul",
-								"ref": "Soulsanity/Uncommon Souls/Imp Soul/"
+								"chest_unopened_img": "images/enemies/56.png",
+								"chest_opened_img": "images/enemies/56_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Imp"
+								]
 							},
 							{
 								"name": "Malachi Soul",
-								"ref": "Soulsanity/Uncommon Souls/Malachi Soul/"
+								"chest_unopened_img": "images/enemies/59.png",
+								"chest_opened_img": "images/enemies/59_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Malachi"
+								]
 							},
 							{
 								"name": "Dead Pirate Soul",
-								"ref": "Soulsanity/Uncommon Souls/Dead Pirate Soul/"
+								"chest_unopened_img": "images/enemies/69.png",
+								"chest_opened_img": "images/enemies/69_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Dead Pirate"
+								]
 							},
 							{
 								"name": "Medusa Head Soul",
-								"ref": "Soulsanity/Rare Souls/Medusa Head Soul/"
+								"chest_unopened_img": "images/enemies/65.png",
+								"chest_opened_img": "images/enemies/65_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Medusa Head"
+								]
 							},
 							{
 								"name": "Tanjelly Soul",
-								"ref": "Soulsanity/Rare Souls/Tanjelly Soul/"
+								"chest_unopened_img": "images/enemies/93.png",
+								"chest_opened_img": "images/enemies/93_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Tanjelly"
+								]
 							}
 						],
 						"map_locations": [
@@ -1303,26 +2107,49 @@
 					},
 					{
 						"name": "Cursed Clock Tower - Central",
+						"access_rules": [
+							"@Cursed Clock Tower Regions/Central"
+						],
 						"sections": [
 							{
 								"name": "Slime Soul",
-								"ref": "Soulsanity/Common Souls/Slime Soul/"
+								"chest_unopened_img": "images/enemies/16.png",
+								"chest_opened_img": "images/enemies/16_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Slime"
+								]
 							},
 							{
 								"name": "Imp Soul",
-								"ref": "Soulsanity/Uncommon Souls/Imp Soul/"
+								"chest_unopened_img": "images/enemies/56.png",
+								"chest_opened_img": "images/enemies/56_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Imp"
+								]
 							},
 							{
 								"name": "Medusa Head Soul",
-								"ref": "Soulsanity/Rare Souls/Medusa Head Soul/"
+								"chest_unopened_img": "images/enemies/65.png",
+								"chest_opened_img": "images/enemies/65_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Medusa Head"
+								]
 							},
 							{
 								"name": "Bugbear Soul",
-								"ref": "Soulsanity/Rare Souls/Bugbear Soul/"
+								"chest_unopened_img": "images/enemies/75.png",
+								"chest_opened_img": "images/enemies/75_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Bugbear"
+								]
 							},
 							{
 								"name": "Tanjelly Soul",
-								"ref": "Soulsanity/Rare Souls/Tanjelly Soul/"
+								"chest_unopened_img": "images/enemies/93.png",
+								"chest_opened_img": "images/enemies/93_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Tanjelly"
+								]
 							}
 						],
 						"map_locations": [
@@ -1339,10 +2166,17 @@
 					},
 					{
 						"name": "Cursed Clock Tower - Boss Area",
+						"access_rules": [
+							"@Cursed Clock Tower Regions/BossArea"
+						],
 						"sections": [
 							{
 								"name": "Flying Humanoid Soul",
-								"ref": "Soulsanity/Common Souls/Flying Humanoid Soul/"
+								"chest_unopened_img": "images/enemies/32.png",
+								"chest_opened_img": "images/enemies/32_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Flying Humanoid"
+								]
 							}
 						],
 						"map_locations": [
@@ -1358,14 +2192,25 @@
 					},
 					{
 						"name": "Cursed Clock Tower - Exit",
+						"access_rules": [
+							"@Cursed Clock Tower Regions/Exit"
+						],
 						"sections": [
 							{
 								"name": "Devil Soul",
-								"ref": "Soulsanity/Uncommon Souls/Devil Soul/"
+								"chest_unopened_img": "images/enemies/48.png",
+								"chest_opened_img": "images/enemies/48_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Devil"
+								]
 							},
 							{
 								"name": "Harpy Soul",
-								"ref": "Soulsanity/Uncommon Souls/Harpy Soul/"
+								"chest_unopened_img": "images/enemies/57.png",
+								"chest_opened_img": "images/enemies/57_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Harpy"
+								]
 							}
 						],
 						"map_locations": [
@@ -1387,42 +2232,81 @@
 				"children": [
 					{
 						"name": "Silenced Ruins - Main",
+						"access_rules": [
+							"@Silenced Ruins Regions/Main"
+						],
 						"sections": [
 							{
 								"name": "Dead Mate Soul",
-								"ref": "Soulsanity/Common Souls/Dead Mate Soul/"
+								"chest_unopened_img": "images/enemies/74.png",
+								"chest_opened_img": "images/enemies/74_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Dead Mate"
+								]
 							},
 							{
 								"name": "Bat Soul",
-								"ref": "Soulsanity/Uncommon Souls/Bat Soul/"
+								"chest_unopened_img": "images/enemies/2.png",
+								"chest_opened_img": "images/enemies/2_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Bat"
+								]
 							},
 							{
 								"name": "Skull Archer Soul",
-								"ref": "Soulsanity/Uncommon Souls/Skull Archer Soul/"
+								"chest_unopened_img": "images/enemies/8.png",
+								"chest_opened_img": "images/enemies/8_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skull Archer"
+								]
 							},
 							{
 								"name": "Devil Soul",
-								"ref": "Soulsanity/Uncommon Souls/Devil Soul/"
+								"chest_unopened_img": "images/enemies/48.png",
+								"chest_opened_img": "images/enemies/48_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Devil"
+								]
 							},
 							{
 								"name": "Larva Soul",
-								"ref": "Soulsanity/Uncommon Souls/Larva Soul/"
+								"chest_unopened_img": "images/enemies/61.png",
+								"chest_opened_img": "images/enemies/61_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Larva"
+								]
 							},
 							{
 								"name": "Ghoul Soul",
-								"ref": "Soulsanity/Rare Souls/Ghoul Soul/"
+								"chest_unopened_img": "images/enemies/27.png",
+								"chest_opened_img": "images/enemies/27_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ghoul"
+								]
 							},
 							{
 								"name": "Peeping Eye Soul",
-								"ref": "Soulsanity/Rare Souls/Peeping Eye Soul/"
+								"chest_unopened_img": "images/enemies/6.png",
+								"chest_opened_img": "images/enemies/6_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Peeping Eye"
+								]
 							},
 							{
 								"name": "Dead Crusader Soul",
-								"ref": "Soulsanity/Rare Souls/Dead Crusader Soul/"
+								"chest_unopened_img": "images/enemies/83.png",
+								"chest_opened_img": "images/enemies/83_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Dead Crusader"
+								]
 							},
 							{
 								"name": "Bone Ark Soul",
-								"ref": "Soulsanity/Rare Souls/Bone Ark Soul/"
+								"chest_unopened_img": "images/enemies/77.png",
+								"chest_opened_img": "images/enemies/77_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Bone Ark"
+								]
 							}
 						],
 						"map_locations": [
@@ -1439,18 +2323,33 @@
 					},
 					{
 						"name": "Silenced Ruins - Upper Entrance",
+						"access_rules": [
+							"@Silenced Ruins Regions/UpperEntrance"
+						],
 						"sections": [
 							{
 								"name": "Waiter Skeleton Soul",
-								"ref": "Soulsanity/Uncommon Souls/Waiter Skeleton Soul/"
+								"chest_unopened_img": "images/enemies/40.png",
+								"chest_opened_img": "images/enemies/40_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Waiter Skeleton"
+								]
 							},
 							{
 								"name": "Gorgon Soul",
-								"ref": "Soulsanity/Rare Souls/Gorgon Soul/"
+								"chest_unopened_img": "images/enemies/78.png",
+								"chest_opened_img": "images/enemies/78_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Gorgon"
+								]
 							},
 							{
 								"name": "Peeping Eye Soul",
-								"ref": "Soulsanity/Rare Souls/Peeping Eye Soul/"
+								"chest_unopened_img": "images/enemies/6.png",
+								"chest_opened_img": "images/enemies/6_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Peeping Eye"
+								]
 							}
 						],
 						"map_locations": [
@@ -1466,10 +2365,17 @@
 					},
 					{
 						"name": "Silenced Ruins - Back Exit",
+						"access_rules": [
+							"@Silenced Ruins Regions/BackExit"
+						],
 						"sections": [
 							{
 								"name": "Waiter Skeleton Soul",
-								"ref": "Soulsanity/Uncommon Souls/Waiter Skeleton Soul/"
+								"chest_unopened_img": "images/enemies/40.png",
+								"chest_opened_img": "images/enemies/40_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Waiter Skeleton"
+								]
 							}
 						],
 						"map_locations": [
@@ -1490,38 +2396,73 @@
 				"children": [
 					{
 						"name": "The Pinnacle - Main",
+						"access_rules": [
+							"@The Pinnacle Regions/Main"
+						],
 						"sections": [
 							{
 								"name": "Guillotiner Soul",
-								"ref": "Soulsanity/Common Souls/Guillotiner Soul/"
+								"chest_unopened_img": "images/enemies/49.png",
+								"chest_opened_img": "images/enemies/49_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Guillotiner"
+								]
 							},
 							{
 								"name": "Mothman Soul",
-								"ref": "Soulsanity/Common Souls/Mothman Soul/"
+								"chest_unopened_img": "images/enemies/81.png",
+								"chest_opened_img": "images/enemies/81_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mothman"
+								]
 							},
 							{
 								"name": "Werewolf Soul",
-								"ref": "Soulsanity/Uncommon Souls/Werewolf Soul/"
+								"chest_unopened_img": "images/enemies/91.png",
+								"chest_opened_img": "images/enemies/91_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Werewolf"
+								]
 							},
 							{
 								"name": "Mushussu Soul",
-								"ref": "Soulsanity/Uncommon Souls/Devil Soul/"
+								"chest_unopened_img": "images/enemies/82.png",
+								"chest_opened_img": "images/enemies/82_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mushussu"
+								]
 							},
 							{
 								"name": "Alastor Soul",
-								"ref": "Soulsanity/Uncommon Souls/Alastor Soul/"
+								"chest_unopened_img": "images/enemies/100.png",
+								"chest_opened_img": "images/enemies/100_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Alastor"
+								]
 							},
 							{
 								"name": "Dead Crusader Soul",
-								"ref": "Soulsanity/Rare Souls/Dead Crusader Soul/"
+								"chest_unopened_img": "images/enemies/83.png",
+								"chest_opened_img": "images/enemies/83_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Dead Crusader"
+								]
 							},
 							{
 								"name": "Erinys Soul",
-								"ref": "Soulsanity/Rare Souls/Erinys Soul/"
+								"chest_unopened_img": "images/enemies/85.png",
+								"chest_opened_img": "images/enemies/85_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Erinys"
+								]
 							},
 							{
 								"name": "Final Guard Soul",
-								"ref": "Soulsanity/Rare Souls/Final Guard Soul/"
+								"chest_unopened_img": "images/enemies/98.png",
+								"chest_opened_img": "images/enemies/98_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Final Guard"
+								]
 							}
 						],
 						"map_locations": [
@@ -1538,42 +2479,81 @@
 					},
 					{
 						"name": "The Pinnacle - Lower",
+						"access_rules": [
+							"@The Pinnacle Regions/Lower"
+						],
 						"sections": [
 							{
 								"name": "Guillotiner Soul",
-								"ref": "Soulsanity/Common Souls/Guillotiner Soul/"
+								"chest_unopened_img": "images/enemies/49.png",
+								"chest_opened_img": "images/enemies/49_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Guillotiner"
+								]
 							},
 							{
 								"name": "Succubus Soul",
-								"ref": "Soulsanity/Uncommon Souls/Succubus Soul/"
+								"chest_unopened_img": "images/enemies/86.png",
+								"chest_opened_img": "images/enemies/86_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Succubus"
+								]
 							},
 							{
 								"name": "Malachi Soul",
-								"ref": "Soulsanity/Uncommon Souls/Malachi Soul/"
+								"chest_unopened_img": "images/enemies/59.png",
+								"chest_opened_img": "images/enemies/59_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Malachi"
+								]
 							},
 							{
 								"name": "Mushussu Soul",
-								"ref": "Soulsanity/Uncommon Souls/Mushussu Soul/"
+								"chest_unopened_img": "images/enemies/82.png",
+								"chest_opened_img": "images/enemies/82_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mushussu"
+								]
 							},
 							{
 								"name": "Werewolf Soul",
-								"ref": "Soulsanity/Uncommon Souls/Werewolf Soul/"
+								"chest_unopened_img": "images/enemies/91.png",
+								"chest_opened_img": "images/enemies/91_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Werewolf"
+								]
 							},
 							{
 								"name": "Flame Demon Soul",
-								"ref": "Soulsanity/Uncommon Souls/Flame Demon Soul/"
+								"chest_unopened_img": "images/enemies/92.png",
+								"chest_opened_img": "images/enemies/92_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Flame Demon"
+								]
 							},
 							{
 								"name": "Bugbear Soul",
-								"ref": "Soulsanity/Rare Souls/Bugbear Soul/"
+								"chest_unopened_img": "images/enemies/75.png",
+								"chest_opened_img": "images/enemies/75_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Bugbear"
+								]
 							},
 							{
 								"name": "Dead Warrior Soul",
-								"ref": "Soulsanity/Rare Souls/Dead Warrior Soul/"
+								"chest_unopened_img": "images/enemies/84.png",
+								"chest_opened_img": "images/enemies/84_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Dead Warrior"
+								]
 							},
 							{
 								"name": "Erinys Soul",
-								"ref": "Soulsanity/Rare Souls/Erinys Soul/"
+								"chest_unopened_img": "images/enemies/85.png",
+								"chest_opened_img": "images/enemies/85_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Erinys"
+								]
 							}
 						],
 						"map_locations": [
@@ -1595,30 +2575,57 @@
 				"children": [
 					{
 						"name": "Mine of Judgment",
+						"access_rules": [
+							"@Mine of Judgment Regions/Main"
+						],
 						"sections": [
 							{
 								"name": "Slogra Soul",
-								"ref": "Soulsanity/Common Souls/Slogra Soul/"
+								"chest_unopened_img": "images/enemies/96.png",
+								"chest_opened_img": "images/enemies/96_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Slogra"
+								]
 							},
 							{
 								"name": "Ripper Soul",
-								"ref": "Soulsanity/Uncommon Souls/Ripper Soul/"
+								"chest_unopened_img": "images/enemies/87.png",
+								"chest_opened_img": "images/enemies/87_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Ripper"
+								]
 							},
 							{
 								"name": "Gaibon Soul",
-								"ref": "Soulsanity/Uncommon Souls/Gaibon Soul/"
+								"chest_unopened_img": "images/enemies/95.png",
+								"chest_opened_img": "images/enemies/95_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Gaibon"
+								]
 							},
 							{
 								"name": "Tanjelly Soul",
-								"ref": "Soulsanity/Rare Souls/Tanjelly Soul/"
+								"chest_unopened_img": "images/enemies/93.png",
+								"chest_opened_img": "images/enemies/93_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Tanjelly"
+								]
 							},
 							{
 								"name": "Giant Slug Soul",
-								"ref": "Soulsanity/Rare Souls/Giant Slug Soul/"
+								"chest_unopened_img": "images/enemies/90.png",
+								"chest_opened_img": "images/enemies/90_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Giant Slug"
+								]
 							},
 							{
 								"name": "Bugbear Soul",
-								"ref": "Soulsanity/Rare Souls/Bugbear Soul/"
+								"chest_unopened_img": "images/enemies/75.png",
+								"chest_opened_img": "images/enemies/75_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Bugbear"
+								]
 							}
 						],
 						"map_locations": [
@@ -1640,50 +2647,97 @@
 				"children": [
 					{
 						"name": "The Abyss - Before Abaddon",
+						"access_rules": [
+							"@The Abyss Regions/Main"
+						],
 						"sections": [
 							{
 								"name": "Alastor Soul",
-								"ref": "Soulsanity/Uncommon Souls/Alastor Soul/"
+								"chest_unopened_img": "images/enemies/100.png",
+								"chest_opened_img": "images/enemies/100_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Alastor"
+								]
 							},
 							{
 								"name": "Mud Demon Soul",
-								"ref": "Soulsanity/Uncommon Souls/Mud Demon Soul/"
+								"chest_unopened_img": "images/enemies/89.png",
+								"chest_opened_img": "images/enemies/89_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mud Demon"
+								]
 							},
 							{
 								"name": "Frozen Shade Soul",
-								"ref": "Soulsanity/Uncommon Souls/Frozen Shade Soul/"
+								"chest_unopened_img": "images/enemies/70.png",
+								"chest_opened_img": "images/enemies/70_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Frozen Shade"
+								]
 							},
 							{
 								"name": "Malachi Soul",
-								"ref": "Soulsanity/Uncommon Souls/Malachi Soul/"
+								"chest_unopened_img": "images/enemies/59.png",
+								"chest_opened_img": "images/enemies/59_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Malachi"
+								]
 							},
 							{
 								"name": "White Dragon Soul",
-								"ref": "Soulsanity/Uncommon Souls/White Dragon Soul/"
+								"chest_unopened_img": "images/enemies/54.png",
+								"chest_opened_img": "images/enemies/54_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/White Dragon"
+								]
 							},
 							{
 								"name": "Malacoda Soul",
-								"ref": "Soulsanity/Uncommon Souls/Malacoda Soul/"
+								"chest_unopened_img": "images/enemies/99.png",
+								"chest_opened_img": "images/enemies/99_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Malacoda"
+								]
 							},
 							{
 								"name": "Arc Demon Soul",
-								"ref": "Soulsanity/Rare Souls/Arc Demon Soul/"
+								"chest_unopened_img": "images/enemies/94.png",
+								"chest_opened_img": "images/enemies/94_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Arc Demon"
+								]
 							},
 							{
 								"name": "Erinys Soul",
-								"ref": "Soulsanity/Rare Souls/Erinys Soul/"
+								"chest_unopened_img": "images/enemies/85.png",
+								"chest_opened_img": "images/enemies/85_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Erinys"
+								]
 							},
 							{
 								"name": "Heart Eater Soul",
-								"ref": "Soulsanity/Rare Souls/Heart Eater Soul/"
+								"chest_unopened_img": "images/enemies/62.png",
+								"chest_opened_img": "images/enemies/62_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Heart Eater"
+								]
 							},
 							{
 								"name": "Stolas Soul",
-								"ref": "Soulsanity/Rare Souls/Stolas Soul/"
+								"chest_unopened_img": "images/enemies/97.png",
+								"chest_opened_img": "images/enemies/97_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Stolas"
+								]
 							},
 							{
 								"name": "Final Guard Soul",
-								"ref": "Soulsanity/Rare Souls/Final Guard Soul/"
+								"chest_unopened_img": "images/enemies/98.png",
+								"chest_opened_img": "images/enemies/98_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Final Guard"
+								]
 							}
 						],
 						"map_locations": [
@@ -1700,18 +2754,33 @@
 					},
 					{
 						"name": "The Abyss - Beyond Abaddon",
+						"access_rules": [
+							"@The Abyss Regions/BeyondAbaddon"
+						],
 						"sections": [
 							{
 								"name": "Black Panther Soul",
-								"ref": "Soulsanity/Common Souls/Black Panther Soul/"
+								"chest_unopened_img": "images/enemies/88.png",
+								"chest_opened_img": "images/enemies/88_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Black Panther"
+								]
 							},
 							{
 								"name": "Succubus Soul",
-								"ref": "Soulsanity/Uncommon Souls/Succubus Soul/"
+								"chest_unopened_img": "images/enemies/86.png",
+								"chest_opened_img": "images/enemies/86_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Succubus"
+								]
 							},
 							{
 								"name": "Iron Golem Soul",
-								"ref": "Soulsanity/Rare Souls/Iron Golem Soul/"
+								"chest_unopened_img": "images/enemies/101.png",
+								"chest_opened_img": "images/enemies/101_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Iron Golem"
+								]
 							}
 						],
 						"map_locations": [
@@ -1731,59 +2800,59 @@
 						"sections": [
 							{
 								"name": "Alastor Soul",
-								"ref": "Soulsanity/Uncommon Souls/Alastor Soul/"
+								"ref": "The Abyss Souls/The Abyss - Before Abaddon/Alasastor Soul"
 							},
 							{
 								"name": "Mud Demon Soul",
-								"ref": "Soulsanity/Uncommon Souls/Mud Demon Soul/"
+								"ref": "The Abyss Souls/The Abyss - Before Abaddon/Mud Demon Soul"
 							},
 							{
 								"name": "Frozen Shade Soul",
-								"ref": "Soulsanity/Uncommon Souls/Frozen Shade Soul/"
+								"ref": "The Abyss Souls/The Abyss - Before Abaddon/Frozen Shade Soul"
 							},
 							{
 								"name": "Malachi Soul",
-								"ref": "Soulsanity/Uncommon Souls/Malachi Soul/"
+								"ref": "The Abyss Souls/The Abyss - Before Abaddon/Malachi Soul"
 							},
 							{
 								"name": "White Dragon Soul",
-								"ref": "Soulsanity/Uncommon Souls/White Dragon Soul/"
+								"ref": "The Abyss Souls/The Abyss - Before Abaddon/White Dragon Soul"
 							},
 							{
 								"name": "Malacoda Soul",
-								"ref": "Soulsanity/Uncommon Souls/Malacoda Soul/"
+								"ref": "The Abyss Souls/The Abyss - Before Abaddon/Malacoda Soul"
 							},
 							{
 								"name": "Arc Demon Soul",
-								"ref": "Soulsanity/Rare Souls/Arc Demon Soul/"
+								"ref": "The Abyss Souls/The Abyss - Before Abaddon/Arc Demon Soul"
 							},
 							{
 								"name": "Erinys Soul",
-								"ref": "Soulsanity/Rare Souls/Erinys Soul/"
+								"ref": "The Abyss Souls/The Abyss - Before Abaddon/Erinys Soul"
 							},
 							{
 								"name": "Heart Eater Soul",
-								"ref": "Soulsanity/Rare Souls/Heart Eater Soul/"
+								"ref": "The Abyss Souls/The Abyss - Before Abaddon/Heart Eater Soul"
 							},
 							{
 								"name": "Stolas Soul",
-								"ref": "Soulsanity/Rare Souls/Stolas Soul/"
+								"ref": "The Abyss Souls/The Abyss - Before Abaddon/Stolas Soul"
 							},
 							{
 								"name": "Final Guard Soul",
-								"ref": "Soulsanity/Rare Souls/Final Guard Soul/"
+								"ref": "The Abyss Souls/The Abyss - Before Abaddon/Final Guard Soul"
 							},
 							{
 								"name": "Black Panther Soul",
-								"ref": "Soulsanity/Common Souls/Black Panther Soul/"
+								"ref": "The Abyss Souls/The Abyss - Beyond Abaddon/Black Panther Soul"
 							},
 							{
 								"name": "Succubus Soul",
-								"ref": "Soulsanity/Uncommon Souls/Succubus Soul/"
+								"ref": "The Abyss Souls/The Abyss - Beyond Abaddon/Succubus Soul"
 							},
 							{
 								"name": "Iron Golem Soul",
-								"ref": "Soulsanity/Rare Souls/Iron Golem Soul/"
+								"ref": "The Abyss Souls/The Abyss - Beyond Abaddon/Iron Golem Soul"
 							}
 						],
 						"map_locations": [

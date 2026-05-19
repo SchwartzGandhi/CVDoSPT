@@ -34,3 +34,26 @@ function LinkSouls(item_code)
         end
     end
 end
+
+-- Sync the soulsanity listings with all soul view listings
+function BindSoulsanity(loc)
+    local loc_code = loc.FullID
+    local soul
+    if loc_code:sub(1, 11) == "Soulsanity/" then
+        soul = loc_code:sub(1, -2):match("([^/]+)$")
+    elseif loc_code:sub(1, 31) == "Soulsanity Front End (Regions)/" then
+        soul = loc_code:match("([^/]+)$")
+    elseif loc_code:sub(1, 29) == "Soulsanity Front End (Rooms)/" then
+        return -- Finish Rooms json first
+    else
+        return
+    end
+    for _, loc_table in ipairs(LOCATION_MAPPING) do
+        if loc_table[1][1]:sub(1, -2):match("([^/]+)$") == soul then
+            for _, listing in ipairs(loc_table) do
+                local listing_obj = Tracker:FindObjectForCode(listing[1])
+                listing_obj.AvailableChestCount = loc.AvailableChestCount
+            end
+        end
+    end
+end

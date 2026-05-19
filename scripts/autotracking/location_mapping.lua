@@ -1,8 +1,4 @@
--- use this file to map the AP location ids to your locations
--- first value is the code of the target location/item and the second is the item type override (feel free to expand the table with any other values you might need (i.e. special initial values, increments, etc.)!)
--- to reference a location in Pop use @ in the beginning and then path to the section (more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#locations)
--- to reference an item use it's code
--- here are the SM locations as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/location_mapping.lua
+ScriptHost:LoadScript("scripts/autotracking/souls_by_region_codes.lua")
 BASE_LOCATION_ID = 0
 LOCATION_MAPPING = {
 	-- [BASE_LOCATION_ID + 00001] = { { "@Example Parent/Example Location 1/Example Section 1" } },
@@ -252,3 +248,20 @@ LOCATION_MAPPING = {
 	[BASE_LOCATION_ID + 00225] = {{"@Soulsanity/Rare Souls/Procel Soul/"}},
 	[BASE_LOCATION_ID + 00226] = {{"@Soulsanity/Uncommon Souls/Mud Demon Soul/"}}
 }
+
+-- Apply all of the junk from souls by region codes to the corresponding soulsanity entry
+for loc_id, loc_table in pairs(LOCATION_MAPPING) do
+	for i = #loc_table, 1, -1 do
+		loc = loc_table[i]
+        if loc[1]:sub(1, 11) == "@Soulsanity" then
+            local section = loc[1]:sub(1, -2):match("([^/]+)$")
+            for _, code in ipairs(SOULSBYREGIONCODES) do
+                if code[1]:match("([^/]+)$") == section then
+                    table.insert(
+						LOCATION_MAPPING[loc_id], code
+					)
+                end
+            end
+        end
+    end
+end
