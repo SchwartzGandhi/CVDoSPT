@@ -698,7 +698,7 @@
 			{
 				"name": "Disc Armor",
 				"access_rules": [
-					"@Condemned Tower Regions/Top"
+					"@Condemned Tower Regions/Main"
 				]
 			},
 			{
@@ -1083,7 +1083,7 @@
 				"name": "Werewolf",
 				"access_rules": [
 					"@Demon Guest House Regions/Upper",
-					"@Condemned Tower Regions/Top",
+					"@Condemned Tower Regions/Main",
 					"@The Pinnacle Regions/Lower",
 					"@The Pinnacle Regions/Main"
 				]

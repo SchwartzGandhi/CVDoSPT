@@ -36,14 +36,6 @@
 								]
 							},
 							{
-								"name": "Spin Devil Soul",
-								"chest_unopened_img": "images/enemies/10.png",
-								"chest_opened_img": "images/enemies/10_bw.png",
-								"access_rules": [
-									"@Soul Farming Regions/Spin Devil"
-								]
-							},
-							{
 								"name": "Skeleton Soul",
 								"chest_unopened_img": "images/enemies/4.png",
 								"chest_opened_img": "images/enemies/4_bw.png",
@@ -520,11 +512,27 @@
 								]
 							},
 							{
+								"name": "Killer Fish Soul",
+								"chest_unopened_img": "images/enemies/67.png",
+								"chest_opened_img": "images/enemies/67_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Killer Fish"
+								]
+							},
+							{
 								"name": "Larva Soul",
 								"chest_unopened_img": "images/enemies/61.png",
 								"chest_opened_img": "images/enemies/61_bw.png",
 								"access_rules": [
 									"@Soul Farming Regions/Larva"
+								]
+							},
+							{
+								"name": "Mimic Soul",
+								"chest_unopened_img": "images/enemies/68.png",
+								"chest_opened_img": "images/enemies/68_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Mimic"
 								]
 							}
 						],
@@ -1479,9 +1487,9 @@
 						]
 					},
 					{
-						"name": "Condemned Tower - Top",
+						"name": "Condemned Tower - Main",
 						"access_rules": [
-							"@Condemned Tower Regions/Top"
+							"@Condemned Tower Regions/Main"
 						],
 						"sections": [
 							{
@@ -1954,14 +1962,6 @@
 						],
 						"sections": [
 							{
-								"name": "Merman Soul",
-								"chest_unopened_img": "images/enemies/63.png",
-								"chest_opened_img": "images/enemies/63_bw.png",
-								"access_rules": [
-									"@Soul Farming Regions/Merman"
-								]
-							},
-							{
 								"name": "Frozen Shade Soul",
 								"chest_unopened_img": "images/enemies/70.png",
 								"chest_opened_img": "images/enemies/70_bw.png",
@@ -2245,6 +2245,14 @@
 								]
 							},
 							{
+								"name": "Skeleton Soul",
+								"chest_unopened_img": "images/enemies/4.png",
+								"chest_opened_img": "images/enemies/4_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skeleton"
+								]
+							},
+							{
 								"name": "Bat Soul",
 								"chest_unopened_img": "images/enemies/2.png",
 								"chest_opened_img": "images/enemies/2_bw.png",
@@ -2277,19 +2285,19 @@
 								]
 							},
 							{
+								"name": "Skelerang Soul",
+								"chest_unopened_img": "images/enemies/46.png",
+								"chest_opened_img": "images/enemies/46_bw.png",
+								"access_rules": [
+									"@Soul Farming Regions/Skelerang"
+								]
+							},
+							{
 								"name": "Ghoul Soul",
 								"chest_unopened_img": "images/enemies/27.png",
 								"chest_opened_img": "images/enemies/27_bw.png",
 								"access_rules": [
 									"@Soul Farming Regions/Ghoul"
-								]
-							},
-							{
-								"name": "Peeping Eye Soul",
-								"chest_unopened_img": "images/enemies/6.png",
-								"chest_opened_img": "images/enemies/6_bw.png",
-								"access_rules": [
-									"@Soul Farming Regions/Peeping Eye"
 								]
 							},
 							{
@@ -2574,7 +2582,7 @@
 				"name": "Mine of Judgment Souls",
 				"children": [
 					{
-						"name": "Mine of Judgment",
+						"name": "Mine of Judgment - Main",
 						"access_rules": [
 							"@Mine of Judgment Regions/Main"
 						],
