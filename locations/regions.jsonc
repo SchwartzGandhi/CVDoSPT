@@ -508,7 +508,7 @@
 					"$abyssaccess, openmine, @Condemned Tower Regions/Bottom",
 					"$abyssaccess, minegarden, @Condemned Tower Regions/Bottom, @Garden of Madness/Central Chamber/",
 					"$abyssaccess, minethrone, @Condemned Tower Regions/Bottom, @The Pinnacle/Aguni Soul/",
-					"$abyssaccess, minebosses, @Condemned Tower Regions/Bottom, $allbosses|mine",
+					"$abyssaccess, minebosses, @Condemned Tower Regions/Bottom, $AllBosses|mine",
 					"@The Abyss Regions/Main, $smalluppies",
 					"mojwarp, @Warp Room"
 				]

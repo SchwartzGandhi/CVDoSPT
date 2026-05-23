@@ -21,6 +21,31 @@ function dump_table(o, depth)
     end
 end
 
+-- Table of codes for corresponding item and bestiary entries
+LINKED_SOULS = {
+	["glide"] = "armor",
+	["ice"] = "balore",
+	["jump"] = "malphas",
+	["puppet"] = "ningyo",
+	["water"] = "rahab",
+	["fastwater"] = "waterface",
+	["fastmud"] = "mudface",
+	["dio"] = "zawarudo",
+	["bat"] = "bad",
+	["mirror"] = "jester",
+	["spirit"] = "imp",
+	["throw"] = "drydk",
+	["ride"] = "bark",
+	["fast"] = "wakanda",
+	["food"] = "waiter",
+	["yell"] = "freak",
+	["shock"] = "bird",
+	["bone"] = "skeleton",
+	["axe"] = "smallaxe",
+	["cards"] = "clown",
+	["flame"] = "goblin"
+}
+
 -- Enable/Disable a linked item's partner
 function LinkSouls(item_code)
     local code_obj = Tracker:FindObjectForCode(item_code)

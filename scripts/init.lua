@@ -7,30 +7,6 @@ local variant = Tracker.ActiveVariantUID
 IS_ITEMS_ONLY = variant:find("itemsonly")
 IS_VERTICAL = variant:find("vertical")
 
-LINKED_SOULS = {
-	["glide"] = "armor",
-	["ice"] = "balore",
-	["jump"] = "malphas",
-	["puppet"] = "ningyo",
-	["water"] = "rahab",
-	["fastwater"] = "waterface",
-	["fastmud"] = "mudface",
-	["dio"] = "zawarudo",
-	["bat"] = "bad",
-	["mirror"] = "jester",
-	["spirit"] = "imp",
-	["throw"] = "drydk",
-	["ride"] = "bark",
-	["fast"] = "wakanda",
-	["food"] = "waiter",
-	["yell"] = "freak",
-	["shock"] = "bird",
-	["bone"] = "skeleton",
-	["axe"] = "smallaxe",
-	["cards"] = "clown",
-	["flame"] = "goblin"
-}
-
 print("-- Example Tracker --")
 print("Loaded variant: ", variant)
 if ENABLE_DEBUG_LOG then

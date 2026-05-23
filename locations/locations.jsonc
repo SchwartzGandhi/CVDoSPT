@@ -569,7 +569,7 @@
 				"access_rules": [
 					"$abyssaccess, opengarden, @Garden of Madness Regions/Lower, talisman, $GetSeal|gom2seal",
 					"$abyssaccess, gardenthrone, @The Pinnacle/Aguni Soul/, @Garden of Madness Regions/Lower, talisman, $GetSeal|gom2seal",
-					"$abyssaccess, gardenbosses, $allbosses|garden, @Garden of Madness Regions/Lower, talisman, $GetSeal|gom2seal"
+					"$abyssaccess, gardenbosses, $AllBosses|garden, @Garden of Madness Regions/Lower, talisman, $GetSeal|gom2seal"
 				],
 				"sections": [
 					{
@@ -1617,7 +1617,7 @@
 					"$abyssaccess, openmenace, @The Abyss Regions/BeyondAbaddon, $biguppies",
 					"$abyssaccess, menacethrone, @The Pinnacle/Aguni Soul/, @The Abyss Regions/BeyondAbaddon, $biguppies",
 					"$abyssaccess, menacegarden, @Garden of Madness/Central Chamber/, @The Abyss Regions/BeyondAbaddon, $biguppies",
-					"$abyssaccess, menacebosses, $allbosses|menace, @The Abyss Regions/BeyondAbaddon, $biguppies"
+					"$abyssaccess, menacebosses, $AllBosses|menace, @The Abyss Regions/BeyondAbaddon, $biguppies"
 				],
 				"sections": [
 					{
