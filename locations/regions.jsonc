@@ -68,7 +68,7 @@
 			{
 				"name": "Main",
 				"access_rules": [
-					"@The Lost Village Regions/Upper, @The Lost Village/Moat Drain Switch/",
+					"@The Lost Village Regions/Lower, @The Lost Village/Moat Drain Switch/",
 					"wlwarp, @Warp Room",
 					"@Wizardry Lab Regions/EastGate, ^$PassGate|True|ekey",
 					"@Wizardry Lab Regions/WestGate, ^$PassGate|True|wkey",
