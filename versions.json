@@ -1,13 +1,11 @@
 {
     "versions": [
         {
-            "package_version": "6.2",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/6.2/CVDoSPT.zip",
-            "sha256": "774a10630a3141a2779ba35f8bf07e14c545430174a011bc7fcdb883bc063465",
+            "package_version": "6.3",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/6.3/CVDoSPT.zip",
+            "sha256": "183078229a5a4495ce62565b96c6dc2b164a91a8690f6e73b804087ed49bade8",
             "changelog": [
-                "Soul View now accounts for what region it's in (dont ask)",
-                "Added and removed soul view listings that were incorrect",
-                "Soul barriers now correctly account for receiving the soul as an item when soulsanity is off"
+                "Location IDs are now synced with the new apworld update"
             ]
         }
     ]
