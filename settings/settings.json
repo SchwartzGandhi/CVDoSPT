@@ -152,5 +152,22 @@
         "img": "images/settings/soulsanity.png",
         "type": "toggle",
         "codes": "soulview"
+    },
+    // A meta setting to offset door map calculations
+    {
+        "name": "Door Shuffle",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+            {
+                "codes": "normaldoors",
+                "inherit_codes": false
+            },
+            {
+                "codes": "randodoors",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

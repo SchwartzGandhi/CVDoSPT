@@ -12,6 +12,28 @@ ScriptHost:LoadScript("scripts/autotracking/magic_seals.lua")
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
+VANILLA_DOOR_MAP = {
+	["Sec00Rm15"] = "Sec02Rm07", ["Sec02Rm07"] = "Sec00Rm15",
+	["Sec00Rm16"] = "Sec01Rm2A", ["Sec01Rm2A"] = "Sec00Rm16",
+	["Sec00Rm07"] = "Sec01Rm04", ["Sec01Rm04"] = "Sec00Rm07",
+	["Sec00Rm0DObj04"] = "Sec02Rm18", ["Sec02Rm18"] = "Sec00Rm0DObj04",
+	["Sec00Rm0DObj03"] = "Sec02Rm00", ["Sec02Rm00"] = "Sec00Rm0DObj03",
+	["Sec02Rm15"] = "Sec03Rm09", ["Sec03Rm09"] = "Sec02Rm15",
+	["Sec02Rm10"] = "Sec06Rm01", ["Sec06Rm01"] = "Sec02Rm10",
+	["Sec02Rm1E"] = "Sec06Rm00", ["Sec06Rm00"] = "Sec02Rm1E",
+	["Sec03Rm00"] = "Sec01Rm30", ["Sec01Rm30"] = "Sec03Rm00",
+	["Sec03Rm16"] = "Sec04Rm03", ["Sec04Rm03"] = "Sec03Rm16",
+	["Sec03Rm13"] = "Sec06Rm0E", ["Sec06Rm0E"] = "Sec03Rm13",
+	["Sec03Rm05"] = "Sec01Rm3F", ["Sec01Rm3F"] = "Sec03Rm05",
+	["Sec03Rm10"] = "Sec08Rm02", ["Sec08Rm02"] = "Sec03Rm10",
+	["Sec01Rm33"] = "Sec09Rm07", ["Sec09Rm07"] = "Sec01Rm33",
+	["Sec04Rm08"] = "Sec06Rm13", ["Sec06Rm13"] = "Sec04Rm08",
+	["Sec04Rm15"] = "Sec05Rm01", ["Sec05Rm01"] = "Sec04Rm15",
+	["Sec05Rm00"] = "Sec08Rm1E", ["Sec08Rm1E"] = "Sec05Rm00",
+	["Sec08Rm06"] = "Sec09Rm1A", ["Sec09Rm1A"] = "Sec08Rm06",
+	["Sec06Rm06"] = "Sec07Rm00", ["Sec07Rm00"] = "Sec06Rm06",
+	["Sec06Rm11"] = "Sec07Rm08", ["Sec07Rm08"] = "Sec06Rm11",
+}
 
 -- resets an item to its initial state
 function resetItem(item_code, item_type)
@@ -156,6 +178,21 @@ function apply_slot_data(slot_data)
 	dghwall2.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[1])
 	local dghwall3 = Tracker:FindObjectForCode("dghsoul3")
 	dghwall3.CurrentStage = get_idx_for_wall(SOUL_WALL_LIST[4])
+
+	-- Door Shuffle
+	local new_door_map = {}
+	for _, connection in ipairs(slot_data["door_map"]) do
+		new_door_map[connection[1]] = connection[2]
+	end
+	local good = true
+	for entrance, exit in pairs(new_door_map) do
+		if VANILLA_DOOR_MAP[entrance] ~= exit then
+			good = false
+		end
+	end
+	if good == true then
+		VANILLA_DOOR_MAP = new_door_map
+	end
 end
 
 -- called right after an AP slot is connected

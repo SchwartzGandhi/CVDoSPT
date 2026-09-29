@@ -191,3 +191,13 @@ function AllBosses(mode)
     -- If it hasn't returned already it must be in logic.
     return true
 end
+
+function GetDoorConnection(door_in_question)
+    if has("randodoors") then
+        for entrance, exit in pairs(DOOR_MAP) do
+            if door_in_question == entrance then
+                return Tracker:FindObjectForCode(string.format("@Door Map/%s", exit)).AccessibilityLevel
+            end
+        end
+    end
+end
