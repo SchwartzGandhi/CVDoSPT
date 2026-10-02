@@ -161,11 +161,11 @@
         "initial_stage_idx": 0,
         "stages": [
             {
-                "codes": "normaldoors",
+                "codes": "doors, normaldoors",
                 "inherit_codes": false
             },
             {
-                "codes": "randodoors",
+                "codes": "doors, randodoors",
                 "inherit_codes": false
             }
         ]

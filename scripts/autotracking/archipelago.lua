@@ -12,7 +12,7 @@ ScriptHost:LoadScript("scripts/autotracking/magic_seals.lua")
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
 GLOBAL_ITEMS = {}
-VANILLA_DOOR_MAP = {
+DOOR_MAP = {
 	["Sec00Rm15"] = "Sec02Rm07", ["Sec02Rm07"] = "Sec00Rm15",
 	["Sec00Rm16"] = "Sec01Rm2A", ["Sec01Rm2A"] = "Sec00Rm16",
 	["Sec00Rm07"] = "Sec01Rm04", ["Sec01Rm04"] = "Sec00Rm07",
@@ -184,14 +184,16 @@ function apply_slot_data(slot_data)
 	for _, connection in ipairs(slot_data["door_map"]) do
 		new_door_map[connection[1]] = connection[2]
 	end
+	-- Check if the new door map is the same as the old one, to offload processing power
 	local good = true
 	for entrance, exit in pairs(new_door_map) do
-		if VANILLA_DOOR_MAP[entrance] ~= exit then
+		if DOOR_MAP[entrance] ~= exit then
 			good = false
 		end
 	end
-	if good == true then
-		VANILLA_DOOR_MAP = new_door_map
+	if good == false then
+		Tracker:FindObjectForCode("doors").CurrentStage = 1
+		DOOR_MAP = new_door_map
 	end
 end
 
