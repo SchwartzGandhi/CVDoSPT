@@ -26,9 +26,7 @@
 			{
 				"name": "Lower",
 				"access_rules": [
-					"@The Lost Village Regions/Upper, $GetSeal|lvseal, speed",
-					"@The Lost Village Regions/Upper, $GetSeal|lvseal, $tinyuppies",
-					"@The Lost Village Regions/Upper, $GetSeal|lvseal, $widies",
+					"@The Lost Village Regions/Upper, $GetSeal|lvseal",
 					"@The Lost Village Regions/UndergroundTop",
 					"lvwarp, @Warp Room",
 					"normaldoors, @Wizardry Lab Regions/Main, @The Lost Village/Moat Drain Switch/",
@@ -536,12 +534,19 @@
 			{
 				"name": "Lower",
 				"access_rules": [
-					"normaldoors, @Demon Guest House Regions/Upper",
-					"@Door Map/Sec09Rm07",
+					"@The Pinnacle Regions/LeftExit",
 					"normaldoors, @Cursed Clock Tower Regions/Exit",
 					"@Door Map/Sec09Rm1A",
 					"@The Pinnacle Regions/Main",
 					"tpwarp, @Warp Room"
+				]
+			},
+			{
+				"name": "LeftExit",
+				"access_rules": [
+					"@The Pinnacle Regions/Lower",
+					"normaldoors, @Demon Guest House Regions/Upper",
+					"@Door Map/Sec09Rm07"
 				]
 			},
 			{
