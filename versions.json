@@ -1,11 +1,13 @@
 {
     "versions": [
         {
-            "package_version": "6.3",
-            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/6.3/CVDoSPT.zip",
-            "sha256": "183078229a5a4495ce62565b96c6dc2b164a91a8690f6e73b804087ed49bade8",
+            "package_version": "7.0",
+            "download_url": "https://github.com/SchwartzGandhi/CVDoSPT/releases/download/7.0/CVDoSPT.zip",
+            "sha256": "21414851a96290e3c5fa3a1e72e42214f0d322246079538e5b99bcbf8a4dcbf3",
             "changelog": [
-                "Location IDs are now synced with the new apworld update"
+                "Door shuffle is now supported, connect so a slot and it should work automatically",
+                "Misc logic updates from the new apworld",
+                "All Soul View location references should now work"
             ]
         }
     ]
